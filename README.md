@@ -5,6 +5,8 @@ Joomla 3x themes documentation.
 
 Translated to the following languages: 
 
-English 
-Espanol
-Deutch
+<ol>
+  <li>English </li>
+  <li>Espanol</li>
+  <li>Deutch</li>
+</ol>
