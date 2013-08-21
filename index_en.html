@@ -16,153 +16,11 @@
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
   <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+    <script src="js/scripts.js"></script>
 
     <!--[if IE 8]>
     <link rel="stylesheet" href="css/ie.css" />
   <![endif]-->
-
-  
-  <script>    
-    $(document).ready(function() {	
-  		$('.flexslider').flexslider({
-  		  animation: "fade",      
-  		  slideshow: false,     
-  		  slideshowSpeed: 7000,
-  		  animationDuration: 0,
-  		  prevText: "",
-  		  nextText: "",
-  		  controlNav: true,
-  		}) 			
-
-  // hide #back-top first
-  $("#back-top").hide();
-  
-  // fade in #back-top
-  $(function () {
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-        $('#back-top').fadeIn();
-      } else {
-        $('#back-top').fadeOut();
-      }
-    });
-
-    // scroll body to 0px on click
-    $('#back-top a').click(function () {
-      $('body,html').animate({
-        scrollTop: 0
-      }, 400);
-      return false;
-    });
-  });
-
-			
-// prettyphoto init
-    $("a[data-gal^='prettyPhoto']").prettyPhoto({
-      animationSpeed:'slow',
-      theme:'facebook',
-      slideshow:false,
-      autoplay_slideshow: false,
-      show_title: true,
-      overlay_gallery: false
-    }).append('<span></span>').hover(
-      function(){
-        $(this).find('>img').stop().animate({opacity:.5})
-      },
-      function(){
-        $(this).find('>img').stop().animate({opacity:1})
-      }
-    );		
-
-// slide-down-box-------------------------------  
-      var idArray = [],
-          click_scroll = false;
-      $("#nav a").each(function(index){
-        idArray[index]=$(this).attr("href");
-      });
-      
-      $('ul.list li a').prepend('<i class="icon-sample"></i>');
-      $('li:first-child', "#nav").addClass('first');
-      $('li:last-child', "#nav").addClass('last');
-
-      $("#affect_all").toggle(
-        function(){
-          $("#nav>li").not(".act_item").addClass("open_item").find("dd").stop(true).slideDown(200);
-          $(this).find('.expand').hide();
-          $(this).find('.close').show();
-        },
-        function(){
-          $("#nav>li").not(".act_item").removeClass("open_item").find("dd").stop(true).slideUp(200);
-          $(this).find('.expand').show();
-          $(this).find('.close').hide();
-        }
-      );
-      $(".slide-down dt i").click(function(){
-        $(this).parents("li").toggleClass("open_item").find('dd').slideToggle(300);
-        return false;
-      });
-      $(".slide-down a").click(function(){
-        click_scroll = true;
-        $(window).scrollTo($(this).attr("href"), 800, function(){
-          click_scroll = false;
-          change_menu_item();
-        });
-        return false;
-      });
-      $(window).scroll(change_menu_item).trigger("scroll");
-      function change_menu_item(){
-        if(!click_scroll){
-          $(".current").removeClass("current");
-          $(".act_item").removeClass("act_item");
-          $(".open_item").removeClass("open_item");
-          for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
-            if($(idArray[i]).offset().top-$(window).scrollTop()<=(($(window).height()/2)-100) && $(idArray[i]).offset().top-$(window).scrollTop()>=0 || $(window).scrollTop()+(($(window).height()/2)-100)>$(idArray[i]).offset().top && $(idArray[i]).offset().top+$(idArray[i]).height()>$(window).scrollTop()+(($(window).height()/2))){
-              $("a[href="+idArray[i]+"]").parent("li").addClass("current");
-              $("a[href="+idArray[i]+"]").parents("li").addClass("act_item open_item");
-            }
-          }
-          $(".act_item").find("dd").slideDown(200);
-          $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
-        }
-      }
-      /*Language switcher*/
-
-      $('#lang_icon').toggle(function(){
-        $('#lang_icon > i').find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
-        $('#lang_list').slideDown(200);
-      }, function(){
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-      })
-
-      $('#lang_list li').click(function(){
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-      })
-      $(document).click(function() { 
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-       }); 
-      $('#lang_icon').click(function(e){ 
-          e.stopPropagation(); 
-      });
-
-    })  
-    !function ($) {
-      $(function(){	
-        var $window = $(window)		
-        // make code pretty
-        window.prettyPrint && prettyPrint()
-        // side bar
-        $('#nav_container').affix({
-          offset: {
-            top: 80		
-          }
-        })
-      })
-    }(window.jQuery)  
-  </script>    
-
     <!--[if lt IE 8]>
   		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
  	  <![endif]-->
@@ -186,7 +44,7 @@
     <div class="languages pull-right">
       <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
       <ul id="lang_list">
-        <li class="active"><a href="index.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li class="active"><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
         <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
         <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
         <!-- <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li> -->
@@ -374,9 +232,9 @@
     <p>Otherwise you can run Joomla locally on your computer using the local server. To create a local hosting server please use the localhost applications as <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> etc. Any of those can be easily installed as any other program and used to run Joomla. </p>
     <p>Please check the tutorials below on how to configure local development environment:</p>
     <ul class="unstyled">
-      <li><i class="icon-film"> </i><a href="http://info.template-help.com/help/how-to-install-appserv-web-development-environment.html" target="_blank">How to install AppServ web development environment</a></li>
-      <li><i class="icon-film"> </i><a href="http://info.template-help.com/help/how-to-install-wamp-web-development-environment.html" target="_blank">How to install WAMP web development environment</a></li>
-      <li><i class="icon-film"> </i><a href="http://info.template-help.com/help/how-to-install-xamp-web-development-environment.html" target="_blank">How to install XAMP web development environment</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">How to install AppServ web development environment</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">How to install WAMP web development environment</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">How to install XAMP web development environment</a></li>
     </ul>
   </div>
 </section>
@@ -448,7 +306,7 @@
 
     <p>&nbsp;</p>
                 
-    <p>You can also check detailed video tutorial on <i class="icon-film"> </i>  <a href="http://info.template-help.com/help/how-to-create-a-database.html" target="_blank">How to create a database</a></p>
+    <p>You can also check detailed video tutorial on <i class="icon-film"> </i>  <a href="/help/how-to-create-a-database.html" target="_blank">How to create a database</a></p>
 
     <div class="box-info"><span>If you have any issues with creating a database please contact your hosting provider for help and assistance. </span></div>
   </article>
@@ -461,7 +319,7 @@
       <ol>
         <li>Open your template package directory and go to the 'joomla' directory</li>
         <li>Select 'unzip.php' and 'fullpackage.zip' files and upload them to your server(
-          <i class="icon-film"> </i> <a href="http://info.template-help.com/help/how-upload-files-server-2.html" target="_blank">How to upload files to server.</a>
+          <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">How to upload files to server.</a>
           )</li>
         <li>Type the path to the 'unzip.php' file on your server (<i class="muted">http://your_domain_name/unzip.php</i>) in your <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">browser</abbr>.</li>
         <li>You should see the following screen:</li>
@@ -556,7 +414,7 @@
               
     <p>For security reasons please delete the "Installation" directory from your Joomla root directory.</p>
 
-    <p><span class="label label-success">Tip:</span> You can view the video tutorial on <i class="icon-film"> </i> <a href="http://info.template-help.com/help/joomla-3-0-how-to-install-joomla-engine.html" target="_blank">How to install Joomla 3 engine</a></p>
+    <p><span class="label label-success">Tip:</span> You can view the video tutorial on <i class="icon-film"> </i> <a href="/help/joomla-3-0-how-to-install-joomla-engine.html" target="_blank">How to install Joomla 3 engine</a></p>
 
     <div class="box-info"><span>Please note: if you finished "Complete Installation" section you can skip next "Template Installation", "Sample data installation" and "Extensions Installation" sections as you have all these elements already installed.</span></div>
   </article>
@@ -640,7 +498,7 @@
 
     <p>&nbsp;</p>
 
-    <p>You can also check the detailed tutorial on <i class="icon-film"> </i><a href="http://info.template-help.com/help/phpmyadmin-how-to-import-sample-data-dump-file.html" target="_blank">how to import SQL file using phpMyAdmin tool</a></p>
+    <p>You can also check the detailed tutorial on <i class="icon-film"> </i><a href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html" target="_blank">how to import SQL file using phpMyAdmin tool</a></p>
   </div>
 
 </section>
