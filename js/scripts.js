@@ -56,7 +56,8 @@
 
 // slide-down-box-------------------------------  
       var idArray = [],
-          click_scroll = false;
+      click_scroll = false;
+
       $("#nav a").each(function(index){
         idArray[index]=$(this).attr("href");
       });
@@ -89,7 +90,9 @@
         });
         return false;
       });
+
       $(window).scroll(change_menu_item).trigger("scroll");
+      
       function change_menu_item(){
         if(!click_scroll){
           $(".current").removeClass("current");

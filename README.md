@@ -1,4 +1,4 @@
-joomla__documentation
+joomla_3_documentation
 =====================
 
 Joomla 3x themes documentation.
