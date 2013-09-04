@@ -36,7 +36,7 @@
 <header class="header">
   <div class="container">
   <div class="row">
-  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+  <article class="span4"><a class="brand" href="/help/de/" target="_blank"></a></article>
  <article class="span6">
  <h1><img alt="" src="img/joomla_logo.png"> Joomla Dokumentation</h1>
   </article> 
@@ -234,9 +234,9 @@
     <p> Sonst können Sie  Joomla lokal auf Ihrem Computer via lokalen Server betreiben. Um einen lokalen Server zu erstellen, verwenden Sie bitte die LocalHost-Anwendungen wie <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> usw. Alle diese Programms kann man leicht installieren und zur Joomla Betreibung verwenden.  </p>
     <p>Lesen Sie bitte die u.a. Tutorials über die Konfiguration von lokale Entwicklungsumgebung:</p>
     <ul class="unstyled">
-      <li><i class="icon-film"> </i><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">Wie installiert man AppServ Web-Entwicklungsumgebung</a></li>
-      <li><i class="icon-film"> </i><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">Wie installiert man WAMP Web-Entwicklungsumgebung </a></li>
-      <li><i class="icon-film"> </i><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">Wie installiert man XAMP Web-Entwicklungsumgebung</a></li>
+      <li><i class="icon-film"> </i><a href="/help/de/how-to-install-appserv-web-development-environment.html" target="_blank">Wie installiert man AppServ Web-Entwicklungsumgebung</a></li>
+      <li><i class="icon-film"> </i><a href="/help/de/how-to-install-wamp-web-development-environment.html" target="_blank">Wie installiert man WAMP Web-Entwicklungsumgebung </a></li>
+      <li><i class="icon-film"> </i><a href="/help/de/how-to-install-xamp-web-development-environment.html" target="_blank">Wie installiert man XAMP Web-Entwicklungsumgebung</a></li>
     </ul>
   </div>
 </section>
@@ -308,7 +308,7 @@
 
     <p>&nbsp;</p>
                 
-    <p>Schauen Sie bitte auch das ausführliche Video-Tutorial an: <i class="icon-film"> </i>  <a href="/help/how-to-create-a-database.html" target="_blank">Wie man eine Datenbank erstellt</a></p>
+    <p>Schauen Sie bitte auch das ausführliche Video-Tutorial an: <i class="icon-film"> </i>  <a href="/help/de/how-to-create-a-database.html" target="_blank">Wie man eine Datenbank erstellt</a></p>
 
     <div class="box-info"><span>Falls Sie Probleme beim Erstellen einer Datenbank haben, wenden Sie sich für Support an Ihren Hosting-Anbieter</span></div>
   </article>
@@ -321,7 +321,7 @@
       <ol>
         <li>Öffnen das Verzeichnis Ihrer Vorlage und gehen Sie zum 'joomla' Verzeichnis</li>
         <li>Wählen  'unzip.php' und 'fullpackage.zip' Dateien und laden Sie die auf Ihrem Server hoch (
-          <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Wie laden man Dateien auf einem Server hoch.</a>
+          <i class="icon-film"> </i> <a href="/help/de/how-upload-files-server-2.html" target="_blank">Wie laden man Dateien auf einem Server hoch.</a>
           )</li>
         <li> Im <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc."> Browser </abbr> tippen Sie den Pfad zur 'unzip.php' Datei von Ihrem Server (<i class="muted">http://your_domain_name/unzip.php</i>).</li>
         <li>Es sollte das folgende Bildschirm erscheinen:</li>
@@ -414,7 +414,7 @@
               
     <p> Aus Sicherheitsgründen löschen Sie bitte das "Installation" Verzeichnis von Ihrem Joomla Root. </p>
 
-    <p><span class="label label-success">Tippp:</span> Schauen Sie bitte das Video-Tutorial an: <i class="icon-film"> </i> <a href="/help/joomla-3-0-how-to-install-joomla-engine.html" target="_blank">Wie installiert man die Joomla 3 Engine</a></p>
+    <p><span class="label label-success">Tippp:</span> Schauen Sie bitte das Video-Tutorial an: <i class="icon-film"> </i> <a href="/help/de/joomla-3-0-how-to-install-joomla-engine.html" target="_blank">Wie installiert man die Joomla 3 Engine</a></p>
 
     <div class="box-info"><span>Beachten Sie bitte: wenn Sie mit dem Bereich " Installation fertiggestellt " (Complete Installation) fertig sind, können Sie die nächste Bereiche "Template Installation", "Beispieldaten Installation" (Sample data installation) und "Erweiterungen  Installation"  (Extensions Installation) überspringen, weil Sie alle diese Elemente schon installiert haben.</span></div>
   </article>
@@ -459,7 +459,7 @@ When uploading is complete you need to activate installed template. Im Hauptmen�
   <div class="box-info"><span> Importieren Sie <b>KEINE</b> SQL Datei, wenn Sie eine funktionierende Site haben, weil dies Ihre Website Datenbank vollständig ersetzt und alle Ihre Daten verloren gehen.</span> </div>
   <div class="box-error"><span> VORSICHT: Vor dem Importieren einer SQL-Datei sollten Sie schauen, ob das Präfix Ihrer Datenbank Tabelle das Tabelle-Präfix von der SQL-Datei entspricht.</span> </div>
   <p> Prüfen Sie das Tabelle-Präfix direkt in der Datenbank via  Datenbankverwaltungstool. Prüfen Sie die Tabellenamen. Das Präfix ist eine Symbolreihe vor den Tabellenamen. (<i>Z.B. Tabelle "jos_assets" hat das Pröfix "jos_"</i>). Sie können auch das Datenbank-Präfix in der "configuration.php" Datei von Ihrem Haupverzeichnises finden. Suchen Sie die Zeile 19: <code>public $dbprefix = 'jos_';</code> (<i> "jos_" istdas Präfix</i>)</p>
-  <p>Falls die Tabellen-Präfixen nicht entsprechen, öffnen Sie die Datei "dump.sql"  mit Hinfe von Ihrem Code-Editor. Via  die Option „Suchen und Ersetzen (CTRL+F oder CTRL+H Hotkeys) ersetzen Sie  das "jos_" Tabellepräfix (<i>In der SQL Datei verwendet</i>) durch ein passendes. Schauen Sie bitte das ausführliche Video-Tutorial an: <a href="/help/joomla-how-to-change-database-tables-prefix-in-sql-file.html" target="_blank">Wie ändert man das Datenbank Präfix in der SQL Datei </a>.</p>
+  <p>Falls die Tabellen-Präfixen nicht entsprechen, öffnen Sie die Datei "dump.sql"  mit Hinfe von Ihrem Code-Editor. Via  die Option „Suchen und Ersetzen (CTRL+F oder CTRL+H Hotkeys) ersetzen Sie  das "jos_" Tabellepräfix (<i>In der SQL Datei verwendet</i>) durch ein passendes. Schauen Sie bitte das ausführliche Video-Tutorial an: <a href="/help/de/joomla-how-to-change-database-tables-prefix-in-sql-file.html" target="_blank">Wie ändert man das Datenbank Präfix in der SQL Datei </a>.</p>
   <p> Jetzt können Sie diese SQL Datei in Ihre Datenbak importieren. <br>
 Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte Schritte aus: (werfen Sie einen Blick auf die unten angegebene Slides)</p>
 
@@ -496,7 +496,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 
     <p>&nbsp;</p>
 
-    <p>Schauen Sie bitte das augführliche Video-Tutorial an:<i class="icon-film"> </i><a href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html" target="_blank">Wie importiert man eine SQL Datei via phpMyAdmin Tool</a></p>
+    <p>Schauen Sie bitte das augführliche Video-Tutorial an:<i class="icon-film"> </i><a href="/help/de/phpmyadmin-how-to-import-sample-data-dump-file.html" target="_blank">Wie importiert man eine SQL Datei via phpMyAdmin Tool</a></p>
   </div>
 
   <div class="block-templates" id="modules-installation">
@@ -1107,7 +1107,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 
       <p><span class="label label-success">Tipp:</span> Verwenden Sie den Filten über der Liste von Plugins, um Ihre Suche einzugrenzen.</p>
 
-      <p><i class="icon-film"></i> Schauen Sie die ausführliche Video-Tutorial an: <a href="/help/joomla-3-x-how-to-change-google-map-coordinates.html" target="_blank">Wie ändert man Google Map Koordinaten</a></p>
+      <p><i class="icon-film"></i> Schauen Sie die ausführliche Video-Tutorial an: <a href="/help/de/joomla-3-x-how-to-change-google-map-coordinates.html" target="_blank">Wie ändert man Google Map Koordinaten</a></p>
     </div>
 </section>
 
@@ -1185,7 +1185,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
       <li><a href="http://docs.joomla.org/Beginners" target="_blank">Joomla! Anleitung für Anfänger</a></li>
       <li><a href="http://docs.joomla.org/Category:FAQ" target="_blank"> Häufig gestellte Fragen</a></li>
       <li><a href="http://docs.joomla.org/" target="_blank">Joomla! Dokumentation</a></li>
-      <li><a href="/help/cms-blog-templates/joomla/joomla-tutorials/" target="_blank">Joomla! Tutorials</a></li>
+      <li><a href="/help/de/cms-blog-templates/joomla/joomla-tutorials/" target="_blank">Joomla! Tutorials</a></li>
     </ul>
   </div>
 
