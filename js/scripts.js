@@ -36,12 +36,6 @@
     $('#copyright').text('Template-Help.com');
   }
 
-  $(".nav a").click(function(){
-    $this.each(function() {
-      this.href = this.href.split("#")[0] + "#" + window.location.hash;
-    })
-  })
-
 // prettyphoto init
     $("a[data-gal^='prettyPhoto']").prettyPhoto({
       animationSpeed:'slow',
