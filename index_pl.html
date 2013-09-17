@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dokumentacja Joomla 3.x</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+  <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+    <script src="js/scripts.js"></script>
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie.css" />
+  <![endif]-->
+    <!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>  
+
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+ <article class="span6">
+ <h1><img alt="" src="img/joomla_logo.png"> Dokumentacja Joomla 3.x</h1>
+  </article> 
+  <article class="span2">
+    <div class="languages pull-right">
+      <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>Pl</b><i class="icon-angle-down"></i></div>
+      <ul id="lang_list">
+        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
+        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
+        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
+        <li><a href="index_fr.html"><span>Français</span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
+		<li class="active"><a href="index_pl.html"><span>Polski</span><img src="img/flags/pl.png" height="14" width="22" alt="pl"></a></li>
+		<li><a href="index_pt_br.html"><span>Português</span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
+		<li><a href="index_tr.html"><span>Türk</span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
+		<li><a href="index_it.html"><span>Italiano</span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
+      </ul>
+    </div>
+  </article>   
+  </div>    
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="clearfix"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Wstęp</a></dt>
+                       <dd></dd>
+                     </dl>   
+                  </li>
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#prepare" class="icon-check">Przygotowanie </a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#getting_started" class="icon-play">Początki </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#complete_install">Kompletna Instalacja</a></li>
+                            <li><a href="#template-installation">Instalacja Szablonu</a></li>
+                            <li><a href="#sample-data-installation">Instalacja Danych</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item4">
+                    <dl class="slide-down">
+                       <dt><a href="#modules_config" class="icon-cog">Konfiguracja Modułów </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#positions_map">Mapa pozycji</a></li>
+                            <li><a href="#modules-config-table">Tabela konfiguracji</a></li>                    
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item5">
+                    <dl class="slide-down">
+                      <dt><a href="#extensions" class="icon-fullscreen">Rozszerzenia</a><i class="icon-sample"></i></dt>
+                      <dd>
+                        <ul class="list">
+                          <li><a href="#articles-newsflash">Przegląd Artykułów (Zaawansowany)</a></li>
+                          <li><a href="#image_swoop">Image Swoop (Pokaz Slajdów)</a></li>
+                          <li><a href="#articles_single">Artykuły Pojedynczo</a></li>
+                          <li><a href="#caroufredsel">CarouFredSel</a></li>
+                          <li><a href="#komento">Komento</a></li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>                  
+                  <li class="nav-item item6">
+                    <dl class="slide-down">
+                       <dt><a href="#configuring-pages" class="icon-wrench">Konfigurowanie Stron </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#gallery">Galeria</a></li>
+                            <li><a href="#contacts">Kontakt</a></li>                    
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item7">
+                    <dl class="slide-down">
+                       <dt><a href="#template-settings" class="icon-cogs">Ustawienia Szablonów </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#layout">Rozkład</a></li>
+                            <li><a href="#typography">Typografia</a></li>                    
+                            <li><a href="#features">Właściwości</a></li>                    
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#addendum" class="icon-question-sign">Uzupełnienie </a></dt>
+                       <dd></dd>
+                     </dl> 
+                  </li> 
+                </ul>
+            </div>
+    </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+<!-- block-started
+================================================== -->
+<section class="block-started"  id="introduction">
+  <h2><i class="icon-info-sign"></i> Wstęp <small><i>Co mozemy znaleźć w tym pakiecie i do czego mozemy go użyć</i></small></h2>
+  <p>Dziękujemy za zakup szablonu Joomla. Ta dokumentacja składa się z kilku części i pokazuje cały proces, jak ustawić i zarządzać stroną Joomla. Dołożyliśmy wszelkich starań, aby ten manual był jak najbardziej przejrzysty i łatwy w użyciu. </p>
+  
+  <div id="joomla_cms_desc">
+    <h4>Czym jest Joomla CMS?</h4>
+    <p>Joomla CMS jest rozwiązaniem open source do tworzenia bogatych w treść stron internetowych. Pozwala on na tworzenie stron oraz skutecznych aplikacji online, i nie wymaga prawie żadnych technicznych umiejętności czy wiedzy do zarządzania. Wiele aspektów, wliczając w to łatwość użycia oraz elastyczność, sprawiają, że Joomla jest najpopularniejszy, oprogramowaniem stron internetowych. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Dowiedz się Więcej</a></p>
+  </div>
+
+  <div id="joomla_template_desc">
+    <h4>Czym jest szablon Joomla</h4>
+    <p>Szablon Joomla jest nakładką na Twoją platformę Joomla CMS. Innymi słowy, możesz łatwo zmienić wygląd swojej strony Joomla, instalując nowy szablon w kilku prostych krokach. W swojej prostocie, szablon Joomla jest dostarczony ze wszystkimi potrzebnymi plikami źródłowymi, które możesz dowolnie edytować i zmieniać w odpowiadający Ci sposób.</p>
+  </div>
+
+  <div id="file_structure">
+    <h4>Struktura plików</h4>
+    <p>Pakiet szablonu, jaki pobrałeś, składa się z kilku folderów. Sprawdźmy co zawiera każdy folder :</p>
+    <ul class="files_structure">
+      <li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b><small class="muted"> - zawiera pliki z dokumentacją</small>
+        <ul>
+          <li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - główny plik z dokumentacją. Jesteś właśnie tutaj :)</small></li>
+        </ul>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>Joomla</b><small class="muted"> - zawiera archiwum motywów Joomla, pakiet szybkiej instalacji oraz plik skryptowy. </small>
+        <ul>
+          <li class="file"><i class="icon-file"></i> theme###.zip<small class="muted"> - archiwum motywów. Zawiera wszystkie pliki z motywami. Powienien być <a href="#template-installation">instalowany przez menadżera rozszerzeń Joomla</a></small></li>
+          <li class="file"><i class="icon-file"></i> fullpackage.zip<small class="muted"> - zawiera <a href="#complete_install">kompletny pakiet instalacyjnjy Joomla</a> z plikami silnika, motywem oraz przykładową treścią (baza danych, przykładowe obrazy)</small></li>
+          <li class="file"><i class="icon-file"></i> unzip.php<small class="muted"> - plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera hostingowego</small></li>
+        </ul>
+      </li>
+      <li class="folder"><b>Screenshots</b><small class="muted"> - zawiera screenshoty szablonu.</small></li>
+      <li class="folder"><b>Sources</b><small class="muted"> - zawiera pliki źródłowe szablonu</small>
+        <ul>
+          <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - pliki źródłowe szablonu Adobe Photoshop (.psd)</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> to_the_root_folder<small class="muted"> - zawiera przykładowe pliki z treścią, aby stworzyć stronę jako szablon live demo. Ten folder powinien zostać umieszczony w katalogu głównym Joomla. </small></li>
+          <li class="file"><i class="icon-file"></i> dump.sql<small class="muted"> - plik z danymi. Zawiera przykładową treść motywu. </small></li>
+          <li class="file"><i class="icon-file"></i> pkg_bundle.zip<small class="muted"> - zawiera dodatkowe rozszerzenia powiązane z motywem</small></li>
+        </ul>
+      </li>
+      <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - zawiera linki, skąd różne czcionki do szablonu mogą być pobrane</small></li>
+      <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - zawiera instrukcje, jak rozpakować pliki źródłowe</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block-templates" id="prepare">  
+  <h2><i class="icon-check"></i> Przygotowanie <small><i>Co musisz zrobić, aby to zadziałało</i></small></h2>
+  <p>Zanim zaczniesz ustawiać swoja stronę internetową Joomla, upewnij się, że jesteś całkowicie przygotowany. Wykonaj następujące kroki:</p>
+
+  <div id="software">
+    <h4>Programy do edycji</h4>
+    <p>Aby czuc sie pewnie pracując z szablonem Joomla, zalecamy pobrać wszystkie potrzebne aplikacje. Możesz sprawdzić listę wymaganego oprogramowania na stronie szablonu live demo. <br>Wymagania mogą się różnić. w zależności od szablonu, więc podajemy co jest generalnie wymagane:</p>
+
+    <ol>
+      <li>Przede wszystkim, potrzebujesz odpowiednie aplikacje do wypakowania zabezpieczonego hasłem archiwum sources_#########.zip. Możesz użyć WinZip 9+ (Windows) lub Stuffit Expander 10+ (Mac).</li>
+      <li>Możesz również potrzebować aplikacji Adobe Photoshop. Używana jest do edycji plików źródłowych .PSD, jest niezbędna, jeśli chcesz edytować grafiki i obrazy w szablonie.</li>
+      <li>Aby edytować kod źródłowy szablonu, potrzebny jest edytor, jak Adobe Dreamweaver, Notepad++, Sublime Text itp.</li>
+      <li>Aby przesłać pliki na serwer hostingowy, możesz potrzebować FTP Manager, jak Total Commander, FileZilla, CuteFTP itp.</li>
+    </ol>
+  </div>
+
+  <div id="hosting">
+    <h4>Hosting</h4>
+    <p>Jako, że Joomla CMS jest aplikacja bazowaną na PHP/MySQL, potrzebujesz przygotować hosting do uruchomienia aplikacji Joomla.</p>
+    <p>Jeśli masz hosting, upewnij się, że pasuje do <a href="http://www.joomla.org/technical-requirements.html" target="_blank">wymagań Joomla</a> i jest gotowe do użycia dla stron Joomla.</p>
+    <p>W innym wypadku, możesz uruchomić Joomla lokalnie na swoim komputerze, używając lokalnego serwera. Aby utworzyć lokalny serwer hostingowy, użyj aplikacji typu localhost, jak <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> itp. Każda z nich może być z łatwością zainstalowana jak zwykły program, i użyta do stron Joomla. </p>
+    <p>Sprawdź poniżej, jak skonfigurować lokalne środowisko do programowania:</p>
+    <ul class="unstyled">
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-appserv-web-development-environment.html">Jak zainstalować środowisko do programowania AppServ</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-wamp-web-development-environment.html">Jak zainstalować środowisko do programowania WAMP</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-xamp-web-development-environment.html">Jak zainstalować środowisko do programowania XAMP</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block-templates" id="getting_started">  
+  <h2><i class="icon-play"></i> Początki <small><i>Co kliknąć, aby to zadziałało</i></small></h2>
+
+  <div class="row-fluid">
+    <div class="span6 text-center img-paraloid">
+      <h3><a href="#complete_install" class="scrollTo">Kompletna Instalacja</a></h3>
+      <p>Nie mam strony Joomla i chcę ją zainstalować od początku. </p>
+      <p>Używając tej metody otrzymasz Joomla CMS, szablon Joomla, przykładową treść, oraz wszystkie rozszerzenia zainstalowane.</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="span6 text-center img-paraloid">
+      <h3><a href="#template-installation" class="scrollTo">Instalacja Szablonu</a></h3>
+      <p>Mam juz stronę internetową bazowaną na Joomla, i tylko chcę zmienić jej wygląd, instalując nowy szablon.</p>
+      <p>Używając tej metody otrzymasz szablon Joomla oraz wszystkie rozszerzenia zainstalowane.</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+
+  <!-- Complete Joomla Installation -->
+  <div id="complete_install">
+  <h3>Kompletna Instalacja</h3>
+  <p>Metoda kompletnej instalacji może być użyta, gdy chcesz ustawić stronę Joomla od początku. Zakładamy, że wykonałeś wszystkie <a href="#prepare">kroki przygotowawcze</a> i posiadasz wszelkie wymagane narzędzia.</p>
+
+    <!-- Creating database -->
+
+  <article id="creating-database">
+    <h4>Tworzenie Bazy Danych</h4>
+    <p>Kiedy skończysz przesyłać pliki do serwera hostingowego, możesz zacząć przygotowywać nową bazę danych dla swojej strony Joomla. Możesz stworzyć nową bazę danych przy użyciu narzędzi dostępnych w panelu kontrolnym swojego hostingu, (<i>zazwyczaj PhpMyAdmin</i>).</p>
+
+    <p>Z narzędziem phpMyAdmin bedziesz w stanie stworzyć nowa bazę danych w 3 prostych krokach: (sprawdź slajdy poniżej)</p>
+
+     <ol class="list">
+      <li>Kliknij przycisk Baza Danych (ang. Database) z górnego menu nawigacyjnego, aby przejść do listy baz danych</li>
+      <li>Podaj nazwę bazy danych w polu "Stwórz nową bazę danych" (ang. Create new database)</li>
+      <li>Kliknij przycisk Stwórz (ang. Create) po prawej stronie</li>
+    </ol>
+
+    <p>Twoja baza danych jest widoczna w liście baz danych. Kliknij na jej nazwę, aby przejść do bazy danych</p>
+
+    <p>&nbsp;</p>
+
+    <div class="flexslider clearfix img-polaroid">
+      <ul class="slides">
+        <li>
+          <img src="img/database-create-1.jpg" alt="" />
+          <div class="flex-caption">
+            <p>1. Kliknij przycisk Baza Danych (ang. Database), aby przejść do listy baz danych</p>
+          </div>
+        </li>                   
+        <li>
+          <img src="img/database-create-2.jpg" alt="" />
+          <div class="flex-caption">
+            <p>2. Podaj nazwę bazy danych <br>
+                        3. Kliknij przycisk Stwórz (ang. Create)</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/database-create-3.jpg" alt="" />
+          <div class="flex-caption">
+            <p>4. Twoja baza danych jest widoczna w liście baz danych. Kliknij na jej nazwę, aby przejść do bazy danych.</p>
+          </div>
+        </li> 
+      </ul>    
+    </div>
+
+    <p>&nbsp;</p>
+                
+    <p>Możesz też sprawdzić szczegółowy video tutorial na <i class="icon-film"> </i>  <a href="/help/how-to-create-a-database.html">Jak stworzyć bazę danych</a></p>
+
+    <div class="box-info"><span>Jeśli masz jakieś problemy z utworzeniem bazy danych, skontaktuj się z dostawcą swojego hostingu w celu uzyskania pomocy. </span></div>
+  </article>
+
+  <!-- Uploading files -->
+  <article id="uploading">
+    <h4>Przesyłanie i rozpakowanie</h4>
+    <p class="">Aby zacząć pracę z Joomla, musisz przesłać pliki do swojego serwera hostingowego. Można tego dokonać przy użyciu menadżera plików w hostingu lub osobnego FTP managera.</p>
+                
+      <ol>
+        <li>Otwórz pakiet z szablonem i wejdź do folderu 'joomla'</li>
+        <li>Wybierz 'unzip.php' oraz 'fullpackage.zip' i prześlij je do swojego serwera(
+          <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Jak przesłać pliki do serwera.</a>
+          )</li>
+        <li>Podaj scieżkę do pliku 'unzip.php' na Twoim serwerze (<i class="muted">http://your_domain_name/unzip.php</i>) w <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">przeglądarce</abbr>.</li>
+        <li>Powinieneś zobaczyć następujący widok:</li>
+      </ol>
+                
+      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+      <p class="muted text-center">Img 1. Unzip.php początkowy widok.</p>
+                
+      <ol start="5">
+        <li>W oknie 'Wybierz plik zip' (ang. Choose your zip file) wybierz przesłany plik fullpackage.zip.</li>
+        <li>W 'Wypakuj do' (ang. Unzip to) wybierz folder, do którego chcesz wypakować pliki.</li>
+        <li>Kliknij 'Wypakuj' (ang. Unzip), aby kontynuować.</li>
+      </ol>
+                
+      <div class="box-info"><span>Upewnij się, że ustaliłeś odpowiednie uprawnienia w folderze, do którego wypakowujesz pliki. Uprawnienia powinny być CHMOD 755 lub 777, w zależności od ustawień serwera. </span></div>
+  </article>
+
+    
+  <!-- Joomla CMS installation -->
+
+  <article id="joomla-cms-installation">
+    <h4>Instalacja Joomla CMS</h4>
+
+    <p> Upewnij się, że wykonałeś wszystkie <a href="#prepare">kroki</a> i masz wszystko co wymagane.</p>    
+    <p>Otwórz przeglądarkę i podaj ścieżkę do folderu Joomla w pasku adresu(<i>np http://your_domain_name/joomla</i>). Powinieneś zobaczyć ekran instalacyjny Joomla CMS:</p>
+    
+    <p>&nbsp;</p>
+    <h5 id="joomla-install-configuration"><span class="badge">Krok 1</span> Konfiguracja</h5>    
+    <p>&nbsp;</p> 
+              
+      <p> Używając pola "Wybierz Język" (ang. Select Language) wybierz język instalacji Joomla.</p>
+        <p><span class="label label-info">Pamiętaj:</span> "Select Language" pozwala na wybranie języka instalacji Joomla. Nie będzie miało wpływu na język Twojej strony internetowej.</p>
+              
+      <p>Musisz wypełnić wszystkie pola w "Główna Konfiguracja" (ang. Main Configuration). Wymagane pola zaznaczone są gwiazdką *.</p>
+      <p>Wypełnij "Admin Email", "Admin Username" oraz "Admin Password" w odpowiedniej kolumnie, aby stworzyć nowego użytkownika Joomla z uprawnieniami administracyjnymi.</p>
+              
+      <div class="box-error"><span>"Admin Email", "Admin Username" oraz "Admin Password" są wymagane do dostępu do backendu Twojej strony Joomla <abbr title="Joomla Administration Panel that is used to work with Web site content">backend</abbr>. Zachowaj je w tajemnicy. </span></div>
+
+      <figure class="img-polaroid"><img src="img/cms-install-1.jpg" alt=""></figure>
+      <p class="muted text-center">Img 2. Instalacja Joomla CMS. Krok 1. Konfiguracja</p>
+              
+      <p>Po skończeniu kliknij przycisk <button class="btn btn-primary">Dalej</button> (ang. Next) w prawym górnym rogu, aby kontynuować. </p>
+           
+
+    <p>&nbsp;</p>       
+    <h5 id="joomla-install-database"><span class="badge">Krok 2</span> Baza Danych</h5>
+    <p>&nbsp;</p>
+              
+      <p>W drugim kroku instalacji Joomla CMS, musisz wprowadzić dane swojej bazy danych. Jeśli nie jesteś czegoś pewien, skontaktuj się z  dostawcą hostingu.</p>
+              
+      <p>Jako, że instalujesz Joomla od początku, musisz podać "Nazwę Hosta" (ang. Host Name), "Nazwę Użytkownika" (ang. Username), "Nazwę Bazy Danych" (ang. Database Name) oraz "Hasło" (ang. Password). Zazwyczaj możesz zostawić inne opcje jako domyślne. Oczywiście, mogą wystapić różnice, w zależności od Twojego dostawcy hostingu. </p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-2.jpg" alt=""></figure>
+      <p class="muted text-center">Img 3. Instalacja Joomla CMS. Krok 2. Baza Danych</p>
+              
+      <p>Gdy skończysz, kliknij przycisk <button class="btn btn-primary">Instalacja</button> (ang. Install) w prawym górnym rogu, aby kontynuować. </p>
+              
+
+    <p>&nbsp;</p>          
+    <h5 id="joomla-install-overview"><span class="badge">Krok 3</span> Przegląd</h5>
+    <p>&nbsp;</p>     
+              
+      <p>Prawie skończyłeś z instalacją Joomla CMS. W Przeglądzie musisz wybrać czy chcesz instalować Przykładowe dane Joomla. </p>
+      <div class="box-info"><span>Pamiętaj: Przykładowe Dane są wymagane, jeśli chcesz, aby Twoja strona internetowa Joomla wyglądała jak szablon live demo, ze wszystkimi obrazkami, przykładowym tekstem oraz skonfigurowanymi modułami. Aby Twój szablon wyglądał jak strona live demo, wybierz pakiet przykładowych danych "sample_theme###" gdzie ### oznacza numer Twojego szablonu.</span> </div>
+        
+      <p>Wybierz pakiet z Przykładowymi danymi, który chcesz zainstalować, lub wybierz "Brak" (ang. None), jeśli chcesz ustawić czystą stronę Joomla, bez treści.</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-3-1.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4-1. Instalacja Joomla CMS. Krok 3. Przegląd. Import Przykładowych danych</p>
+
+      <p>Poniżej możesz sprawdzić, czy konfiguracja bazy danych oraz dane dostępowe do panelu administracyjnego są prawidłowe, jak również wysłać je na swój adres mailowy</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-3-2.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4-1. Instalacja Joomla CMS. Krok 3. Przegląd. Konfiguracja</p>
+              
+      <p>Możesz również sprawdzić ustawienia instalacji i porównać, czy Twój serwer hostingowy spełnia wymagania Joomla. Jeśli masz jakieś czerwono podkreślone pola w sekcji "Recommended settings", skontaktuj się z dostawcą hostingu po dalsze instrukcje.</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-3-3.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4. Instalacja Joomla CMS. Krok 3. Ustawienia serwera</p>
+              
+      <p>Gdy skończysz, kliknij przycisk <button class="btn btn-primary">Instalacja</button> (ang. Install) w prawym górnym rogu, aby kontynuować. </p>
+
+
+    <p>&nbsp;</p>          
+    <h5 id="joomla-install-complete"><span class="badge">Krok 4</span> Instalacja Zakończona</h5>
+    <p>&nbsp;</p>
+              
+    <p>Gratulacje! Z powodzeniem zainstalowałeś Joomla CMS.</p>
+              
+    <figure class="img-polaroid"><img src="img/cms-install-4.jpg" alt=""></figure>
+    <p class="muted text-center">Img 5. Instalacja Joomla CMS. Krok 4. Instalacja Zakończona</p>
+              
+    <p>Ze względów bezpieczeństwa, wykasuj folder "Installation" z głównego katalogu Joomla.</p>
+
+    <p><span class="label label-success">Tip:</span> Możesz sprawdzić video tutorial <i class="icon-film"> </i> <a href="/help/joomla-3-0-how-to-install-joomla-engine.html">Jak zainstalować Joomla 3</a></p>
+
+    <div class="box-info"><span>Pamiętaj: jeśli skończyłeś sekcję "Instalacja Zakończona" możesz pominąć następne sekcje "Instalacja Szablonu", "Instalacja Przykładowych Danych" oraz "Instalacja Rozszerzeń", jako że masz już te elementy zainstalowane.</span></div>
+  </article>
+    
+      <p>Możesz teraz przejść do konfiguracji swojej strony bazowanej na Joomla CMS. Kliknij przycisk "<b>Strona</b>" (ang. Site), aby zobaczyć swoją stronę lub "<b>Administrator</b>", aby zobaczyć Joomla backend.</p>
+
+  </div>
+  <div class="block-templates" id="template-installation">
+    <h3>Instalacja Szablonu</h3>
+    <p>Ta metoda instalacji może być użyta, gdy już masz stronę Joomla i chcesz zmienić jej wygląd, instalując szablon Joomla.</p>
+    
+    <!-- Extensions manager -->         
+    <p><span class="badge">Krok 1</span> Otwórz panel administracyjny Joomla i wejdź do <b>"Rozszerzenia > Menadżer Rozszerzeń"</b> używając górnego menu.</p>          
+    <figure class="img-polaroid"><img src="img/template-install-1.jpg" alt=""></figure>
+    <p class="muted text-center">Img 6. Instalacja szablonu Joomla. Krok 1. Menadżer Rozszerzeń</p>
+
+    <!-- Upload theme zip -->         
+    <p><span class="badge">Krok 2</span> Używając przycisku do wyboru Pliku z Pakietem "Wybierz Plik" (ang. Choose File) i wyszukaj plik "<b>theme###.zip</b>" w folderze "joomla" twojego pakietu z szablonem</p>         
+    <figure class="img-polaroid"><img src="img/template-install-2.jpg" alt=""></figure>
+    <p class="muted text-center">Img 7. Instalacja szablonu Joomla. Krok 2. Przesłanie archiwum Motywu</p>          
+    <p>Kliknij przycisk <button class="btn btn-primary">Prześlij & Instaluj</button> (ang. Upload & Install), aby zainstalować szablon Joomla.</p>
+
+    <!-- Activate template -->          
+    <p><span class="badge">Krok 3</span> Gdy przesyłanie zostało zakończone, musisz aktywować zainstalowany szablon. Z górnego menu wybierz "<b>Rozszerzenia > Menadżer Szablonu</b>"</p>         
+    <figure class="img-polaroid"><img src="img/template-install-3.jpg" alt=""></figure>
+    <p class="muted text-center">Img 8. Instalacja szablonu Joomla. Krok 3. Aktywowanie szablonu</p>         
+    <p>Wybierz swój nowo zainstalowany szablon i kliknij przycisk "<b>Ustaw Domyślny</b>" (ang. Make Default) górnym lewym rogu. Teraz możesz sprawdzić swoją stronę, aby zobaczyć wprowadzone zmiany.</p>
+  </div>
+
+
+  <!-- Sample data installation -->
+  <div class="block-templates" id="sample-data-installation">
+  <h3>Instalacja Przykładowych Danych</h3>
+  <p>Przykładowe dane służą temu, aby Twoja strona Joomla wyglądała jak strona szablonu live demo. Zawiera przykładowe artykuły, obrazki, ustawienia modułów, ustawienia strony itd. Jeśli nie planujesz używania przykładowych obrazków lub jakiejkowliek innej przykładowej treści, prosimy ominąć ten krok. </p>
+  <p>Aby zainstalować przykładowe dane, musisz wykonać dwa proste kroki.</p>
+  
+  <h4><b>Krok 1.</b> Prześlij przykładowe obrazki.</h4>
+  <p>Aby przesłać przykładowe obrazki, otwórz folder pakietu szablonu, przejdź do folderu "sources". Znajdziesz tam folder "to_the_root_directory". Zawiera on pliki, które trzeba umieścić w folderze instalacyjnym Joomla. Prosimy użyc menadżera plików, aby przesłać pliki do swojego serwera.</p>
+  
+  <h4><b>Krok 2.</b> Import pliku SQL.</h4>
+  <p>Ostatnim i najważniejszym krokiem istalacji przykładowych danych jest import pliku SQL. Plik SQL jest zestawieniem przykładowej bazy danych, wszystkie dane strony Joomla sa w nim zawarte. Plik SQL może być imoprtowany przy użyciu narzędzia do zarządzania bazą danych (phpMyAdmin). Plik SQL szablonu - "dump.sql" znajduje się w folderze "sources" pakietu szablonu. </p>
+    <p>&nbsp;</p>
+
+  <div class="box-info"><span>Prosimy <b>NIE</b> importować pliku SQL, jeśli masz działająca stronę w Internecie, jako że to całkowicie zamieni bazę danych Twojej strony, i wszelkie dane zostaną stracone.</span> </div>
+  <div class="box-error"><span>Uwaga: przed importem pliku SQL upewnij się, że table prefix bazy danych pasuje do table prefix w pliku SQL.</span> </div>
+  <p>Możesz sprawdzić table prefix bezpośrednio w bazie danych przy użyciu narzędzia do zarządzania bazą danych. Sprawdź nazwy tabel. Prefix jest ciągiem symboli przed nazwą tabeli. (<i>np. tabela "jos_assets", prefix to "jos_"</i>). Możesz również znaleźć prefix bazy danych w pliku "configuration.php" w folderze instalacyjnym Joomla. Poszukaj linijki 19: <code>public $dbprefix = 'jos_';</code> (<i>gdzie prefix jest "jos_"</i>)</p>
+  <p>Jeśli table prefixes nie pasują, otwórz plik "dump.sql" swoim edytorem kodu, i przy użyciu narzędzia Search &amp; Replace  (CTRL+F lub CTRL+H) zamień "jos_" table prefix (<i>używany w pliku SQL</i>) z tym pasującym do Twojej bazy danych. Możesz zobaczyć szczegółowy video tutorial <a href="/help/joomla-how-to-change-database-tables-prefix-in-sql-file.html" target="_blank">jak zmienić prefix bazy danych w pliku SQL</a>.</p>
+  <p>Teraz możesz imoprtować ten plik SQL do swojej bazy danych. <br>
+  Aby importować przykładowe dane do swojej bazy danych, wykonaj te proste kroki: (sprawdź slajdy poniżej)</p>
+
+  <ol class="list">
+    <li>Wybierz bazę danych z listy w lewej kolumnie w narzędziu phpMyAdmin</li>
+    <li>Kliknij "Import" z górnego menu nawigacyjnego</li>
+    <li>Kliknij "Wybierz plik" (ang. Choose file) i znajdź plik the dump.sql w folderze "sources" w pakiecie szablonu</li>
+    <li>Kliknij "Dalej" (ang. Go) aby zacząć imoprtować przykładowe dane</li>
+  </ol>
+
+      <p>&nbsp;</p>
+
+    <div class="flexslider clearfix img-polaroid">
+      <ul class="slides">
+        <li>
+          <img src="img/sample-install-1.jpg" alt="" />
+          <div class="flex-caption">
+           <p> 1. Wybierz Twoją bazę danych</p>
+          </div>
+        </li>                   
+        <li>
+          <img src="img/sample-install-2.jpg" alt="" />
+          <div class="flex-caption"><p>2. Kliknij "Import"</p></div>
+        </li>
+        <li>
+          <img src="img/sample-install-3.jpg" alt="" />
+          <div class="flex-caption">
+            <p>3. Kliknij "Wybierz plik" (ang. Choose file) i znajdź plik the dump.sql w folderze "sources" w pakiecie szablonu<br>
+                        4. Kliknij "Dalej" (ang. Go) aby zacząć imoprtować przykładowe dane</p>
+          </div>
+        </li> 
+      </ul>    
+    </div>
+
+    <p>&nbsp;</p>
+
+    <p>Możesz sprawdzić szczegółowy tutorial <i class="icon-film"> </i><a href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html" target="_blank">jak importować plik SQL używając narzędzia phpMyAdmi</a></p>
+  </div>
+
+</section>
+
+
+<section class="block-templates" id="modules_config">
+  <h2><i class="icon-cog"></i> Konfiguracja Modułów</h2>
+
+    <p>Layout strony Joomla jest podzielony na dwie główne części - sekcja treści oraz pozycje modułów (sprawdź mapę pozycji modułów poniżej po więcej szczegółów). Moduły  w Joomla służą do umieszczania treści w określonych pozycjach.</p>
+  <div id="positions_map">
+    <h3>Mapa pozycji modułów</h3>
+
+    <p>Dostępne pozycje mogą się różnić w poszczególnych szablonach, ale generalne pozycje mogą być sprawdzone poniżej:</p>
+    
+    <figure class="img-polaroid"><img src="img/j3-modules-positions.jpg" alt=""></figure>
+    <p class="muted text-center">Img 9. Mapa pozycji modułów w szablonie Joomla</p>
+  
+    <p>Jak widzisz, pole treści jest zaznaczone różnymi kolorami. Zrobiono tak, ponieważ pole treści nie może obsługiwać każdego modułu jako domyślny. Wyświetla tylko zawartość strony. </p>
+    <p>Wszystkie pozycje są wyłączone, jeśli brak przypisanych modułów, aby uniknąć problemów.</p>
+  </div>
+    <div id="modules-config-table">
+      <h3>Tabela Konfiguracji Modułów</h3>
+
+      <div class="box-info"><span>Uwaga: Jeśli instalowałeś przykładowe dane szablonu lub wykonałeś Kompletną Instalację, możesz ominąć następny krok, jako że połączony jest on z manualną konfiguracją modułów.</span></div>
+
+      <p>Poniższa tabela pokazuje wszystkie moduły użyte w tym szablonie oraz przedstawia, jak je prawidłowo skonfigurować. Dostęp do wszystkich modułów przez panel Administracyjny Joomla w <b>Rozszerzenia > Menadżer Modułu</b>.</p>
+      <figure class="img-polaroid"><img src="img/modules-config-1.jpg" alt=""></figure>
+      <p class="muted text-center">Img 10. Menadżer Modułów Joomla</p>
+  
+      <p>&nbsp;</p>
+    </div>
+                
+<div id="mod_table">
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>1</b> - Formularz Logowania</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_login</li>
+        <li><b>Pozycja:</b> modal</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>2</b> - Breadcrumbs</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_breadcrumbs</li>
+        <li><b>Pozycja:</b> breadcrumbs</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> nie</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>3</b> - Szukanie</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_search</li>
+        <li><b>Pozycja:</b> navigation</li>
+        <li><b>Suffix Klasy:</b> navbar-search pull-right</li>
+        <li><b>Pokaż Nazwę:</b> nie</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>4</b> - Prawa Autorskie</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_footer</li>
+        <li><b>Pozycja:</b> copyright</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> nieo</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>5</b> - Archiwum Artykułów</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_articles_archive</li>
+        <li><b>Pozycja:</b> aside-right</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 2</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Blog<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit<br />Archives</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>6</b> - Menu Użytkownika</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_menu</li>
+        <li><b>Pozycja:</b> header</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> nie</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>7</b> - Menu Superfish</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_superfish_menu</li>
+        <li><b>Pozycja:</b> navigation</li>
+        <li><b>Suffix Klasy:</b> navigation</li>
+        <li><b>Pokaż Nazwę:</b> nie</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>8</b> - Pokaz Slajdów</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_camera_slideshow</li>
+        <li><b>Pozycja:</b> showcase</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> nie</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Home</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>9</b> - Social Media</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_menu</li>
+        <li><b>Pozycja:</b> copyright</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> nie</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>10</b> - Formularz Logowania</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_login</li>
+        <li><b>Pozycja:</b> aside-right</li>
+        <li><b>Suffix Klasy:</b> aside</li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 3</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Blog<br />FAQ<br />Referencje<br />Kategorie Blog<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit<br />Archives</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>11</b> - Szukanie</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_search</li>
+        <li><b>Pozycja:</b> aside-right</li>
+        <li><b>Suffix Klasy:</b> aside</li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 4</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> FAQ<br />Referencje</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>12</b> - Kategorie</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_articles_categories</li>
+        <li><b>Pozycja:</b> aside-right</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Blog<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>13</b> - Nasz Zespół</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_articles_news_adv</li>
+        <li><b>Pozycja:</b> mainbottom</li>
+        <li><b>Suffix Klasy:</b> team</li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> O Nas</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>14</b> - carouFredSel</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_caroufredsel</li>
+        <li><b>Pozycja:</b> feature</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Home</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>15</b> - Pojedyńczy Artykuł</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_articles_single</li>
+        <li><b>Pozycja:</b> aside-left</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> O Nas</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>16</b> - Komento</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_komento_activities</li>
+        <li><b>Pozycja:</b> aside-right</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Blog<br />Kategorie Bloga<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>17</b> - Komentarze Komento</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_komento_comments</li>
+        <li><b>Pozycja:</b> aside-right</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Blog<br />Kategorie Bloga<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>18</b> - mod_twitter_widget</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Typ:</b> mod_twitter_widget</li>
+        <li><b>Pozycja:</b> aside-left</li>
+        <li><b>Suffix Klasy:</b> </li>
+        <li><b>Pokaż Nazwę:</b> tak</li>
+        <li><b>Kolejność:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Strony:</b> Wszystkie</li>
+        <li></li>
+        <li><b>Dodatkowe info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+</div>
+    
+</section>
+
+
+<section id="extensions" class="block-templates">
+  <h2><i class="icon-fullscreen"></i> Rozszerzenia</h2>
+
+  <p>Funkcjonalność strony internetowej Joomla może zostać rozszerzona przy użyciu różnych rozszerzeń Joomla. Niektóre z nich są często używane w naszych szablonach. Ta sekcja pokaże Ci, jak pracować z różnymi rozszerzeniami.</p>
+
+<!-- ARTICLES NEWSFLASH MODULE -->
+  <div id="articles-newsflash">
+    <h3>Przegląd Artykułów</h3>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-2.jpg" alt=""></figure>
+            <p class="muted text-center">Img 11. Moduł Przegląd Artykułów (Zaawansowany)</p></div>
+
+    <p>Moduł Przegląd Artykułów (Zaawansowany) jest ulepszoną wersją podstawowego modułu Joomla Articles Newsflash. Oprócz podstawowych opcji modułu oferuje on dodatkowe opcje konfiguracyjne i oparte o moduł Bootstrap szablony.</p>
+
+    <h4>Dodatkowe opcje</h4>
+
+      <p><b>Ilość kolumn (ang. Number of columns)</b> - pozwala wyświetlić artykuły w wielu kolumnach. Może być stosowany z alternatywnymi układami  'horizontal' i 'bootstrapCols'.</p>
+      <p><b>Wybrany link (ang. Custom Link)</b> - pozwala wyświetlić wybrany link pod zawartością modułu. Link może prowadzić do zewnętrznego URL albo do innego przedmiotu z Joomla menu. </p>  
+        <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-1.png" alt=""></figure>
+                <p class="muted text-center">Img 12. Wybrany link (ang. Custom Link)</p></div>
+       
+      <p><b>Pretext</b> - pozwala wyświetlić wybrany tekst przed zawartością modułu.</p>
+      <p><b>Data publikacji (ang. Published Date)</b> - wyświetla datę publikacji artykułu. </p>
+      <p><b>Utworzone przez (ang. Created by)</b> - wyświetla autora artykułu. </p>
+      <p><b>Pokaż grafikę wstępną (ang. Show intro images)</b> - pozwala wyświetlić grafikę wstępną.</p>
+      <p><b>Wyrównanie grafiki wstępnej (ang. Intro image align)</b> - pozwala wyrównać grafikę wstępną.</p>
+      <p><b>Układ Bootstrap (ang. Bootstrap Layout)</b> - określa jaki układ modułu zastosować - stały lub płynny. Może być używany tylko z alternatywnym układem 'bootstrapCols'.</p>
+
+   <h4> Alternatywne układy</h4>
+
+  <p><b> Horyzontalny (ang. Horizontal)</b> - pozwala wyświetlić artykuły w wielu kolumnach. Style pozycji są pobierane z pliku modułu style.css. Każda szerokość pozycji zależy od wartości parametru 'ilość kolumn' i jest liczona w procentach jako iloraz 100 przez ilość kolumn.  </p> 
+
+  <p><b>BootstrapCols</b> - pozwala wyświetlić artykuły w wielu kolumnach i rzędach. Oparty o siatkę bootstrap. Może być używany z układem stałym lub płynnym (szerokość hasła jest definiowana w pikselach lub procentach). </p>
+  </div>
+
+
+  <!-- IMAGE SWOOP MODULE -->
+  <div id="image_swoop">
+    <h3>Image Swoop</h3>
+
+   <div class="img-container"><figure class="img-polaroid"> <img src="img/camera-slideshow-3.jpg" alt=""></figure>
+       <p class="muted text-center">Img 13. Moduł "Image Swoop"</p></div>
+
+    <p>Moduł "Image Swoop" jest wybitnie czułym sliderem opracowanym jako kombinacja podstawowego modułu "Articles Newsflash" i darmowego pluginu open source jQuery "Camera Slideshow". Perfekcyjnie działa na urządzeniach desktop i iOs albo Android. Kompatybilny z wszystkimi współczesnymi przeglądarkami, zaczynając od IE8. </p>
+
+    <p>Moduł "Image Swoop" ma różne opcje konfiguracyjne, dostęp do nich uzyskuje się poprzez otwarcie modułu Image Swoop <b>Rozszerzenia > Menadżer Modułów (ang.Extensions > Module Manager)</b> w sekcji panelu administracyjnego Joomla. Wszystkie główne opcje pluginu jQuery "Camera Slideshow" mogą być konfigurowane w sekcji ustawień modułu. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/camera-slideshow-2.jpg" alt="" ></figure>
+        <p class="muted text-center">Img 14. Ustawienia Image Swoop</p></div>
+
+    <p>Nakieruj kursor myszki na nazwę opcji by zobaczyć jej opis. Możesz również dowiedzieć się więcej o pluginie Camera Slideshow jQuery na oficjalnej stronie: <a href="http://www.pixedelic.com/plugins/camera/" target="_blank"></a></p>
+  </div>
+
+  <!-- ARTICLES SINGLE -->
+
+  <div id="articles_single">
+    <h3>Moduł Pojedyncze Artykuły (ang. Articles Single)</h3>
+
+    <p>Articles single jest modułem który pozwala ustawić pojedyncze artykuły na pożądaną pozycję. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-1.jpg" alt="" ></figure>
+        <p class="muted text-center">Img 15. Moduł Articles Single </p></div>
+
+    <p>Artykuły mogą być wybrane poprzez użycie ich ID. ID artykułów wprowadź do pola "Article ID" w ustawieniach modułu.</p>
+
+    <p><i>ID artykułu znajdują się w panelu administracyjnym Joomla w sekcji Komponent > Menadżer Artykułów (ang. Component > Articles manager). ID to numer w prawej kolumnie.</i></p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
+        <p class="muted text-center">Img 16. Ustawienia Articles Single </p></div>
+
+     <p>Jedyną nietypową opcją w tym module jest <b> Wybrany link (ang.Custom Link)</b>. Pozwala wyświetlić wybrany link pod zawartością modułu. Może prowadzić do zewnętrznego URL albo do innego przedmiotu z Joomla menu.  </p>  
+  </div>
+
+  <!-- CAROUFREDSEL -->
+
+  <div id="caroufredsel">
+    <h3>Moduł CarouFredSel</h3>
+
+    <p>CarouFredSel jest modułem karuzeli grafik opracowanym jako kombinacja podstawowego modułu Joomla Articles Newsflash i pluginu  CarouFredSel jQuery. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/caroufredsel-1.jpg" alt=""></figure>
+        <p class="muted text-center">Img 17. Moduł CarouFredSel</p></div>
+
+    <p> Wszystkie potrzebne opcje karuzeli są dostępne w ustawieniach modułów. </p>
+
+    <ol class="list">
+      <li>Kierunek karuzeli (ang.Carousel direction)</li>
+      <li>Szerokość przedmiotu (ang. Item width)</li>
+      <li>Widoczne przedmioty ( ang.Visible items)</li>
+      <li>Opcje Animacji (ang.Animation options)</li>
+      <li>Nawigacja i regulacja (ang.Navigation and controls)</li>
+    </ol>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/caroufredsel-2.jpg" alt=""></figure>
+        <p class="muted text-center">Img 18. Ustawienia modułu CarouFredSel </p></div>
+
+    <p>Plugin CarouFredSel ma wiele więcej opcji konfiguracji <a href="http://caroufredsel.dev7studios.com/configuration.php" target="_blank"></a>. Jeżeli chcesz dodać własne opcje to możesz edytować plik  <b>\modules\mod_caroufredsel\tmpl\default.php</b>. </p>
+    
+  </div>
+
+  <div id="komento">
+    <h3>Komponent Komentarze Komento</h3>
+
+    <p>Komento to komponent komentarzy dla  Joomla. Pozwala dodawać komentarze do artykułów Joomla. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/komento-1.jpg" alt=""></figure>
+        <p class="muted text-center">Img 19. Komponent Komento </p></div>
+
+    <p> Dostęp do komponentu Komento uzyskuje się poprzez panel administracyjny Joomla w sekcji  <b> Komponenty > Komento (ang.Components > Komento)</b>.</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/komento-2.jpg" alt=""></figure>
+        <p class="muted text-center">Img 20. Sekcja komponentu Komento</p></div>
+
+    <p> By otworzyć opcje konfiguracji idź do  <b> Komponenty > Komento > Integracje (ang.Components > Komento > Integrations)</b> i kliknij <b>Artykuły (ang.Articles)</b></p>
+
+    <p> Używając ustawień komponentów można włączyć komentarze dla specyficznych kategorii, dodać captcha, profile użytkowników jak również artykułów Joomla it. Więcej o Komento możesz się dowiedzieć na oficjalnej stronie: <a href="http://stackideas.com/docs/komento.html" target="_blank"></a></p>
+  </div>
+
+</section>
+
+<section id="configuring-pages" class="block-templates">
+  <h2><i class="icon-wrench"></i> Konfiguracja Stron</h2>
+  
+    <!-- Gallery page -->
+  
+    <div id="gallery">
+      <h3>Strona Galerii</h3>
+
+      <div class="img-container"><figure class="img-polaroid"><img src="img/pages-gallery-preview.jpg" alt=""></figure>
+            <p class="muted text-center">Img 21. Grafiki Galerii </p></div>
+
+      <p>Strona Galerii pokazuje informacje z kategorii 'Galeria' i jej podkategorii. Strona Galerii ma wbudowany filtr w prawym górnym rogu który pozwala filtrować grafiki według kategorii.</p>
+      <p><b>Dodawanie grafik</b><br/> By dodać więcej grafik do galerii wystarczy dodać nowe hasła do podkategorii 'Galeria'. Każde hasło powinno mieć załadowany pełen obraz i obraz wstępny. Oba obrazy są zazwyczaj umieszczone w folderze 'obrazy/galeria' (ang.'images/gallery').</p>
+                
+      <div class="img-container"><figure class="img-polaroid"><img src="img/pages-gallery-1.jpg" alt=""></figure>
+            <p class="muted text-center">Img 22. Obrazy Galerii</p></div>
+                
+      <p> Obraz wstępny jest wyświetlany w galerii i wyświetlaniu przedmiotów galerii. Pełen obraz jest wyświetlany po kliknięciu na obraz wstępny. </p>
+                
+      <p><b>Dostosowanie układu</b><br/>Układ strony galerii może być dostosowany jak każda  strona Joomla. Otwórz sekcję '<b>Menu > Główne Menu</b>' z panelu administracyjnego Joomla i edytuj opcję menu Galerii. Przełącz do <b>Zaawansowane Opcje (ang.Advanced Options)</b> i uzyskasz dostęp do ustawień strony Galerii. </p>
+      <p>Na przykład jeżeli chcesz zmienić ilość kolumn dla strony galerii, zmień  <b>Kolumny (ang. Columns)</b> z <b>Opcje Układu Bloga (ang. Blog Layout Options)</b> w obszarze ustawień. </p>
+                
+      <div class="img-container"><figure class="img-polaroid"><img src="img/pages-gallery-2.jpg" alt=""></figure>
+            <p class="muted text-center">Img 23. Ilość kolumn dla strony Galerii</p></div>
+    </div>
+  
+  
+    <!-- Contacts page -->
+  
+    <div  id="contacts">
+      <h3>Strona Kontaktów</h3>
+      <p> Strona kontaktów wyświetla formę kontaktu, adres i mapę Google. By zmienić treść kontaktu (<i>email, adres itp.</i>) idź do <b>Komponenty > Kontakty > Właściciel Strony (ang.Components > Contacts > Contacts > Website Owner)</b>. Używając strzałek na górze uzyskasz dostęp do różnych opcji kontaktu. </p>
+                
+      <p>By skonfigurować co powinno się znajdować na stronie kontaktów idź do <b>System > Konfiguracja Globalna > Kontakty (ang.System > Global Configuration > Contacts</b>)</p>
+                
+      <p><b>Google Map</b> Mapa Google na stronie kontaktów jest tworzona za pomocą pluginu Google Maps. Może być konfigurowana poprzez  <b>Rozszerzenia > Menadżer Pluginów > Mapy Google (ang. Extensions > Plug-in Manager > Google Maps)</b></p>
+
+      <div class="img-container"><figure class="img-polaroid"><img src="img/plugin-manager.jpg" alt=""></figure>
+            <p class="muted text-center">Img 24. Menadżer Pluginów</p></div>
+
+      <p><span class="label label-success">Podpowiedź:</span> Możesz użyć narzędzia do filtrowania powyżej listy pluginów, by zawęzić swoje poszukiwania. </p>
+
+      <p><i class="icon-film"></i> Sprawdź szczegółowy tutorial o tym jak zmieniać koordynaty mapy Google <a href="/help/joomla-3-x-how-to-change-google-map-coordinates.html" target="_blank"></a></p>
+    </div>
+</section>
+
+
+<section id="template-settings">
+  <h2><i class="icon-cogs"></i> Ustawienia Szablonu</h2>
+
+  <p>Każdy szablon Joomla ma swoje opcje konfiguracji. Można je stosować by dopasować motywy tematyczne układu, oznaczenia typograficzne, inne dodatkowe właściwości itp. Opcje szablonu dostępne są poprzez panel administracyjny Joomla w <b> Rozszerzenia > Menadżer Szablonów (ang. Extensions > Template Manager)</b></p>
+
+  <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-1.jpg" alt=""></figure>
+    <p class="muted text-center">Img 25. Menadżer Szablonów</p></div>
+
+  <p>Gdy jesteś w sekcji Menadżera Szablonów wybierz motyw który chcesz zmodyfikować. </p>
+
+  <div id="layout">
+    <h3>Układ</h3>
+
+    <p>Opcje układu pozwalają modyfikować ustawienia głównego motywu układu:</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-2.jpg" alt=""></figure>
+    <p class="muted text-center">Img 26. Opcje układu</p></div>
+
+    <p><b>Układ motywu</b> - wybierz jeżeli chcesz by motyw był statyczny (szerokość w pikselach) albo płynny (szerokość w procentach);</p>
+
+    <p><b>Logo</b> - pozwala wybrać grafikę logo;</p>
+
+    <p><b>Szerokość Logo</b> - Pozwala wybrać szerokość pola Logo (w odniesieniu do siatki Bootstrap);</p>
+
+    <p><b>Szerokość panelu bocznego</b> - pozwala ustalić szerokość paneli bocznych;</p>
+    
+  </div>  
+
+  <div id="typography">
+    <h3>Typografia</h3>
+
+    <p>Opcje typografi pozwalają wybrać znaczniki dla tytułów artykułów z różnych perspektyw: głównych artykułów, podglądu kategorii, podglądu blogów, podglądu pojedynczych artykułów itp. Można użyć wielu znaczników HTML by zdefiniować nagłówek  (h1, h2, h3, h4 etc). Znaczniki różnią się wartością logiczną i stylem. <a href="http://www.w3schools.com/tags/tag_hn.asp" target="_blank">Learn more</a> </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
+    <p class="muted text-center">Img 27. Opcje typografii</p></div>
+    
+  </div>  
+
+  <div id="features">
+    <h3>Funkcje</h3>
+
+    <p>Pozwalają konfigurować dodatkowe funkcje układu. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-4.jpg" alt=""></figure>
+    <p class="muted text-center">Img 28. Dodatkowe funkcje</p></div>
+
+    <p><b>Przycisk "na górę" i tekst "na górę"</b> pozwala włączyć/wyłączyć przycisk "na górę" i tekst wewnątrz przycisku. </p>
+
+    
+  </div>
+
+</section>
+
+
+<section id="addendum" class="block-templates">
+  <h2><i class="icon-question-sign"></i> Aneks  <small> gdzie otrzymać pomoc, wsparcie i dodatkowe informacje</small> </h2>
+
+  <p>Staraliśmy się by ta dokumentacja była tak prosta jak to tylko możliwe. Jeśli jednak mielibyście Państwo trudności z szablonem Joomla albo sugestie jak poprawić szablon albo dokumentację to prosimy o kontakt z naszą obsługą poprzez:</p>
+  
+  <div id="help_support">
+    <h4>Pomoc i wsparcie</h4>
+    <ul class="list">
+      <li><a href="http://chat.template-help.com/"  target="_blank">Czat</a></li>
+      <li><a href="http://esupport.template-help.com/index.php?/Tickets/Submit"  target="_blank">System wiadomości pomocy</a></li>
+    </ul>
+  </div>
+
+  <div id="help_doc">
+    <h4>Dokumentacja</h4>
+    <ul class="list">
+      <li><a href="http://docs.joomla.org/Beginners" target="_blank">Joomla! Przewodnik początkującego</a></li>
+      <li><a href="http://docs.joomla.org/Category:FAQ" target="_blank">Najczęstsze pytania </a></li>
+      <li><a href="http://docs.joomla.org/" target="_blank">Joomla! Dokumentacja</a></li>
+      <li><a href="/help/cms-blog-templates/joomla/joomla-tutorials/" target="_blank">Joomla! Przewodniki</a></li>
+    </ul>
+  </div>
+
+  <div id="joomla_extensions">
+    <h4>Joomla! Rozszerzenia</h4>
+    <p>At <a href="http://extensions.joomla.org/" target="_blank">extensions.joomla.org</a> można ściągnąć ponad 6 tysięcy modułów, pluginów i komponentów by dodać różne właściwości do strony Joomla</p>
+  </div>
+
+  <div id="additional_links">
+    <h4>Dodatkowe linki</h4>
+    <ul class="list">
+      <li><a href="http://www.joomla.org/technical-requirements.html" target="_blank">Wymagania sprzętowe</a></li>
+      <li><a href="http://opensourcematters.org/index.php?option=com_content&amp;view=article&amp;id=56&amp;Itemid=155" target="_blank">Licencja i warunki użytkowania</a></li>
+    </ul>
+  </div>
+
+</section>
+
+</div>
+</div>
+</div>
+
+  </div>
+  </div>
+  </div>
+   <!-- Footer
+    ================================================== -->
+    <footer>
+      <div class="container">        
+       Dokumentacja Joomla<br>
+      © 2013 <span id="copyright">Template Monster</span>
+      </div>
+    </footer>
+
+  <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>
+    
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript"> 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+</script>
+    
+</body> 
+
+</html>

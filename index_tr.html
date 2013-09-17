@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Joomla 3.x Dokümantasyon</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+  <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+    <script src="js/scripts.js"></script>
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie.css" />
+  <![endif]-->
+    <!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>  
+
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+ <article class="span6">
+ <h1><img alt="" src="img/joomla_logo.png">Joomla 3.x Dokümantasyon</h1>
+  </article> 
+  <article class="span2">
+    <div class="languages pull-right">
+      <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>Tr</b><i class="icon-angle-down"></i></div>
+      <ul id="lang_list">
+        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
+        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
+        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
+        <li><a href="index_fr.html"><span>Français</span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
+		<li><a href="index_pl.html"><span>Polski</span><img src="img/flags/pl.png" height="14" width="22" alt="pl"></a></li>
+		<li><a href="index_pt_br.html"><span>Português</span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
+		<li class="active"><a href="index_tr.html"><span>Türk</span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
+		<li><a href="index_it.html"><span>Italiano</span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
+      </ul>
+    </div>
+  </article>   
+  </div>    
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="clearfix"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Giriş Bölümü</a></dt>
+                       <dd></dd>
+                     </dl>   
+                  </li>
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#prepare" class="icon-check">Hazırlamak</a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#getting_started" class="icon-play">Başlarken</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#complete_install">Tam Bir Kurulum</a></li>
+                            <li><a href="#template-installation">Şablon Kurulumu</a></li>
+                            <li><a href="#sample-data-installation">Örnek Veri Yükleme</a></li>
+							<li><a href="#modules-installation">Modüllerin Yüklenmesi</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item4">
+                    <dl class="slide-down">
+                       <dt><a href="#modules_config" class="icon-cog">Modülleri Yapılandırma</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#positions_map">Harita Pozisyonları</a></li>
+                            <li><a href="#modules-config-table">Yapılandırma Tablosu</a></li>                    
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item5">
+                    <dl class="slide-down">
+                      <dt><a href="#extensions" class="icon-fullscreen">Uzantılar</a><i class="icon-sample"></i></dt>
+                      <dd>
+                        <ul class="list">
+                          <li><a href="#articles-newsflash">Makaleler Haberler (Gelişmiş)</a></li>
+                          <li><a href="#image_swoop">Resim Swoop (Kamera Slayt)</a></li>
+                          <li><a href="#articles_single">Tek Makaleler</a></li>
+                          <li><a href="#caroufredsel">CarouFredSel</a></li>
+                          <li><a href="#komento">Komento</a></li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>                  
+                  <li class="nav-item item6">
+                    <dl class="slide-down">
+                       <dt><a href="#configuring-pages" class="icon-wrench">Yapılandırma Sayfası </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#gallery">Galeri</a></li>
+                            <li><a href="#contacts">İletişim</a></li>                    
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item7">
+                    <dl class="slide-down">
+                       <dt><a href="#template-settings" class="icon-cogs">Şablon Ayarları </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#layout">Düzen</a></li>
+                            <li><a href="#typography">Matbaacılık</a></li>                    
+                            <li><a href="#features">Özellikler</a></li>                    
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#addendum" class="icon-question-sign">Ek</a></dt>
+                       <dd></dd>
+                     </dl> 
+                  </li> 
+                </ul>
+            </div>
+    </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+<!-- block-started
+================================================== -->
+<section class="block-started"  id="introduction">
+  <h2><i class="icon-info-sign"></i> Giriş <small><i>Bu paket içerisinde neler bulabilirsiniz ve neler kullanılabilir.</i></small></h2>
+  <p>Joomla Şablonu aldığınız için teşekkür ederiz. Bu belgeler bir kaç bölümden oluşmaktadır, Joomla Web sitesinin kurulumu ve sıfırdan nasıl yönetileceğine dair olan süreci göstermektedir. Bizler mümkün olduğunca açık ve kolay tekip edilebilmesi adına bu manuel klavuzu elimizden gelenin en iyisini sizler için yarattık. </p>
+  
+  <div id="joomla_cms_desc">
+    <h4>Joomla CMS Nedir?</h4>
+    <p>Joomla CMS zengin içerikli web siteleri oluşturabilmek için açık kaynak kodlu bir çözümdür. Bu web siteleri güçlü ve çevrimiçi uygulamalar oluşturabilmek adına sağlanır ve yönetebilmek için hemen hemen hiçbir teknik beceri ve bilgi gerekli değildir. Birçok bakış açısı, ease-of-use (kullanım-kolaylığı-için) ve genişletilebilirliği dahil olmak üzere, Joomla mevcut olan en popüler Web sitesi yazılımını yaptık. <a href="http://www.joomlatr.org/joomla-dokumanlar/joomla-nedir.html" target="_blank">Daha fazla bilgi</a></p>
+  </div>
+
+  <div id="joomla_template_desc">
+    <h4>Joomla Şablonu Nedir?</h4>
+    <p>Joomla şablonu Joomla CMS platformu için bir cilttir. Başka bir deyişle, kolay adımlarla yeni bir şablon yükleme ve Joomla Web sitesi görünümünü değiştirebilme. Bu basitlik Joomla şablonunun tüm gerekli kaynak dosyaları ile sağlanır ve size ihtiyacınız olacağı şekilde düzenlemek yada geliştirebilmek için ücretsiz olmasıdır.</p>
+  </div>
+
+  <div id="file_structure">
+    <h4>Dosya Yapısı</h4>
+    <p>Yüklediğiniz şablon paketi bir kaç klasörden oluşmaktadır. Bütün klasörlerin ne içerdiğini görelim:</p>
+    <ul class="files_structure">
+      <li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b><small class="muted"> - dokümantasyon dosyaları içermektedir.</small>
+        <ul>
+          <li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - Ana dokümantasyon dosyası. Buradasınız Haklısınız :)</small></li>
+        </ul>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>joomla</b><small class="muted"> - Joomla tema arşivini içermektedir, hızlı yükleme dosyası ve unzip komut dosyası. </small>
+        <ul>
+          <li class="file"><i class="icon-file"></i> theme###.zip<small class="muted"> - tema arşivi. Tüm tema dosyalarını içermektedir. <a href="#template-installation">Joomla uzantısı yöneticisi aracılığı ile yüklenir.</a></small></li>
+          <li class="file"><i class="icon-file"></i> fullpackage.zip<small class="muted"> - içermektedir <a href="#complete_install">Tam Joomla kurulum paketi</a> motor dosyaları ile, tema ve örnek içeriği (veritabanı dökümü, örnek fotoğraflar)</small></li>
+          <li class="file"><i class="icon-file"></i> unzip.php<small class="muted"> - dosyaları ayıklayabilmek için kullanılan dosya fullpackage.zip hosting sunucusuna yüklendiği zaman.</small></li>
+        </ul>
+      </li>
+      <li class="folder"><b>screenshots</b><small class="muted"> - şablonun ekran görüntülerini içermektedir.</small></li>
+      <li class="folder"><b>sources</b><small class="muted"> - şablon kaynak dosyalarını içermektedir.</small>
+        <ul>
+          <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - Şablonun Adobe Photoshop kaynak dosyalarını içerir (.psd)</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> to_the_root_folder<small class="muted"> - Web şablonunun canlı demo olarak görüntülenmesini sağlamak için kullanılır, örnek içerik dosyalarını içermektedir. Bu klasör içeriği Joomla kök dizinine yüklenmelidir. </small></li>
+          <li class="file"><i class="icon-file"></i> dump.sql<small class="muted"> - veritabanı döküm dosyası. Tema örnek içeriğine sahiptir. </small></li>
+          <li class="file"><i class="icon-file"></i> pkg_bundle.zip<small class="muted"> - tema ile sağlanan ek uzantıları içermektedir.</small></li>
+        </ul>
+      </li>
+      <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - Şablonun özel yazı tiplerini indirebilmeniz için bağlantılar içerir.</small></li>
+      <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - Kaynak dosyaları ayıklayabilmek için talimatları içerir.</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block-templates" id="prepare">  
+  <h2><i class="icon-check"></i> Hazırlamak <small><i>Bu işi yapabilmek için neye ihtiyacınız var</i></small></h2>
+  <p>Joomla web sitesi yapımına başlamadan önce tam olarak hazır olduğunuzdan emin olun. Lütfen, aşşağıdaki hazırlık adımlarını tamamlayın:</p>
+
+  <div id="software">
+    <h4>Düzenleme Yazılımı</h4>
+    <p>Joomla yazılımı ile rahat çalışabildiğinizi hissetmeniz açısından tüm gerekli uygulamaları önceden indirmenizi öneririz. Bu şablon için canlı demo sayfasına girip gereken yazılımların listesini görebilirsiniz. <br>Biz genel olarak gerekli olanları buradan söyleyeceğiz, gereksinimleri farklı olan şablonlar için bunlar değişiklik gösterebilir:</p>
+
+    <ol>
+      <li>İlk olarak şifre korumalı sources_#########.zip dosyasını ayıklamak için doğru uygulamalar gerekmektedir. Kullanabileceğiniz yardımcı uygulamalar WinZip 9+ (Windows) ve Stuffit Expander 10+ (Mac).</li>
+      <li>Ayrıca Adobe Photoshop uygulaması gerekebilir. Şablon tasarımınızın grafik ve görüntülerini düzenlemek istiyorsanız .PDS kaynak dosyalarını düzenlemek için kullanılır.</li>
+      <li>Şablonun kaynak kodu dosyalarını düzenleyebilmek için Adobe Dreamweawer, Notepad++, Sublie Text vb bazı kod editörleri gerekmektedir.</li>
+      <li>Dosya barındırma sunucunuza (Hosting) yükleme yapabilmek için Total Commander, FileZilla, CuteFTP vb gibi FTP yöneticileri gerekebilir.</li>
+    </ol>
+  </div>
+
+  <div id="hosting">
+    <h4>Hosting</h4>
+    <p>Joomla CMS - PHP/MySQL tabanlı bir uygulama olduğu için, Joomla ile çalışabilmek için bir barındırma (Hosting) ortamı hazırlamak gerekmektedir.</p>
+    <p>Eğer canlı bir hosting'iniz varsa uyumlu olduğundan emin olun <a href="http://www.joomlatr.org/joomla-dokumanlar/joomla-indirme-kurulum/joomla-teknik-gereksinimleri.html" target="_blank">Joomla yazılım gereksinimleri </a> ve Joomla web sitesini kullanmak üzere hazır olduğundan.</p>
+    <p>Aksi takdirde bilgisayarınızdaki yerel sunucunuzu kullanarak Joomla'yı local olarak çalıştırabilirsiniz. Yerel bir barındırma sunucusunu oluşturabilmek için localhost uygulamalarını kullanabilirsiniz <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> vb. Kolayca herhangi bir program yüklenebilir ve Joomla çalıştırmak için kullanılabilir. </p>
+    <p>Lütfen, Yerel bir geliştirme ortamı yapılandırması hakkında aşşağıda bulunan derslere bir göz atın:</p>
+    <ul class="unstyled">
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-appserv-web-development-environment.html">AppServ web geliştirme ortamı nasıl kurulur</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-wamp-web-development-environment.html">WAMP web geliştirme ortamı nasıl kurulur</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-xamp-web-development-environment.html">XAMP web geliştirme ortamı nasıl kurulur</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block-templates" id="getting_started">  
+  <h2><i class="icon-play"></i> Başlarken <small><i>What to click to make this work</i></small></h2>
+
+  <div class="row-fluid">
+    <div class="span6 text-center img-paraloid">
+      <h3><a href="#complete_install" class="scrollTo">Komple Kurulum</a></h3>
+      <p>Joomla siteniz yok yenibaştan kurmak istiyorsanız </p>
+      <p>Bu yöntemi kullanarak Joomla CMS motoru, Joomla Şablonu, örnek içerik, ve gerekli tüm uzantılar yüklenecektir.</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="span6 text-center img-paraloid">
+      <h3><a href="#template-installation" class="scrollTo">Şablon Kurulumu</a></h3>
+      <p>Zaten Joomla tabanlı bir web siteniz var ve sadece yeni bir şablon yükleyerek değiştirmek istiyorsanız.</p>
+      <p>Bu yöntemi kullanarak Joomla şablonunuzun tüm gerekli uzantıları yüklenecektir.</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+
+  <!-- Complete Joomla Installation -->
+  <div id="complete_install">
+  <h3>Komple Kurulum</h3>
+  <p>Sıfırdan bir Joomla web sitesi kurulumu istiyorsanız tam yükleme yöntemi kullanılabilir. Sizin tüm işlemleri yapmış olduğunuzu varsayıyorum <a href="#prepare">hazırlık adımları</a> ve tüm gereken herşeyi.</p>
+
+    <!-- Creating database -->
+
+  <article id="creating-database">
+    <h4>Veri Tabanını Oluşturmak</h4>
+    <p>Dosyalarınızı sunucuya yükleme işleminiz bittiğinde siz Joomla web siteniz için yeni bir veritabanı hazırlayabilirsiniz. Hosting kontrol panelinden yeni bir veri tabanı oluşturarak veri tabanı yönetim aracınızı oluşturabilirsiniz. (<i>genellikle PhpMyAdmin</i>).</p>
+
+    <p>PhpMyAdmin araçları ile 3 basit adımda yeni bir veritabanı oluşturmanız mümkün olacaktır: (Aşşağıdaki slaytları takip edin)</p>
+
+     <ol class="list">
+      <li>Veri tabanı listesine erişebilmek için üst gezinti menüsünden Veritabanı dügmesine tıklayın</li>
+      <li>"Yeni veritabanı oluştur" alanına veritabanı adını girin</li>
+      <li>Sağ tarafındaki oluştur dügmesine tıklayın</li>
+    </ol>
+
+    <p>Kişisel bir veritabanı, veritabanı listesi görüntülenecektir. Veritabanına erişim sağlayabilmek için adına tıklayın.</p>
+
+    <p>&nbsp;</p>
+
+    <div class="flexslider clearfix img-polaroid">
+      <ul class="slides">
+        <li>
+          <img src="img/database-create-1.jpg" alt="" />
+          <div class="flex-caption">
+            <p>1. Veritabanı listesine ulaşabilmek için, veritabanı düğmesine tıklayın</p>
+          </div>
+        </li>                   
+        <li>
+          <img src="img/database-create-2.jpg" alt="" />
+          <div class="flex-caption">
+            <p>2. Veritabanı giriş adı <br>
+                        3. Oluştur dügmesine tıklayın</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/database-create-3.jpg" alt="" />
+          <div class="flex-caption">
+            <p>4. Kişisel bir veritabanı, veritabanı listesi görüntülenecektir. Veritabanına erişim sağlayabilmek için adına tıklayın.</p>
+          </div>
+        </li> 
+      </ul>    
+    </div>
+
+    <p>&nbsp;</p>
+                
+    <p>Ayrıca ayrıntılı eğitim videosunu kontrol edebilirsiniz<i class="icon-film"> </i>  <a href="/help/how-to-create-a-database.html">Nasıl bir veri tabanı oluşturulabilir.</a></p>
+
+    <div class="box-info"><span>Eğer veritabanı oluşturmayla alakalı herhangi bir sorununuz varsa yardım ve destek için hosting sağlayıcınız ile görüşün. </span></div>
+  </article>
+
+  <!-- Uploading files -->
+  <article id="uploading">
+    <h4>Yükleme ve unzipping</h4>
+    <p class="">Joomla ile çalışmaya başlayabilmek için barındırma sunucunuza (Hosting) dosyaları yüklemeniz gerekmektedir. Bu işlem hosting dosya yöneticisi veya bazı üçüncü parti FTP yöneticisi kullanılarak yapılabilir.</p>
+                
+      <ol>
+        <li>Şablon paketinizi dizinin içerisine açın ve "Joomla" yönetimine gidin.</li>
+        <li>'unzip.php' ve 'fullpackage.zip' dosyalarını seçin ve sunucunuza yükleyin(
+          <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Sunucuya dosya nasıl yüklenir.</a>
+          )</li>
+        <li>Sunucunuzda 'unzip.php' dosya yolunuzu yazın (<i class="muted">http://sizin_domain_adınız/unzip.php</i>) kendi <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari vb.">internet tarayıcınıza</abbr>.</li>
+        <li>Aşşağıda bulunan ekranı görmelisiniz:</li>
+      </ol>
+                
+      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+      <p class="muted text-center">Img 1. Unzip.php başlangıç ekranı.</p>
+                
+      <ol start="5">
+        <li>'Choose your zip file' kutusundan lütfen fullpackage.zip dosyasını seçin.</li>
+        <li>'Unzip to' dosyaları ayıklamak istediğiniz dizini belirtin.</li>
+        <li>'Unzip' butonuna tıklayarak işlemi başlatın.</li>
+      </ol>
+                
+      <div class="box-info"><span>Dosyaları ayıklamayı planladığınız dizin için dogru izinleri ayarladığınızdan emin olun. İzinler sunucu yapılandırmasına bağlı olarak CHMOD 755 veya 777 olmalıdır. </span></div>
+  </article>
+
+    
+  <!-- Joomla CMS installation -->
+
+  <article id="joomla-cms-installation">
+    <h4>Joomla CMS Kurulumu</h4>
+
+    <p> Lütfen, tüm <a href="#prepare">hazırlık adımlarını</a> tamamladığınızdan ve gerekli herşeyin hazır olduğundan emin olun.</p>    
+    <p>İnternet tarayıcınızı açın ve adres çubuğunuza Joomla dizininizin yolunu girin(<i>e.g. http://sizin_domain_isminiz/joomla</i>). Siz ilk olarak Joomla kurulum ekranını görmelisiniz:</p>
+    
+    <p>&nbsp;</p>
+    <h5 id="joomla-install-configuration"><span class="badge">1. Adım</span> Yapılandırma (Configuration)</h5>    
+    <p>&nbsp;</p> 
+              
+      <p>"Dil Seçin" (Select Language)  kutusunu kullanarak kurulum dilinizi seçin.</p>
+        <p><span class="label label-info">Lütfen dikkat:</span>(Select Language) "Dil Seçin" kutusu sadece Joomla yükleme işlemi dilinin seçilmesine olanak sağlar. Bu sizin web sitenizin dilini etkilemez.</p>
+              
+      <p>Sizin "Ana Yapılandırma" (Main Configuration) bölgesindeki zorunlu tüm forum alanlarını doldurmanız gerekmektedir. Gerekli alanlar * yıldız sembolleri ile işaretlendirilmiştir.</p>
+      <p>"E-postanız" (Admin Mail), "Yönetici Kullanıcı Adı" (Admin Username) ve "Yönetici Parolası" (Admin Password) sağ tarafta bulunan sütunlar yönetim hakkına sahip olan yeni Joomla web sitesi kullanıcısı oluşturmak içindir.</p>
+              
+      <div class="box-error"><span>"E-postanız" (Admin Mail), "Yönetici Kullanıcı Adı" (Admin Username) ve "Yönetici Parolası" (Admin Password) Joomla web sitesine erişebilmek için <abbr title="Joomla yönetim paneli web sitenizin içeriği ile çalışmak için kullanılır">gereklidir</abbr>. Onları güvende tutun. </span></div>
+
+      <figure class="img-polaroid"><img src="img/cms-install-1.jpg" alt=""></figure>
+      <p class="muted text-center">Img 2. Joomla CMS kurulum. 1. Adım Konfigürasyon</p>
+              
+      <p>İşleminizi tamamladığınızda sağ üst köşedeki <button class="btn btn-primary">Sonraki (Next)</button> butonuna tıklayın. </p>
+           
+
+    <p>&nbsp;</p>       
+    <h5 id="joomla-install-database"><span class="badge">2. Adım</span> Veritabanı</h5>
+    <p>&nbsp;</p>
+              
+      <p>Joomla CMS kurulumu ikinci adım için veritabanı ayrıntıları gerekmektedir. Eğer bilgilerinizden emin değilseniz doğru bilgilere ulaşabilmek için barındırma (Hosting) sağlayıcınıza başvurun.</p>
+              
+      <p>Sıfırdan Joomla yüklediğiniz gibi sadece girişleri yapmanız gereklidir. "Sunucu Adı" (Host Name), "Kullanıcı Adı" (Username), "Parola" (Password) ve "Veritabani adı" (Database Name). Genellikle diğer seçenekleri varsayılan olarak bırakabilirsiniz. Barındırma (Hosting) sunucunuza  bağlı olarak bazı farklılıklar olabilir.</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-2.jpg" alt=""></figure>
+      <p class="muted text-center">Img 3. Joomla CMS Kurulum. 2. Adım Veritabanı</p>
+              
+      <p>İşleminizi tamamladığınızda sağ üst köşedeki <button class="btn btn-primary">Sonraki (Next)</button> butonuna tıklayın. </p>
+              
+
+    <p>&nbsp;</p>          
+    <h5 id="joomla-install-overview"><span class="badge">3. Adım</span> Genel Bakış</h5>
+    <p>&nbsp;</p>     
+              
+      <p>Neredeyse Joomla yüklemenizi bitirdiniz. Genel Bakış adımlarında size Joomla Örnek verileri kurmak isteyip istemediğinizi seçmeniz gerekmektedir. </p>
+      <div class="box-info"><span>Lütfen Dikkat: Joomla web sitesi için tüm görüntüleri ile şablonu canlı demo olarak görüntülenmesini istiyorsanız , örnek metin ve moduller konfigüre edilmelidir. Almış olduğunuz "sample_theme###" şablonunu görüntüleyeceksiniz ### yazan kısımda sizin şablon numaranız yeralacaktır.</span> </div>
+        
+      <p>Siz herhangi bir içerik olmadan sadece (saf) Joomla sitesi kurulumu istiyorsanız yüklemek için herhangi bir örnek veri paketini seçebilirsiniz.</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-3-1.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4-1. Joomla CMS Kurulum. 3. Adım Genel Bakış. Örnek Veri Alma</p>
+
+      <p>Aşşağıda veritabanı yapılandırması ve yönetim paneli erişim bilgileri geçerli olup olmadığını kontrol edin ve gerekirse e-posta adresinize gönderebilirsiniz.</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-3-2.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4-1. Joomla CMS Kurulum. 3. Genel Bakış. Konfigürasyon</p>
+              
+      <p>Ayrıca kurulum ayarlarını kontrolü ve sunucu barındırma (Hosting) Joomla gereksinimlerine uygun olup olmadığını görebilirsiniz. Eğer "Önerilen Ayarlar" (Recommended settings) bölümünde herhangi bir kırmızı bildirim varsa daha fazla yardım için barındırma (Hosting) sunucunuza başvurun.</p>
+
+      <figure class="img-polaroid"><img src="img/cms-install-3-3.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4. Joomla CMS Kurulum. 3. Sunucu Ayarları</p>
+              
+      <p>İşlemi tamamladığınızda  sağ üst köşede bulunan <button class="btn btn-primary">Kurulum (Install)</button> butonuna tıklayın.</p>
+
+
+    <p>&nbsp;</p>          
+    <h5 id="joomla-install-complete"><span class="badge">4. Adım</span> Kurulum Tamamlandı</h5>
+    <p>&nbsp;</p>
+              
+    <p>Tebrikler! Başarılı bir şekilde Joomla CMS yüklediniz.</p>
+              
+    <figure class="img-polaroid"><img src="img/cms-install-4.jpg" alt=""></figure>
+    <p class="muted text-center">Img 5. Joomla CMS Kurulum. 4. Adım Kurulum Tamamlandı</p>
+              
+    <p>Güvenliğiniz açısından Joomla kök dinininden "Kurulum" (Installation) dizinini silin.</p>
+
+    <p><span class="label label-success">Tiyo:</span> Siz video eğitimini görüntüleyebilirsiniz. <i class="icon-film"> </i> <a href="/help/joomla-3-0-how-to-install-joomla-engine.html">Joomla 3 motoru nasıl kurulur</a></p>
+
+    <div class="box-info"><span>Eğer "Tam Kurulum" bitmiş ve tüm unsurlar yüklendiyse bir sonraki aşama "Şablon Kurulumuna" geçebilirsiniz, "Örnek Veri Kurulumu" ve "Eklentiler Kurulum" bölümlerini atlayabilirsiniz.</span></div>
+  </article>
+    
+      <p>Şimdi Joomla CMS tabanlı bir Web sitesi yapılandırmasına geçmek için hazırız. "<b>Site</b>" butonuna tıklayarak web sitesini görüntüleyebilir veya <b>"Yönetici"</b> (<b>Administrator</b>) Joomla backend görüntüleyebilirsiniz.</p>
+
+  </div>
+  <div class="block-templates" id="template-installation">
+    <h3>Şablon Kurulumu</h3>
+    <p>Zaten bir Joomla Web siteniz var ve sadece Joomla şablon yüklemesi ve web görünümünü değiştirmek istiyorsanız bu yükleme yöntemini kullanın.</p>
+    
+    <!-- Extensions manager -->         
+    <p><span class="badge">1. Adım</span> Joomla Yönetim panelinizi açın  ve üsr menüyü kullanarak <b>"Eklentiler > Eklenti yöneticisi" - (Extensions > Extensions Manager)</b>sekmesine tıklayın.</p>   
+    <figure class="img-polaroid"><img src="img/template-install-1.jpg" alt=""></figure>
+    <p class="muted text-center">Img 6. Joomla Şablon Kurulumu. 1. Adım  Eklenti Yöneticisi</p>
+
+    <!-- Upload theme zip -->         
+    <p><span class="badge">2. Adım</span> Paket dosyanızı seçmek için "Gözat" (Choose File) butonuna tıklayarak Joomla dizininizdeki "<b>theme###.zip</b>" şablon paketinizi seçin.</p>         
+    <figure class="img-polaroid"><img src="img/template-install-2.jpg" alt=""></figure>
+    <p class="muted text-center">Img 7. Joomla Şablon Kurulumu. 2. Adım Tema Arşiv Yükleme</p>          
+    <p>Joomla şablonunu yüklemek için <button class="btn btn-primary">Yükle & Kur (Upload &amp; Install)</button> 
+    butonuna basın.</p>
+
+    <!-- Activate template -->          
+    <p><span class="badge">3. Adım</span> Yükleme işleminiz tamamlandığında yüklenen şablonu etkinleştirmeniz gerekecektir. Üst menüden "<b>Eklentiler > Şablon Yöneticisini seçin</b>" - (Extensions &gt; Template Manager)</p>         
+    <figure class="img-polaroid"><img src="img/template-install-3.jpg" alt=""></figure>
+    <p class="muted text-center">Img 8. Joomla Şablon Kurulumu. 3. Adım Şablon Aktivitasyon</p>         
+    <p>Yüklenen yeni şablonu seçin ve sol üst köşedeki düğmeyi "<b>Varsayılan</b>" (<b>Make Default</b>) butonuna tıklayın. Şimdi değişiklikleri görmek için web sitenizi görüntüleyebilirsiniz.</p>
+  </div>
+
+
+  <!-- Sample data installation -->
+  <div class="block-templates" id="sample-data-installation">
+  <h3>Örnek veri yükleme</h3>
+  <p>Örnek veri Joomla web şablonunu canlı demo görüntüleyebilmek için kullanılır. Bu örnek makale, modül ayarları, web ayarları vb içermektedir. Eğer örnek bir resim veya başka bir örneği kullanmayı planlamıyorsanız lütfen bu adımı atlayın. </p>
+  <p>Örnek bilgileri kurabilmek için iki basit adımı tamamlamanız gerekmektedir.</p>
+  
+  <h4><b>1. Adım</b> Örnek resim yüklemek.</h4>
+  <p>Örnek resim yükleyebilmek için şablon paketi dizinini açın ve "kaynaklar" klasörüne gidin. Orada"to_the_root_directory" dizinini görmelisiniz. Bu joomla kurulum köküne yerleştirilen dosyaları içermektedir. Sunucunuza dosya yükleyebilmek için dosya yöneticinizi kullanın.</p>
+  
+  <h4><b>2. Adım</b> SQL dosyasını içe aktarın.</h4>
+  <p>Örnek dosyaların yüklenmesinde en son ve en önemli adım SQL dosyalarını import etmektir. SQL dosyasını örnek veritabanının bir dökümü, tüm Joomla web sitesi verileri orada saklıdır. SQL dosya veritabanı yönetim aracı (phpMyAdmin) kullanılarak alınabilir. Şablon SQL dosyası - "dump.sql" şablon paketi "kaynaklar" dizininde bulunur. </p>
+    <p>&nbsp;</p>
+
+  <div class="box-info"><span> Lütfen Dikkat canlı bir siteniz var ise SQL dosyasını import <strong>ETMEYİN</strong> eğer bu işlemi uygularsanız veritabanınızdaki bütün verileri kaybedeceksiniz.</span> </div>
+  <div class="box-error"><span>Dikkat: SQL doslayarınızı oluşturan tablo ön adlarınızın SQL dosyasındaki yablo ön adları ile aynı olduğundan lütfen emin olun.</span> </div>
+  <p>Veritabanı yönetim aracı ile doğrudan veritabanı tablo ön adlarını (Prefix) kontrol edebilirsiniz. Tablo adları için kontrol edin. Tablo ön ekleri sembollerden oluşan bir dizidir.. (<i>örn. tablo "jos_assets" öneki "jos_"</i> tur.). Ayrıca Joomla kök dizininde &quot;configuration.php&quot; dosyası veritabanı önekini bulabilirsiniz. Line 19'da arayabilirsiniz: <code>public $dbprefix = 'jos_';</code> (<i>Önek "jos_"</i>)</p>
+  <p>Tablo önek eşleşmiyorsa "dump.sql" açın editörünüzde Arama ve Değiştirme aracını kullanarak değiştirin (CTRL+F veya CTRL+H kısayollarıyla) değiştirebilirsiniz. "jos_" Tablo önek (<i>SQL dosyasında kullanın</i>) veritabanı eşleşenleri ile birlikte. Ayrıntılı bir eğitim videosu ile gözden geçirebilirsiniz <a href="/help/joomla-how-to-change-database-tables-prefix-in-sql-file.html" target="_blank">SQL dosyasında veritabanı tablosunun öneki nasıl değiştirilir</a>.</p>
+  <p>Artık veritabanınıza SQL dosyalarınızı alabilirsiniz.<br>
+  To import sample data to your database please perform these simple steps: (check the slides below)</p>
+
+  <ol class="list">
+    <li>PhpMyAdmin aracınnda sol üst sütunda bulunan veritabanı listerinden veritabanınızı seçin.</li>
+    <li>Üst gezinti menüsünden içe aktar şeçeneğini işaretleyin.</li>
+    <li>Gözat butonuna tıklayarak &quot;sources&quot; klasörünün içerisindeki dump.sql seçin."sources" directory</li>
+    <li>Son olarak git butonuna tıklayarak içe aktarma işlemini başlatın.</li>
+  </ol>
+
+      <p>&nbsp;</p>
+
+    <div class="flexslider clearfix img-polaroid">
+      <ul class="slides">
+        <li>
+          <img src="img/sample-install-1.jpg" alt="" />
+          <div class="flex-caption">
+           <p> 1. Veritabanını Seçin</p>
+          </div>
+        </li>                   
+        <li>
+          <img src="img/sample-install-2.jpg" alt="" />
+          <div class="flex-caption"><p>2. "Import" butonuna tıklayın</p></div>
+        </li>
+        <li>
+          <img src="img/sample-install-3.jpg" alt="" />
+          <div class="flex-caption">
+            <p>3. Click "Choose file" and browse for the dump.sql file in the template package "sources" directory<br>
+                        4. Click "Go" button to start importing sample data</p>
+          </div>
+        </li> 
+      </ul>    
+    </div>
+
+    <p>&nbsp;</p>
+
+    <p>Ayrıca eğitim videosuna göz atabilirsiniz <i class="icon-film"> </i><a href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html" target="_blank">PhpMyAdmin aracını kullanarak SQL dosyasını içe aktarmak</a></p>
+  </div>
+  
+   <div class="block-templates" id="modules-installation">
+   <h3>Modüllerin Yüklenmesi</h3>
+	<p>Joomla temaları ekstra eklentilerle birlikte sunulur:farklı fonksiyonları ve özellikleri yerleştirmek için moduller,eklenti, ve araçlar.Tüm ekstra eklentiler sağlanan paketi kullanarak birkaç tıkla yüklenebilir.</p>
+
+	<p>Paket arşivi şablon paketinizin 'sources' dosyasında bulunur ve ismi 'pkg_bundle.zip'tir. Kolayca bir başka eklenti yada tema aracılığıyla da yüklenebilir. <b>Joomla admin panel &gt; Eklentiler Yöneticisi</b>. </p>
+
+	<ol> 
+      <li>Joomla idare panelini açın. Yukarıdaki menüden '<b>Eklentiler</b>'i seçin. Alttaki menüden '<b>Eklenti Yöneticisi</b>'ni seçin;</li> 
+      <li>'Yükleme' bölümünun solda seçili olduğundan emin olun;</li> 
+      <li>'Dosyayı Seç/Göz At" butonuna basın ve 'sources/pkg_bundle.zip' arşivini seçin;</li> 
+      <li>Tüm modülleri yükleme için 'Yükleme ve kurma" tuşuna basın. </li> 
+    </ol>
+	
+	<figure class="img-polaroid"><img alt="" src="img/extensions_manager.jpg"></figure>
+
+	<p>Temanızın '<b>pkg_bundle.zip</b>'e ekli olmayan bazı eklentiler içermesi halinde hepsini teker teker kurmanız gerekmektedir.Bu '<b>Eklenti Yöneticisi</b>' arayüzünden 'sources/pkg_bundle.zip' şeklinde yüklenebilir.</p>
+	<p>Eklenti arşivleri dosya isimleri genellikle '<b>mod_</b>', '<b>com_</b>' or '<b>plg_</b>'le başlar,böylece bunları kolayca ayırt edebilirsiniz. </p>
+	</div>
+</section>
+
+
+<section class="block-templates" id="modules_config">
+  <h2><i class="icon-cog"></i> Modülleri Yapılandırma</h2>
+
+    <p>İçerik bölümü ve modül pozisyonu - Joomla web sitesi düzeni iki ana bölüme ayrılmıştır  (Modül kontrol pozisyonları haritası aşşağıdaki mor bilgilerde yer alır). Joomla modülleri hazırlanmış pozisyonlara çıkış içeriği için kullanılmaktadır..</p>
+  <div id="positions_map">
+    <h3>Modül Pozisyon Haritası</h3>
+
+    <p>Mevcut pozisyonlar herhangi bir şablon için değişebilir ama genel olarak pozisyon haritası aşşağıdaki gibidir.</p>
+    
+    <figure class="img-polaroid"><img src="img/j3-modules-positions.jpg" alt=""></figure>
+    <p class="muted text-center">Img 9. Joomla Şablonu modül pozisyonları haritası</p>
+  
+    <p>Görmiş olduğunuz gibi içerik alanları farklı renklerle işaretlenmiştir. İçerik alanları herhangi bir modüle müdahale etmeyecek şekilde yapılandırılmıştır. Sadece sayfa içeriğini görüntülemektedir.</p>
+    <p>Size engel olmayacak şekilde hiçbir modül atanmamışsa bütün pozisyonları kapatılır.</p>
+  </div>
+    <div id="modules-config-table">
+      <h3>Modüller Konfigürasyon Tablosu</h3>
+
+      <div class="box-info"><span>Lütfen Dikkat: Komple kurulum şablon yönetimi örnek veriler yüklü yada kullandıysanız bu manuel modülleri yapılandırma ile ilgili olarak aşşağıda belirtilen adımları atlayabilirsiniz.</span></div>
+
+      <p>Aşşağıdaki tablo, bu şablon ile kullanılan tüm modülleri listelemektedir ve bunları doğru şekilde nasıl yapılandıracağınızı göstermektedir. Tüm modüllere <b>Extensions > Module Manager</b> - (<b>Eklentiler > Modül Yöneticisi</b>) ekranından Joomla yönetim paneli içerisinden erişim saşlayabilirsiniz.</p>
+      <figure class="img-polaroid"><img src="img/modules-config-1.jpg" alt=""></figure>
+      <p class="muted text-center">Img 10. Joomla Modül Yöneticisi</p>
+  
+      <p>&nbsp;</p>
+    </div>
+                
+<div id="mod_table">
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>1</b> - Login Form (Giriş Formu)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_login</li>
+        <li><b>Position:</b> modal</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>2</b> - Breadcrumbs</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_breadcrumbs</li>
+        <li><b>Position:</b> breadcrumbs</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>3</b> - Search (Arama)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_search</li>
+        <li><b>Position:</b> navigation</li>
+        <li><b>Class Suffix:</b> navbar-search pull-right</li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b>&nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>4</b> - Copyright (Telif Hakkı)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_footer</li>
+        <li><b>Position:</b> copyright</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>5</b> - Archived Articles (Arşivlenen Makaleler)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_articles_archive</li>
+        <li><b>Position:</b> aside-right</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 2</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Blog<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit<br />Archives</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>6</b> - User Menu (Kulanıcı Menüsü)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_menu</li>
+        <li><b>Position:</b> header</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>7</b> - Superfish Menu</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_superfish_menu</li>
+        <li><b>Position:</b> navigation</li>
+        <li><b>Class Suffix:</b> navigation</li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>8</b> - Camera Slideshow (Kamera Slayt)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_camera_slideshow</li>
+        <li><b>Position:</b> showcase</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Home</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>9</b> - Social Media (Sosyal Medya)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_menu</li>
+        <li><b>Position:</b> copyright</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> no</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>10</b> - Login Form (Giriş Formu)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_login</li>
+        <li><b>Position:</b> aside-right</li>
+        <li><b>Class Suffix:</b> aside</li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 3</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Blog<br />FAQs<br />Testimonials<br />Blog Categories<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit<br />Archives</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>11</b> - Search (Arama)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_search</li>
+        <li><b>Position:</b> aside-right</li>
+        <li><b>Class Suffix:</b> aside</li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 4</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> FAQs<br />Testimonials</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>12</b> - Categories (Kategoriler)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_articles_categories</li>
+        <li><b>Position:</b> aside-right</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Blog<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>13</b> - Our Team (Ekibimiz)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_articles_news_adv</li>
+        <li><b>Position:</b> mainbottom</li>
+        <li><b>Class Suffix:</b> team</li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> About</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>14</b> - carouFredSel</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_caroufredsel</li>
+        <li><b>Position:</b> feature</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Home</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>15</b> - Article Single (Tek Makale)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_articles_single</li>
+        <li><b>Position:</b> aside-left</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> About</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>16</b> - Komento Activities (Komento Eklentiler)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_komento_activities</li>
+        <li><b>Position:</b> aside-right</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Blog<br />Blog Categories<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>17</b> - Komento Comments (Komento Yorumlar)</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_komento_comments</li>
+        <li><b>Position:</b> aside-right</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> Blog<br />Blog Categories<br />Blog. Donec eu elit in nisi<br />Blog. In neque arcu vulputate<br />Blog. Quisque gravida purus vitae<br />Blog. Vivamus luctus lectus sit<br />Blog. Vivamus congue turpis in augue<br />Blog. Curabitur eu dignissim velit</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+
+  <div class='module row-fluid'>
+    <div class='span3'><b>18</b> - mod_twitter_widget</div>
+
+    <div class='span4'>
+      <ul>
+        <li><b>Type:</b> mod_twitter_widget</li>
+        <li><b>Position:</b> aside-left</li>
+        <li><b>Class Suffix:</b> </li>
+        <li><b>Show Title:</b> yes</li>
+        <li><b>Order:</b> 1</li>        
+      </ul>
+    </div>
+    <div class='span5'>
+      <ul>
+        <li><b>Pages:</b> All</li>
+        <li></li>
+        <li><b>Additional info:</b> &nbsp;</li>
+      </ul>
+    </div>
+    <div class='clearfix'></div>
+  </div>
+</div>
+    
+</section>
+
+
+<section id="extensions" class="block-templates">
+  <h2><i class="icon-fullscreen"></i> Eklentiler</h2>
+
+  <p>Joomla web sitesi işlevi çeşitli Joomla eklentileri kullanılarak gelişmiş olarak kullanılabilir. Bazıları çoğu zaman şablonlar ile kullanılmaktadır. Bu bölümde özel eklentiler ile çalışmayı öğreneceğiz.</p>
+
+<!-- ARTICLES NEWSFLASH MODULE -->
+  <div id="articles-newsflash">
+    <h3>Makaleler Flaş Haberler</h3>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-2.jpg" alt=""></figure>
+            <p class="muted text-center">Img 11. Makaleler Flaş Haberler modülü (Gelişmiş)</p></div>
+
+    <p>Makaleler Flash Haber (Gelişmiş) modülü varsayılan joomla Modülünün gelişmiş bir sürümüdür. Varsayılan modüle özellikle ek olarak, modül şablonu ve varsayılan modül özelliğine dayalı ekstra yapılandırma seçenekleri ve Bootstrap sunuyor.</p>
+
+    <h4>Ek Seçenekler</h4>
+
+      <p><b>Number of columns</b> - Birden çok makaleler görüntülemenize olanak sağlar. Bunu "horizontal" ve "bootstrapCols" alretnatif düzenleri kullanılabilir.</p>
+      <p><b>Custom Link</b> - Sizin modülünüzün içerik altındaki özel bağlantılarını görüntüler. Ayrıca harici URL ve Bazı Joomla menü öğesi ile bağlantıları olabilir.   </p>  
+        <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-1.png" alt=""></figure>
+                <p class="muted text-center">Img 12. Özel Bağlantı</p></div>
+       
+      <p><b>Pretext</b> - Modül içeriği, önce özel metnin görüntülenmesine öncelik sunar.</p>
+      <p><b>Published Date</b> - Makalede tarihi görüntüler. </p>
+      <p><b>Created by</b> - Makalede yazarı görüntüler</p>
+      <p><b>Show intro image</b>s - Makaleyi intro olarak görüntülemek için izin verir.</p>
+      <p><b>Intro image align</b> - İntro görüntüleri ile uyum sağlar</p>
+      <p><b>Bootstrap Layout</b> - Hangi modülün düzenin kullanıldığını tanımlar - sabit veya sıvı. Sadece 'bootstrapCols' alternatif düzeni ile kullanılabilir.</p>
+
+   <h4> Alternatif düzenler</h4>
+
+  <p><b>Horizontal</b> - Birden çok sutünda makaleler görüntülenmesine olanak sağlar. Madde stilleri modül style.css dosyasında alınır. Her öğer genişliği paremetrelerle 'Sütun sayısı' deperlerine bağlıdır ve sütun sayısına göre 100, bir bölümü oluşturur ve yüzdeleri sayılır. </p> 
+
+  <p><b>BootstrapCols</b> - Birden çok sütun ve satır makalelerini görüntülemenize olanak sağlar.  Bootstrap merkezli. Sabit ve sıvı düzeni (Makalelerin genişliği pixel ve yüzdelerle tanımlanır) ile kullanılır. </p>
+  </div>
+
+
+  <!-- IMAGE SWOOP MODULE -->
+  <div id="image_swoop">
+    <h3>Resim Swoop</h3>
+
+   <div class="img-container"><figure class="img-polaroid"> <img src="img/camera-slideshow-3.jpg" alt=""></figure>
+       <p class="muted text-center">Img 13. Resim Swoop Modülü</p></div>
+
+    <p>"Resim Swoop" modülü varsayılan Joomla "Makaleler Flaş Haberler" bir arada olup ücretsiz açık kaynak kodlu jQuery eklentisi "Kamera Slayt"  olarak geliştirilen olağan üstü bir kaynaktan sunulur. Masaüstü, İOS veya Adnroid mobil cihazlarda mükemmel çalışır. IE8 den itibaren başlayarak bütün modern tarayıcılarda uyumludur.</p>
+
+    <p>"Resim Swoop" modülü çeşitli yapılandırma seçenekleri varsa da, Joomla "Yönetim paneli > Modül yöneticisi" eklentilerine görüntülü swoop modülünü açarak erişim sağlayabilirsiniz. Tüm "Kamera Slayt" jQuery eklenti seçenekleri modülü, altında yer almaktadır. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/camera-slideshow-2.jpg" alt="" ></figure>
+        <p class="muted text-center">Img 14. Resim Swoop ayarları</p></div>
+
+    <p>Bu açıklama seçeneğini görebilmek için fare imlecini başlığın üzerine getirelim. Ayrıca Kamera Slayt jQuery eklentisi seçenekleri hakkında daha fazla bilgi edinebilirsiniz, <a href="http://www.pixedelic.com/plugins/camera/" target="_blank">resmi web sitesi</a>.</p>
+  </div>
+
+  <!-- ARTICLES SINGLE -->
+
+  <div id="articles_single">
+    <h3>Tek makaleler</h3>
+
+    <p>Tek makaleler istediğiz koruma ile tek bir makale çıktısı sağlayan bir modüldür. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-1.jpg" alt="" ></figure>
+        <p class="muted text-center">Img 15. Tek makale modülü</p></div>
+
+    <p>Makale bu ID kullanarak seçilebilir. Modül ayarlarında "Makale numarası" alanına makalenin giriş kimliği verilir.</p>
+
+    <p><i>Makale numarası Bileşen > Makale yöneticisi bölümünde Joomla yönetim paneli bulunabilir. Sağ sütündaki sayı ID sidir..</i></p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
+        <p class="muted text-center">Img 16. Tek Makale Ayarları</p></div>
+
+     <p>Bu modülde sadece sıra dışı seçenek <b>Özel Bağlantı</b> olun. Bu modül içerik altında özel bağlantıyı görüntüler. Ayrıca, harici url yada bazı Joomla menü öğesi ile bağlı olabilir.  </p>  
+  </div>
+
+  <!-- CAROUFREDSEL -->
+
+  <div id="caroufredsel">
+    <h3>CarouFredSel</h3>
+
+    <p>CarouFredSel varsayılan Joomla Makaleler, Haber modülü ve CarouFredSel jQuery eklentisi bir birleşimi olarak geliştirilen bir görüntü carousel modülüdür. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/caroufredsel-1.jpg" alt=""></figure>
+        <p class="muted text-center">Img 17. CarouFredSel Modülü</p></div>
+
+    <p>Tüm gerekli carousel modül seçenekleri ayarları aşşağıda mevcuttur. </p>
+
+    <ol class="list">
+      <li>Carousel Yönü</li>
+      <li>Madde Genişliği</li>
+      <li>Görünebilir ürün</li>
+      <li>Animasyon seçenekleri</li>
+      <li>Navigasyon ve kontrolleri</li>
+    </ol>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/caroufredsel-2.jpg" alt=""></figure>
+        <p class="muted text-center">Img 18. CarouFredSel Modül Ayarları</p></div>
+
+    <p>CarouFredSel eklentisinin daha fazla  <a href="http://caroufredsel.dev7studios.com/configuration.php" target="_blank">yapılandırma seçenekleri</a> vardır. Siz seçenekleri eklemek istiyorsanız buradan <b>\modules\mod_caroufredsel\tmpl\default.php</b> düzenleyebilirsiniz. </p>
+    
+  </div>
+
+  <div id="komento">
+    <h3>Komento Yorumlar</h3>
+
+    <p>Komento Joomla için bir yorum bileşenidir. Bununla Joomla makalelere yorum ekleyebilirsiniz. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/komento-1.jpg" alt=""></figure>
+        <p class="muted text-center">Img 19. Komento Bileşeni</p></div>
+
+    <p>Komento bileşenlerine joomla yönetim paneli üzerinden <b>Components > Komento</b> bölümünden ulaşabilirsiniz.</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/komento-2.jpg" alt=""></figure>
+        <p class="muted text-center">Img 20. Komento bileşenleri bölümü</p></div>
+
+    <p>Yapılandırma ayarlarına erişebilmek için <b>Components > Komento > Integrations</b> <b>Articles</b> tıklayın.</p>
+
+    <p>Belirli kategorideki yorumları etkinleştirmek Joomla makaleler vb. yanı sıra bileşen ayarlarını kullanarak, kaptan, kullanıcı profilleri de ekleyebilirsiniz. Daha fazla bilgi edinebilmek adına <a href="http://stackideas.com/docs/komento.html" target="_blank">resmi web sitesi</a></p>
+  </div>
+
+</section>
+
+<section id="configuring-pages" class="block-templates">
+  <h2><i class="icon-wrench"></i> Yapılandırma Sayfası</h2>
+  
+    <!-- Gallery page -->
+  
+    <div id="gallery">
+      <h3>Galeri Sayfası</h3>
+
+      <div class="img-container"><figure class="img-polaroid"><img src="img/pages-gallery-preview.jpg" alt=""></figure>
+            <p class="muted text-center">Img 21. Galeri Ürün Görüntüleri</p></div>
+
+      <p>Galeri sayfası 'Galeri' geleri görüntülerinin altındaki mesajları görüntüler. galeri sayfa kategorilere göre görüntülere filtre saplar, sağ üst köşesinde bir filtre vardır.</p>
+      <p><b>Görüntü Eklemek</b><br/> Galeriye daha fazla resim ekleyebilek için, sadece 'Galeri' alt makaleler eklemeniz gerekir. Her yüklenen tüm görüntüler İntro görünümü almaktadır. Her iki görüntüde genellikle 'images/gallery' dizinine yerleştirilir.</p>
+                
+      <div class="img-container"><figure class="img-polaroid"><img src="img/pages-gallery-1.jpg" alt=""></figure>
+            <p class="muted text-center">Img 22. Galeri Ürün Görüntüleri</p></div>
+                
+      <p>Giriş görüntü galerisi ve galeri öğesi görünümler içinde gösterilir. Intro görüntü tıklandığında kez tam görüntü gösterilir.</p>
+                
+      <p><b>Düzen Ayarlama</b><br/>Galeri sayfa düzeni herhangi bir joomla kategori sayfası olarak ayarlanabilir . '<b>Menus > Main Menu</b>' açın Joomla yönetim paneli ve öğe düzenleme bölümü.<b>Advanced Options</b> sekmesine gidin ve Galeri sayfasından ayarlarına erişebilirsiniz. </p>
+      <p>Örnek olarak siz sayfanızın sütun sayısını değiştirmek istiyorsanız Örneğin Blog Düzen Seçenekleri ayarları alanından Sütünlar seçeneğini değiştirin.</p>
+                
+      <div class="img-container"><figure class="img-polaroid"><img src="img/pages-gallery-2.jpg" alt=""></figure>
+            <p class="muted text-center">Img 23. Number of columns for the Gallery page</p></div>
+    </div>
+  
+  
+    <!-- Contacts page -->
+  
+    <div  id="contacts">
+      <h3>İletişim Sayfası</h3>
+      <p>İletişim Sayfası iletişim formu, adres ve google map görüntülerini, ilerişim bilgilerini değiştirebilmeniz için (<i>e-posta, adres vb temasları</i>) <b>Components > Contacts > Contacts > Website Owner</b> izlemelisiniz. Üst kısımdaki sekmeleri kullanarak çeşitli seçemeklere ulaşabilirsiniz.</p>
+                
+      <p>İletşim sayfasını yapılandırabilmek için <b>System > Global Configuration > Contacts</b> bölümüne gidin.</p>
+                
+      <p><b>Google Map</b>'ta iletişim sayfası Google Maps eklentisi kullanılarak oluşturulur. Bu yapılandırılabılır <b>Extensions > Plug-in Manager > Google Maps</b></p>
+
+      <div class="img-container"><figure class="img-polaroid"><img src="img/plugin-manager.jpg" alt=""></figure>
+            <p class="muted text-center">Img 24. Eklenti Yöneticisi</p></div>
+
+      <p><span class="label label-success">İpucu:</span> Eklenti aramalarını daraltmak için liste üzerinde filtre aracını kullanabilirsiniz.</p>
+
+      <p><i class="icon-film"></i> Ayrıntılı eğitimi kontrol etmek için çekinmeyin <a href="/help/joomla-3-x-how-to-change-google-map-coordinates.html" target="_blank">Google Map koordinatlarını değiştirme</a></p>
+    </div>
+</section>
+
+
+<section id="template-settings">
+  <h2><i class="icon-cogs"></i> Şablon Ayarları</h2>
+
+  <p>Her Joomla Şablonunun yapılandırma seçenekleri bulunmaktadır. Onlar tema düzeni sınıfları, tipografi eklentileri, bazı ek özellikler vb kurulumlar için ayarlanabilir. Şablon yönetimine Joomla yönetim paneli üzerinden erişebilirsiniz.<b>Extensions > Template Manager</b> </p>
+
+  <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-1.jpg" alt=""></figure>
+    <p class="muted text-center">Img 25. Şablon Yöneticisi</p></div>
+
+  <p>Siz Şablon yöneticisi olarak bölüm değiştirmek isterseniz değiştirmek istediğiniz temayı seçmelisiniz. </p>
+
+  <div id="layout">
+    <h3>Layout (Düzen)</h3>
+
+    <p>Düzen seçeneklerinin ana teması düzen ayarlarını değitirmek için izin sağlar:</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-2.jpg" alt=""></figure>
+    <p class="muted text-center">Img 26 Düzen Seçenekleri</p></div>
+
+    <p><b>Theme layout</b> - tema (yüzde genişliği) sabit (Piksel olarak genişlik) veya sıvı olmasını istiyorsanız şeçmelisiniz;</p>
+
+    <p><b>Logo</b> - logo resmi seçmenizi sağlar;</p>
+
+    <p><b>Logo Width</b> - logo container genişliği seçmenizi sağlar (Bootstrap tablo göre);</p>
+
+    <p><b>Sidebar Width</b> - Kenar çubuğu için genişliği ayarlamanızı sağlar;</p>
+    
+  </div>  
+
+  <div id="typography">
+    <h3>Typography (Tipografi)</h3>
+
+    <p>Tipografi seçenekleri çeşitli görünümlerdeki makale başlıkları için etiketleri şeçmeye izin verir: özellikli makaleler, kategori görünümü, blog görünümü, tek bir makale görünümü vb. Çeşitli HTML içerikleri başlık tanımlamak için kullanılabilir (h1, h2, h3, h4 etc). Etiketler mantıksal önemi ve tarzları ile farklıdır. <a href="http://www.w3schools.com/tags/tag_hn.asp" target="_blank">Learn more</a> </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
+    <p class="muted text-center">Img 27. Tipografi seçenekleri</p></div>
+    
+  </div>  
+
+  <div id="features">
+    <h3>Features (Özellikler)</h3>
+
+    <p>Ek Şablon Özelliklerini yapılandırılmasını sağlar. </p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-4.jpg" alt=""></figure>
+    <p class="muted text-center">Img 28. Ek özellikler</p></div>
+
+    <p><b>To Top button and ToTop text</b>  totop düğmesi ve input dügmesi metinleri etkinleştirmek/devredışı bırakmanızı sağlar.</p>
+
+    
+  </div>
+
+</section>
+
+
+<section id="addendum" class="block-templates">
+  <h2><i class="icon-question-sign"></i> Ek  <small>nereden yardım ve destek alabileceğiniz hakkında bilgiler.</small> </h2>
+
+  <p>Biz mümkün olduğu kadar bu belgeleri net olarak oluşturmak için elimizden gelenin en iyisini yaptık. Siz şablon veya belgeleri geliştirme, Joomla Şablonu veya herhangi bir öneri ile herhangi bir zorlukla karşılaştığınız taktirde destek ekibimizle temasa geçmek için çekinmeyin:</p>
+  
+  <div id="help_support">
+    <h4>Yardım ve Destek</h4>
+    <ul class="list">
+      <li><a href="http://chat.template-help.com/"  target="_blank">Canlı Sohbet</a></li>
+      <li><a href="http://esupport.template-help.com/index.php?/Tickets/Submit"  target="_blank">Ticked Yardım Sistemi</a></li>
+    </ul>
+  </div>
+
+  <div id="help_doc">
+    <h4>Dokümantasyon</h4>
+    <ul class="list">
+      <li><a href="http://docs.joomla.org/Beginners" target="_blank">Joomla! Yeni Başlayanlar Klavuzu</a></li>
+      <li><a href="http://docs.joomla.org/Category:FAQ" target="_blank">Sıkça Sorunlan Sorular</a></li>
+      <li><a href="http://docs.joomla.org/" target="_blank">Joomla! Dokümantasyon</a></li>
+      <li><a href="/help/cms-blog-templates/joomla/joomla-tutorials/" target="_blank">Joomla! Öğreticiler</a></li>
+    </ul>
+  </div>
+
+  <div id="joomla_extensions">
+    <h4>Joomla! Eklentiler</h4>
+    <p><a href="http://extensions.joomla.org/" target="_blank">extensions.joomla.org</a> sitesini ziyaret ederek çeşitli özellikler için modüller, eklentiler ve 6 bin den fazla bileşeni indirebilirsiniz</p>
+  </div>
+
+  <div id="additional_links">
+    <h4>Ek Linkler</h4>
+    <ul class="list">
+      <li><a href="http://www.joomla.org/technical-requirements.html" target="_blank">Teknik Gereksinimler</a></li>
+      <li><a href="http://opensourcematters.org/index.php?option=com_content&amp;view=article&amp;id=56&amp;Itemid=155" target="_blank">Lisans ve Kurulum</a></li>
+    </ul>
+  </div>
+
+</section>
+
+</div>
+</div>
+</div>
+
+  </div>
+  </div>
+  </div>
+   <!-- Footer
+    ================================================== -->
+    <footer>
+      <div class="container">        
+       Joomla Dokümantasyon<br>
+      © 2013 <span id="copyright">Template Monster</span>
+      </div>
+    </footer>
+
+  <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>
+    
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript"> 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+</script>
+    
+</body> 
+
+</html>
