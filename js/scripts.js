@@ -1,4 +1,9 @@
     $(document).ready(function() {	
+
+     // current year
+      var date = new Date();
+      $("#date").html(date.getFullYear());
+      
   		$('.flexslider').flexslider({
   		  animation: "fade",      
   		  slideshow: false,     
