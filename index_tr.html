@@ -127,7 +127,6 @@
                           <li><a href="#articles_single">Tek Makaleler</a></li>
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
-                          <li><a href="#kunena">Kunena</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -977,7 +976,7 @@
 
     <h4>Ek Seçenekler</h4>
 
-      <p><b>Number of columns</b> - Birden çok makaleler görüntülemenize olanak sağlar.</p>
+      <p><b>Number of columns</b> - Birden çok makaleler görüntülemenize olanak sağlar. Bunu "horizontal" ve "bootstrapCols" alretnatif düzenleri kullanılabilir.</p>
       <p><b>Custom Link</b> - Sizin modülünüzün içerik altındaki özel bağlantılarını görüntüler. Ayrıca harici URL ve Bazı Joomla menü öğesi ile bağlantıları olabilir.   </p>  
         <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-1.png" alt=""></figure>
                 <p class="muted text-center">Img 12. Özel Bağlantı</p></div>
@@ -987,6 +986,13 @@
       <p><b>Created by</b> - Makalede yazarı görüntüler</p>
       <p><b>Show intro image</b>s - Makaleyi intro olarak görüntülemek için izin verir.</p>
       <p><b>Intro image align</b> - İntro görüntüleri ile uyum sağlar</p>
+      <p><b>Bootstrap Layout</b> - Hangi modülün düzenin kullanıldığını tanımlar - sabit veya sıvı. Sadece 'bootstrapCols' alternatif düzeni ile kullanılabilir.</p>
+
+   <h4> Alternatif düzenler</h4>
+
+  <p><b>Horizontal</b> - Birden çok sutünda makaleler görüntülenmesine olanak sağlar. Madde stilleri modül style.css dosyasında alınır. Her öğer genişliği paremetrelerle 'Sütun sayısı' deperlerine bağlıdır ve sütun sayısına göre 100, bir bölümü oluşturur ve yüzdeleri sayılır. </p> 
+
+  <p><b>BootstrapCols</b> - Birden çok sütun ve satır makalelerini görüntülemenize olanak sağlar.  Bootstrap merkezli. Sabit ve sıvı düzeni (Makalelerin genişliği pixel ve yüzdelerle tanımlanır) ile kullanılır. </p>
   </div>
 
 
@@ -1017,7 +1023,11 @@
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-1.jpg" alt="" ></figure>
         <p class="muted text-center">Img 15. Tek makale modülü</p></div>
 
-   <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
+    <p>Makale bu ID kullanarak seçilebilir. Modül ayarlarında "Makale numarası" alanına makalenin giriş kimliği verilir.</p>
+
+    <p><i>Makale numarası Bileşen > Makale yöneticisi bölümünde Joomla yönetim paneli bulunabilir. Sağ sütündaki sayı ID sidir..</i></p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
         <p class="muted text-center">Img 16. Tek Makale Ayarları</p></div>
 
      <p>Bu modülde sadece sıra dışı seçenek <b>Özel Bağlantı</b> olun. Bu modül içerik altında özel bağlantıyı görüntüler. Ayrıca, harici url yada bazı Joomla menü öğesi ile bağlı olabilir.  </p>  
@@ -1066,22 +1076,6 @@
     <p>Yapılandırma ayarlarına erişebilmek için <b>Components > Komento > Integrations</b> <b>Articles</b> tıklayın.</p>
 
     <p>Belirli kategorideki yorumları etkinleştirmek Joomla makaleler vb. yanı sıra bileşen ayarlarını kullanarak, kaptan, kullanıcı profilleri de ekleyebilirsiniz. Daha fazla bilgi edinebilmek adına <a href="http://stackideas.com/docs/komento.html" target="_blank">resmi web sitesi</a></p>
-  </div>
-
-  <div id="kunena">
-    <h3>Kunena Forum</h3>
-
-    <p>Kunena is a forum component for Joomla. It allows you to create a forum based on the Joomla CMS.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-1.jpg" alt=""></figure>
-        <p class="muted text-center">Img 21. Kunena forum</p></div>
-
-    <p>Kunena component can be accessed through the Joomla administration panel in the <b>Components > Kunena</b> section.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-2.jpg" alt=""></figure>
-        <p class="muted text-center">Img 22. Kunena component section</p></div>
-
-    <p>You can learn more about Kunena on the <a href="http://www.kunena.org/docs/Main_Page" target="_blank">official website.</a></p>
   </div>
 
 </section>

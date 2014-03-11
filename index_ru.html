@@ -127,7 +127,6 @@
                           <li><a href="#articles_single">Articles Single</a></li>
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
-                          <li><a href="#kunena">Kunena</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -973,8 +972,8 @@
 
     <h4>Additional Options</h4>
 
-      <p><b>Number of columns</b> - allows to display articles in multiple columns.</p>
-      <p><b>Custom Link</b> - allows you to display custom link under the module content. It can be linked to the external URL or to some Joomla menu item.</p>  
+      <p><b>Number of columns</b> - allows to display articles in multiple columns. It can can be used with ‘horizontal’ and ‘bootstrapCols’ alternative layouts only.</p>
+      <p><b>Custom Link</b> - allows you to display custom link under the module content. It can be linked to the external URL or to some Joomla menu item.   </p>  
         <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-1.png" alt=""></figure>
                 <p class="muted text-center">Img 12. Custom Link</p></div>
        
@@ -983,6 +982,13 @@
       <p><b>Created by</b> - displays article author</p>
       <p><b>Show intro image</b>s - allows to display article intro image.</p>
       <p><b>Intro image align</b> - allows to align intro images</p>
+      <p><b>Bootstrap Layout</b> - defines what module layout to use - fixed or fluid. Can only be used with ‘bootstrapCols’ alternative layout.</p>
+
+   <h4> Alternative Layouts</h4>
+
+  <p><b>Horizontal</b> - allows to display articles in multiple columns. Item styles are taken from the module style.css file. Each item width depends on the value of the ‘number of columns’ parameter and is counted in percents as a division of 100 by the columns number. </p> 
+
+  <p><b>BootstrapCols</b> - allows to display articles in multiple columns and rows. Based on bootstrap grid. Can be used with fixed and fluid layout (articles width is defined in pixels or percents). </p>
   </div>
 
 
@@ -1013,6 +1019,10 @@ on desktop and iOs or Android mobile devices. Compatible with all modern browser
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-1.jpg" alt="" ></figure>
         <p class="muted text-center">Img 15. Articles Single module</p></div>
+
+    <p>Article can be selected using it's ID. Input the article's ID to the "Article ID" field in the module settings.</p>
+
+    <p><i>Article ID can be found in the Joomla administration panel in Component > Articles manager section. ID is the number in the right column.</i></p>
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
         <p class="muted text-center">Img 16. Articles Single settings</p></div>
@@ -1063,22 +1073,6 @@ on desktop and iOs or Android mobile devices. Compatible with all modern browser
     <p>To access configuration settings go to <b>Components > Komento > Integrations</b> and click <b>Articles</b></p>
 
     <p>Using component settings you can enable comments for specific categories, add captcha, user profiles as well as to the Joomla articles etc. You can learn more about Komento at the <a href="http://stackideas.com/docs/komento.html" target="_blank">official website</a></p>
-  </div>
-
-  <div id="kunena">
-    <h3>Kunena Forum</h3>
-
-    <p>Kunena is a forum component for Joomla. It allows you to create a forum based on the Joomla CMS.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-1.jpg" alt=""></figure>
-        <p class="muted text-center">Img 21. Kunena forum</p></div>
-
-    <p>Kunena component can be accessed through the Joomla administration panel in the <b>Components > Kunena</b> section.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-2.jpg" alt=""></figure>
-        <p class="muted text-center">Img 22. Kunena component section</p></div>
-
-    <p>You can learn more about Kunena on the <a href="http://www.kunena.org/docs/Main_Page" target="_blank">official website.</a></p>
   </div>
 
 </section>

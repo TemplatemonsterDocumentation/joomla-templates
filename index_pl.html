@@ -127,7 +127,6 @@
                           <li><a href="#articles_single">Artykuły Pojedynczo</a></li>
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
-                          <li><a href="#kunena">Kunena</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -977,7 +976,7 @@
 
     <h4>Dodatkowe opcje</h4>
 
-      <p><b>Ilość kolumn (ang. Number of columns)</b> - pozwala wyświetlić artykuły w wielu kolumnach.</p>
+      <p><b>Ilość kolumn (ang. Number of columns)</b> - pozwala wyświetlić artykuły w wielu kolumnach. Może być stosowany z alternatywnymi układami  'horizontal' i 'bootstrapCols'.</p>
       <p><b>Wybrany link (ang. Custom Link)</b> - pozwala wyświetlić wybrany link pod zawartością modułu. Link może prowadzić do zewnętrznego URL albo do innego przedmiotu z Joomla menu. </p>  
         <div class="img-container"><figure class="img-polaroid"><img src="img/newsflash-adv-1.png" alt=""></figure>
                 <p class="muted text-center">Img 12. Wybrany link (ang. Custom Link)</p></div>
@@ -987,6 +986,13 @@
       <p><b>Utworzone przez (ang. Created by)</b> - wyświetla autora artykułu. </p>
       <p><b>Pokaż grafikę wstępną (ang. Show intro images)</b> - pozwala wyświetlić grafikę wstępną.</p>
       <p><b>Wyrównanie grafiki wstępnej (ang. Intro image align)</b> - pozwala wyrównać grafikę wstępną.</p>
+      <p><b>Układ Bootstrap (ang. Bootstrap Layout)</b> - określa jaki układ modułu zastosować - stały lub płynny. Może być używany tylko z alternatywnym układem 'bootstrapCols'.</p>
+
+   <h4> Alternatywne układy</h4>
+
+  <p><b> Horyzontalny (ang. Horizontal)</b> - pozwala wyświetlić artykuły w wielu kolumnach. Style pozycji są pobierane z pliku modułu style.css. Każda szerokość pozycji zależy od wartości parametru 'ilość kolumn' i jest liczona w procentach jako iloraz 100 przez ilość kolumn.  </p> 
+
+  <p><b>BootstrapCols</b> - pozwala wyświetlić artykuły w wielu kolumnach i rzędach. Oparty o siatkę bootstrap. Może być używany z układem stałym lub płynnym (szerokość hasła jest definiowana w pikselach lub procentach). </p>
   </div>
 
 
@@ -1016,6 +1022,10 @@
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-1.jpg" alt="" ></figure>
         <p class="muted text-center">Img 15. Moduł Articles Single </p></div>
+
+    <p>Artykuły mogą być wybrane poprzez użycie ich ID. ID artykułów wprowadź do pola "Article ID" w ustawieniach modułu.</p>
+
+    <p><i>ID artykułu znajdują się w panelu administracyjnym Joomla w sekcji Komponent > Menadżer Artykułów (ang. Component > Articles manager). ID to numer w prawej kolumnie.</i></p>
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
         <p class="muted text-center">Img 16. Ustawienia Articles Single </p></div>
@@ -1066,22 +1076,6 @@
     <p> By otworzyć opcje konfiguracji idź do  <b> Komponenty > Komento > Integracje (ang.Components > Komento > Integrations)</b> i kliknij <b>Artykuły (ang.Articles)</b></p>
 
     <p> Używając ustawień komponentów można włączyć komentarze dla specyficznych kategorii, dodać captcha, profile użytkowników jak również artykułów Joomla it. Więcej o Komento możesz się dowiedzieć na oficjalnej stronie: <a href="http://stackideas.com/docs/komento.html" target="_blank"></a></p>
-  </div>
-
-  <div id="kunena">
-    <h3>Kunena Forum</h3>
-
-    <p>Kunena is a forum component for Joomla. It allows you to create a forum based on the Joomla CMS.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-1.jpg" alt=""></figure>
-        <p class="muted text-center">Img 21. Kunena forum</p></div>
-
-    <p>Kunena component can be accessed through the Joomla administration panel in the <b>Components > Kunena</b> section.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-2.jpg" alt=""></figure>
-        <p class="muted text-center">Img 22. Kunena component section</p></div>
-
-    <p>You can learn more about Kunena on the <a href="http://www.kunena.org/docs/Main_Page" target="_blank">official website.</a></p>
   </div>
 
 </section>

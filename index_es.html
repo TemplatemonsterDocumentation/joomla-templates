@@ -128,7 +128,6 @@
                           <li><a href="#articles_single">Articles Single</a></li>
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
-                          <li><a href="#kunena">Kunena</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -985,7 +984,7 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 
     <h4>Opciones Adicionales</h4>
 
-      <p><b>Number of columns/Número de columnas</b> - permite mostrar artículos en varias columnas.</p>
+      <p><b>Number of columns/Número de columnas</b> - permite mostrar artículos en varias columnas. Se puede utilizarla con los diseños alternativos "horizontal" y 'bootstrapCols' solamente.</p>
 
       <p><b>Custom Link/Enlace personalizado</b> - le permite mostrar un vínculo personalizado bajo el contenido del módulo. El enlace puede estar relacionado con la dirección URL externa o con algún elemento del menú de Joomla.</p>  
 
@@ -997,7 +996,13 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
       <p><b>Created by/Escrito por </b> - muestra el autor de la entrada.</p>
       <p><b>Show intro images/Mostrar imágenes de intro </b> - permite mostrar la imagen de introducción de la entrada.</p>
       <p><b>Intro image align/Alineación de imágenes de intro </b> - permite alinear las imágenes de introducción.</p>
+      <p><b>Bootstrap Layout/Diseño Bootstrap </b> - define el tipo de diseño del módulo - fijo o fluido. Se puede utilizar esta opción sólo con el diseño alternativo 'bootstrapCols'.   </p>
 
+   <h4> Alternative Layouts/Diseños alternativos</h4>
+
+  <p><b>Horizontal</b> - permite mostrar elementos en varias columnas. Los estilos de artículos son recogidos desde el fichero style.css. La anchura de cada elemento depende del valor del parámetro 'número de columnas' y está mostrada en porcentajes. </p> 
+
+  <p><b>BootstrapCols</b> - permite mostrar artículos en varias columnas y filas. Se basa en bootstrap grid. Se puede utilizar esta opción con el diseño fijo y fluido (la anchura de los artículos es definida en píxeles o porcentajes). </p>
   </div>
 
 
@@ -1027,6 +1032,10 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-1.jpg" alt="" ></figure>
         <p class="muted text-center">Img 15. Articles Single module</p></div>
+
+    <p>Se puede seleccionar un artículo utilizando su ID. Escriba el ID del artículo en el campo "ID del artículo" en la configuración del módulo.</p>
+
+    <p><i>Se puede encontrar el ID del artículo en el panel de administración de Joomla en la sección Component > Articles manager (Componentes > Gestor de artículos). ID es el número en la columna a la derecha.</i></p>
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/articles-single-2.jpg" alt="" ></figure>
         <p class="muted text-center">Img 16. Articles Single settings</p></div>
@@ -1076,22 +1085,6 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
     <p>Para encontrar los ajustes de configuración, por favor haga clic en Components > Komento > Integrations (Componentes > Komento > Integraciones) y elija Articles.</p>
 
     <p>Con la ayuda de la configuración del componente Usted puede activar comentarios para categorías específicas, añadir captcha, perfiles de usuario etc. Usted puede aprender más sobre Komento en <a href="http://stackideas.com/docs/komento.html" target="_blank">el sitio web oficial</a></p>
-  </div>
-
-  <div id="kunena">
-    <h3>Kunena Forum</h3>
-
-    <p>Kunena is a forum component for Joomla. It allows you to create a forum based on the Joomla CMS.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-1.jpg" alt=""></figure>
-        <p class="muted text-center">Img 21. Kunena forum</p></div>
-
-    <p>Kunena component can be accessed through the Joomla administration panel in the <b>Components > Kunena</b> section.</p>
-
-    <div class="img-container"><figure class="img-polaroid"><img src="img/forum-2.jpg" alt=""></figure>
-        <p class="muted text-center">Img 22. Kunena component section</p></div>
-
-    <p>You can learn more about Kunena on the <a href="http://www.kunena.org/docs/Main_Page" target="_blank">official website.</a></p>
   </div>
 
 </section>
