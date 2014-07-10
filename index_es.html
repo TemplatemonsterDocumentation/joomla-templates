@@ -17,8 +17,8 @@
   <script src="js/prettify.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-    <script src="js/scripts.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script> 
+  <script src="js/script.js"></script>
 
   
       <!--[if IE 8]>
@@ -39,26 +39,25 @@
 <header class="header">
   <div class="container">
   <div class="row">
-  <article class="span4"><a class="brand" href="/help/es/" target="_blank"></a></article>
- <article class="span6">
- <h1><img alt="" src="img/joomla_logo.png"> Documentación Joomla 3.x</h1>
+  <article class="span4"><a class="brand" href="/help/" target="_blank"><img alt="" src="img/logo-monster.jpg"></a></article>
+  <article class="span6">
+  <h1>Documentación Joomla 3.x</h1>
   </article> 
-  <article class="span2">
-    <div class="languages pull-right">
-      <div id="lang_icon"><b>Es</b><i class="icon-angle-down"></i></div>
-      <ul id="lang_list">
-        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-        <li class="active"><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
-        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-        <li><a href="index_fr.html"><span>Français</span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
-		<li><a href="index_pl.html"><span>Polski</span><img src="img/flags/pl.png" height="14" width="22" alt="pl"></a></li>
-		<li><a href="index_pt_br.html"><span>Português</span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
-		<li><a href="index_tr.html"><span>Türk</span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
-		<li><a href="index_it.html"><span>Italiano</span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
-      </ul>
-    </div>
-  </article>   
+  <article class="span2">  
+       <div id="languages" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>Es</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+        </ul>
+      </div>
+      <div id="versions" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>v3-0</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="/help/quick-start-guide/joomla-templates/v3-0/index_es.html"><span>v3-0</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v2-4/index_es.html"><span>v2-4</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v2-3/index_es.html"><span>v2-3</span></a></li>
+        </ul>
+      </div>
+    </article>  
   </div>    
   </div>
 </header>
@@ -175,7 +174,7 @@
 <!-- block-started
 ================================================== -->
 <section class="block-started"  id="introduction">
-  <h2><i class="icon-info-sign"></i> Introducción <small><i>¿Qué se puede encontrar en el paquete y cómo se puede utilizarlo?</i></small></h2>
+  <h2 class="item1"><i class="icon-info-sign"></i> Introducción <small><i>¿Qué se puede encontrar en el paquete y cómo se puede utilizarlo?</i></small></h2>
   <p>Gracias por comprar nuestra plantilla Joomla. Esta documentación incluye varias partes y muestra todo el proceso de configuración y administración del sitio web de Joomla. Hicimos todo lo posible para crear un manual lo más claro y fácil posible.</p>
   
   <div id="joomla_cms_desc">
@@ -220,7 +219,7 @@
 </section>
 
 <section class="block-templates" id="prepare">  
-  <h2><i class="icon-check"></i> Preparación  <small><i>¿Qué necesita para que todo funcione correctamente?</i></small></h2>
+  <h2 class="item2"><i class="icon-check"></i> Preparación  <small><i>¿Qué necesita para que todo funcione correctamente?</i></small></h2>
   <p>Antes de la creación de su sitio web de Joomla, por favor asegúrese de que está totalmente preparado. Por favor, realice los siguientes pasos de preparación:</p>
 
   <div id="software">
@@ -252,7 +251,7 @@
 </section>
 
 <section class="block-templates" id="getting_started">  
-  <h2><i class="icon-play"></i> Introducción  <small><i>¿Qué se puede hacer para que todo funcione?</i></small></h2>
+  <h2 class="item3"><i class="icon-play"></i> Introducción  <small><i>¿Qué se puede hacer para que todo funcione?</i></small></h2>
 
   <div class="row-fluid">
     <div class="span6 text-center img-paraloid">
@@ -538,7 +537,7 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 
 
 <section class="block-templates" id="modules_config">
-  <h2><i class="icon-cog"></i>Configuración de Módulos</h2>
+  <h2 class="item4"><i class="icon-cog"></i>Configuración de Módulos</h2>
 
     <p>El diseño web de Joomla se divide en dos partes principales – la sección de contenido y las posiciones de módulo (revise las posiciones de módulo en este documento). Los módulos de Joomla son utilizados para la presentación del contenido en las posiciones preparadas.</p>
 
@@ -970,7 +969,7 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 
 
 <section id="extensions" class="block-templates">
-  <h2><i class="icon-fullscreen"></i> Extensiones</h2>
+  <h2 class="item5"><i class="icon-fullscreen"></i> Extensiones</h2>
 
   <p>Se puede mejorar la funcionalidad del sitio de Joomla utilizando diversas extensiones de Joomla. Algunas de ellas son utilizadas a menudo en nuestras plantillas. Esta sección le mostrará las instrucciones para trabajar con las extensiones personalizadas.</p>
 
@@ -1096,7 +1095,7 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 </section>
 
 <section id="configuring-pages" class="block-templates">
-  <h2><i class="icon-wrench"></i> Configuración de Páginas</h2>
+  <h2 class="item6"><i class="icon-wrench"></i> Configuración de Páginas</h2>
   
     <!-- Gallery page -->
   
@@ -1145,7 +1144,7 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 
 
 <section id="template-settings">
-  <h2><i class="icon-cogs"></i> Configuración de Plantilla</h2>
+  <h2 class="item7"><i class="icon-cogs"></i> Configuración de Plantilla</h2>
 
   <p>Cada plantilla Joomla tiene sus opciones de configuración. Se puede ajustarlas para configurar clases de diseño del tema, etiquetas de tipografía, algunas características adicionales, etc. Se puede encontrar las opciones de plantilla en el panel de administración de Joomla en la sección Extensions > Template Manager (Extensiones > Gestor de plantillas).</p>
 
@@ -1197,7 +1196,7 @@ Tenga en cuenta: si Usted ha terminado la sección "Complete Installation/Instal
 
 
 <section id="addendum" class="block-templates">
-  <h2><i class="icon-question-sign"></i> Addendum   <small>¿Dónde se puede encontrar ayuda, soporte y infomación adicional? </small> </h2>
+  <h2 class="item8"><i class="icon-question-sign"></i> Addendum   <small>¿Dónde se puede encontrar ayuda, soporte y infomación adicional? </small> </h2>
 
   <p>Hicimos todo lo posible para que esta documentación sea lo más clara posible. Sin embargo, si Usted tiene alguna dificultad con la plantilla de Joomla o alguna sugerencia sobre la mejora de la plantilla o la documentación, póngase en contacto con nuestro equipo a través de:</p>
   
