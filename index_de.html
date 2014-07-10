@@ -17,8 +17,8 @@
   <script src="js/prettify.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-    <script src="js/scripts.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script> 
+  <script src="js/script.js"></script>
 
       <!--[if IE 8]>
     <link rel="stylesheet" href="css/ie.css" />
@@ -38,26 +38,25 @@
 <header class="header">
   <div class="container">
   <div class="row">
-  <article class="span4"><a class="brand" href="/help/de/" target="_blank"></a></article>
- <article class="span6">
- <h1><img alt="" src="img/joomla_logo.png"> Joomla 3.x Dokumentation</h1>
+  <article class="span4"><a class="brand" href="/help/" target="_blank"><img alt="" src="img/logo-monster.jpg"></a></article>
+  <article class="span6">
+  <h1>Joomla 3.x Dokumentation</h1>
   </article> 
-  <article class="span2">
-    <div class="languages pull-right">
-      <div id="lang_icon"><b>De</b><i class="icon-angle-down"></i></div>
-      <ul id="lang_list">
-        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-        <li class="active"><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
-        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-        <li><a href="index_fr.html"><span>Français</span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
-		<li><a href="index_pl.html"><span>Polski</span><img src="img/flags/pl.png" height="14" width="22" alt="pl"></a></li>
-		<li><a href="index_pt_br.html"><span>Português</span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
-		<li><a href="index_tr.html"><span>Türk</span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
-		<li><a href="index_it.html"><span>Italiano</span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
-      </ul>
-    </div>
-  </article>       
+  <article class="span2">  
+       <div id="languages" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>De</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+        </ul>
+      </div>
+      <div id="versions" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>v3-0</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="/help/quick-start-guide/joomla-templates/v3-0/index_de.html"><span>v3-0</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v2-4/index_de.html"><span>v2-4</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v2-3/index_de.html"><span>v2-3</span></a></li>
+        </ul>
+      </div>
+    </article>
   </div>    
   </div>
 </header>
@@ -174,7 +173,7 @@
 <!-- block-started
 ================================================== -->
 <section class="block-started"  id="introduction">
-  <h2><i class="icon-info-sign"></i> Einleitung <small><i>Was es in diesem Paket gibt und  wozu man es verwenden kann</i></small></h2>
+  <h2 class="item1"><i class="icon-info-sign"></i> Einleitung <small><i>Was es in diesem Paket gibt und  wozu man es verwenden kann</i></small></h2>
   <p> Wir danken Ihnen, dass Sie sich für das Joomla Template entschieden haben. Die Dokumentation besteht aus unterschiedlichen Teilen und zeigt Ihnen, wie man Joomla Website von Grund auf selbst erstellt und verwandelt. Wir taten unser Bestes, um  diese Anweisungen klar und einfach zu machen. </p>
   
   <div id="joomla_cms_desc">
@@ -220,7 +219,7 @@
 </section>
 
 <section class="block-templates" id="prepare">  
-  <h2><i class="icon-check"></i> Vorbereitung <small><i> Was Sie dafür brauchen</i></small></h2>
+  <h2 class="item2"><i class="icon-check"></i> Vorbereitung <small><i> Was Sie dafür brauchen</i></small></h2>
   <p> Bevor Sie Ihre Joomla Website einrichten, sorgen Sie dafür, dass Sie alles Notwendige vorbereitet haben. Führen Sie die folgenden Vorbereitungsschritte aus:</p>
 
   <div id="software">
@@ -250,7 +249,7 @@
 </section>
 
 <section class="block-templates" id="getting_started">  
-  <h2><i class="icon-play"></i> Einstieg <small><i>Worauf soll man klicken, damit es funktioniert</i></small></h2>
+  <h2 class="item3"><i class="icon-play"></i> Einstieg <small><i>Worauf soll man klicken, damit es funktioniert</i></small></h2>
 
   <div class="row-fluid">
     <div class="span6 text-center img-paraloid">
@@ -526,7 +525,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 
 
 <section class="block-templates" id="modules_config">
-  <h2><i class="icon-cog"></i>Modulkonfiguration</h2>
+  <h2 class="item4"><i class="icon-cog"></i>Modulkonfiguration</h2>
 
     <p>Das Layout von Joomla Website unterteilt ich in zwei wesentliche Bereiche – ein inhaltlicher Teil und Modulpositionen (schauen Sie die unten angegebene Positionskarte an, um mehr zu erfahren). Module werden üblicherweise dazu verwendet, um einen Inhalt  auf die vorbereitete Position auszugeben </p>
   <div id="positions_map">
@@ -955,7 +954,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 
 
 <section id="extensions" class="block-templates">
-  <h2><i class="icon-fullscreen"></i> Erweiterungen</h2>
+  <h2 class="item5"><i class="icon-fullscreen"></i> Erweiterungen</h2>
 
   <p>Joomla Website-Funktionalität kann mit Hilfe von verschiedene Joomla Erweiterungen verbessert werden. Die einige von ihnen wird oft in unserer Vorlagen verwendet. Hier erfahren Sie, wie man mit benutzerdefinierten Erweiterungen arbeitet. </p>
 
@@ -1080,7 +1079,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 </section>
 
 <section id="configuring-pages" class="block-templates">
-  <h2><i class="icon-wrench"></i> Konfiguration von Seiten </h2>
+  <h2 class="item6"><i class="icon-wrench"></i> Konfiguration von Seiten </h2>
   
     <!-- Gallery page -->
   
@@ -1127,7 +1126,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 
 
 <section id="template-settings">
-  <h2><i class="icon-cogs"></i> Template Einstellungen</h2>
+  <h2 class="item7"><i class="icon-cogs"></i> Template Einstellungen</h2>
 
   <p>Jede Vorlage hat ihre eigenen Konfigurationsoptionen. Man kann die anpassen, um Layout Klassen, Typografie Tags, zusätzliche Funktionen usw. der Theme  zu einstellen. Template Optionenn kann man durch den Admin-Bereich via <b>Erweiterungen > Vorlagenverwaltung</b> (<b>Extensions > Template Manager</b>) zugreifen</p>
 
@@ -1181,7 +1180,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
 
 
 <section id="addendum" class="block-templates">
-  <h2><i class="icon-question-sign"></i> Addendum  <small> wo bekomme ich Hilfe, Support und zusätzliche Information</small> </h2>
+  <h2 class="item8"><i class="icon-question-sign"></i> Addendum  <small> wo bekomme ich Hilfe, Support und zusätzliche Information</small> </h2>
 
   <p> Wir taten unser Bestes, um  diese Anweisungen klar wie möglich zu machen. Wenn Sie jedoch Schwierigkeiten mit dem Joomla Template haben oder Ihre Ideen zur Verbesserung von der Vorlage oder vom Dokumentation vorschlagen möchten, wenden Sie sich bitte an unseren Kundendienst: </p>
   

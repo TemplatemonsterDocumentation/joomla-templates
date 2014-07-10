@@ -17,8 +17,8 @@
   <script src="js/prettify.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-    <script src="js/scripts.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script> 
+  <script src="js/script.js"></script>
 
     <!--[if IE 8]>
     <link rel="stylesheet" href="css/ie.css" />
@@ -38,26 +38,25 @@
 <header class="header">
   <div class="container">
   <div class="row">
-  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
- <article class="span6">
- <h1><img alt="" src="img/joomla_logo.png"> Dokumentacja Joomla 3.x</h1>
+  <article class="span4"><a class="brand" href="/help/" target="_blank"><img alt="" src="img/logo-monster.jpg"></a></article>
+  <article class="span6">
+  <h1>Dokumentacja Joomla 3.x</h1>
   </article> 
-  <article class="span2">
-    <div class="languages pull-right">
-      <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>Pl</b><i class="icon-angle-down"></i></div>
-      <ul id="lang_list">
-        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
-        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-        <li><a href="index_fr.html"><span>Français</span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
-		<li class="active"><a href="index_pl.html"><span>Polski</span><img src="img/flags/pl.png" height="14" width="22" alt="pl"></a></li>
-		<li><a href="index_pt_br.html"><span>Português</span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
-		<li><a href="index_tr.html"><span>Türk</span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
-		<li><a href="index_it.html"><span>Italiano</span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
-      </ul>
-    </div>
-  </article>   
+  <article class="span2">  
+       <div id="languages" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>En</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+        </ul>
+      </div>
+      <div id="versions" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>v3-0</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="/help/quick-start-guide/joomla-templates/v3-0/index_pl.html"><span>v3-0</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v2-4/index_pl.html"><span>v2-4</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v2-3/index_pl.html"><span>v2-3</span></a></li>
+        </ul>
+      </div>
+    </article>  
   </div>    
   </div>
 </header>
@@ -174,7 +173,7 @@
 <!-- block-started
 ================================================== -->
 <section class="block-started"  id="introduction">
-  <h2><i class="icon-info-sign"></i> Wstęp <small><i>Co mozemy znaleźć w tym pakiecie i do czego mozemy go użyć</i></small></h2>
+  <h2 class="item1"><i class="icon-info-sign"></i> Wstęp <small><i>Co mozemy znaleźć w tym pakiecie i do czego mozemy go użyć</i></small></h2>
   <p>Dziękujemy za zakup szablonu Joomla. Ta dokumentacja składa się z kilku części i pokazuje cały proces, jak ustawić i zarządzać stroną Joomla. Dołożyliśmy wszelkich starań, aby ten manual był jak najbardziej przejrzysty i łatwy w użyciu. </p>
   
   <div id="joomla_cms_desc">
@@ -219,7 +218,7 @@
 </section>
 
 <section class="block-templates" id="prepare">  
-  <h2><i class="icon-check"></i> Przygotowanie <small><i>Co musisz zrobić, aby to zadziałało</i></small></h2>
+  <h2 class="item2"><i class="icon-check"></i> Przygotowanie <small><i>Co musisz zrobić, aby to zadziałało</i></small></h2>
   <p>Zanim zaczniesz ustawiać swoja stronę internetową Joomla, upewnij się, że jesteś całkowicie przygotowany. Wykonaj następujące kroki:</p>
 
   <div id="software">
@@ -249,7 +248,7 @@
 </section>
 
 <section class="block-templates" id="getting_started">  
-  <h2><i class="icon-play"></i> Początki <small><i>Co kliknąć, aby to zadziałało</i></small></h2>
+  <h2 class="item3"><i class="icon-play"></i> Początki <small><i>Co kliknąć, aby to zadziałało</i></small></h2>
 
   <div class="row-fluid">
     <div class="span6 text-center img-paraloid">
@@ -533,7 +532,7 @@
 
 
 <section class="block-templates" id="modules_config">
-  <h2><i class="icon-cog"></i> Konfiguracja Modułów</h2>
+  <h2 class="item4"><i class="icon-cog"></i> Konfiguracja Modułów</h2>
 
     <p>Layout strony Joomla jest podzielony na dwie główne części - sekcja treści oraz pozycje modułów (sprawdź mapę pozycji modułów poniżej po więcej szczegółów). Moduły  w Joomla służą do umieszczania treści w określonych pozycjach.</p>
   <div id="positions_map">
@@ -962,7 +961,7 @@
 
 
 <section id="extensions" class="block-templates">
-  <h2><i class="icon-fullscreen"></i> Rozszerzenia</h2>
+  <h2 class="item5"><i class="icon-fullscreen"></i> Rozszerzenia</h2>
 
   <p>Funkcjonalność strony internetowej Joomla może zostać rozszerzona przy użyciu różnych rozszerzeń Joomla. Niektóre z nich są często używane w naszych szablonach. Ta sekcja pokaże Ci, jak pracować z różnymi rozszerzeniami.</p>
 
@@ -1087,7 +1086,7 @@
 </section>
 
 <section id="configuring-pages" class="block-templates">
-  <h2><i class="icon-wrench"></i> Konfiguracja Stron</h2>
+  <h2 class="item6"><i class="icon-wrench"></i> Konfiguracja Stron</h2>
   
     <!-- Gallery page -->
   
@@ -1134,7 +1133,7 @@
 
 
 <section id="template-settings">
-  <h2><i class="icon-cogs"></i> Ustawienia Szablonu</h2>
+  <h2 class="item7"><i class="icon-cogs"></i> Ustawienia Szablonu</h2>
 
   <p>Każdy szablon Joomla ma swoje opcje konfiguracji. Można je stosować by dopasować motywy tematyczne układu, oznaczenia typograficzne, inne dodatkowe właściwości itp. Opcje szablonu dostępne są poprzez panel administracyjny Joomla w <b> Rozszerzenia > Menadżer Szablonów (ang. Extensions > Template Manager)</b></p>
 
@@ -1188,7 +1187,7 @@
 
 
 <section id="addendum" class="block-templates">
-  <h2><i class="icon-question-sign"></i> Aneks  <small> gdzie otrzymać pomoc, wsparcie i dodatkowe informacje</small> </h2>
+  <h2 class="item8"><i class="icon-question-sign"></i> Aneks  <small> gdzie otrzymać pomoc, wsparcie i dodatkowe informacje</small> </h2>
 
   <p>Staraliśmy się by ta dokumentacja była tak prosta jak to tylko możliwe. Jeśli jednak mielibyście Państwo trudności z szablonem Joomla albo sugestie jak poprawić szablon albo dokumentację to prosimy o kontakt z naszą obsługą poprzez:</p>
   
