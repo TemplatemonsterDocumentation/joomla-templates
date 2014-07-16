@@ -273,6 +273,7 @@ figure .bubble {
 }
 #accordion dt {
   margin-bottom: 9px;
+  outline: none !important;
   cursor: pointer;
   position: relative;
   color: #fff;
