@@ -17,8 +17,8 @@
   <script src="js/prettify.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-    <script src="js/scripts.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script> 
+  <script src="js/script.js"></script>
 
     <!--[if IE 8]>
     <link rel="stylesheet" href="css/ie.css" />
@@ -44,14 +44,15 @@
   </article> 
   <article class="span2">  
        <div id="languages" class="select-menu pull-right">
-        <div class="select-menu_icon"><b>En</b><i class="icon-angle-down"></i></div>
+        <div class="select-menu_icon"><b>Ru</b><i class="icon-angle-down"></i></div>
         <ul class="select-menu_list">
         </ul>
       </div>
       <div id="versions" class="select-menu pull-right">
-        <div class="select-menu_icon"><b>v3-0</b><i class="icon-angle-down"></i></div>
+        <div class="select-menu_icon"><b>v3-1</b><i class="icon-angle-down"></i></div>
         <ul class="select-menu_list">
-          <li class="active"><a href="/help/quick-start-guide/joomla-templates/v3-0/index_ru.html"><span>v3-0</span></a></li>
+          <li class="active"><a href="/help/quick-start-guide/joomla-templates/v3-1/index_ru.html"><span>v3-1</span></a></li>
+          <li><a href="/help/quick-start-guide/joomla-templates/v3-0/index_ru.html"><span>v3-0</span></a></li>
           <li><a href="/help/quick-start-guide/joomla-templates/v2-4/index_ru.html"><span>v2-4</span></a></li>
           <li><a href="/help/quick-start-guide/joomla-templates/v2-3/index_ru.html"><span>v2-3</span></a></li>
         </ul>
@@ -127,6 +128,7 @@
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
                           <li><a href="#kunena">Kunena</a></li>
+                          <li><a href="#tm_ajax_contact_form">TM Ajax Contact Form</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -148,7 +150,9 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#layout">Макет</a></li>
-                            <li><a href="#typography">Оформление</a></li>                    
+                            <li><a href="#typography">Оформление</a></li>
+                            <li><a href="#background_video">Вставка фонового видео</a></li>
+                            <li><a href="#parallax">Использование параллакс-эффекта</a></li>
                             <li><a href="#features">Свойства</a></li>                    
                            </ul> 
                        </dd>
@@ -1101,6 +1105,18 @@
     <p>Более детальную информацию об использовании и настройках компонента Kunena можно найти на <a href="http://www.kunena.org/docs/Main_Page" target="_blank">официальном веб-сайте</a>.</p>
   </div>
 
+  <div id="tm_ajax_contact_form">
+    <h3>Модуль TM Ajax Contact Form</h3>
+    <div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-1.png" alt=""></figure>
+    <p class="muted text-center">Рис. 23. Модуль TM Ajax Contact Form</p></div>
+
+    <p>TM Ajax Contact Form - модуль контактной формы для Joomla. Он позволяет реализовать на любой странице сайта контактную форму. Отправка данных происходит с помошью технологии Ajax, то есть без перезагрузки страницы. В настройках модуля есть возможность включить защиту от ботов (reCaptcha), а также настроить выводимые поля, их метки (лейблы), задать адресс электронной почты получателя, адреса получателей копии письма, тексты сообщений об ошибках и успешной отправке формы. Полный перечень настроек представлен на картинке ниже.</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-2.png" alt=""></figure>
+    <p class="muted text-center">Рис. 24. Настройки модуля TM Ajax Contact Form</p></div>
+
+  </div>
+
 </section>
 
 <section id="configuring-pages" class="block-templates">
@@ -1191,8 +1207,71 @@
 
     <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
     <p class="muted text-center">Рис 27. Настройки оформления</p></div>
+  </div>
+
+  <div id="background_video">
+    <h3>Вставка фонового видео (Background video)</h3>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-1.png" alt=""></figure>
+    <p class="muted text-center">Рис 28. Фоновое видео на странице сайта</p></div>
+
+    <p>Для реализации фонового видео в шаблоне используется jquery-плагин <a href="http://vodkabears.github.io/vide/" target="_blank">Vide</a>. Проверьте, подключен ли плагин в шаблоне. Для этого перейдите в "Менеджер шаблонов -> Шаблоны", затем перейдите в используемый шаблон (Theme**** Details and Files) и откройте файл "index.php" и проверьте подключение плагина как показано на рис. 29. Также проверьте наличие самого плагина в папке "js". Если плагин отсутствует, скачайте его по сылке выше и разместите в соответствующей папке, а также подключите его в "index.php".</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-4.png" alt=""></figure>
+    <p class="muted text-center">Рис 29. Проверка подключения плагина</p></div>
+
+    <p>Чтобы вставить фоновое видео на страницу, необходимо перейти в "Менеджер шаблонов -> Шаблоны", затем перейти в используемый шаблон (Theme**** Details and Files). Затем необходимо  создать файл "<имя>.php" в директории "html -> mod_custom" с таким содержимым:</p>
+
+    <pre><code>&lt;?php
+/**
+ * @package     Joomla.Site
+ * @subpackage  mod_custom
+ *
+ * @copyright   Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die;
+?&gt;
+&lt;div class="mod-custom mod-custom__&lt;?php echo $moduleclass_sfx ?&gt;" id="module_&lt;?php echo $module-&gt;id; ?&gt;"&gt;
+  &lt;div class="video-container" data-vide-bg="&lt;?php echo JURI::base( true ).'/media/video/[имя_файла]'; ?&gt;"&gt;&lt;/div&gt;
+  &lt;div class="module-content"&gt;
+    &lt;div class="module-content-inner"&gt;
+      &lt;?php echo $module-&gt;content;?&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+    <p>где [имя_файла] - имя файла видео, без указания расширения.</p>
+    <p>Также необходимо подготовить видео в форматах mp4, ogv, webm и постер к видео в форматах png, jpg и gif. Имя у всех файлов должно быть отдинаковым и соответствовать прописанному ранее [имя_файла]. Все подготовленные файлы нужно разместить в директории media\video\ в корневой директории установленной джумлы</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-2.png" alt=""></figure>
+    <p class="muted text-center">Рис 30. Содержимое файла переопределения</p></div>
+
+    <p>Далее необходимо создать модуль для отображения видео. Создаем модуль HTML-код (custom HTML) c содержимым вида:</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-3.png" alt=""></figure>
+    <p class="muted text-center">Рис 31. Настройка модуля фонового видео</p></div>
+
+    <p>и во вкладке "Дополнительные параметры" ("Advanced") в выпадающем списке "Альтернативный макет" ("Alternative Layout") выбираем созданный ранее макет [имя файла].</p>
+
+    <p>После проделанных операций на соответствующей странице появится модуль с фоновым видео.</p>
   </div>  
 
+  <div id="parallax">
+    <h3>Использование параллакс-эффекта (Parallax effect)</h3>
+
+    <p>Для реализации параллакс-эффекта в шаблоне используется jquery-плагин <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">Stellar</a>.</p>
+
+    <p>Чтобы использовать параллакс-эффект на странице, необходимо перейти в "Менеджер шаблонов -> Шаблоны", затем перейти в используемый шаблон (Theme**** Details and Files) и открыть файл "index.php". На соответствующем блоке, например "folio-row", добавьте свойство <pre><code>data-stellar-background-ratio="[значение]"</code></pre> как показано на рис. 32:</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/parallax-1.png" alt=""></figure>
+    <p class="muted text-center">Рис 32. Использование параллакс-эффекта</p></div>
+
+    <p>где [значение] - коэффициент относительно естественной скорости скроллинга, более детально можно прочитать в <a href="http://markdalgleish.com/projects/stellar.js/docs/" target="_blank">документации</a> к плагину.</p>
+
+    <p>После проделанных операций на соответствующей странице появится параллакс-эффект на соответствующем блоке.</p>
+  </div>  
   <div id="features">
     <h3>Свойства</h3>
 
