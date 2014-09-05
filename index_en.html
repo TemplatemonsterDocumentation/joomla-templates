@@ -128,6 +128,7 @@
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
                           <li><a href="#kunena">Kunena</a></li>
+                          <li><a href="#tm_ajax_contact_form">TM Ajax Contact Form</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -149,7 +150,9 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#layout">Layout</a></li>
-                            <li><a href="#typography">Typography</a></li>                    
+                            <li><a href="#typography">Typography</a></li>
+                            <li><a href="#background_video">Setting Background video</a></li>
+                            <li><a href="#parallax">Using Parallax effect</a></li>                   
                             <li><a href="#features">Features</a></li>                    
                            </ul> 
                        </dd>
@@ -1080,6 +1083,21 @@ on desktop and iOs or Android mobile devices. Compatible with all modern browser
 
     <p>You can learn more about Kunena component usage and configuration at the <a href="http://www.kunena.org/docs/Main_Page" target="_blank">official website</a>.</p>
   </div>
+  <div id="tm_ajax_contact_form">
+    <h3>TM Ajax Contact Form Module</h3>
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/contact-form-1.png" alt=""></figure>
+      <p class="muted text-center">Img. 23. TM Ajax Contact Form Module</p>
+    </div>
+
+    <p>TM Ajax Contact Form is a contact form module for Joomla engine. This module allows to add contact form on any Joomla page. Data sending is being performed using AJAX requests, so the page is not getting reloaded. Module settings allow to add protection against bot (reCaptcha), set up contact form fields, their labels, set up the email address of the recipient, add the address for CC, error and success messages. You can see the full list of the settings below.</p>
+
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/contact-form-2.png" alt=""></figure>
+      <p class="muted text-center">Img. 24. TM Ajax Contact Form module settings</p>
+    </div>
+
+  </div>
 
 </section>
 
@@ -1166,7 +1184,81 @@ on desktop and iOs or Android mobile devices. Compatible with all modern browser
     <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
     <p class="muted text-center">Img 29. Typography options</p></div>
     
-  </div>  
+  </div>
+
+  <div id="background_video">
+    <h3>Setting Background video</h3>
+
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/video-1.png" alt=""></figure>
+      <p class="muted text-center">Img 28. Background video on the website page</p>
+    </div>
+
+    <p>Background video can be added to the template with the help of jQuery-plugin <a href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>. Check if the plugin is enabled. In order to check it, navigate to "Template manager -> Templates", then go to the theme you use (ThemeXXXX Details and Files), open "index.php" file and check if the plugin is initialized, like on the Img. 29. Please, also check if the plugin is available in "js" folder. In case if the plugin is not there, you can download it using the link above and upload it to the required folder. Also do not forget to add the script to the "index.php" file.</p>
+
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/video-4.png" alt=""></figure>
+      <p class="muted text-center">Img 29. Plugin initialization check</p>
+    </div>
+
+    <p>In order to set a background video, navigate to "Template Manager -> Templates", click on the template you use (ThemeXXXX Details and Files). In an "html -> mod_custom" directory create a "<name>.php" file with the following content:</p>
+
+<pre><code>&lt;?php
+/**
+* @package Joomla.Site
+* @subpackage mod_custom
+*
+* @copyright Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+* @license GNU General Public License version 2 or later; see LICENSE.txt
+*/
+
+defined('_JEXEC') or die;
+?&gt;
+&lt;div class="mod-custom mod-custom__&lt;?php echo $moduleclass_sfx ?&gt;" id="module_&lt;?php echo $module-&gt;id; ?&gt;"&gt;
+&lt;div class="video-container" data-vide-bg="&lt;?php echo JURI::base( true ).'/media/video/[file_name]'; ?&gt;"&gt;&lt;/div&gt;
+&lt;div class="module-content"&gt;
+&lt;div class="module-content-inner"&gt;
+&lt;?php echo $module-&gt;content;?&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+    <p>where [file_name] - the name of the video file, without adding file extension.</p>
+    <p>You should also prepare the following video formats: mp4, ogv, webm and video poster in png, jpg and gif formats. The file name should be the same for all the files and corresponding to the earlier created [file_name]. All the files should be uploaded to media\video\ folder in Joomla root directory<p>
+
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/video-2.png" alt=""></figure>
+      <p class="muted text-center">Img 30. Override file content</p>
+    </div>
+
+    <p>On the next step you need to create a module that displays the video. Add a custom HTML module with the following content:</p>
+
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/video-3.png" alt=""></figure>
+      <p class="muted text-center">Img. 31. Background video module settings</p>
+    </div>
+
+    <p>In both "Advanced" tab and  "Alternative Layout" drop-down choose your earlier created file template [file_name].</p>
+
+    <p>After you perform all the steps you will see the module with the background videо.</p>
+    </div>
+
+    <div id="parallax">
+    <h3>Using Parallax effect</h3>
+
+    <p>Parallax effect can be added to the template with the help of jQuery-plugin <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank" rel="nofollow">Stellar</a>.</p>
+
+    <p>In order to add Parallax effect to the page, navigate to  "Template manager -> Templates", click on the template name that you use (ThemeXXXX Details and Files) and open "index.php" file. Select the block that you need to add parallax to, for example "folio-row", add the  <pre><code>data-stellar-background-ratio="[value]"</code></pre> property like it is shown in the Img. 32:</p>
+
+    <div class="img-container">
+      <figure class="img-polaroid"><img src="img/parallax-1.png" alt=""></figure>
+      <p class="muted text-center">Img 32. Using Parallax effect</p>
+    </div>
+
+    <p>where [value] - the ratio that is relative to the natural scroll speed, you can check detailed information on a plugin's <a href="http://markdalgleish.com/projects/stellar.js/docs/" target="_blank" rel="nofollow">Documentation</a> page.</p>
+
+    <p>After you perform all the steps, you will see the Parallax effect on the specific block.</p>
+  </div>
 
   <div id="features">
     <h3>Features</h3>
