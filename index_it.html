@@ -128,6 +128,7 @@
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
                           <li><a href="#kunena">Kunena</a></li>
+                          <li><a href="#tm_ajax_contact_form">Modulo Contatti TM Ajax</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -149,7 +150,9 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#layout">Layout</a></li>
-                            <li><a href="#typography">Caratteri</a></li>                    
+                            <li><a href="#typography">Caratteri</a></li>
+                            <li><a href="#background_video">Impostare un video di sottofondo (Background video)</a></li>
+                            <li><a href="#parallax">Usare l'effetto Parallax</a></li>
                             <li><a href="#features">Aspetto</a></li>                    
                            </ul> 
                        </dd>
@@ -1082,6 +1085,18 @@
     <p>Potete saperne di più sull'uso componente Kunena e la configurazione sul <a href="http://www.kunena.org/docs/Main_Page" target="_blank">sito ufficiale</a>.</p>
 </div>
 
+<div id="tm_ajax_contact_form">
+<h3>Modulo Contatti TM Ajax</h3>
+<div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-1.png" alt=""></figure>
+<p class="muted text-center">Imm. 23. Modulo Contatti TM Ajax</p></div>
+
+<p>Il Modulo Contatti TM Ajax è un modulo contatti per il motore Joomla. Questo ti permette di aggiungere un modulo contatti su qualunque pagina Joomla. L'invio dei dati è effettuato utilizzando richieste AJAX per cui la pagina non viene ricaricata. Le varie impostazioni ti permettono di aggiungere sistemi di protezione contro i bot (reCaptcha), definire i campi del modulo e le loro etichette, impostare l'indirizzo email del destinatario, aggiungere indirizzi per invio in CC, e definire messaggi di errore e di operazione riuscita. Puoi leggere l'intera lista delle impostazioni qui di seguito.</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-2.png" alt=""></figure>
+<p class="muted text-center">Imm. 24. Impostazioni Modulo Contatti TM Ajax</p></div>
+
+</div>
+
 </section>
 
 <section id="configuring-pages" class="block-templates">
@@ -1167,7 +1182,71 @@
     <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
     <p class="muted text-center">Img 27. Opzioni Carattere</p></div>
     
-  </div>  
+  </div>
+
+  <div id="background_video">
+<h3>Impostare un video di sottofondo (Background video)</h3>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-1.png" alt=""></figure>
+<p class="muted text-center">Imm 28. Video di sottofondo sul sito web della pagina</p></div>
+
+<p>E' possibile aggiungere un video di sottofondo al template grazie al plugin jQuery <a href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>. Controlla che il plugin sia abilitato. Per controllare, naviga su "Template manager -> Templates", poi vai sul tema che stai usando (ThemeXXXX Details and Files), apri il file "index.php" e controlla se il plugin è inizializzato, come illustrato nell' imm. 29. Controlla anche che il plugin sia disponibile nella cartella "js" folder. Nel caso in cui il plugin non fosse lì, è possibile scaricarlo cliccando sul link qui sopra per poi caricarlo nella cartella specificata. Non dimenticare anche di aggiungere lo script al file "index.php".</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-4.png" alt=""></figure>
+<p class="muted text-center">Imm 29. Controllo inizializzazione plugin</p></div>
+
+<p>Per impostare un video di sottofondo, naviga su "Template Manager -> Templates" e clicca sul template che stai usando (ThemeXXXX Details and Files). Nella directory "html -> mod_custom", crea un file "<name>.php" con i seguenti contenuti:</p>
+
+<pre><code>&lt;?php
+/**
+* @package Joomla.Site
+* @subpackage mod_custom
+*
+* @copyright Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+* @license GNU General Public License version 2 or later; see LICENSE.txt
+*/
+
+defined('_JEXEC') or die;
+?&gt;
+&lt;div class="mod-custom mod-custom__&lt;?php echo $moduleclass_sfx ?&gt;" id="module_&lt;?php echo $module-&gt;id; ?&gt;"&gt;
+&lt;div class="video-container" data-vide-bg="&lt;?php echo JURI::base( true ).'/media/video/[nome_file]'; ?&gt;"&gt;&lt;/div&gt;
+&lt;div class="module-content"&gt;
+&lt;div class="module-content-inner"&gt;
+&lt;?php echo $module-&gt;content;?&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+<p>dove [nome_file] è il nome del file video, senza aggiungere l'estensione.</p>
+<p>Dovresti anche preparare i seguenti formati video: mp4, ogv, webm e poster video nei formati png, jpg e gif. Il nome del file dovrebbe essere lo stesso per tutti i file e dovrebbe corrispondere a quello creato prima [nome_file]. Tutti i file vanno caricati sulla cartella media\video\ della directory root di Joomla<p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-2.png" alt=""></figure>
+<p class="muted text-center">Imm 30. Sovrascrivere contenuti file</p></div>
+
+<p>Nella fase successiva si deve creare un modulo che mostri il video. Aggiungi un modulo HTML custom con i seguenti contenuti:</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-3.png" alt=""></figure>
+<p class="muted text-center">Imm. 31. Impostazioni modulo video di sottofondo</p></div>
+
+<p>Sia nella scheda "Advanced" che nella scheda "Alternative Layout", seleziona il template file creato prima, [nome_file].</p>
+
+<p>Dopo aver completato tutte le fasi, vedrai il modulo con il video di sottofondo.</p>
+</div>
+
+<div id="parallax">
+<h3>Usare l'effetto Parallax</h3>
+
+<p>L'effetto Parallax può essere aggiunto al template grazie al plugin jQuery <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank" rel="nofollow">Stellar</a>.</p>
+
+<p>Per aggiungere l'effetto Parallax alla pagina, naviga su "Template manager -> Templates", clicca sul nome del template che stai usando (ThemeXXXX Details and Files) e apri il file "index.php". Seleziona il blocco a cui vuoi aggiungere Parallax, ad esempio "folio-row", aggiungi la proprietà <pre><code>data-stellar-background-ratio="[valore]"</code></pre> come illustrato nell'imm. 32:</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/parallax-1.png" alt=""></figure>
+<p class="muted text-center">Imm 32. Usare l'effetto Parallax</p></div>
+
+<p>dove [valore] è il rapporto relativo alla velocità di scorrimento naturale. Puoi trovare ulteriori informazioni sulla pagina <a href="http://markdalgleish.com/projects/stellar.js/docs/" target="_blank" rel="nofollow">Documentation</a> del plugin.</p>
+
+<p>Dopo aver completato tutte le fasi, vedrai l'effetto Parallax sul blocco specificato.</p>
+</div>
 
   <div id="features">
     <h3>Caratteristiche</h3>

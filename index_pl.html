@@ -128,6 +128,7 @@
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
                           <li><a href="#kunena">Kunena</a></li>
+                          <li><a href="#tm_ajax_contact_form">Moduł Formularza Kontaktowego TM Ajax</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -149,7 +150,9 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#layout">Rozkład</a></li>
-                            <li><a href="#typography">Typografia</a></li>                    
+                            <li><a href="#typography">Typografia</a></li>
+                            <li><a href="#background_video">Ustawienie video w tle (Background video)</a></li>
+                            <li><a href="#parallax">Używanie efektu Parallax</a></li>  
                             <li><a href="#features">Właściwości</a></li>                    
                            </ul> 
                        </dd>
@@ -1084,6 +1087,18 @@
     <p>Możesz dowiedzieć się więcej na temat użytkowania i konfiguracji komponentu Kunena w <a href="http://www.kunena.org/docs/Main_Page" target="_blank">oficjalnej stronie</a>.</p>
   </div>
 
+  <div id="tm_ajax_contact_form">
+<h3>Moduł Formularza Kontaktowego TM Ajax</h3>
+<div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-1.png" alt=""></figure>
+<p class="muted text-center">Img. 23. Moduł Formularza Kontaktowego TM Ajax</p></div>
+
+<p>Moduł Formularza Kontaktowego TM Ajax jest modułem formularza dla silnika Joomla. Ten moduł zezwala na dodanie formularza kontaktowego do każdej strony Joomla. Wysyłanie danych odbywa się przy użyciu żądań AJAX, więc strona nie jest przeładowywana. Ustawienia modułu zezwalają na dodanie zabezpieczenia przed botami (reCaptcha), ustawienie pól formularza kontaktowego, ich etykiet, ustawienie adresu email odbiorcy, dodanie adresu CC, wiadomości błędu i powodzenia wykonanego działania. Możesz sprawdzić pełną listę ustawień poniżej.</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-2.png" alt=""></figure>
+<p class="muted text-center">Img. 24. Ustawienia Modułu Formularza Kontaktowego TM Ajax</p></div>
+
+</div>
+
 </section>
 
 <section id="configuring-pages" class="block-templates">
@@ -1170,6 +1185,70 @@
     <p class="muted text-center">Img 27. Opcje typografii</p></div>
     
   </div>  
+
+  <div id="background_video">
+<h3>Ustawienie video w tle (Background video)</h3>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-1.png" alt=""></figure>
+<p class="muted text-center">Img 28. Video w tle na stronie</p></div>
+
+<p>Video w tle może zostać dodane do szablonu przy użyciu jQuery-plugin <a href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>. Sprawdź, czy plugin jest aktywowany. Aby to sprawdzić, przejdź do "Template manager -> Templates", następnie do szablonu, jakiego używasz (ThemeXXXX Details and Files), otwórz plik "index.php" i sprawdź, czy plugin jest włączony, jak na Img. 29. Również, sprawdź czy plugin jest dostępny w folderze "js". W przypadku, gdy plugin się tam nie znajduje, możesz go pobrać przy użyciu linka powyżej i przenieść do wymaganego folderu. Nie zapomnij również o dodaniu skryptu do pliku "index.php".</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-4.png" alt=""></figure>
+<p class="muted text-center">Img 29. Sprawdzenie aktywowania pluginu</p></div>
+
+<p>Aby ustawić video w tle, przejdź do "Template Manager -> Templates", kliknij na szablon, jakiego używasz (ThemeXXXX Details and Files). W katalogu "html -> mod_custom" stwórz plik "<nazwa>.php" z następującą zawartością:</p>
+
+<pre><code>&lt;?php
+/**
+* @package Joomla.Site
+* @subpackage mod_custom
+*
+* @copyright Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+* @license GNU General Public License version 2 or later; see LICENSE.txt
+*/
+
+defined('_JEXEC') or die;
+?&gt;
+&lt;div class="mod-custom mod-custom__&lt;?php echo $moduleclass_sfx ?&gt;" id="module_&lt;?php echo $module-&gt;id; ?&gt;"&gt;
+&lt;div class="video-container" data-vide-bg="&lt;?php echo JURI::base( true ).'/media/video/[nazwa_pliku]'; ?&gt;"&gt;&lt;/div&gt;
+&lt;div class="module-content"&gt;
+&lt;div class="module-content-inner"&gt;
+&lt;?php echo $module-&gt;content;?&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+<p>gdzie [nazwa_pliku] - nazwa pliku video, bez dodawania rozszerzenia pliku.</p>
+<p>Bądź gotowy na przygotowanie następujących formatów video: mp4, ogv, webm oraz plakat video w formatach png, jpg oraz gif. Nazwa pliku powinna być taka sama dla wszystkich plików i korespondować z wcześniej stworzonym [nazwa_pliku]. Wszystkie pliki powinny być przesłane do folderu media\video\ w katalogu źródłowym Joomla<p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-2.png" alt=""></figure>
+<p class="muted text-center">Img 30. Zawartość pliku</p></div>
+
+<p>W następnym kroku musisz stworzyć moduł, wyświetlający video. Dodaj moduł HTML z następującą zawartością:</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-3.png" alt=""></figure>
+<p class="muted text-center">Img. 31. Ustawienia modułu video w tle</p></div>
+
+<p>W zakładkach "Advanced" oraz  "Alternative Layout" wybierz wcześniej stworzone pliki szablonu [nazwa_pliku].</p>
+
+<p>Po wykonaniu wszystkich kroków, zobaczysz moduł z video w tle.</p>
+</div>
+
+<div id="parallax">
+<h3>Używanie efektu Parallax</h3>
+
+<p>Efekt Parallax może zostać dodany do szablonu przy użyciu jQuery-plugin <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank" rel="nofollow">Stellar</a>.</p>
+
+<p>Aby dodać efekt Parallax, przejdź do  "Template manager -> Templates", kliknij na nazwę szablonu używanego przez Ciebie (ThemeXXXX Details and Files) i otwórz plik "index.php". Wybierz element, do którego chcesz dodać parallax, na przykład "folio-row", dodaj wartość <pre><code>data-stellar-background-ratio="[wartość]"</code></pre> tak jak pokazane na Img. 32:</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/parallax-1.png" alt=""></figure>
+<p class="muted text-center">Img 32. Używanie efektu Parallax</p></div>
+
+<p>gdzie [wartość] - stosunek odnoszący się do normalnej prędkości scrollowania, możesz sprawdzić szczegółowe informacje na stronie pluginu z <a href="http://markdalgleish.com/projects/stellar.js/docs/" target="_blank" rel="nofollow">Dokumentacją</a>.</p>
+
+<p>Po wykonaniu wszystkich kroków, zobaczysz efekt Parallax na wybranym elemencie.</p>
+</div>
 
   <div id="features">
     <h3>Funkcje</h3>
