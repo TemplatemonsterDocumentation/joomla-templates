@@ -128,6 +128,7 @@
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
                           <li><a href="#kunena">Kunena</a></li>
+                          <li><a href="#tm_ajax_contact_form">Modul TM Ajax Contact Form</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -149,7 +150,9 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#layout">Layout</a></li>
-                            <li><a href="#typography">Typografie</a></li>                    
+                            <li><a href="#typography">Typografie</a></li>
+                            <li><a href="#background_video">Einfügen des Hintergrund-Videos (Background video)</a></li>
+                            <li><a href="#parallax">Nutzung des Parallaxeneffektes (Parallax effect)</a></li>   
                             <li><a href="#features">Eigenschaften</a></li>                    
                            </ul> 
                        </dd>
@@ -1056,7 +1059,7 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
     <div class="img-container"><figure class="img-polaroid"><img src="img/komento-2.jpg" alt=""></figure>
         <p class="muted text-center">Bild 20. Bereich “Komento Komponent”</p></div>
 
-    <p>Die Konfigurationseinstellungen rufen Sie in  <b>Components / Kommentare> Komento > Integrations</b> mit dem Druck auf <b>Articles/Artikel</b> an. </p>
+    <p>Die Konfigurationseinstellungen rufen Sie in  <b>Components / Kommentare > Komento > Integrations</b> mit dem Druck auf <b>Articles/Artikel</b> an. </p>
 
     <p>Mit Hilfe von Konfigurationseinstellungen können Sie Kommentare für bestimmte Kategorien aktivieren, Captcha und Nutzerprofils hinzufügen usw. Mehr können Sie <a href="http://stackideas.com/docs/komento.html" target="_blank">in der offizielle Website</a> erfahren</p>
   </div>
@@ -1075,6 +1078,18 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
     <p class="muted text-center">Bild. 22. Die Sektion der Komponente Kunena</p></div> 
 
     <p>Sie konnen mehr uber Verwendung und Einstellung der Komponente Kunena auf <a href="http://www.kunena.org/docs/Main_Page" target="_blank">der offiziellen Webseite erfahren</a>.</p> 
+  </div>
+
+  <div id="tm_ajax_contact_form">
+    <h3>Modul TM Ajax Contact Form</h3>
+    <div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-1.png" alt=""></figure>
+    <p class="muted text-center">Bild. 23. Modul TM Ajax Contact Form</p></div>
+
+    <p>TM Ajax Contact Form ist ein Kontaktformular-Modul für Joomla. Es ermöglicht auf jeglicher Seite der Website das Kontaktformular zu platzieren. Senden von Daten wird per AJAX Technologie durchgeführt. In den Einstellungen des Moduls gibt es die Möglichkeite den Schutz vor Bots (reCaptcha) zu aktivieren, und auch Ausgabefelder und ihre Stichwörter (Labels) einzustellen, E-Mail-Adresse des Empfängers, E-Mail-Adresse des Kopienempfängers, Textnachricht über Fehler und erfolgreiches Versenden festzulegen. Eine vollständige Liste der Einstellungen gibt es auf dem Bild unten.</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-2.png" alt=""></figure>
+    <p class="muted text-center">Bild. 24. Moduleinstellungen TM Ajax Contact Form</p></div>
+
   </div>
 
 </section>
@@ -1162,7 +1177,71 @@ Damit Sie Beispieldaten in der Datenbank importieren, fühlen Sie diese leichte 
     <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
     <p class="muted text-center">Bild 27. Typografie-Optionen </p></div>
     
+  </div>
+
+  <div id="background_video">
+    <h3>Einfügen des Hintergrund-Videos (Background video)</h3>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-1.png" alt=""></figure>
+    <p class="muted text-center">Bild 28. Hintergrund-Video auf der Seite der Website</p></div>
+
+    <p>Um das Hintergrund-Video in der Vorlage zu realisieren, wird jQuery-Plugin <a href="http://vodkabears.github.io/vide/" target="_blank">Vide</a> verwendet. Prüfen Sie, der Plugin in der Vorlage aktiviert wurde. Dazu gehen Sie zu "Vorlagenmanager -> Vorlagen", dann gehen Sie zu verwendeter Vorlage (Theme**** Details and Files) und öffnen Sie die Datei "index.php",  prüfen Sie die Aktivierung des Plugins. Sie muss genauso wie auf dem Bild 29 sein. Prüfen Sie auch, ob dieser Plugin im Ordner "js" ist. Wenn der Plugin fehlt, laden Sie ihn herunter, indem Sie dem Link oben folgen und platzieren Sie ihn in dem entsprechen Ordner, und schalten Sie ihn in "index.php" ein.</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-4.png" alt=""></figure>
+    <p class="muted text-center">Bild 29. Prüfung der Aktivierung des Plugins</p></div>
+
+    <p>Um das Hintergrund-Video in die Seite einzufügen, sollen Sie "Vorlagenmanager -> Vorlagen" öffnen, dann zu verwendeter Vorlage (Theme**** Details and Files) gehen. Dann sollen Sie noch die Datei "<имя>.php" im Verzeichnis "html -> mod_custom" mit solchem Inhalt erstellen:</p>
+
+    <pre><code>&lt;?php
+/**
+ * @package     Joomla.Site
+ * @subpackage  mod_custom
+ *
+ * @copyright   Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die;
+?&gt;
+&lt;div class="mod-custom mod-custom__&lt;?php echo $moduleclass_sfx ?&gt;" id="module_&lt;?php echo $module-&gt;id; ?&gt;"&gt;
+  &lt;div class="video-container" data-vide-bg="&lt;?php echo JURI::base( true ).'/media/video/[Datei_Name]'; ?&gt;"&gt;&lt;/div&gt;
+  &lt;div class="module-content"&gt;
+    &lt;div class="module-content-inner"&gt;
+      &lt;?php echo $module-&gt;content;?&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+    <p>wo [Datei_Name] ist Dateiname des Videos, ohne Dateierweiterung.</p>
+    <p>Sie sollen auch das Video in Formaten mp4, ogv, webm und das Poster für das Video in Formaten png, jpg und gif vorbereiten. Der Name für alle Dateien muss gleich sein und dem [Datei_Namen] entsprechen. Alle vorbereiteten Dateien müssen im Verzeichnis media\video\ im Stammverzeichnis, das Joomla installiert hat, platziert werden.</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-2.png" alt=""></figure>
+    <p class="muted text-center">Bild 30. Inhalt der Override-Datei</p></div>
+
+    <p>Jetzt sollen Sie das Modul erstellen, damit das Video dargestellt werden kann. Erstellen wir das Modul HTML-Code (custom HTML) mit dem Inhalt wie:</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/video-3.png" alt=""></figure>
+    <p class="muted text-center">Bild 31. Moduleinstellung für das Hintergrund-Video</p></div>
+
+    <p>Im Tab "Zusätzliche Parameter" ("Advanced") in der DropDownListe "Alternatives Layout" ("Alternative Layout") wählen wir das Layout [Dateinamen], das wir früher erstellt haben.</p>
+
+    <p>Nachdem wir diese Aktion durchgeführt haben, wird auf der entsprechenden Seite das Modul mit dem Hintergrund-Video dargestellt.</p>
   </div>  
+
+  <div id="parallax">
+    <h3>Nutzung des Parallaxeneffektes (Parallax effect)</h3>
+
+    <p>Um den Parallaxeneffekt zu realisieren, wird in der Vorlage jQuery-Plugin <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">Stellar</a> verwendet.</p>
+
+    <p>Um den Parallaxeneffekt auf der Seite zu nutzen, sollen Sie zu "Vorlagenmanager -> Vorlagen" gehen, dann zu verwendeter Vorlage (Theme**** Details and Files) gehen und die Datei "index.php" öffnen. Auf dem entsprechenden Block, zum Beispiel, "folio-row", fügen Sie die Eigenschaft <pre><code>data-stellar-background-ratio="[Wert]"</code></pre>  ,wie es auf dem Bild 32 angezeigt ist, hinzu:</p>
+
+    <div class="img-container"><figure class="img-polaroid"><img src="img/parallax-1.png" alt=""></figure>
+    <p class="muted text-center">Bild 32. Nutzung des Parallaxeneffektes</p></div>
+
+    <p>wo[Wert] ist der Wert relativ zur normalen Scrollgeschwindigkeit. Ausführlich darüber können Sie in <a href="http://markdalgleish.com/projects/stellar.js/docs/" target="_blank">der Dokumentation</a> zum Plugin lesen.</p>
+
+    <p>Nachdem Sie alle Aktionen durchgefüht haben, wird auf der entsprechenden Seite der Parallaxeneffekt auf dem entsprechen Block angezeigt.</p>
+  </div>
 
   <div id="features">
     <h3> Eigenschaften</h3>

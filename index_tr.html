@@ -101,7 +101,7 @@
                             <li><a href="#complete_install">Tam Bir Kurulum</a></li>
                             <li><a href="#template-installation">Şablon Kurulumu</a></li>
                             <li><a href="#sample-data-installation">Örnek Veri Yükleme</a></li>
-							<li><a href="#modules-installation">Modüllerin Yüklenmesi</a></li>
+							              <li><a href="#modules-installation">Modüllerin Yüklenmesi</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -128,6 +128,7 @@
                           <li><a href="#caroufredsel">CarouFredSel</a></li>
                           <li><a href="#komento">Komento</a></li>
                           <li><a href="#kunena">Kunena</a></li>
+                          <li><a href="#tm_ajax_contact_form">TM Ajax Contact Form Modülü</a></li>
                         </ul>
                       </dd>
                     </dl>
@@ -149,7 +150,9 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#layout">Düzen</a></li>
-                            <li><a href="#typography">Matbaacılık</a></li>                    
+                            <li><a href="#typography">Matbaacılık</a></li>
+                            <li><a href="#background_video">Arkaplan Video Ayarları (Background video)</a></li>
+                            <li><a href="#parallax">Parallax efektini kullanmak</a></li>
                             <li><a href="#features">Özellikler</a></li>                    
                            </ul> 
                        </dd>
@@ -1084,6 +1087,18 @@
     <p>Sen resmi <a href="http://www.kunena.org/docs/Main_Page" target="_blank">web sitesinde</a> Kunena bileşeni kullanımı ve yapılandırması hakkında daha fazla bilgi edinebilirsiniz.</p>
   </div>
 
+  <div id="tm_ajax_contact_form">
+<h3>TM Ajax Contact Form Modülü</h3>
+<div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-1.png" alt=""></figure>
+<p class="muted text-center">Img. 23. TM Ajax Contact Form Modülü</p></div>
+
+<p>TM Ajax Contact Form, Joomla için hazırlanmış bir iletişim formu modülüdür. Bu modül sayesinde istediğiniz bir Joomla sayfasına, iletişim formu ekleyebilirsiniz. Veriler AJAX kullanılarak gerçekleştirilir, böylelikle sayfa yeniden yüklenmeye gerek duymaz. Modül ayarlarından; bot koruması(reCaptcha) ekleyebilir, form alanlarını, isimlerini, alıcının mail adresini, form içeriğinin kopyasının gönderileceği mail adresini, hata ve başarı mesajlarını ayarlayabilirsiniz. Ayar listesinin seçenekleri aşağıda yer almaktadır.</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/contact-form-2.png" alt=""></figure>
+<p class="muted text-center">Img. 24. TM Ajax Contact Form modül ayarları</p></div>
+
+</div>
+
 </section>
 
 <section id="configuring-pages" class="block-templates">
@@ -1169,7 +1184,71 @@
     <div class="img-container"><figure class="img-polaroid"><img src="img/template-settings-3.jpg" alt=""></figure>
     <p class="muted text-center">Img 27. Tipografi seçenekleri</p></div>
     
-  </div>  
+  </div>
+
+  <div id="background_video">
+<h3>Arkaplan Video Ayarları (Background video)</h3>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-1.png" alt=""></figure>
+<p class="muted text-center">Img 28. Sayfadaki video arkaplanı</p></div>
+
+<p>Şablonunuza jQuery-plugin <a href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a> ile bir arkaplan videosu ekleyebilirsiniz. Öncelikle eklentinin aktif olup olmadığını kontrol edin. Bunu; "Görünüm -> Temalar" kısmına girip, kullandığınız temayı seçerek yapabilirsiniz. Şimdi (TemaXXXX Detayları ve Dosyalar) buradan "index.php" dosyasını açın ve Img.29'daki gibi eklentinin kullanıma hazır olduğuna emin olun. Dikkat: Eklenti "js" klasöründe de ulaşılabilir olmalı. Eğer eklenti orada yoksa, yukarıdaki bağlantıdan indirebilir ve o klasöre yükleyebilirsiniz. Daha sonra gerekli komutu "index.php" dosyasına eklemelisiniz.</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-4.png" alt=""></figure>
+<p class="muted text-center">Img 29. Eklenti ilklendirme kontrolü</p></div>
+
+<p>Bir arkaplan videosu kullanmak için, "Görünüm -> Temalar" bölümüne girin ve kullandığınız temayı seçin (TemaXXXX Detaylar ve Dosyalar). Buradan "html -> mod_custom" klasöründe, aşağıdaki verilerle bir "<dosya>.php" dosyası oluşturun:</p>
+
+<pre><code>&lt;?php
+/**
+* @package Joomla.Site
+* @subpackage mod_custom
+*
+* @copyright Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+* @license GNU General Public License version 2 or later; see LICENSE.txt
+*/
+
+defined('_JEXEC') or die;
+?&gt;
+&lt;div class="mod-custom mod-custom__&lt;?php echo $moduleclass_sfx ?&gt;" id="module_&lt;?php echo $module-&gt;id; ?&gt;"&gt;
+&lt;div class="video-container" data-vide-bg="&lt;?php echo JURI::base( true ).'/media/video/[dosya_ismi]'; ?&gt;"&gt;&lt;/div&gt;
+&lt;div class="module-content"&gt;
+&lt;div class="module-content-inner"&gt;
+&lt;?php echo $module-&gt;content;?&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+<p>yukarıdaki alanda yer alan [dosya_ismi] - video dosyanızın ismidir ve dosya uzantısını yazmadan bu şekilde yazılmalıdır.</p>
+<p>Kullanabileceğiniz dosya türleri şunlardır: mp4, ogv, webm ve video posteri için png, jpg ve gif. Dosya ismi tüm dosyalarla ve yukarıda oluşturduğunuz [dosya_ismi] ile aynı olmalıdır. Tüm dosyalar Joomla ana dizinindeki media\video klasörüne yüklenmelidir.<p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-2.png" alt=""></figure>
+<p class="muted text-center">Img 30. Dosya içeriğinin üstüne yazmak</p></div>
+
+<p>Bir sonraki adımda, videonuzu gösterecek bir modül oluşturmanız gerekir. Aşağıdaki içerikle bir HTML modül hazırlayın:</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/video-3.png" alt=""></figure>
+<p class="muted text-center">Img. 31. Arkaplan video modülü ayarları</p></div>
+
+<p>Hem "Gelişmiş" sekmesinden hem de "Alternatif Biçim" menüsünden, daha önceden oluşturmuş olduğunuz [dosya_ismi] temanızı seçin.</p>
+
+<p>Tüm adımları tamamladığınızda, arkaplan videonuz için çalışır bir modüle sahip olursunuz.</p>
+</div>
+
+<div id="parallax">
+<h3>Parallax efektini kullanmak</h3>
+
+<p>Parallax efektini, bir jQuery-eklentisi olan <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank" rel="nofollow">Stellar</a> yardımıyla yükleyebilirsiniz.</p>
+
+<p>Bir sayfaya Parallax efekti uygulamak için "Görünüm -> Temalar" bölümüne girin, kullandığınız temayı seçin (TemaXXXX Detaylar ve Dosyalar) ardından "index.php" dosyasını açın. Parallax'ı ekleyeceğiniz alanı seçin (örn : "folio-row"). Bu alana <pre><code>data-stellar-background-ratio="[değer]"</code></pre> özelliğini girin. Img. 32'de gösterildiği gibi:</p>
+
+<div class="img-container"><figure class="img-polaroid"><img src="img/parallax-1.png" alt=""></figure>
+<p class="muted text-center">Img 32. Parallax efektinin kullanımı</p></div>
+
+<p>Yukarıdaki [değer] bölümü - kayma hızını belirler. Daha detaylı bilgi için, eklentinin <a href="http://markdalgleish.com/projects/stellar.js/docs/" target="_blank" rel="nofollow">Dokümantasyon</a> sayfasından yardım alabilirsiniz.</p>
+
+<p>Tüm adımları tamamladıktan sonra, belirlediğiniz alana Parallax efektinin uygulanmış olduğunu göreceksiniz.</p>
+</div>
 
   <div id="features">
     <h3>Features (Özellikler)</h3>
