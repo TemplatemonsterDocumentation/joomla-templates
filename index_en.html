@@ -1301,6 +1301,32 @@ defined('_JEXEC') or die;
     </ul>
   </div>
 
+  <div id="google_services">
+    <h4>Loading data from Google servers</h4> 
+
+      <p>Some countries have issues connecting to Google servers. This can cause issues loading Google Fonts and Java Script libraries from Google CDN. To resolve these issues please do the following: </p> 
+
+      <h5>Can't load Google Fonts:</h5> 
+      <ol> 
+      <li>Open \templates\theme****\index.php file</li> 
+      <li>Locate the line: <br> 
+      <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre></li> 
+      <li>Replace it with the following: <br> 
+      <pre>$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');</pre></li> 
+      </ol> 
+
+      <h5>Can't load jQuery</h5> 
+      <ol> 
+      <li></li> 
+      <li>Locate the line: 
+      <pre>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre></li>
+      <li>Replace with the following:<br> 
+      <pre>&lt;script src="//code.jquery.com/jquery-[---your_jquery_version---].min.js">&lt;/script></pre></li></li> 
+      </ol> 
+
+      <p>You can also use local copy of jQuery library.</p>
+  </div>
+
   <div id="joomla_extensions">
     <h4>Joomla! Extensions</h4>
     <p>At <a href="http://extensions.joomla.org/" target="_blank">extensions.joomla.org</a> you can download more than 6 thousand  modules, plugins and components to add various features to your Joomla website.</p>

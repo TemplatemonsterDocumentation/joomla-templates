@@ -1310,6 +1310,14 @@ defined('_JEXEC') or die;
     </ul>
   </div>
 
+  <div id="google_services">
+    <h4>Решение возможных проблем с веб-шрифтами </h4>
+
+<p>В случае некорректного отображения веб-шрифтов после установки, откройте для редактирования файл index.php шаблона (\templates\theme****\index.php), например, перейдя в админ-панели Joomla! в менеджер шаблонов (Extensions -> Template Manager -> Templates) и выбрав соответствующий шаблон (Theme**** Details and Files).</p>
+
+<p>Далее найдите строку вида "$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---используемый шрифт---]');" и измените ее на строку вида "$doc->addStyleSheet('//fonts.useso.com/css?family=[---используемый шрифт---]');".</p>
+  </div>
+
   <div id="joomla_extensions">
     <h4>Joomla! Расширения</h4>
     <p>На сайте  <a href="http://extensions.joomla.org/" target="_blank">extensions.joomla.org</a> можно скачать более 6 тысяч модулей, плагинов и компонентов, позволяющих добавлять различный функционал к веб-сайтам  Joomla </p>
