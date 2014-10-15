@@ -251,21 +251,19 @@ $(document).ready(function() {
 		   	lastScrollTop = st;
 	        if(window.location.hash != hash && hash != '')
             {
-            	click_scroll = true;
-		        window.location.hash = hash;
-		        $(window).scrollTo(st, 0 ,function(){
-		        	click_scroll = false;
-		        	$(".current").removeClass("current");
-			        $(".act_item").removeClass("act_item");
-		            $("a[href="+hash+"]").parent("li").addClass("current");
-			        $("a[href="+hash+"]").parents("li").addClass("act_item");
-			        if($('#affect_all .expand').is(':visible')){
-				        $(".open_item").removeClass("open_item");
-			            $("a[href="+hash+"]").parents("li").addClass("open_item");
-				        $(".act_item").find("dd").slideDown(200);
-				        $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
-				    }
-		        });
+		        if (history.pushState) {
+			        history.pushState(null, null, hash);
+			    }
+	        	$(".current").removeClass("current");
+		        $(".act_item").removeClass("act_item");
+	            $("a[href="+hash+"]").parent("li").addClass("current");
+		        $("a[href="+hash+"]").parents("li").addClass("act_item");
+		        if($('#affect_all .expand').is(':visible')){
+			        $(".open_item").removeClass("open_item");
+		            $("a[href="+hash+"]").parents("li").addClass("open_item");
+			        $(".act_item").find("dd").slideDown(200);
+			        $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
+			    }
 		    }
 	        return false;
 	    }
@@ -277,7 +275,7 @@ $(document).ready(function() {
 		$(window).scrollTo('0', 800, function(){
 			setTimeout(function(){
 				click_scroll = false;
-				window.location.hash = '';
+				history.pushState(null, null, '#');
 				$(".current").removeClass("current");
 		        $(".act_item").removeClass("act_item");
 			    if($('#affect_all .expand').is(':visible')){
