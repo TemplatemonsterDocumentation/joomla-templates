@@ -10,7 +10,6 @@
 
 var current_file = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
 var doc_language = getCookie('doc_language');
-console.log(doc_language);
 
 /*Language switcher*/
 	function select_menu(id){
@@ -122,9 +121,8 @@ console.log(doc_language);
 		});
 
 		// saving selected language in cookie
-		language_cookie('#modal_languages li');		
+		language_cookie('#modal_languages li');
 	}
-
 
 
 /* Scripts initialization */
@@ -136,7 +134,7 @@ $(document).ready(function() {
 	languages_list('#modal_languages');
 
 	//Modal languages
-	modal_languages();
+	//modal_languages();
 
 	$('.flexslider').flexslider({
 		animation: "fade",			
