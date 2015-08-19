@@ -1,0 +1,1 @@
+<h2 class="item6">Configuración de Páginas</h2>

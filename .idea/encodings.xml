@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/config.php" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/de/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/en/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/es/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/fr/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/it/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/pl/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/pt/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/ru/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/getting-started/tr/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/de/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/en/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/es/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/fr/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/it/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/pl/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/pt/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/ru/__description.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sections/introduction/tr/__description.php" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
