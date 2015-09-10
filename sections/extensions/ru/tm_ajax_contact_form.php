@@ -17,3 +17,10 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+
+<p> В настройки модуля добавлены все
+    функции form-builder, появилась возможность самому добавлять и удалять любые поля, чекбоксы, селекты и т.д. Форму можно настраивать под любые ваши потребности. Словом вы получаете работающий form-builder </p>
+
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>
