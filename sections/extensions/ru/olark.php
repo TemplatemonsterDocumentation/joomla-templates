@@ -22,5 +22,6 @@
         target="_blank" rel="nofollow">этой ссылкой</a>.</p>
 
 <figure class="img-polaroid">
+
     <img src="img/olark-3.jpg" alt="">
 </figure>
