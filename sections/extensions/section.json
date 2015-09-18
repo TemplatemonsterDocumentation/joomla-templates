@@ -263,6 +263,20 @@
         "pt": "JoomGallery",
         "tr": "JoomGallery"
       }
+    },
+    {
+      "id": "style_switcher",
+      "translations": {
+        "en": "TM Ajax Style Switcher",
+        "ru": "TM Ajax Style Switcher",
+        "es": "TM Ajax Style Switcher",
+        "de": "TM Ajax Style Switcher",
+        "fr": "TM Ajax Style Switcher",
+        "it": "TM Ajax Style Switcher",
+        "pl": "TM Ajax Style Switcher",
+        "pt": "TM Ajax Style Switcher",
+        "tr": "TM Ajax Style Switcher"
+      }
     }
   ]
 }
