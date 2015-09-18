@@ -1,5 +1,5 @@
 <h3>TM Instagram</h3>
-
+ 
 <p>TM Instagram - модуль для вывода "Instagram Widget"</p>
 
 <figure class="img-polaroid">

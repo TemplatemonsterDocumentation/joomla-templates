@@ -1,5 +1,5 @@
 <h3>SW Twitter Display</h3>
-
+ 
 <p>SW Twitter Display - модуль для вывода "Twitter Widget".</p>
 
 <figure class="img-polaroid">

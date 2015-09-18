@@ -1,5 +1,5 @@
 <h3>TM Facebook Page Plugin</h3>
-
+ 
 <p>TM Facebook Page Plugin - модуль для вывода "Facebook Page Plugin".</p>
 
 <figure class="img-polaroid">
