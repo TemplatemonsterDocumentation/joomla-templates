@@ -1,19 +1,22 @@
-<h3>Модуль TM Ajax Contact Form</h3>
-<p>TM Ajax Contact Form - модуль контакт-формы для Joomla. Он позволяет реализовать на
-    любой странице сайта контактную форму. Отправка данных происходит с помощью
-    технологии AJAX, то есть без перезагрузки страницы.</p>
+<h3>Módulo de Formulário de Contato TM Ajax</h3>
+
+<p> O Formulário de Contato TM Ajax é um módulo de formulário para a engine do Joomla.
+    Esse módulo permite adicionar formulários de contato em qualquer página do Joomla.</p>
+
 <figure class="img-polaroid">
-    <img src="img/contact-form-1.png" alt=""> 
+    <img src="img/contact-form-1.png" alt="">
 </figure>
-<p> В настройках модуля есть
-    возможность включить защиту от ботов (reCaptcha), а также настроить выводимые поля,
-    их метки (лейблы), задать адрес электронной почты получателя, адреса получателей
-    копии письма, тексты сообщений об ошибках и успешной отправке формы. Полный перечень
-    настроек представлен на картинке ниже.</p>
-<figure class="img-polaroid"> 
+
+<p> O envio de dados é feito usando requisições AJAX, então a página não será recarregada.
+    As configurações do módulo permitem que você inclua proteção contra bots
+    (reCaptcha), configure os campos desejados, suas labels e enviar para um endereço de
+    sua escolha, com cópias e mensagens de erro e sucesso. Veja a lista completa abaixo.
+</p>
+
+<figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
-<p>В настройках данного модуля вы можете найти все функции конструктора форм, у вас есть возможность добавлять поля любого типа (text, email, checkbox, textarea). Благодаря этому, форма может быть настроена согласно любым ваши нуждам.</p>
+<p>As configurações deste módulo permitem que você administre todas as funções do construtor de formulários, desta forma você pode incluir campos de qualquer tipo (text, email, checkbox, textarea). Graças a isso, o forumlário pode ser personalizado de acordo com suas necessidades.</p>
 <figure class="img-polaroid">
     <img src="img/contact-form-3.png" alt="">
-</figure>      
+</figure>

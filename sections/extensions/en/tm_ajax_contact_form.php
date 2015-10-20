@@ -16,3 +16,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>This module settings allow you to manage all of form constructor functions, so you can add fields of any type (text, email, checkbox, textarea). Due to this, form can be customized up to your needs.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>

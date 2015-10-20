@@ -16,3 +16,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>As configurações deste módulo permitem que você administre todas as funções do construtor de formulários, desta forma você pode incluir campos de qualquer tipo (text, email, checkbox, textarea). Graças a isso, o forumlário pode ser personalizado de acordo com suas necessidades.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>

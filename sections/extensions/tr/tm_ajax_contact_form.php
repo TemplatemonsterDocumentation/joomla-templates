@@ -18,3 +18,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>Bu modül ayarlarý ile formunuza yazý, email, checkbox, textarea gibi pek çok alan ekleyebilirsiniz. Formu ihtiyaçlarýnýza göre kolaylýkla düzenleyebilirsiniz.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>

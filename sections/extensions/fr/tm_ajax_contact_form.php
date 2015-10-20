@@ -18,3 +18,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>Dans les réglages de ce module vous pouvez trouver toutes les fonctionnalités du constructeur des formulaires, vous avez la possibilité d'ajouter des champs de tout type (texte, email, case à cocher, textarea). Pour cette raison, le formulaire peut être personnalisé à votre guise.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>
