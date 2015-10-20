@@ -10,6 +10,6 @@
     на <a href="http://socialwidgets.net/documentation/27-sw-twitter-display.html"
           target="_blank" rel="nofollow">официальном сайте</a>.</p>
 
-<figure class="img-polaroid">
+<figure class="img-polaroid"> 
     <img src="img/twitter_feed-2.jpg" alt="">
 </figure>

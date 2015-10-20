@@ -120,19 +120,19 @@
         "fr": "Le module du Chat en direct TM Olark",
         "it": "Modulo live chat TM Olark",
         "pl": "Moduł TM Olark czat na żywo",
-        "pt": "Módulo de Bate-Papo TM Olark",
+        "pt": "Módulo de Bate-Papo TM Olark", 
         "tr": "TM Olark live chat modülü"
       }
     }, 
-    { 
+    {  
       "id": "facebook_feed",
       "translations": {
         "en": "SW Facebook Display",
         "ru": "Плагин TM Facebook",
         "es": "SW Facebook Display",
-        "de": "SW Facebook Display",
+        "de": "SW Facebook Display", 
         "fr": "SW Facebook Display",
-        "it": "SW Facebook Display",
+        "it": "SW Facebook Display", 
         "pl": "Wyświetlacz SW Facebook",
         "pt": "SW Facebook Display",
         "tr": "SW Facebook Display"
