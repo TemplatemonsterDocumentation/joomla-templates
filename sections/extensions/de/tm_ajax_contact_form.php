@@ -17,3 +17,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>In den Einstellungen dieses Moduls können Sie alle Funktionen des Formular-Designer finden. Sie haben die Möglichkeit, Felder von jeder Art (Text, E-Mail, Kontrollkästchen, Textarea) hinzuzufügen. Genau deshalb kann die Form nach Ihren Bedürfnissen angepasst werden.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>

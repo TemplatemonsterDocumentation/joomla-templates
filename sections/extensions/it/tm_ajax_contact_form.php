@@ -20,3 +20,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>Nelle impostazioni del presente modulo, puoi trovare tutte le funzioni relative al construttore della forma. Inoltre, hai la possibilità di aggiungere dei campi di ogni tipo (text, email, checkbox, textarea). Grazie a queste funzioni, è possibile configurare la forma per qualunque necessità e esigenza.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>

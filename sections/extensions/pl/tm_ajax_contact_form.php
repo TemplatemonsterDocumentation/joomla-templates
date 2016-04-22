@@ -18,3 +18,7 @@
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
+<p>Te ustawienia modułu pozwalają zarządzać wszystkimi funkcjami Form Buildera, więc możesz dodawać pola jakiegokolwiek rodzaju (tekst, e-mail, checkbox, pole tekstowe). Dzięki temu forma może być dostosowana do twoich potrzeb.</p>
+<figure class="img-polaroid">
+    <img src="img/contact-form-3.png" alt="">
+</figure>

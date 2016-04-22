@@ -84,5 +84,5 @@
 </ol>
 
 <p class="alert alert-info">Możesz sprawdzić szczegółowy tutorial <a
-        href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html"
+      href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html"
         target="_blank">jak importować plik SQL używając narzędzia phpMyAdmi</a></p>

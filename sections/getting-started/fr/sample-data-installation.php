@@ -92,6 +92,6 @@
 </ol>
 
 <p class="alert alert-info">Vous pouvez également voir un tutoriel détaillé sur <a
-        href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html"
+        href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html"
         target="_blank">comment importer un fichier SQL en utilisant l'outil
         phpMyAdmin</a></p>

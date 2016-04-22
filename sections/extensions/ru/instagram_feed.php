@@ -1,5 +1,5 @@
 <h3>TM Instagram</h3>
-
+ 
 <p>TM Instagram - модуль для вывода "Instagram Widget"</p>
 
 <figure class="img-polaroid">
@@ -17,7 +17,7 @@
         rel="nofollow">http://instagram.com/developer/clients/manage/</a> и создайте
     там приложение. После этого у вас появятся данные Вашего приложения, в которых будет
     указан идентификатор (CLIENT ID).</p>
-
+ 
 <figure class="img-polaroid">
     <img src="img/instagram-2.jpg" alt="">
 </figure>

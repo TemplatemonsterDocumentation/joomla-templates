@@ -120,29 +120,29 @@
         "fr": "Le module du Chat en direct TM Olark",
         "it": "Modulo live chat TM Olark",
         "pl": "Moduł TM Olark czat na żywo",
-        "pt": "Módulo de Bate-Papo TM Olark",
+        "pt": "Módulo de Bate-Papo TM Olark", 
         "tr": "TM Olark live chat modülü"
       }
-    },
-    {
+    }, 
+    {  
       "id": "facebook_feed",
       "translations": {
         "en": "SW Facebook Display",
-        "ru": "Pantalla de SW Facebook",
+        "ru": "Плагин TM Facebook",
         "es": "SW Facebook Display",
-        "de": "SW Facebook Display",
+        "de": "SW Facebook Display", 
         "fr": "SW Facebook Display",
-        "it": "SW Facebook Display",
+        "it": "SW Facebook Display", 
         "pl": "Wyświetlacz SW Facebook",
         "pt": "SW Facebook Display",
         "tr": "SW Facebook Display"
       }
     },
-    {
+    { 
       "id": "pinterest_feed",
       "translations": {
         "en": "SW Pinterest Display",
-        "ru": "Pantalla de SW Pinterest",
+        "ru": "Плагин TM Pinterest",
         "es": "SW Pinterest Display",
         "de": "SW Pinterest Display",
         "fr": "SW Pinterest Display",
@@ -156,7 +156,7 @@
       "id": "twitter_feed",
       "translations": {
         "en": "SW Twitter Display",
-        "ru": "Pantalla de SW Twitter",
+        "ru": "Плагин TM Twitter",
         "es": "SW Twitter Display",
         "de": "SW Twitter Display",
         "fr": "SW Twitter Display",
@@ -262,6 +262,20 @@
         "pl": "JoomGallery",
         "pt": "JoomGallery",
         "tr": "JoomGallery"
+      }
+    },
+    {
+      "id": "style_switcher",
+      "translations": {
+        "en": "TM Ajax Style Switcher",
+        "ru": "TM Ajax Style Switcher",
+        "es": "TM Ajax Style Switcher",
+        "de": "TM Ajax Style Switcher",
+        "fr": "TM Ajax Style Switcher",
+        "it": "TM Ajax Style Switcher",
+        "pl": "TM Ajax Style Switcher",
+        "pt": "TM Ajax Style Switcher",
+        "tr": "TM Ajax Style Switcher"
       }
     }
   ]

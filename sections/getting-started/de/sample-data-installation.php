@@ -79,5 +79,5 @@
 </ol>
 
 <p class="alert alert-danger">Schauen Sie bitte das augführliche Video-Tutorial an:<a
-        href="/help/de/phpmyadmin-how-to-import-sample-data-dump-file.html"
+        href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html"
         target="_blank">Wie importiert man eine SQL Datei via phpMyAdmin Tool</a></p>

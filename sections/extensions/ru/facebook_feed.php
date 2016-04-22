@@ -1,5 +1,5 @@
 <h3>TM Facebook Page Plugin</h3>
-
+ 
 <p>TM Facebook Page Plugin - модуль для вывода "Facebook Page Plugin".</p>
 
 <figure class="img-polaroid">
@@ -14,6 +14,6 @@
     можно узнать на <a href="https://developers.facebook.com/docs/plugins/page-plugin"
                        rel="nofollow" target="_blank">официальном сайте</a>.</p>
 
-<figure class="img-polaroid">
+<figure class="img-polaroid"> 
     <img src="img/facebook_feed-2.jpg" alt="">
 </figure>

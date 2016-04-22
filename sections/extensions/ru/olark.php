@@ -1,4 +1,4 @@
-<h3>Модуль TM Olark live chat</h3>
+<h3><a href="http://special.olark.com/cDqdW" target="_blank">Модуль TM Olark live chat</a></h3>
 
 <p>TM Olark live chat - модуль живого чата для Joomla.</p>
 
@@ -22,5 +22,6 @@
         target="_blank" rel="nofollow">этой ссылкой</a>.</p>
 
 <figure class="img-polaroid">
+
     <img src="img/olark-3.jpg" alt="">
 </figure>
