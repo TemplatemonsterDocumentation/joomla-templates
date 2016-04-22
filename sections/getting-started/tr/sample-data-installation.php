@@ -84,5 +84,5 @@
 </ol>
 
 <p class="alert alert-info">Ayrıca eğitim videosuna göz atabilirsiniz <a
-        href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html"
+        href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html"
         target="_blank">PhpMyAdmin aracını kullanarak SQL dosyasını içe aktarmak</a></p>
