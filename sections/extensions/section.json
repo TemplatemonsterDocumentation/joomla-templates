@@ -277,6 +277,62 @@
         "pt": "TM Ajax Style Switcher",
         "tr": "TM Ajax Style Switcher"
       }
+    },
+    {
+      "id": "owl_carousel",
+      "translations": {
+        "en": "owl_carousel",
+        "ru": "owl_carousel",
+        "es": "owl_carousel",
+        "de": "owl_carousel",
+        "fr": "owl_carousel",
+        "it": "owl_carousel",
+        "pl": "owl_carousel",
+        "pt": "owl_carousel",
+        "tr": "owl_carousel"
+      }
+    },
+    {
+      "id": "swiper",
+      "translations": {
+        "en": "Swiper",
+        "ru": "Swiper",
+        "es": "Swiper",
+        "de": "Swiper",
+        "fr": "Swiper",
+        "it": "Swiper",
+        "pl": "Swiper",
+        "pt": "Swiper",
+        "tr": "Swiper"
+      }
+    },
+    {
+      "id": "tm_parallax",
+      "translations": {
+        "en": "Parallax",
+        "ru": "Parallax",
+        "es": "Parallax",
+        "de": "Parallax",
+        "fr": "Parallax",
+        "it": "Parallax",
+        "pl": "Parallax",
+        "pt": "Parallax",
+        "tr": "Parallax"
+      }
+    },
+    {
+      "id": "tm_youtube_background_video",
+      "translations": {
+        "en": "Youtube background video",
+        "ru": "Youtube background video",
+        "es": "Youtube background video",
+        "de": "Youtube background video",
+        "fr": "Youtube background video",
+        "it": "Youtube background video",
+        "pl": "Youtube background video",
+        "pt": "Youtube background video",
+        "tr": "Youtube background video"
+      }
     }
   ]
 }

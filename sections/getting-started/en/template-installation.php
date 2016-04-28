@@ -1,28 +1,22 @@
-<h3>Template Installation</h3>
+<h3>Template installation</h3>
 
-<p>"I already have a Joomla based Web site and just
-    <br> want to change its appearance by installing the new template."</p>
+<p>"I already have a Joomla based website and just 
+want to change its appearance by installing a new template."</p>
 
-<p>Using this method you'll have the Joomla template and all the required extensions installed.</p>
+<p>Using this method, you can install a Joomla template and all the necessary extensions.</p>
 
 <!-- Extensions manager -->
-<h6>Open Joomla administration panel and go to the <b>"Extensions
-        > Extensions Manager"</b> screen using the top menu.
-</h6>
-
+<h6>In your Joomla admin panel, navigate to <b>"Extensions > Extensions Manager"</b> tab:</h6>
 <figure class="img-polaroid">
     <img src="img/template-install-1.jpg" alt="">
 </figure>
 
 <!-- Upload theme zip -->
-<h6>Using the Package File "Choose File" button browse
-    for the "<b>theme###.zip</b>" file in the "joomla" directory of your template
-    package.
-</h6>
+<h6>In Package File tab, press the 
+"Choose File" button and choose "<b>theme###.zip</b>" file from the "joomla" folder of your template package.</h6>
 
-<p>Click the
-    <strong>Upload & Install</strong>
-    button to install the Joomla template.
+<p>To install your Joomla template, please press the 
+    <strong>Upload & Install</strong> button:
 </p>
 
 <figure class="img-polaroid">
@@ -30,13 +24,10 @@
 </figure>
 
 <!-- Activate template -->
-<h6>When uploading is complete you need to activate
-    the installed template. From the top menu select "<b>Extensions > Template
-        Manager</b>."
-</h6>
+<h6>When uploading is complete, please activate the installed template.
+    In the top menu, navigate to "<b>Extensions > Template Manager</b>" tab.</h6>
 
-<p>Select your newly installed template and click the "<b>Make Default</b>" button in
-    the top left corner. Now you can view your website to see the changes.</p>
+<p>Select the new template and press the <b>”Make Default”</b> button on the top left. Check the appearance of you website:</p>
 
 <figure class="img-polaroid">
     <img src="img/template-install-3.jpg" alt="">

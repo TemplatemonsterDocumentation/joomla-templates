@@ -1,22 +1,19 @@
 <h3>TM Ajax Contact Form Module</h3>
 
-<p>TM Ajax Contact Form is a contact form module for Joomla engine. This module allows
-    to add contact form on any Joomla page. Data sending is being performed using AJAX
-    requests, so the page is not getting reloaded</p>
+<p>TM Ajax Contact Form Module is a contact form module for Joomla engine.
+This module allows adding contact form to any page of your Joomla website:</p>
 
 <figure class="img-polaroid">
     <img src="img/contact-form-1.png" alt="">
 </figure>
 
-<p> Module settings allow to add
-    protection against bot (reCaptcha), set up contact form fields, their labels, set up
-    the email address of the recipient, add the address for CC, error and success
-    messages. You can see the full list of the settings below.</p>
+<p>Data sending is performed with the help of AJAX requests, so the page does not get reloaded.
+Module settings allow adding protection against bots (reCaptcha), setting up contact form fields, their labels, adding the e-mail address of the recipient and the CC address, configuring error and success messages. You can see the full list of the settings below:</p>
 
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
-<p>This module settings allow you to manage all of form constructor functions, so you can add fields of any type (text, email, checkbox, textarea). Due to this, form can be customized up to your needs.</p>
+<p>Module settings allow configuring all functions of your contact form. You can enable fields of any type (text, e-mail address, checkboxes and text-areas). Owing to this, your contact form can be configured up to your needs:</p>
 <figure class="img-polaroid">
     <img src="img/contact-form-3.png" alt="">
 </figure>

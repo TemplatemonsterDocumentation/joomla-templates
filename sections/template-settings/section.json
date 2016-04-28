@@ -81,6 +81,20 @@
         "pt": "Funções",
         "tr": "Features"
       }
+    },
+     {
+      "id": "parallax",
+      "translations": {
+        "en": "Parallax",
+        "ru": "parallax",
+        "es": "parallax",
+        "de": "parallax",
+        "fr": "parallax",
+        "it": "parallax",
+        "pl": "parallax",
+        "pt": "parallax",
+        "tr": "parallax"
+      }
     }
   ]
 }
