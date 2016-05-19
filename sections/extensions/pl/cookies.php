@@ -1,13 +1,15 @@
-<h3>Wtyczka Zarządzania plikami Joomla Cookie</h3>
+<h3>Plugin Joomla Cookie Directive</h3>
 
-<p>Wtyczka Zarządzania plikami Joomla Cookie - wtyczka, która pozwala na wyświetlanie
-    baneru zawierającego wiadomość o korzystaniu z plików cookies.</p>
+<p>Joomla Cookie Directive to plugin dla wyświetlania banera z komunikatem dotyczącym korzystania z plików cookie:</p>
 
-<figure class="img-polaroid"><img src="img/cookies-1.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/cookies-1.jpg" alt="">
+</figure>
 
-<p>Tutaj możesz zobaczyć główne ustawienia wtyczki Zarządzania plikami Joomla Cookie.
-    Więcej szczegółów uzyskasz na oficjalnej stronie <a
+<p>Tu można zobaczyć główne ustawienia plugin'u Joomla Cookie Directive. Zapraszamy do zapoznania się ze szczegółami na oficjalnej stronie internetowej <a
         href="http://www.channeldigital.co.uk/resources/joomla-cookie-directive-plugin.html"
-        target="_blank" rel="nofollow"></a>.</p>
+        target="_blank" rel="nofollow"></a>:</p>
 
-<figure class="img-polaroid"><img src="img/cookies-2.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/cookies-2.jpg" alt="">
+</figure>

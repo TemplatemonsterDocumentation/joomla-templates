@@ -1,4 +1,4 @@
-<h3>Configuración del Video de Fondo (Background video)</h3>
+<h3>Configuración del Video de Fondo</h3>
 
 
 <figure class="img-polaroid">
@@ -6,15 +6,9 @@
 </figure>
 
 
-<p>Se pueden agregar videos de fondo a la plantilla con la ayuda del plugin <a
-        href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>
-    de jQuery. Comprueba si el plugin está habilitado. Para poder comprobarlo ve a
-    “Administrador de plantillas --> Plantillas”, luego ve al tema que utilizas
-    (TemaXXXX Detalles y Archivos), abre el archivo “index.php” y comprueba si el plugin
-    está inicializado, al igual que en la. También comprueba si el plugin está
-    disponible en la carpeta “js”. En caso de que el plugin no se encuentre allí, puedes
-    descargarlo utilizando el enlace de arriba y subirlo a la carpeta correspondiente.
-    También no olvides agregar el script al archivo “index.php”. </p>
+<p>Se pueden agregar videos de fondo a la plantilla con la ayuda del Plugin jQuery <a
+        href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>.
+Compruebalo si el plugin está activado. Para poder comprobarlo vaya a la pestaña  "Administrador de plantillas --> Plantillas" ("Template manager -> Templates"),  luego vaya al tema que utiliza (ThemeXXXX Details and Files), abre el archivo “index.php” y comprueba si el plugin está inicializado, al igual que en la captura. También compruebe si el plugin está disponible en el archivo “js”. En caso de que el plugin no se encuentre allí, puede descargarlo utilizando el enlace de arriba y subirlo a la carpeta correspondiente. No olvide de agregar el script al archivo “index.php”:</p>
 
 
 <figure class="img-polaroid">
@@ -22,11 +16,7 @@
 </figure>
 
 
-<p>Con el fin de colocar un video de fondo, ve a “Administrador de Plantillas -->
-    Plantillas”, haz clic en la plantilla que utilizas (TemaXXXX Detalles y Archivos).
-    En un directorio de “html --> mod_custom” crea un archivo “
-    &lt;nombre&gt;.php” con el siguiente contenido:
-</p>
+<p>Para colocar un video de fondo, vaya a "Administrador de Plantillas --> Plantillas" ("Template Manager -> Templates"), haga clic en la plantilla que utilizará (ThemeXXXX Details and Files). En un directorio de "html -> mod_custom" hay que crear un archivo "<name>.php" con el siguiente contenido:</p>
 
 <code>&lt;?php <br>
     /** <br>
@@ -50,23 +40,15 @@
     &lt;/div&gt; <br>
     &lt;/div&gt;</code>
 
-<p>donde [nombre_de_archivo] – es el nombre del archivo de video, sin añadir la
-    extensión del archivo. </p>
+<p>donde [file_name] es el nombre del archivo de video, sin añadir la extensión del archivo:</p>
 
 <figure class="img-polaroid">
     <img src="img/video-2.png" alt="">
 </figure>
 
-<p>También deberías preparar los siguientes formatos de video: mp4, ogv, webm y formatos
-    de imagen de previsualización en png, jpg y gif. El nombre de archivo deberá ser el
-    mismo para todos los archivos y debe corresponder con el anteriormente creado
-    [nombre_de_archivo]. Todos los archivos deberán ser subidos a la carpeta de
-    media\video\ en el directorio raíz de Joomla.
-</p>
+<p>También debería preparar los siguientes formatos de video: mp4, ogv, webm y formatos de imagen de previsualización en png, jpg y gif. El nombre de archivo deberá ser el mismo para todos los archivos y debe corresponder con el anteriormente creado [file_name]. Todos los archivos deberán ser subidos a la carpeta de media\video\ en el directorio raíz de Joomla.</p>
 
-
-<p>En el siguiente paso necesitas crear un módulo que muestre el video. Añade un módulo
-    HTML personalizado con el siguiente contenido:</p>
+<p>En el siguiente paso necesitará crear un módulo que muestre el video. Añada un módulo HTML personalizado con el siguiente contenido:</p>
 
 
 <figure class="img-polaroid">
@@ -74,7 +56,6 @@
 </figure>
 
 
-<p>En la pestaña de “Avanzado” y en el menú desplegable de “Diseño Alternativo” elige tu
-    plantilla de archivo [nombre_de_archivo] creada anteriormente. </p>
+<p>En la pestaña de “Avanzado” y en el menú desplegable de “Diseño Alternativo” hay que elegir el archivo de su plantilla [file_name] creada anteriormente.</p>
 
-<p>Después de que realices todos los pasos, verás el módulo con el video de fondo. </p>
+<p>Después de que haya realizado todos los pasos, verá el módulo con el video de fondo.</p>

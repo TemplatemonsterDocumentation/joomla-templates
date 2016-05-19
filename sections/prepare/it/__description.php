@@ -1,58 +1,62 @@
 <h2 class="item2">Preparazione</h2>
 
-<h6>Prima di procedere nell’impostazione del tuo sito Web Joomlaassicurarsi di essere ben
-    preparati. Bisognerà, quindi, completare le seguenti fasi di preparazione prima di
-    procedere:</h6>
+<h6>Prima di procedere all'installazione del sito web Joomla, è necessario essere pienamente preparati.
+Eseguire le seguenti fasi preparatorie:</h6>
 
 
-<h4>Modifica il software</h4>
+<h4>Software</h4>
 
-<p>Per lavorare correttamente con il modello Joomlaraccomandiamo di scaricare tutte le
-    applicazioni richieste. La lista dei software richiesti è disponibile sulla pagina
-    demo live del modello. I requisiti possono variare da modello a modello,quindi
-    elencheremo qui cosa è richiesto in generale:</p>
+<p>Per visualizzare questo template Joomla, si consiglia di scaricare tutto il necessario compreso
+    l'applicazione. Elenco del software necessario è sulla pagina,
+    Anteprima modello. <br>
+    I requisiti per diversi modelli possono cambiare, quindi abbiamo solo la lista
+    principali:</p>
 
 <ol class="index-list">
-    <li>Innanzitutto servirà la corretta applicazione per estrarre la password protetta
-        dall’archivio sources_#########.zip. Potrete usare WinZip 9+ (Windows) e Stuffit
-        Expander 10+ (Mac).
+    <li>Prima di tutto, abbiamo bisogno l'applicazione giusta per l'estrazione file che sono protette con la password
+        è contiene l'archivio sources_#########.zip. È possibile utilizzare WinZip 9+ (Windows) e
+        Stuffit Expander 10+ (Mac).
     </li>
-    <li>Avrete bisogno anche dell’applicazione Adobe Photoshop. Si usa per modificare i
-        file sorgenti .PSD ed è indispensabile per modificare il design, la grafica e le
-        immagini del modello.
+    <li>Potrebbe anche essere necessario il software Adobe Photoshop. Viene utilizzato per
+        File di origine e poter modificare i file .PSD in caso si desidera cambiare
+        progettazione grafica e le immagini del modello.
     </li>
-    <li>Per modificare il codice dei file sorgenti del modello vi servirà un editor dei
-        codici come Adobe Dreamweaver, Notepad++, Sublime Text ecc.
+    <li>Per modificare i file del template e il codice sorgente è necessario avere il Editor
+        codice, come Adobe Dreamweaver, Notepad ++, Sublime Text, etc..
     </li>
-    <li>Per caricare i file sul server hostingpotrebbe essere utile un FTP Manager come
-        Total Commander, FileZilla, CuteFTP, ecc.
+    <li>Al fine di caricare file sul server di hosting, è necessario disporre di un FTP Client, ad esempio,
+        Total Commander, FileZilla, CuteFTP ecc..
     </li>
 </ol>
 
+
 <h4>Hosting</h4>
 
-<p>Trattandosi di un’applicazione basata su PHP/MySQL, dovrete preparare un ambiente
-    hosting per far funzionare il CMS Joomla.</p>
+<p>Il CMS Joomla è un PHP/MySQL applicazione, è necessario preparare il tutto lato Hosting
+    sul server.</p>
 
-<p>Se avete un host live assicuratevi che sia compatibile con i <a
-        href="http://www.joomla.org/technical-requirements.html" target="_blank">requisiti
-        software di Joomla</a> e che sia pronto per essere usato sui siti in Joomla.</p>
+<p>Se è presente un server attivo, è necessario verificare le conformità <a
+        href="http://www.joomla.org/technical-requirements.html" target="_blank">requisiti</a><a
+        href="http://www.joomla.org/technical-requirements.html" target="_blank">
+        Joomla</a> e la possibilità di supporto e di essere utilizzato il Joomla Engine per i siti web.</p>
 
-<p>Altrimenti potrete avviare Joomla sul vostro computerricorrendo a un server locale.
-    Per creare un server hosting localeutilizzate un’applicazione di host locale come
-    <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b>, ecc. Ognuno di questi potrà essere
-    installato con facilità come qualsiasi altro programma e usato per avviare Joomla.
-</p>
+<p>È inoltre possibile installare Joomla sul computer utilizzando il server locale. Per
+    creare un server di hosting locale, è necessario utilizzare il software
+    <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> e utilizzare uno di loro per impostare come
+    programma regolare con il quele si potrà gestire il Joomla.</p>
 
-<p>Guardate i tutorial in basso su come predisporreun ambiente di sviluppo locale:</p>
+<p>È possibile utilizzare le seguenti istruzioni per configurare il local
+    server:</p>
 <ul class="marked-list">
     <li><a
             href="/help/how-to-install-appserv-web-development-environment.html"
-            target="_blank">Come installarel’ambiente di sviluppo Web AppServ</a></li>
+            target="_blank">Come installare un ambiente di sviluppo web AppServ </a></li>
     <li><a
-            href="/help/how-to-install-wamp-web-development-environment.html"
-            target="_blank">Come installarel’ambiente di sviluppo Web WAMP</a></li>
+            href="/help/how-to-install-appserv-web-development-environment.html"
+            target="_blank">Come installare ambiente di sviluppo Web</a></li>
     <li><a
+            href="/help/how-to-install-appserv-web-development-environment.html"
+            target="_blank">Come installare ambiente di sviluppo Web</a><a
             href="/help/how-to-install-xamp-web-development-environment.html"
-            target="_blank">Come installare l’ambiente di sviluppo Web XAMP</a></li>
+            target="_blank"> XAMP </a></li>
 </ul>

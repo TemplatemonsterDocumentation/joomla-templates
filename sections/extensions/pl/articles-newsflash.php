@@ -1,35 +1,26 @@
-<h3>Przegląd Artykułów</h3>
+<h3>Artykuły Newsflash (Zaawansowane)</h3>
 
-
-<p>Moduł Przegląd Artykułów (Zaawansowany) jest ulepszoną wersją podstawowego modułu
-    Joomla Articles Newsflash. Oprócz podstawowych opcji modułu oferuje on dodatkowe
-    opcje konfiguracyjne i oparte o moduł Bootstrap szablony.</p>
+<p>Moduł Artykuły Newsflash (Zaawansowane) to udoskonalona wersja standardowego modułu Artykuły Newsflash Joomla. W uzupełnieniu do funkcji domyślnego modułu, oferuje dodatkowe opcje konfiguracyjne i szablony modułów oparte o Bootstrap:</p>
 
 <figure class="img-polaroid">
     <img src="img/newsflash-adv-2.jpg" alt="">
 </figure>
 
-<h4>Dodatkowe opcje</h4>
+<h4>Opcje dodatkowe</h4>
 
-<p><b>Ilość kolumn (ang. Number of columns)</b> - pozwala wyświetlić artykuły w wielu
-    kolumnach.</p>
+<p><b>Liczba kolumn</b> - umożliwia wyświetlanie artykułów w wielu kolumnach.</p>
 
-<p><b>Wybrany link (ang. Custom Link)</b> - pozwala wyświetlić wybrany link pod
-    zawartością modułu. Link może prowadzić do zewnętrznego URL albo do innego
-    przedmiotu z Joomla menu. </p>
+<p><b>Niestandardowy link</b> - umożliwia wyświetlanie linku niestandardowego w ramach zawartości modułu. Może być połączony z zewnętrznym URL lub z pewnym elementem menu Joomla.</p>
 
-<p><b>Pretext</b> - pozwala wyświetlić wybrany tekst przed zawartością modułu.</p>
+<p><b>Pretekst</b> - umożliwia wyświetlanie własnego tekstu przed treścią modułu.</p>
 
-<p><b>Data publikacji (ang. Published Date)</b> - wyświetla datę publikacji artykułu.
-</p>
+<p><b>Data opublikowania</b> - wyświetla datę publikacji artykułu. </p>
 
-<p><b>Utworzone przez (ang. Created by)</b> - wyświetla autora artykułu. </p>
+<p><b>Stworzony przez (Autor)</b> - wyświetla autora artykułu.</p>
 
-<p><b>Pokaż grafikę wstępną (ang. Show intro images)</b> - pozwala wyświetlić grafikę
-    wstępną.</p>
+<p><b>Pokaż wprowadzające obrazy</b> - umożliwia wyświetlanie wprowadzającego obrazu artykułu.</p>
 
-<p><b>Wyrównanie grafiki wstępnej (ang. Intro image align)</b> - pozwala wyrównać
-    grafikę wstępną.</p>
+<p><b>Wyrównanie wprowadzającego obrazu</b> - umożliwia wyrównanie wprowadzającego obrazu.</p>
 
 <figure class="img-polaroid">
     <img src="img/newsflash-adv-1.png" alt="">

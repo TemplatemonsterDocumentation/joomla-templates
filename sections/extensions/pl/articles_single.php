@@ -1,16 +1,13 @@
-<h3>Moduł Pojedyncze Artykuły (ang. Articles Single)</h3>
+<h3>Articles Single</h3>
 
-<p>Articles single jest modułem który pozwala ustawić pojedyncze artykuły na pożądaną
-    pozycję. </p>
+<p>Pojedyncze Artykuły to moduł, który umożliwia wyświetlanie jednego artykułu w żądanym położeniu: </p>
 
 <figure class="img-polaroid">
     <img src="img/articles-single-1.jpg" alt="">
 </figure>
 
+<p>Jedynym niezwykłym ustawieniem modułu jest <b>Niestandardowy Link</b>. On umożliwia wyświetlanie linku niestandardowego w ramach zawartości modułu. Można połączyć go z zewnętrznym adresem URL lub z elementem menu własnej strony internetowej Joomla:</p>
 
-<p>Jedyną nietypową opcją w tym module jest <b> Wybrany link (ang.Custom Link)</b>.
-    Pozwala wyświetlić wybrany link pod zawartością modułu. Może prowadzić do
-    zewnętrznego URL albo do innego przedmiotu z Joomla menu. </p>
 <figure class="img-polaroid">
     <img src="img/articles-single-2.jpg" alt="">
 </figure>

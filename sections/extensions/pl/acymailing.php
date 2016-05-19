@@ -1,24 +1,28 @@
 <h3>Acymailing</h3>
 
-<p>Acymailing - komponent subskrypcji dla Joomla!</p>
+<p>Acymailing jest komponentem subskrypcji Joomla!</p>
 
-<figure class="img-polaroid"><img src="img/acymailing-1.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/acymailing-1.jpg" alt="">
+</figure>
 
-<p>Oto główna strona komponentu Acymailing w panelu administratora. Więcej szczegółów
-    uzyskasz na oficjalnej stronie <a href="https://www.acyba.com/acymailing/doc.html"
-                                      target="_blank" rel="nofollow"></a>.</p>
+<p>W panelu administratora znajduje się główna strona AcyMailing. Zapraszamy do zapoznania się ze szczegółami na oficjalnej stronie internetowej <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+                     rel="nofollow"></a>:</p>
 
-<figure class="img-polaroid"><img src="img/acymailing-2.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/acymailing-2.jpg" alt="">
+</figure>
 
-<p>To jest strona ustawień modułu Acymailing. Więcej szczegółów uzyskasz na oficjalnej
-    stronie <a href="https://www.acyba.com/acymailing/62-acymailing-module.html"
-               target="_blank" rel="nofollow">official website</a>.</p>
+<p>To jest strona ustawień modułu AcyMailing. Zapraszamy do zapoznania się ze szczegółami na oficjalnej stronie internetowej <a
+        href="https://www.acyba.com/acymailing/62-acymailing-module.html"
+        target="_blank" rel="nofollow"></a>:</p>
 
-<figure class="img-polaroid"><img src="img/acymailing-3.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/acymailing-3.jpg" alt="">
+</figure>
 
+<p>To lista plugin'ów systemowych, które są instalowane wraz z komponentem AcyMailing:</p>
 
-<p>Oto lista wtyczek systemowych, które są instalowane razem z komponentem
-    Acymailing:</p>
 <ul class="marked-list">
     <li>plg_acymailing_contentplugin</li>
     <li>plg_acymailing_managetext</li>

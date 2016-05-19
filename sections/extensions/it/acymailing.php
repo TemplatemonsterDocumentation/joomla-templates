@@ -1,30 +1,30 @@
 <h3>Acymailing</h3>
 
-<p>Acymailing - la componente di iscrizione per Joomla!</p>
+<p>Acymailing - componente di sottoscrizione per Joomla!</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<p>Questa è la pagina principale della componente Acymailing nel pannello di
-    amministrazione. Puoi approfondire visitando il <a
-        href="https://www.acyba.com/acymailing/doc.html" target="_blank"
-        rel="nofollow">sito ufficiale</a>.</p>
+<p>In questo modo viene presentato, visualizzato sulla pagina principale del sito, il componente Acymailing che viene gestito da admin panel.  
+   Puoi ricevere le informazioni dettagliate sul link di seguito <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+        rel="nofollow">che è il sito ufficiale</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-2.jpg" alt="">
 </figure>
 
-<p>Questa è la pagina delle impostazioni del modulo Acymailing. Puoi approfondire
-    visitando il <a href="https://www.acyba.com/acymailing/62-acymailing-module.html"
-                    target="_blank" rel="nofollow">sito ufficiale</a>.</p>
+<p>In questo modo viene visualizzata la pagina di configurazione del modulo Acymailing. Puoi ricevere le informazioni dettagliate
+   sul link di seguito <a
+        href="https://www.acyba.com/acymailing/62-acymailing-module.html"
+        target="_blank" rel="nofollow">che è il sito ufficiale</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-3.jpg" alt="">
 </figure>
 
-<p>Questa è la lista dei plugin di sistema che verranno installati insieme con la
-    componente Acymailing:</p>
+<p>Insieme al componente Acymailing è possibile configurare dei plugin di sistema:</p>
+
 <ul class="marked-list">
     <li>plg_acymailing_contentplugin</li>
     <li>plg_acymailing_managetext</li>

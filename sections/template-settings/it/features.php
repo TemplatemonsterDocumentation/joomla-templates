@@ -1,9 +1,9 @@
-<h3>Caratteristiche</h3>
+<h3>Proprietà</h3>
 
-<p>Permette di configurare le caratteristiche aggiuntive del modello. </p>
+<p>Esso consente di configurare le proprietà aggiuntive del Template. </p>
 
-<p><b>To Top button e ToTop text</b> abilitano/disabilitanoil pulsante in
-    altoeilpulsante di inserimento del testo.</p>
+<p>Impostazioni <b>To Top button</b> (Pulsante "Sopra") e <b>ToTop text</b> (Testo pulsante "Sopra")
+        attivare il pulsante on/off e il testo per i pulsanti: Impostazioni</p>
 
 <figure class="img-polaroid">
     <img src="img/template-settings-4.jpg" alt="">

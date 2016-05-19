@@ -61,7 +61,7 @@ if (!isset($sections)) {
                         data-href="<?php echo $path; ?>/index.php?lang=en&section=<?php echo $section_param; ?>" <?php echo $lang == "en" ? "selected" : ""; ?>>
                         EN
                     </option>
-                  <!--   <option
+                    <option
                         data-href="<?php echo $path; ?>/index.php?lang=ru&section=<?php echo $section_param; ?>" <?php echo $lang == "ru" ? "selected" : ""; ?>>
                         RU
                     </option>
@@ -85,14 +85,7 @@ if (!isset($sections)) {
                         data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
                         PL
                     </option>
-                    <option
-                        data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt" ? "selected" : ""; ?>>
-                        PT
-                    </option>
-                    <option
-                        data-href="<?php echo $path; ?>/index.php?lang=tr&section=<?php echo $section_param; ?>" <?php echo $lang == "tr" ? "selected" : ""; ?>>
-                        TR
-                    </option> -->
+                    
                 </select>
             </div>
         </div>

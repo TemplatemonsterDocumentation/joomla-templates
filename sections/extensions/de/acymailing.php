@@ -1,31 +1,28 @@
 <h3>Acymailing</h3>
 
-<p>Acymailing ist eine Komponente für das Abonnement für Joomla!</p>
+<p>Acymailing ist eine Abonnement Komponente für Joomla!  </p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<p>So sieht die Hauptseite von der Komponente Acymailing im Control Panel aus.
-    Ausführliche Inormation darüber finden Sie <a
-        href="https://www.acyba.com/acymailing/doc.html" target="_blank"
-        rel="nofollow">auf der offiziellen Webseite</a>.</p>
+<p>So sieht die Hauptseite von der Komponente Acymailing im Control Panel aus. Ausführliche Inormation darüber finden Sie <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+                     rel="nofollow">auf der offiziellen Webseite</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-2.jpg" alt="">
 </figure>
 
-<p>So sieht die Seite von Moduleinstellungen Acymailing aus. Ausführliche Inormation
-    darüber finden Sie <a
+<p>So sieht die Moduleinstellungen Seite von Acymailing aus. Ausführliche Information darüber finden Sie <a
         href="https://www.acyba.com/acymailing/62-acymailing-module.html"
-        target="_blank" rel="nofollow">auf der offiziellen Webseite</a>.</p>
+        target="_blank" rel="nofollow">auf der offiziellen Webseite</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-3.jpg" alt="">
 </figure>
 
+<p>Mit der Komponente Acymailing werden auch die folgenden System-Plugins installiert</p>
 
-<p>Mit der Komponente Acymailing werden auch System-Plugins installiert:</p>
 <ul class="marked-list">
     <li>plg_acymailing_contentplugin</li>
     <li>plg_acymailing_managetext</li>

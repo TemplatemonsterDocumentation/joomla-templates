@@ -1,25 +1,19 @@
 <h3>Tabla de Configuración de Módulos </h3>
 
-<p class="alert alert-warning">Nota: Si Usted ha instalado los datos de muestra de plantillas o ha seguido el método de
-    instalación completa, Usted puede omitir el siguiente paso, ya que está relacionado con la configuración manual de
-    los módulos.</p>
+<p class="alert alert-warning">Tenga en cuenta: Si Usted ha instalado los datos de muestra de plantillas o ha seguido el método de instalación completa, Usted puede omitir el siguiente paso, ya que está relacionado con la configuración manual de los módulos.</p>
 
-<p>La tabla lista todos los módulos usados ​​en esta plantilla y muestra el modo de
-    configuración correcta. Se puede obtener acceso a todos los módulos a través del
-    panel de administración de Joomla y Extensions > Module Manager (Extensiones >
-    Gestor de módulos).</p>
-
+<p>La tabla lista todos los módulos usados ​​en esta plantilla y muestra el modo de configuración correcta. Se puede obtener acceso a todos los módulos a través del panel de Administración de Joomla desde la pestaña <b>(Extensiones >
+    Gestor de módulos (Extensions > Module Manager)</b> :</p>
 <figure class="img-polaroid"><img src="img/modules-config-1.jpg" alt=""></figure>
-
 
 <div class="table">
     <div class="container">
         <div class="row">
             <div class="grid_3">
-                <h5>Module Name</h5>
+                <h5>Nombre del Módulo</h5>
             </div>
             <div class="grid_8">
-                <h5>Configuration</h5>
+                <h5>Settings</h5>
             </div>
         </div>
         <div class='row'>
@@ -36,9 +30,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -57,9 +51,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -78,9 +72,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -99,9 +93,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -126,7 +120,7 @@
                         Curabitur eu dignissim velit<br/>Archives
                     </li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -145,9 +139,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -166,9 +160,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -189,7 +183,7 @@
                 <ul>
                     <li><b>Pages:</b> Home</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -208,9 +202,9 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -236,7 +230,7 @@
                         velit<br/>Archives
                     </li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -257,7 +251,7 @@
                 <ul>
                     <li><b>Pages:</b> FAQs<br/>Testimonials</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -282,7 +276,7 @@
                         Curabitur eu dignissim velit
                     </li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -303,7 +297,7 @@
                 <ul>
                     <li><b>Pages:</b> About</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -324,7 +318,7 @@
                 <ul>
                     <li><b>Pages:</b> Home</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -345,7 +339,7 @@
                 <ul>
                     <li><b>Pages:</b> About</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -370,7 +364,7 @@
                         turpis in augue<br/>Blog. Curabitur eu dignissim velit
                     </li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -395,7 +389,7 @@
                         turpis in augue<br/>Blog. Curabitur eu dignissim velit
                     </li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
@@ -414,11 +408,12 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
-                    <li><b>Additional info:</b> &nbsp;</li>
+                    <li><b>Additional Info:</b> &nbsp;</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+

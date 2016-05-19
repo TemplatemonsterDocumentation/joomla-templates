@@ -7,9 +7,7 @@
     "de": "Erweiterungen",
     "fr": "Extensions",
     "it": "Estensioni",
-    "pl": "Rozszerzenia",
-    "pt": "Extensões",
-    "tr": "Eklentiler"
+    "pl": "Rozszerzenia"
   },
   "articles": [
     {
@@ -21,9 +19,7 @@
         "de": "Articles Newsflash",
         "fr": "Articles Newsflash",
         "it": "Articles Newsflash",
-        "pl": "Przegląd Artykułów",
-        "pt": "Artigos de Última Hora",
-        "tr": "Makaleler Flaş Haberler"
+        "pl": "Przegląd Artykułów"
       }
     },
     {
@@ -35,9 +31,7 @@
         "de": "Image Swoop",
         "fr": "Image Swoop",
         "it": "Image Swoop",
-        "pl": "Image Swoop",
-        "pt": "Image Swoop",
-        "tr": "Resim Swoop"
+        "pl": "Image Swoop"
       }
     },
     {
@@ -49,9 +43,7 @@
         "de": "Articles Single",
         "fr": "Articles Single",
         "it": "Articles Single",
-        "pl": "Moduł Pojedyncze Artykuły",
-        "pt": "Articles Single",
-        "tr": "Tek makaleler"
+        "pl": "Moduł Pojedyncze Artykuły"
       }
     },
     {
@@ -63,9 +55,7 @@
         "de": "CarouFredSel",
         "fr": "CarouFredSel",
         "it": "CarouFredSel",
-        "pl": "Moduł CarouFredSel",
-        "pt": "CarouFredSel",
-        "tr": "CarouFredSel"
+        "pl": "Moduł CarouFredSel"
       }
     },
     {
@@ -77,9 +67,7 @@
         "de": "Komento Kommentare",
         "fr": "Commentaires de Komento",
         "it": "Commenti Komento",
-        "pl": "Komponent Komentarze Komento",
-        "pt": "Comentários Komento",
-        "tr": "Komento Yorumlar"
+        "pl": "Komponent Komentarze Komento"
       }
     },
     {
@@ -91,9 +79,7 @@
         "de": "Forum Kunena",
         "fr": "Forum Kunena",
         "it": "Kunena Forum",
-        "pl": "Kunena Forum",
-        "pt": "Fórum Kunena",
-        "tr": "Kunena Forum"
+        "pl": "Kunena Forum"
       }
     },
     {
@@ -105,9 +91,7 @@
         "de": "Modul TM Ajax Contact Form",
         "fr": "Module de Formulaire de Contact en Ajax TM",
         "it": "Modulo Contatti TM Ajax",
-        "pl": "Moduł Formularza Kontaktowego TM Ajax",
-        "pt": "Módulo de Formulário de Contato TM Ajax",
-        "tr": "TM Ajax Contact Form Modülü"
+        "pl": "Moduł Formularza Kontaktowego TM Ajax"
       }
     },
     {
@@ -119,9 +103,7 @@
         "de": "TM Olark live chat Modul",
         "fr": "Le module du Chat en direct TM Olark",
         "it": "Modulo live chat TM Olark",
-        "pl": "Moduł TM Olark czat na żywo",
-        "pt": "Módulo de Bate-Papo TM Olark", 
-        "tr": "TM Olark live chat modülü"
+        "pl": "Moduł TM Olark czat na żywo"
       }
     }, 
     {  
@@ -133,9 +115,7 @@
         "de": "SW Facebook Display", 
         "fr": "SW Facebook Display",
         "it": "SW Facebook Display", 
-        "pl": "Wyświetlacz SW Facebook",
-        "pt": "SW Facebook Display",
-        "tr": "SW Facebook Display"
+        "pl": "Wyświetlacz SW Facebook"
       }
     },
     { 
@@ -147,9 +127,7 @@
         "de": "SW Pinterest Display",
         "fr": "SW Pinterest Display",
         "it": "SW Pinterest Display",
-        "pl": "Wyświetlacz SW Pinterest",
-        "pt": "SW Pinterest Display",
-        "tr": "SW Pinterest Display"
+        "pl": "Wyświetlacz SW Pinterest"
       }
     },
     {
@@ -161,9 +139,7 @@
         "de": "SW Twitter Display",
         "fr": "SW Twitter Display",
         "it": "SW Twitter Display",
-        "pl": "Wyświetlacz SW Twitter",
-        "pt": "SW Twitter Display",
-        "tr": "SW Twitter Display"
+        "pl": "Wyświetlacz SW Twitter"
       }
     },
     {
@@ -175,9 +151,7 @@
         "de": "TM Instagram",
         "fr": "TM Instagram",
         "it": "TM Instagram",
-        "pl": "TM Instagram",
-        "pt": "TM Instagram",
-        "tr": "TM Instagram"
+        "pl": "TM Instagram"
       }
     },
     {
@@ -189,9 +163,7 @@
         "de": "Joomla Social Login",
         "fr": "Joomla Social Login",
         "it": "Joomla Social Login",
-        "pl": "Joomla Social Login",
-        "pt": "Joomla Social Login",
-        "tr": "Joomla Social Login"
+        "pl": "Joomla Social Login"
       }
     },
     {
@@ -203,9 +175,7 @@
         "de": "Acymailing",
         "fr": "Acymailing",
         "it": "Acymailing",
-        "pl": "Acymailing",
-        "pt": "Acymailing",
-        "tr": "Acymailing"
+        "pl": "Acymailing"
       }
     },
     {
@@ -217,9 +187,7 @@
         "de": "TM Addthis",
         "fr": "TM Addthis",
         "it": "TM Addthis",
-        "pl": "TM Addthis",
-        "pt": "TM Addthis",
-        "tr": "TM Addthis"
+        "pl": "TM Addthis"
       }
     },
     {
@@ -231,9 +199,7 @@
         "de": "Googlemap plugin",
         "fr": "Googlemap plugin",
         "it": "Plugin Googlemap",
-        "pl": "Wtyczka Googlemap",
-        "pt": "Googlemap plugin",
-        "tr": "Googlemap plugin"
+        "pl": "Wtyczka Googlemap"
       }
     },
     {
@@ -245,9 +211,7 @@
         "de": "Joomla Cookie Directive Plugin",
         "fr": "Joomla Cookie Directive Plugin",
         "it": "Joomla Cookie Directive Plugin",
-        "pl": "Wtyczka Zarządzania plikami Joomla Cookie",
-        "pt": "Joomla Cookie Directive Plugin",
-        "tr": "Joomla Cookie Directive Plugin"
+        "pl": "Wtyczka Zarządzania plikami Joomla Cookie"
       }
     },
     {
@@ -259,9 +223,7 @@
         "de": "JoomGallery",
         "fr": "JoomGallery",
         "it": "JoomGallery",
-        "pl": "JoomGallery",
-        "pt": "JoomGallery",
-        "tr": "JoomGallery"
+        "pl": "JoomGallery"
       }
     },
     {
@@ -273,9 +235,7 @@
         "de": "TM Ajax Style Switcher",
         "fr": "TM Ajax Style Switcher",
         "it": "TM Ajax Style Switcher",
-        "pl": "TM Ajax Style Switcher",
-        "pt": "TM Ajax Style Switcher",
-        "tr": "TM Ajax Style Switcher"
+        "pl": "TM Ajax Style Switcher"
       }
     },
     {
@@ -287,9 +247,7 @@
         "de": "owl_carousel",
         "fr": "owl_carousel",
         "it": "owl_carousel",
-        "pl": "owl_carousel",
-        "pt": "owl_carousel",
-        "tr": "owl_carousel"
+        "pl": "owl_carousel"
       }
     },
     {
@@ -301,9 +259,7 @@
         "de": "Swiper",
         "fr": "Swiper",
         "it": "Swiper",
-        "pl": "Swiper",
-        "pt": "Swiper",
-        "tr": "Swiper"
+        "pl": "Swiper"
       }
     },
     {
@@ -315,9 +271,7 @@
         "de": "Parallax",
         "fr": "Parallax",
         "it": "Parallax",
-        "pl": "Parallax",
-        "pt": "Parallax",
-        "tr": "Parallax"
+        "pl": "Parallax"
       }
     },
     {
@@ -329,9 +283,7 @@
         "de": "Youtube background video",
         "fr": "Youtube background video",
         "it": "Youtube background video",
-        "pl": "Youtube background video",
-        "pt": "Youtube background video",
-        "tr": "Youtube background video"
+        "pl": "Youtube background video"
       }
     }
   ]

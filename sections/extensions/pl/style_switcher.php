@@ -1,14 +1,11 @@
-<h3>TM Ajax Style Switcher Module</h3>
+<h3>Moduł TM Ajax Style Switcher</h3>
 
-<p><strong>TM Ajax Style Switcher Module</strong> – jest modułem, który pozwala przełączać schematy kolorów przez
-    frontend. Moduł automatycznie stosuje schematy kolorów z folderu color_schemes\css\ używanego motywu.</p>
+<p><strong>TM Ajax Style Switcher Module</strong> to moduł do przełączania schematów kolorystycznych poprzez front-end. Moduł automatycznie stosuje schematy kolorystyczne z folderu color_schemes\css\ aktualnego motywu.</p>
 
-<p>Moduł nie ma żadnych specjalnych ustawień w panelu administratora, on zawiera standardową konfigurację.</p>
+<p>Nie ma żadnych specyficznych ustawień dla tego modułu w panelu administratora, tylko standardowe ustawienia dla wszystkich modułów:</p>
 
 <figure class="img-polaroid">
     <img src="img/style_switcher_1.jpg" alt="">
 </figure>
 
-<p class="alert alert-warning">Proszę pamiętać, że przy demonstracji szablonu na żywo moduł pracuje w trybie podglądu za
-    pomocą plików cookies. Na rzeczywistej witrynie moduł pracuje w pełnym trybie i jest dostępny tylko dla
-    autoryzowanych użytkowników z prawami SuperAdmin.</p>
+<p class="alert alert-warning">Uwaga: w szablonie Live Demo, szablon działa w trybie podglądu przy pomocy plików cookie. Na Państwa stronie internetowej moduł będzie działać w trybie pełnym i będzie dostępny dla autoryzowanych użytkowników z prawami kategorii użytkowników SuperAdmin.</p>

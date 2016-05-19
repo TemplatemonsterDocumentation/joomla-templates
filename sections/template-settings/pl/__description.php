@@ -1,11 +1,9 @@
-<h2 class="item7">Ustawienia Szablonu</h2>
+<h2 class="item7">Ustawienia szablonu</h2>
 
-<p>Każdy szablon Joomla ma swoje opcje konfiguracji. Można je stosować by dopasować motywy
-    tematyczne układu, oznaczenia typograficzne, inne dodatkowe właściwości itp. Opcje
-    szablonu dostępne są poprzez panel administracyjny Joomla w <b> Rozszerzenia > Menadżer
-        Szablonów (ang. Extensions > Template Manager)</b></p>
+<p>Każdy szablon Joomla posiada swoje ustawienia konfiguracyjne. Przy ich pomocy można skonfigurować motywu układ, typografię, kilka dodatkowych funkcji, itp Opcje szablonu można uzyskać za pomocą panelu administracyjnego Joomla w <b>Rozszerzenia > Menedżer Szablonów</b>
+tab.</p>
 
-<p>Gdy jesteś w sekcji Menadżera Szablonów wybierz motyw który chcesz zmodyfikować. </p>
+<p>Prosimy wybrać odpowiedni szablon w Menedżer Szablonów:</p>
 
 <figure class="img-polaroid">
     <img src="img/template-settings-1.jpg" alt="">

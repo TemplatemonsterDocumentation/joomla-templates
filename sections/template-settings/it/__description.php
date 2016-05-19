@@ -1,12 +1,12 @@
-<h2 class="item7">Impostazioni Modello</h2>
+<h2 class="item7">Personalizzare template</h2>
 
-<p>Ogni modello Joomla ha le proprie opzioni di configurazione. Possono essere adattateper
-    impostare le classi di layout del tema, il carattere dei tag, alcune caratteristiche
-    aggiuntive, ecc. Per accedere alle impostazioni del modellodal pannello di
-    amministrazione di Joomla dalla sezione <b>Estensioni > Gestione Modello (Extensions >
-        Template Manager)</b>.</p>
+<p>Per ogni template Joomla e la sua configurazione. Con il loro aiuto, è possibile specificare
+    template, layout, design, e le varie funzioni aggiuntive, ecc.. È possibile accedere alle impostazioni del modello
+    in menu <b>Extensions (Estensioni) > Template Manager (Template manager)</b>
+    pannello di gestione di Joomla.</p>
 
-<p>Nella sezione Gestione Modelloselezionare il temache si intende modificare. </p>
+<p>In menu Template Manager (Template manager) selezionare il modello desiderato:</p>
+
 <figure class="img-polaroid">
     <img src="img/template-settings-1.jpg" alt="">
 </figure>

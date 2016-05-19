@@ -1,31 +1,28 @@
 <h2 class="item1">Introduzione</h2>
 
-<h5>Grazie per avere acquistato un modello Joomla. Questa documentazione comprende diverse sezioni che illustrano
-    l’intero processo di configurazione e ammnistrazione di un sito Web Joomlaa partire dalla sua installazione. Abbiamo
-    fatto il possibile per rendere questo manuale chiaro e semplice da usare.</h5>
+<h5>Grazie per aver acquistato un template Joomla. Questa documentazione è costituita da più parti, e copre l'intero
+    processo di installazione e configurazione sito Joomla da zero. Abbiamo fatto ogni sforzo per rendere questo manuale più comprensibile
+    ed utilizzabile. </h5>
 
 
-<h3>Cos’è il CMS Joomla?</h3>
+<h3>Cos'è il CMS Joomla?</h3>
 
-<p>Il CMS Joomla è una soluzione open sourceper realizzare siti Web ricchi di contenuti. Permette di creare siti
-    internet e potenti applicazioni online senza ricorrere a particolari competenze tecniche. Molti aspetti, incluse la
-    sua facilità di utilizzo e la sua estendibilità, hanno fatto di Joomla il più popolare software per siti Web tra
-    quelli disponibili.
-    <a href="http://www.joomla.org/about-joomla.html" target="_blank">Per saperne di più</a>
-    .
+<p>Joomla CMS - è un software open source per la costruzione di siti web. Esso consente di creare siti web e
+    potenti applicazioni on-line, e non richiede quasi nessuna competenza tecnica o conoscenze di gestione. Molte
+    funzionalità, tra cui la facilità d'uso e l'estensibilità, hanno reso Joomla il programma più popolare per
+    siti internet.
+    <a href="http://www.joomla.org/about-joomla.html" target="_blank">Dettagli</a>
 </p>
 
-<h3>Cos’è il modello Joomla</h3>
+<h3>Che cosa è un template Joomla?</h3>
 
-<p>Il modello Joomlaè un elemento disponibile per la vostra piattaforma CMS Joomla. In pratica, sarà possibile
-    modificare l’aspetto del vostro sito Web Joomla semplicemente installando un nuovo modello in pochi facili passaggi.
-    Il modello Joomla, nella sua semplicità, è dotato di tutti i file sorgenti necessariper modificarlo o estenderlo
-    liberamente a vostro piacimento.</p>
+<p>Template Joomla - è un tema per la piattaforma CMS Joomla. In altre parole, l'aspetto del sito Joomla può essere facilmente cambiato
+    impostando un nuovo modello seguendo alcuni semplici passaggi. Per tutta la sua semplicità, template Joomla contiene tutti i
+    file di origine necessari che possono essere modificati, se lo desideri.</p>
 
-<h3>La struttura dei File</h3>
+<h3>La struttura del modello</h3>
 
-<h6>Il pacchetto relativo al modello che avete scaricatoè composto da diverse schede. Vediamo nel dettaglio il contenuto
-    di ogni scheda:</h6>
+<h6>Set modello acquisito è costituito da diverse cartelle. Diamo uno sguardo ai contenuti di ciascuna cartella:</h6>
 
 <ul class="files_structure">
     <li class="folder">
@@ -33,7 +30,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Documentation</b></dt>
-            <dd> contiene i file della documentazione</dd>
+            <dd> essa contiene file di documentazione</dd>
         </dl>
         <ul>
             <li class="file">
@@ -42,7 +39,7 @@
                         <i class="fa fa-file"></i>
                         documentation.html
                     </dt>
-                    <dd> File della documentazione principale. Ti trovi esattamente qui :)
+                    <dd> file di documentazione principale. Stai leggendo ora :)
                     </dd>
                 </dl>
             </li>
@@ -53,7 +50,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Joomla</b></dt>
-            <dd> contiene l’archivio dei temi Joomla, il pacchetto di installazione rapidae un file script compresso.
+            <dd> esso contiene un archivio con la versione di Joomla tema per una rapida installazione e il file di script per decomprimere.
             </dd>
         </dl>
         <ul>
@@ -63,8 +60,8 @@
                         <i class="fa fa-file"></i>
                         theme###.zip
                     </dt>
-                    <dd> archivio temi. Contiene I file di tutti i temi. Può essere
-                        <a href="#template-installation">installato tramite Joomla extension manager</a>
+                    <dd> archiviare un tema. Esso contiene tutti i file del tema. Esso deve essere impostato
+                        <a href="#template-installation">utilizzando Joomla Extensions Manager</a>
                     </dd>
                 </dl>
             </li>
@@ -74,9 +71,11 @@
                         <i class="fa fa-file"></i>
                         fullpackage.zip
                     </dt>
-                    <dd> contiene il
-                        <a href="#complete_install">pacchetto d’installazione completa Joomla</a>
-                        con i file engine, i temi ei esempi di contenuti (dump del database, immagini campione)
+                    <dd> esso rappresenta
+                        <a href="#complete_install">
+                            Kit per la completa installazione di Joomla
+                        </a>
+                        con i file del motore, tema e dati demo (dump del database, immagini di esempio)
                     </dd>
                 </dl>
             </li>
@@ -86,7 +85,7 @@
                         <i class="fa fa-file"></i>
                         unzip.php
                     </dt>
-                    <dd> estrae I file da fullpackage.zip quando caricati sul server di hosting
+                    <dd> file utilizzato per decomprimere dopo aver caricato fullpackage.zip sul server di hosting
                     </dd>
                 </dl>
             </li>
@@ -97,7 +96,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Screenshots</b>
-            <dd> contiene gli screenshots dei modelli</dd>
+            <dd> Esso contiene screenshot del tema</dd>
         </dl>
     </li>
     <li class="folder">
@@ -105,7 +104,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Sources</b>
-            <dd> contiene i file sorgenti dei modelli</dd>
+            <dd> contiene tematiche dei dati file della demo</dd>
         </dl>
         <ul>
             <li class="folder">
@@ -114,7 +113,7 @@
                         <i class="fa fa-folder"></i>
                         psd
                     </dt>
-                    <dd> file sorgenti per il modello Adobe Photoshop (.psd)
+                    <dd> file del modello di origine per Adobe Photoshop (.psd)
                     </dd>
                 </dl>
             </li>
@@ -124,9 +123,8 @@
                         <i class="fa fa-folder"></i>
                         to_the_root_folder
                     </dt>
-                    <dd> contiene file con esempi di contenuti che permetteranno al vostro sito di apparire come demo
-                        live di un modello. Il contenuto di questa cartella dovrebbe essere caricato sulla vostra
-                        directory root di Joomla.
+                    <dd> cartella con i dati di esempio, necessari per il sito web che deve essere visualizzato nello stesso modo della versione demo del modello. I contenuti
+                        di questa cartella devono essere caricate nella cartella principale di Joomla
                     </dd>
                 </dl>
             </li>
@@ -136,7 +134,7 @@
                         <i class="fa fa-file"></i>
                         dump.sql
                     </dt>
-                    <dd> file dump del database. Contiene esempi di temi.
+                    <dd> file di dump del database. Contiene tematiche di dati demo
                     </dd>
                 </dl>
             </li>
@@ -146,7 +144,7 @@
                         <i class="fa fa-file"></i>
                         pkg_bundle.zip
                     </dt>
-                    <dd> contieneestensioni aggiuntive disponibili con il tema
+                    <dd> esso contiene le estensioni aggiuntive
                     </dd>
                 </dl>
             </li>
@@ -158,7 +156,7 @@
                 <i class="fa fa-file"></i>
                 fonts_info.txt
             </dt>
-            <dd> contiene i link per scaricare i font da utilizzare nella personalizzazione del modello
+            <dd> esso contiene link dove è possibile scaricare i font del modello
             </dd>
         </dl>
     </li>
@@ -168,8 +166,7 @@
                 <i class="fa fa-file"></i>
                 info.txt
             </dt>
-            <dd> contieneistruzioni su come scaricare i file sorgenti
-            </dd>
+            <dd> disimballaggio istruzioni per i file dei dati della demo</dd>
         </dl>
     </li>
 </ul>

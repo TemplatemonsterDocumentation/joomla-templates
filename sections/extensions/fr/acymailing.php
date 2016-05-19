@@ -6,25 +6,22 @@
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<p>Voici la page principale de composant AcyMailing dans le panneau d'administration.
-    N'hésitez pas à vérifier pour plus de détails au <a
-        href="https://www.acyba.com/acymailing/doc.html" target="_blank"
-        rel="nofollow">site officiel</a>.</p>
+<p>Voici la page principale de composant AcyMailing dans le panneau d'administration. N'hésitez pas à consulter plus d'informations sur <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+                     rel="nofollow">le site officiel</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-2.jpg" alt="">
 </figure>
 
-<p>C'est la page des paramètres du module AcyMailing. N'hésitez pas à vérifier pour plus
-    de détails au <a href="https://www.acyba.com/acymailing/62-acymailing-module.html"
-                     target="_blank" rel="nofollow">site officiel</a>.</p>
+<p>C'est une page des paramètres du module Acymailing. N'hésitez pas à consulter plus d'informations sur <a
+        href="https://www.acyba.com/acymailing/62-acymailing-module.html"
+        target="_blank" rel="nofollow">le site officiel</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-3.jpg" alt="">
 </figure>
 
-<p>C'est la liste des plugins de système qui sont installés se avec le composant
-    AcyMailing:</p>
+<p>C'est la liste des plugins de système qui sont installés avec le composant Acymailing:</p>
 
 <ul class="marked-list">
     <li>plg_acymailing_contentplugin</li>

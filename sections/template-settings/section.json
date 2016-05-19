@@ -7,9 +7,7 @@
     "de": "Template Einstellungen",
     "fr": "Réglages du modèle",
     "it": "Impostazioni Modello",
-    "pl": "Ustawienia Szablonu",
-    "pt": "Configurações do Template",
-    "tr": "Şablon Ayarları"
+    "pl": "Ustawienia Szablonu"
   },
   "articles": [
     {
@@ -21,9 +19,7 @@
         "de": "Layout",
         "fr": "Agencement",
         "it": "Layout",
-        "pl": "Układ",
-        "pt": "Layout",
-        "tr": "Layout"
+        "pl": "Układ"
       }
     },
     {
@@ -35,9 +31,7 @@
         "de": "Typografie",
         "fr": "Typographie",
         "it": "Tipografia",
-        "pl": "Typografia",
-        "pt": "Tipografia",
-        "tr": "Typography"
+        "pl": "Typografia"
       }
     },
     {
@@ -49,9 +43,7 @@
         "de": "Einfügen des Hintergrund-Videos",
         "fr": "Définir une Vidéo de fond",
         "it": "Impostare un video di sottofondo",
-        "pl": "Ustawienie video w tle",
-        "pt": "Colocando vídeo no fundo",
-        "tr": "Arkaplan Video Ayarları"
+        "pl": "Ustawienie video w tle"
       }
     },
     {
@@ -63,9 +55,7 @@
         "de": "Nutzung des Parallaxeneffektes",
         "fr": "Utiliser l'effet Parallax",
         "it": "Usare l'effetto Parallax",
-        "pl": "Używanie efektu Parallax",
-        "pt": "Usando o efeito de Parallax",
-        "tr": "Parallax efektini kullanmak"
+        "pl": "Używanie efektu Parallax"
       }
     },
     {
@@ -77,9 +67,7 @@
         "de": "Eigenschaften",
         "fr": "Fonctionnalités",
         "it": "Caratteristiche",
-        "pl": "Funkcje",
-        "pt": "Funções",
-        "tr": "Features"
+        "pl": "Funkcje"
       }
     },
      {
@@ -91,9 +79,7 @@
         "de": "parallax",
         "fr": "parallax",
         "it": "parallax",
-        "pl": "parallax",
-        "pt": "parallax",
-        "tr": "parallax"
+        "pl": "parallax"
       }
     }
   ]

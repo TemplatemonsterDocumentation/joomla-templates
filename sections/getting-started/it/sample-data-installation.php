@@ -1,83 +1,70 @@
-<h3>Installazione Dati di Esempio(Sample Data)</h3>
+<h3>Installazione dei dati di esempio</h3>
 
-<p>I Dati di Esempioservono a visualizzare il vostro sito Joomla come la pagina demo
-    live di un modello. Contengono campioni di articoli, immagini, impostazioni moduli,
-    impostazioni siti web, ecc. Se non intendete usare dei campioni di immagini o
-    qualsiasi altro contenuto di prova potete saltare questo passaggio.</p>
+<p>Dati di esempio vengono utilizzate per il sito Joomla per avere il modello come nella demo.
+    Questi sono esempi di articoli e immagini, moduli tuning, sito web ecc..
+    Se non hai bisogno di immagini di esempio o altri contenuti demo, saltare
+    questo passaggio. </p>
 
-<p>Per installare idati di esempiodovrrete completare due semplici passaggi.</p>
+<p>Installazione dei dati demo include due semplici passaggi.</p>
 
-<h4>Caricare un campione di immagini.</h4>
+<h4>Scarica le immagini demo</h4>
 
-<p>Per caricare un campione di immaginisarà necessario aprire la directory del proprio
-    modelloe andare nella scheda "sources". A questo punto dovreste vedere la directory
-    "to_the_root_directory". Essa contiene dei file che andranno collocati all’interno
-    della vostra root d’installazione. Utilizzare il file manager per caricare i file
-    sul server.</p>
+<p>Per scaricare l'immagini demo, aprire il modello e passare alla cartella "sources". Qui si trova la cartella "to_the_root_directory". Esso contiene i file che si desidera caricare
+    Joomla nella cartella di installazione principale. Per caricare i file sul server, utilizzare
+    il file manager.</p>
 
-<h4>Importare un file SQL.</h4>
+<h4>Importazione del file SQL</h4>
 
-<p>L’ultimo passaggio, nonché il più importante nell’installazione dei dati di esempio
-    consiste nell’importare il file SQL.Il file SQL è un dump deldatabase di esempio, e
-    contiene tutti i dati del sito Joomla. Il file SQL può essere importato usando uno
-    strumento di gestione del database (phpMyAdmin). Il file SQL del modello -
-    "dump.sql" è allocato nella diretctory "sources" nel pacchetto del template. </p>
+<p>L'ultimo e più importante passo e quello di installare un database demo è importare il file SQL.
+    SQL File - un dump del database, in cui tutti i dati vengono memorizzati sul sito Joomla. SQL File
+    è possibile importare utilizzando la gestione di database lo strumento (phpMyAdmin).
+    SQL file di modello "dump.sql" si trova nella cartella "font". </p>
 
 
-<p class="alert alert-danger">Per favore <b>NON </b> importare il file SQL se il vostro è un sito web live in quanto
-    rimpiazzerebbe totalmente il database del vostro sito causando la perdita di tutti i vostri dati.</p>
-<p class="alert alert-danger">Attenzione: prima di importare il file SQL assicurarsi cheil prefisso della tabella del
-    vostro databasesia compatibile con il prefisso della tabella contenuta nel file SQL.</p>
-<p>E’ possibile verificare il prefisso della tabella direttamente nel database
-    utilizzando lo strumento di gestione del database. Verificate tra le tabelle
-    effettuando la ricerca per nome. Il prefisso è una sequenza di simboli posti prima
-    del nome della tabella. (
-    <i>es. Il prefisso della tabella "jos_assets" è "jos_"</i>
-    ).
-    Il prefisso del database è contenuto anche nel file "configuration.php" nella
-    directory root di Joomla. Cercate la riga 19: </p><code>public $dbprefix =
-        'jos_';</code><p> (
-    <i>in cui il prefisso è "jos_"</i>
-    )
+<p class="alert alert-danger"><b>NON SI PUO'</b> importare il file SQL nel database del sito Web corrente, in quanto andrà a sostituire il contenuto del database e tutto il contenuto verrà perso.</p>
+
+<p class="alert alert-danger">Nota: Prima di importare file SQL, assicurarsi che il prefisso delle tabelle del database
+    appropriato corrisponde al prefisso delle tabelle del file SQL.</p>
+
+<p>Le tabelle del database prefisso possono essere controllati direttamente nello strumento di gestione
+    database. Notare i nomi delle tabelle. Prefisso - un insieme di caratteri
+    prima del nome delle tabelle (<i>come esempio, nella tabella "jos_assets" prefisso è - "jos_"</i>).
+    Anche file di database prefisso può essere trovato in "configuration.php" nella cartella principale del sito.
+    Riga 19: </p><code>public $dbprefix = 'jos_';</code> <p>(<i>dove il prefisso è - "jos_"</i>).
 </p>
 
-<p>Se i prefissi della tabella non combaciano aprite il file "dump.sql" con il vostro
-    editor di codicie utilizzando lo strumentoTrova&amp;Sostituisci (chiavi CTRL+F or
-    CTRL+H) rimpiazzereteil prefisso della tabella "jos_" (
-    <i>usato nel file SQL</i>
-    )
-    con quello corrispondente al vostro database. Troverete un video tutorial
-    dettagliato su <a
+<p>Se il prefisso delle altre tabelle del database corrisponde, vai nel file e apri il "dump.sql" in
+    editor di testo utilizzando lo strumento &quot;Trova e sostituisci&quot; (tasti
+    veloci CTRL+F oppure CTRL+H ) sostituire il prefisso delle tabelle "jos_" (<i>SQL viene utilizzato
+        in file
+    </i>) con il prefisso del database. È inoltre possibile utilizzare il video
+      tutorial dettagliato che vi mostrerà, <a
         href="/help/joomla-how-to-change-database-tables-prefix-in-sql-file.html"
-        target="_blank">Come sostituire il prefisso del database in un file SQL.</a>.
+        target="_blank">come cambiare il prefisso del database nel file SQL</a>.
 </p>
 
-<h6>Adesso sarà possibile importare il file SQL sul vostro database.<br>
-    Per importare I dati di esempio sul vostro database dovrete seguire questi tre
-    semplici passaggi: (guardate le slide in basso)</h6>
+<h6>Ora importare il file in database SQL. <br>Per importare i dati di esempio nel database, seguire queste istruzioni (vedere le slide):</h6>
 
 <ol class="index-list">
-    <li><p>Selezionate il vostro database dalla lista dei database nella Colonna di
-            sinistra dello strumento phpMyAdmin</p>
+    <li><p>Selezionare il database desiderato nell'elenco a sinistra in phpMyAdmin strumento:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-1.jpg" alt=""/>
         </figure>
     </li>
-    <li><p>Cliccate su "Importa" (Import) dal menù di navigazione in alto</p>
+    <li><p>Aprire  la linguetta "Import" (Importa) nel menu di navigazione in alto:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-2.jpg" alt=""/>
         </figure>
     </li>
-    <li><p>Cliccate su "Scegli file" eapri il file browse in dump.sql nella directory
-            "sorgenti" del modello</p>
+    <li><p>Premere su "Choose file"  (Scegliere il file) dump.sql e individuare il file nella cartella dei modelli "sources":</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-3.jpg" alt=""/>
         </figure>
     </li>
-    <li><p>Clicca sul pulsante "Vai" (Go) per importare i dati di esempio</p>
+    <li><p>Premere il pulsante "Go" (Avanti), per importare i dati demo:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-4.jpg" alt=""/>
@@ -85,6 +72,7 @@
     </li>
 </ol>
 
-<p class="alert alert-info">Guardate il video dettagliato su <a
-        href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html"
-        target="_blank">come importare il file SQL con lo strumento phpMyAdmin</a></p>
+<p class="alert alert-info">È inoltre possibile utilizzare il tutorial dettagliato che vi mostrerà, <a
+        href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html"
+        target="_blank">come importare file SQL utilizzando lo strumento phpMyAdmin</a>
+</p>

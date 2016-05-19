@@ -1,27 +1,26 @@
-<h3>Commenti Komento</h3>
+<h3>Komento Comments</h3>
 
-<p>Komento è un generatore di commenti per Joomla. Consente di aggiungere commenti agli
-    articoli Joomla.</p>
+<p>Komento - è un componente per i commenti Joomla. Esso consente di aggiungere commenti
+    agli articoli Joomla:</p>
 
 <figure class="img-polaroid"><img src="img/komento-1.jpg" alt=""></figure>
 
-<p>E’ possibile accedere a Komento tramite il pannello di di amministrazione di Joomla
-    nella sezione <b>Components > Komento</b>.</p>
+<p>Componente Komento si trova in menu <b>Components (Componenti) > Komento</b> admin panel di Joomla.</p>
 
-<p>Per accedere alle impostazioni di configurazione andare su <b>Componenti> Komento >
-        Integrazioni (Components > Komento > Integrations)</b> e cliccare su <b>Articoli
-        (Components > Komento > Integrations > Articles)</b></p>
+<p>Per andare nella scheda impostazioni del modulo <b>Components (Componenti) > Komento >
+        Integrations (Integrazione)</b> e premere <b>Articles (Articoli)</b>:</p>
 
 <figure class="img-polaroid"><img src="img/komento-2.jpg" alt=""></figure>
 
-<p>Utilizzando le impostazioni componentepotrete abilitare i commenti per categorie
-    specifiche, aggiungere captcha, profili utenti, articoli Joomla e tanto altro. Per
-    saperne di più su Komento visita il <a
+<p>Con la configurazione dei componenti, i commenti possono essere attivati per certe
+    categorie e articoli, aggiungere un captcha, profili utente, ecc.. Maggiori informazioni
+    possono essere trovate sul Komento al seguente link<a
         href="http://stackideas.com/docs/komento.html" target="_blank">sito
         ufficiale</a>.</p>
 
-<p>I nostri template includono solo la versione standard di Komento. Per accedere a
-    funzioni aggiuntive e a supporto completo per l'estensione Komento, vi consigliamo
-    di acquistare <a href="http://stackideas.com/komento/plans">Komento Professional</a>.
-    <a href="http://stackideas.com/komento?ref=kmfeature">Qui</a> trovate una lista
-    completa delle caratteristiche.</p>
+<p>Nel nostro modello è usato solo la versione standard Komento. Per l'utilizzare
+    e configurare le opzioni aggiuntive di questo modulo, si consiglia di
+    utilizzare <a href="http://stackideas.com/komento/plans">la versione completa</a>
+    del prodotto. Per vedere l'elenco completo delle caratteristiche, visitate il sito <a
+        href="http://stackideas.com/komento?ref=kmfeature">http://stackideas.com/komento.html?ref=kmfeature</a>.
+    Con la versione a pagamento Komento riceverai inoltre un supporto tecnico professionale.</p>

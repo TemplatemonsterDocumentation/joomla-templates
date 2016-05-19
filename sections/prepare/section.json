@@ -1,4 +1,4 @@
-{
+	{
 	"id":"prepare",
 	"translations":
 	{
@@ -8,9 +8,7 @@
 		"de":"Vorbereitung",
 		"fr":"Préparation",
 		"it":"Preparazione",
-		"pl":"Przygotowanie",
-		"pt":"Preparar",
-		"tr":"Hazırlamak"
+		"pl":"Przygotowanie"
 	},
 	"articles":
 	{

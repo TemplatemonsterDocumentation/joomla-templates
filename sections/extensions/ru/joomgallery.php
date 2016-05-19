@@ -21,10 +21,9 @@
     <img src="img/gallery-4.jpg" alt="">
 </figure>
 
-<p>Так выглядит страница описания компонента JoomGallery. Более детальная информация на
-    <a href="http://www.en.joomgallery.net/documentation/" target="_blank"
-       rel="nofollow">официальном сайте</a>. Также для полноценной работы данного
-    компонента дополнительно устанавливается JoomFancybox плагин.</p>
+<p>Так выглядит страница описания компонента JoomGallery. Вы можете найти более детальную информацию на <a href="http://www.en.joomgallery.net/documentation/" target="_blank"
+       rel="nofollow">официальном сайте</a>. Для полноценной работы этого
+    компонента дополнительно устанавливается плагин JoomFancybox:</p>
 
 <figure class="img-polaroid">
     <img src="img/gallery-5.jpg" alt="">

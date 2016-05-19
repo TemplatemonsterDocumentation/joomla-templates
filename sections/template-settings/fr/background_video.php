@@ -1,4 +1,4 @@
-<h3>Définir une Vidéo de fond (Vidéo de fond)</h3>
+<h3>Ajout de Vidéo de fond</h3>
 
 
 <figure class="img-polaroid">
@@ -6,26 +6,17 @@
 </figure>
 
 
-<p>Il est possible d'ajouter une vidéo de fond au template à l'aide du plugin jQuery <a
+<p>Pour afficher la vidéo d'arrière-plan dans un modèle en utilise plug-in jQuery <a
         href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>.
-    Vérifiez que le plugin est activé. Pour le vérifier, allez dans "Template manager ->
-    Templates", puis allez sur le thème que vous utilisez (ThemeXXXX Details and Files),
-    ouvrez le fichier "index.php" file et vérifiez que le plugin est initialisé, comme
-    sur l'Img. 29. Vérifiez également que le plugin est disponible dans le dossier "js".
-    Si le plugin ne serait pas là, vous pouvez le télécharger à partir du lien ci-dessus
-    et l'uploader dans le dossier correspondant. N'ouvliez pas également d'ajouter le
-    script dans le fichier "index.php".</p>
+Vérifiez si le plugin est activé dans un modèle. Allez dans "Gestionnaire de modèles" -> "Modèles", ensuite allez sur le thème que vous utilisez (Theme**** Details and Files) et ouvrez le fichier "index.php". Vérifiez si le plugin est initialisé, comme surla capture d'écran ci-dessous. Vérifiez également si plugin est disponible dans le dossier "js".  Si le plugin ne serait pas là, vous pouvez le télécharger à partir du lien ci-dessus  et l'uploader dans le dossier correspondant, et faire son initialisation dans le fichier "index.php":</p>
 
 
 <figure class="img-polaroid">
     <img src="img/video-4.png" alt="">
 </figure>
 
-<p>Pour mettre en place une vidéo de fond, allez dans "Template Manager -> Templates",
-    cliquez sur le template que vous utilisez (ThemeXXXX Details and Files). Dans le
-    dossier "html -> mod_custom" créez un fichier "
-    class="mod_table".php" avec le contenu suivant :
-</p>
+
+<p>Pour mettre en place une vidéo de fond, allez dans "Gestionnaire de modèles" -> "Modèles"  cliquez sur le template que vous utilisez (Theme**** Details and Files). Créez un fichier "&lt;name&gt;.php" dans un dossier "html -> mod_custom" avec le contenu suivant::</p>
 
 <code>&lt;?php <br>
     /** <br>
@@ -49,23 +40,15 @@
     &lt;/div&gt; <br>
     &lt;/div&gt;</code>
 
-<p>avec [nom_du_fichier] - le nom du fichier vidéo, sans ajouter l'extension de
-    fichier.</p>
+<p>ou [nom_du_fichier] - le nom du fichier vidéo, sans l'extension de fichier:</p>
+
 <figure class="img-polaroid">
     <img src="img/video-2.png" alt="">
 </figure>
 
-<p>Vous devez également préparer les formats vidéo suivants : mp4, ogv, webm et l'image
-    de présentation de la vidéo aux formats png, jpg et gif. Le nom de fichier doit être
-    le même pour tous les fichiers et correspondre à celui du fichier [nom_du_fichier]
-    créé auparavant. Tous les fichiers doivent être uploadés dans le dossier racine
-    Joomla media\video\
+<p>Ensuite, vous devez préparer les formats vidéo suivants: mp4, ogv, webm et une affiche de vidéo en formats png, jpg et gif. Le nom du fichier doit être le même pour tous les fichiers et doit correspondre à celui créé plus tôt [file_name]. Tous les fichiers doivent être chargés dans le dossier media\video\ dans le répertoire racine Joomla.</p>
 
-</p>
-
-
-<p>À l'étape suivante, vous devez créer un module affichant la vidéo. Ajoutez un module
-    HTML personnalisé avec le contenu suivant :</p>
+<p>Sur l'étape suivante, vous devez créer un module qui affiche la vidéo. Ajouter un module HTML personnalisé avec le contenu suivant:</p>
 
 
 <figure class="img-polaroid">
@@ -73,8 +56,6 @@
 </figure>
 
 
-<p>Dans l'onglet "Advanced" et dans le menu déroulant "Alternative Layout", choisissez
-    votre fichier template [nom_du_fichier] créé auparavant.</p>
+<p>Dans l'onglet "Avancé" et "Layout Alternative", choisissez votre fichier de modèle précédemment créé [file_name].</p>
 
-<p>Après avoir effectué toutes les étapes, vous verrez le module avec la vidéo de
-    fond.</p>
+<p>Après avoir effectué toutes les étapes, vous verrez le module avec le videо de fond.</p>
