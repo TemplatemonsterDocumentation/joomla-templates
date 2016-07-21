@@ -27,20 +27,6 @@
       }
     },
     {
-      "id": "image_swoop",
-      "translations": {
-        "en": "Image Swoop",
-        "ru": "Image Swoop",
-        "es": "Image Swoop",
-        "de": "Image Swoop",
-        "fr": "Image Swoop",
-        "it": "Image Swoop",
-        "pl": "Image Swoop",
-        "pt": "Image Swoop",
-        "tr": "Resim Swoop"
-      }
-    },
-    {
       "id": "articles_single",
       "translations": {
         "en": "Articles Single",
@@ -52,20 +38,6 @@
         "pl": "Moduł Pojedyncze Artykuły",
         "pt": "Articles Single",
         "tr": "Tek makaleler"
-      }
-    },
-    {
-      "id": "caroufredsel",
-      "translations": {
-        "en": "CarouFredSel",
-        "ru": "CarouFredSel",
-        "es": "CarouFredSel",
-        "de": "CarouFredSel",
-        "fr": "CarouFredSel",
-        "it": "CarouFredSel",
-        "pl": "Moduł CarouFredSel",
-        "pt": "CarouFredSel",
-        "tr": "CarouFredSel"
       }
     },
     {
