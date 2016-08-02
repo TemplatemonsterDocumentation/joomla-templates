@@ -1,13 +1,15 @@
-<h3>Wtyczka Googlemap</h3>
+<h3>Plugin Googlemap</h3>
 
-<p>Googlemap - wtyczka, która pozwala wyświetlić mapę Google.</p>
+<p>Googlemap to plugin, który umożliwia wyświetlanie mapy Google na własnej stronie internetowej:</p>
 
-<figure class="img-polaroid"><img src="img/googlemap-1.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/googlemap-1.jpg" alt="">
+</figure>
 
-
-<p>Oto główna strona wtyczki Googlemap w panelu administratora. Więcej szczegółów
-    uzyskasz na oficjalnej stronie <a
+<p>W panelu administratora znajduje się strona główna plugin'u Googlemap. Zapraszamy do zapoznania się ze szczegółami na oficjalnej stronie internetowej <a
         href="http://tech.reumer.net/Google-Maps/Documentation-of-plugin-Googlemap/"
-        target="_blank" rel="nofollow"></a>.</p>
+        target="_blank" rel="nofollow"></a>:</p>
 
-<figure class="img-polaroid"><img src="img/googlemap-2.jpg" alt=""></figure>
+<figure class="img-polaroid">
+    <img src="img/googlemap-2.jpg" alt="">
+</figure>

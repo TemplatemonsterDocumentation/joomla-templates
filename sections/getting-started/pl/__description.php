@@ -1,1 +1,1 @@
-<h2 class="item3">Początki</h2>
+<h2 class="item3">Pierwsze kroki</h2>

@@ -46,7 +46,8 @@ if (!isset($sections)) {
 
             <div class="select select-version">
                 <select>
-                    <option data-href="#" selected>Version v3-3</option>
+                    <option data-href="#" selected>Version v3-4</option>
+                    <option data-href="/help/quick-start-guide/joomla-templates/v3-3/index_en.html">Version v3-3</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-2/index_en.html">Version v3-2</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-1/index_en.html">Version v3-1</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-0/index_en.html">Version v3-0</option>
@@ -84,14 +85,7 @@ if (!isset($sections)) {
                         data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
                         PL
                     </option>
-                    <option
-                        data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt" ? "selected" : ""; ?>>
-                        PT
-                    </option>
-                    <option
-                        data-href="<?php echo $path; ?>/index.php?lang=tr&section=<?php echo $section_param; ?>" <?php echo $lang == "tr" ? "selected" : ""; ?>>
-                        TR
-                    </option>
+                    
                 </select>
             </div>
         </div>

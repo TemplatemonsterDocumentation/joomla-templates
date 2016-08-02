@@ -1,24 +1,19 @@
-<h3>Moduł Formularza Kontaktowego TM Ajax</h3>
+<h3>Moduł TM Ajax Contact Form</h3>
 
-<p>Moduł Formularza Kontaktowego TM Ajax jest modułem formularza dla silnika Joomla. Ten
-    moduł zezwala na dodanie formularza kontaktowego do każdej strony Joomla.</p>
+<p>Moduł TM Ajax Contact Form to moduł formularza kontaktowego dla silnika Joomla.
+Ten moduł umożliwia dodawanie formularza kontaktowego do dowolnej strony witryny Joomla:</p>
 
 <figure class="img-polaroid">
     <img src="img/contact-form-1.png" alt="">
 </figure>
 
-<p> Wysyłanie
-    danych odbywa się przy użyciu żądań AJAX, więc strona nie jest przeładowywana.
-    Ustawienia modułu zezwalają na dodanie zabezpieczenia przed botami (reCaptcha),
-    ustawienie pól formularza kontaktowego, ich etykiet, ustawienie adresu email
-    odbiorcy, dodanie adresu CC, wiadomości błędu i powodzenia wykonanego działania.
-    Możesz sprawdzić pełną listę ustawień poniżej.</p>
-
+<p>Wysyłanie danych jest przeprowadzane za pomocą wymagań AJAX, więc strona nie zostaje przeładowana.
+Ustawienia modułu umożliwiają dodawanie zabezpieczenia przed botami (reCaptcha), tworzenie pól formularzy kontaktowych, ich etykiet, dodawanie adresu e-mail odbiorcy oraz adresu CC, konfiguracje komunikatów o błędach i sukcesach. Poniżej można zobaczyć pełną listę ustawień:</p>
 
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
-<p>Te ustawienia modułu pozwalają zarządzać wszystkimi funkcjami Form Buildera, więc możesz dodawać pola jakiegokolwiek rodzaju (tekst, e-mail, checkbox, pole tekstowe). Dzięki temu forma może być dostosowana do twoich potrzeb.</p>
+<p>Ustawienia modułu umożliwiają konfigurowanie wszystkich funkcji formularza kontaktowego. Można włączyć pola dowolnego typu (tekstowe, adres e-mail, pola wyboru i tekstowy obszar). Dzięki temu, formularz kontaktowy można skonfigurować według własnych potrzeb:</p>
 <figure class="img-polaroid">
     <img src="img/contact-form-3.png" alt="">
 </figure>

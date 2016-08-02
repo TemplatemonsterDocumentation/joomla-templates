@@ -1,11 +1,11 @@
-<h3>Tipografia</h3>
+<h3>Immatricolazione</h3>
 
-<p>Le opzioni relative ai caratteri permettono di selezionare i tagper titolo di
-    articoloin varie viste: articoli in evidenza, aspetto categoria, aspetto blog,
-    aspetto singolo articolo, ecc. Ci sono molti tag HTML che si possono utilizzare per
-    definire l’intestazione (h1, h2, h3, h3 etc). I tag variano per logica d’importanza
-    e stile. <a href="http://www.w3schools.com/tags/tag_hn.asp" target="_blank">Scopri
-        di più</a></p>
+<p>Le impostazioni consentono di scegliere i tag per i diversi tipi di contenuti:
+    articoli selezionati, la pagina di categoria, un blog, un articolo separato, etc.. Per i titoli con
+    dei tag HTML possono essere utilizzati (h1, h2, h3, h3 и др.) tag e possono variare in base
+    all'importanza logica e lo stile. Per ulteriori informazioni, visitare <a href="http://www.w3schools.com/tags/tag_hn.asp"
+                                       target="_blank">questo link</a>:
+</p>
 
 <figure class="img-polaroid">
     <img src="img/template-settings-3.jpg" alt="">

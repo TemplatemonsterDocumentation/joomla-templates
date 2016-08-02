@@ -6,17 +6,18 @@
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<p>Так выглядит главная страница компонента Acymailing в админ панели. Более детальная
-    информация на <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
-                     rel="nofollow">официальном сайте</a>.</p>
+<p>Так выглядит главная страница компонента Acymailing в админ панели. Вы можете получить более детальную
+    информацию на <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+                     rel="nofollow">официальном сайте</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-2.jpg" alt="">
 </figure>
 
-<p>Так выглядит страница настроек модуля Acymailing. Более детальная информация на <a
+<p>Так выглядит страница настроек модуля Acymailing. Вы можете получить более детальную
+    информацию на <a
         href="https://www.acyba.com/acymailing/62-acymailing-module.html"
-        target="_blank" rel="nofollow">официальном сайте</a>.</p>
+        target="_blank" rel="nofollow">официальном сайте</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-3.jpg" alt="">

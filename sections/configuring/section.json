@@ -7,9 +7,7 @@
     "de": "Konfiguration von Seiten",
     "fr": "Configuration des pages",
     "it": "Pagine Configuranti",
-    "pl": "Konfiguracja Stron",
-    "pt": "Páginas de Configuração",
-    "tr": "Yapılandırma Sayfası"
+    "pl": "Konfiguracja Stron"
   },
   "articles": [
     {
@@ -21,9 +19,7 @@
         "de": "Galerie Seite",
         "fr": "Galerie",
         "it": "Galleria",
-        "pl": "Strona Galerii",
-        "pt": "Página da Galeria",
-        "tr": "Galeri Sayfası"
+        "pl": "Strona Galerii"
       }
     },
     {
@@ -35,9 +31,7 @@
         "de": "Kontaktseite",
         "fr": "Contacts",
         "it": "Pagina Contatti",
-        "pl": "Strona Kontaktów",
-        "pt": "Página de Contatos",
-        "tr": "İletişim Sayfası"
+        "pl": "Strona Kontaktów"
       }
     }
   ]

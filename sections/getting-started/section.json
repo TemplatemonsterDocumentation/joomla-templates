@@ -7,9 +7,7 @@
     "de": "Einstieg",
     "fr": "Démarrage",
     "it": "Per iniziare",
-    "pl": "Początki",
-    "pt": "Começando",
-    "tr": "Başlarken"
+    "pl": "Początki"
   },
   "articles": [
     {
@@ -21,9 +19,7 @@
         "de": "Vollständige Installation",
         "fr": "Installation complète",
         "it": "Installazione Completa",
-        "pl": "Kompletna Instalacja",
-        "pt": "Instalação Completa",
-        "tr": "Komple Kurulum"
+        "pl": "Kompletna Instalacja"
       }
     },
     {
@@ -35,9 +31,7 @@
         "de": "Template Installation",
         "fr": "Installation de modèles",
         "it": "Installazione Modello",
-        "pl": "Instalacja Szablonu",
-        "pt": "Instalação do Template",
-        "tr": "Şablon Kurulumu"
+        "pl": "Instalacja Szablonu"
       }
     },
     {
@@ -49,9 +43,7 @@
         "de": "Beispieldaten Installation",
         "fr": "Installation de données de test",
         "it": "Installazione Dati di Esempio",
-        "pl": "Instalacja Przykładowych Danych",
-        "pt": "Instalação de Dados de Amostra",
-        "tr": "Örnek veri yükleme"
+        "pl": "Instalacja Przykładowych Danych"
       }
     },
     {
@@ -63,9 +55,7 @@
         "de": "Modulen-Installation",
         "fr": "Installation de modules",
         "it": "Moduli di Istallazione",
-        "pl": "Instalacja Modułów",
-        "pt": "Instalação de Módulos",
-        "tr": "Modüllerin Yüklenmesi"
+        "pl": "Instalacja Modułów"
       }
     }
   ]

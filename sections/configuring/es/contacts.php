@@ -1,27 +1,22 @@
-<h3>Página de Contacto</h3>
+<h3>Contacts</h3>
 
-<p>Página de contactos muestra el formulario de contacto, dirección y Google Map. Para
-    modificar los datos de contacto (correo electrónico de contacto, dirección, etc)
-    haga clic en Components > Contacts > Contacts > Website Owner (Componentes >
-    Contactos > Contactos > Propietario del Sitio Web). Con la ayuda de las pestañas en
-    la parte superior se puede acceder a diferentes opciones de contacto.</p>
+<p>La página de contacto muestra un formulario de contacto, dirección y Google Maps. Para cambiar la información de contacto
+ (<i>dirección de correo electrónico, dirección postal, etc.</i>), por favor vaya a <b>Componentes(Components) > Contactos (Contacts) > Contactos (Contacts) > Propietario del sitio web (Website Owner)</b>. Use las pestañas de la parte superior, usted tiene acceso a una variedad de opciones de contacto.
+</p>
 
-<p>Para configurar lo que debe ser prestado en la página de contactos abra la sección
-    System > Global Configuration > Contacts (Sistema > Configuración global >
-    Contactos).</p>
+<p>Para configurar la página de contacto, vaya a la sección <b>Sistema (System) > Configuración global (Global
+        Configuration) > Contactos (Contacts)</b>.</p>
 
-<p>Google Map en la página de contactos es creado con la ayuda del plugin de Google
-    Maps. Se puede configurarlo a través de Extensions > Plug-in Manager > Google Maps
-    (Extensiones > Gestor de Plug-in > Google Maps).</p>
+<p><b>Google Map</b> en la página “Contacts” se ha creado usando el plugin de Google Maps. Se puede configurar en la sección <b>Extensiones (Extensions) > Administrador de Plugins (Plugin Manager) >
+        Google Maps</b>.</p>
 
+<h6><strong>Truco:</strong> para acelerar la búsqueda de plugins puede utilizar la herramienta de filtro de pantalla de abajo:
+</h6>
 
 <figure class="img-polaroid">
     <img src="img/plugin-manager.jpg" alt="">
 </figure>
 
-<h6><strong>Consejo:</strong> Usted puede utilizar la herramienta
-    de filtro para concretar su búsqueda.</h6>
-
-<p class="alert alert-info">Por favor, revise el tutorial detallado <a
-        href="/help/es/joomla-3-x-how-to-change-google-map-coordinates.html"
-        target="_blank">sobre el cambio de coordenadas de Google Map </a></p>
+<p class="alert alert-info">También se puede consultar un vídeo-tutorial detallado:
+    <a href="/help/joomla-3-x-how-to-change-google-map-coordinates.html"
+       target="_blank">Cómo cambiar las coordenadas del mapa de Google Maps</a>.</p>

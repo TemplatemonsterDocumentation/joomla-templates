@@ -1,1 +1,1 @@
-<h2 class="item6">Pagine Configuranti</h2>
+<h2 class="item6">Configurazione delle pagine</h2>

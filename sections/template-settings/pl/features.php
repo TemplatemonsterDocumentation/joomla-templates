@@ -1,9 +1,8 @@
-<h3>Funkcje</h3>
+<h3>Właściwości</h3>
 
-<p>Pozwalają konfigurować dodatkowe funkcje układu. </p>
+<p>Umożliwia skonfigurowanie dodatkowych funkcji szablonu.</p>
 
-<p><b>Przycisk "na górę" i tekst "na górę"</b> pozwala włączyć/wyłączyć przycisk "na
-    górę" i tekst wewnątrz przycisku. </p>
+<p>Ustawienia <b>Przycisk Do góry</b> oraz <b>Tekst Do góry</b> umożliwiają włączenie/wyłączenie przycisku i wprowadzić tekst przycisku "do góry":</p>
 
 <figure class="img-polaroid">
     <img src="img/template-settings-4.jpg" alt="">

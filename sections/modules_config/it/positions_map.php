@@ -1,13 +1,12 @@
-<h3>Mappa delle posizioni dei Moduli</h3>
+<h3>Lo schema delle posizioni dei moduli</h3>
 
-<p>Le posizioni disponibili possono variare da modello a modello, tuttavia in basso
-    viene riportata una mappa delle posizioni generali:</p>
+<p>Posizioni modulo disponibili possono differire nei modelli, ma in generale, lo schema dei modelli
+    vengono visualizzate nel seguente modo:</p>
 
-<p>Come potete vedere, l’area dei contenuti è contrassegnata da un colore differente
-    poiché essa non può supportare nessun modulo di default. Essa visualizza quindi
-    soltanto il contenuto della pagina. </p>
+<p>Come si può vedere, l'area del contenuto è segnalato in verde, perché per le impostazione predefinite, non
+    si possono vosualizzare i moduli. C'è solo il contenuto della pagina. </p>
 
-<p>Tutte le posizioni vengono disattivate quando i moduli non sono assegnaticosì da non
-    essere d’intralcio.</p>
+<p>Le posizioni non sono visualizzate se non hanno i moduli. In questo caso, non occuperanno
+    lo spazio sul sito:</p>
 
 <figure class="img-polaroid"><img src="img/j3-modules-positions.jpg" alt=""></figure>

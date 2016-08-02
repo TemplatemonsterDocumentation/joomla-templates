@@ -1,1 +1,1 @@
-<h2 class="item3">Getting Started</h2>
+<h2 class="item3">Getting started</h2>

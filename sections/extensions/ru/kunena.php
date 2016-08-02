@@ -1,7 +1,7 @@
 <h3>Форум Kunena</h3>
 
 <p>Kunena - компонент форума для Joomla. Он позволяет реализовать полностью
-    функциональный форум, базирующийся на Joomla! CMS.</p>
+    функциональный форум на основе Joomla! CMS:</p>
 
 <figure class="img-polaroid"><img src="img/forum-1.jpg" alt=""></figure>
 
@@ -10,6 +10,6 @@
 
 <p>Более детальную информацию об использовании и настройках компонента Kunena можно
     найти на <a href="http://www.kunena.org/docs/Main_Page" target="_blank">официальном
-        веб-сайте</a>.</p>
+        веб-сайте</a>:</p>
 
 <figure class="img-polaroid"><img src="img/forum-2.jpg" alt=""></figure>

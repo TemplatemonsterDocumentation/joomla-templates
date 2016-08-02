@@ -1,37 +1,34 @@
-<h3>Instalacja Szablonu</h3>
+<h3>Instalacja szablonów</h3>
 
-<p>Mam juz stronę internetową bazowaną na Joomla, i tylko chcę zmienić jej wygląd, instalując nowy szablon.</p>
+<p>"Już posiadam stronę internetową Joomla i po prostu 
+chcę zmienić jej wygląd poprzez zainstalowanie nowego szablonu."</p>
 
-<p>Używając tej metody otrzymasz szablon Joomla oraz wszystkie rozszerzenia zainstalowane.</p>
+<p>Za pomocą tej metody, można zainstalować szablon Joomla i wszelkie niezbędne rozszerzenia.</p>
 
 <!-- Extensions manager -->
-<h6>Otwórz panel administracyjny Joomla i wejdź do <b>"Rozszerzenia
-        > Menadżer Rozszerzeń"</b> używając górnego menu.</h6>
+<h6>W panelu administratora Joomla, przejdź na kartę <b>"Rozszerzenia > Zarządzanie rozszerzeniami"</b>:</h6>
 <figure class="img-polaroid">
     <img src="img/template-install-1.jpg" alt="">
 </figure>
 
 <!-- Upload theme zip -->
-<h6>Używając przycisku do wyboru Pliku z Pakietem
-    "Wybierz Plik" (ang. Choose File) i wyszukaj plik "<b>theme###.zip</b>" w folderze
-    "joomla" twojego pakietu z szablonem</h6>
+<h6>W karcie Pakiet Pliku, należy nacisnąć przycisk 
+"Wybierz Plik", a zatem wybrać plik "<b>theme###.zip</b>" w folderze "joomla" z pakietu szablonów.</h6>
 
-<p>Kliknij przycisk
-    <strong>Prześlij & Instaluj</strong>
-    (ang. Upload & Install), aby zainstalować szablon Joomla.
+<p>Aby zainstalować szablon Joomla, należy nacisnąć pzycisk
+    <strong>Przesłać & Zainstalować</strong>:
 </p>
+
 <figure class="img-polaroid">
     <img src="img/template-install-2.jpg" alt="">
 </figure>
 
 <!-- Activate template -->
-<h6>Gdy przesyłanie zostało zakończone, musisz
-    aktywować zainstalowany szablon. Z górnego menu wybierz "<b>Rozszerzenia > Menadżer
-        Szablonu</b>"</h6>
+<h6>Po zakończeniu ładowania, należy aktywować zainstalowany szablon.
+    W górnym menu, należy przejść na kartę "<b>Rozszerzenia > Zarządzanie szablonami</b>".</h6>
 
-<p>Wybierz swój nowo zainstalowany szablon i kliknij przycisk "<b>Ustaw Domyślny</b>"
-    (ang. Make Default) górnym lewym rogu. Teraz możesz sprawdzić swoją stronę, aby
-    zobaczyć wprowadzone zmiany.</p>
+<p>Wybierz nowy szablon, a następnie w lewym górnym rogu naciśnij przycisk <b>"Ustaw jako domyślny"</b> . Można sprawdzić wygląd swojej strony internetowej:</p>
+
 <figure class="img-polaroid">
     <img src="img/template-install-3.jpg" alt="">
 </figure>

@@ -1,30 +1,27 @@
 <h2 class="item1">Einleitung</h2>
 
-<h5> Wir danken Ihnen, dass Sie sich für das Joomla Template entschieden haben. Die Dokumentation besteht aus
-    unterschiedlichen Teilen und zeigt Ihnen, wie man Joomla Website von Grund auf selbst erstellt und verwandelt. Wir
-    taten unser Bestes, um diese Anweisungen klar und einfach zu machen. </h5>
+<h5>Wir danken Ihnen, dass Sie sich für das Joomla Template entschieden haben. Die Dokumentation besteht aus unterschiedlichen Teilen und zeigt Ihnen, wie man Joomla Website von Grund auf selbst erstellt und verwandelt. Wir taten unser Bestes, um diese Anweisungen klar und einfach zu machen. </h5>
 
 
-<h3> Was ist Joomla CMS?</h3>
+<h3>Was ist Joomla CMS?</h3>
 
-<p> Joomla CMS ist eine Open Source-Lösung zur Erstellung den inhaltsreichen Webseiten. Mit Joomla CMS können Sie
-    Webseiten und mächtige online Anwendungen erstellen und dafür wird es fast keine technische Fähigkeiten und
-    Kenntnisse benötigt. Dank ihre Benutzerfreundlichkeit und Erweiterungsfähigkeit ist jetzt Joomla die populärste
+<p>Joomla CMS ist eine Open Source-Lösung zur Erstellung den inhaltsreichen	 Webseiten. Mit Joomla CMS können Sie
+    Webseiten und online Anwendungen erstellen und es werden dafür fast keine technische Fähigkeiten und
+    Kenntnisse benötigt. Dank ihrer Benutzerfreundlichkeit und Erweiterungsfähigkeit ist Joomla im Moment die populärste
     Website Software.
     <a href="http://www.joomla.org/about-joomla.html" target="_blank">Mehr erhalten</a>
 </p>
 
-<h3>Was ist Joomla Template? </h3>
+<h3>Was ist JoomlaTemplate?</h3>
 
-<p>Joomla Template ist ein Skin für Ihre Joomla CMS Plattform. Das heißt, dass Sie die Darstellung von Ihrer Webseite
-    mit Hilfe vom Template einfach und schnell verändern können. Dafür sollen Sie nun das neue Template in nur wenigen
-    einfachen Schritten installieren. Im Joomla Template finden Sie alle benötige Quelldateien, um es nach Ihrem Wünsch
-    zu ändern und zu erweitern. </p>
+<p>Joomla Template ist ein Thema für Ihre Joomla CMS Plattform. In anderen Worten, Sie können das Aussehen von Ihrer Webseite
+    mit Hilfe vom Template einfach und schnell verändern . Im Joomla Template finden Sie alle benötige Quelldateien, um es nach Ihrem Wünsch
+    zu ändern und zu erweitern.</p>
 
-<h3> Datenstrukturen</h3>
+<h3>Datenstruktur</h3>
 
-<h6> Das heruntergeladene Template-Paket besteht aus viele verschiedene Ordner. Schauen wir mal, was in jedem Ordner
-    drin steht:</h6>
+<h6> Das heruntergeladene Template-Paket besteht aus vielen verschiedenen Ordnern. Schauen wir mal, was sich in jedem Ordner
+    befindet:</h6>
 
 <ul class="files_structure">
     <li class="folder">
@@ -32,7 +29,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Documentation</b></dt>
-            <dd> hier gibt es Dokumentationen</dd>
+            <dd> enthält Dokumentationsdateien</dd>
         </dl>
         <ul>
             <li class="file">
@@ -41,7 +38,7 @@
                         <i class="fa fa-file"></i>
                         documentation.html
                     </dt>
-                    <dd> die Hauptdokumentation. Sie sind jetzt hier:)
+                    <dd> die Hauptdokumentation. Sie lesen es gerade :)
                     </dd>
                 </dl>
             </li>
@@ -52,7 +49,8 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Joomla</b></dt>
-            <dd> hat Joomla Theme Dateien</dd>
+            <dd> enthält ein Archiv mit dem Joomla Thema, Installationspaket und einer Datei mit dem unzip script.
+            </dd>
         </dl>
         <ul>
             <li class="file">
@@ -61,8 +59,7 @@
                         <i class="fa fa-file"></i>
                         theme###.zip
                     </dt>
-                    <dd> der Hauptarchiv der Theme. Hier gibt es alle Dateien der Theme. Man installiert ihn via Joomla
-                        Erweiterungs-Manager
+                    <dd> das Themarchiv. enthält alle Datein des Themas. Es sollte <a href="#template-installation">mit HIlfe des Joomla extension manager</a> installiert werden.
                     </dd>
                 </dl>
             </li>
@@ -72,8 +69,10 @@
                         <i class="fa fa-file"></i>
                         fullpackage.zip
                     </dt>
-                    <dd> hier gibt es das komplette Joomla Installationspaket mit Dateien von Engine, Theme und
-                        Beispielinhalte
+                    <dd> enthält das 
+                        <a href="#complete_install">
+                           komplette Joomla Installationspaket </a>
+                        mit Dateien von Engine, Theme und Beispielinhalte (Datenbank dump Datei und Beispielbilder)
                     </dd>
                 </dl>
             </li>
@@ -83,8 +82,8 @@
                         <i class="fa fa-file"></i>
                         unzip.php
                     </dt>
-                    <dd> Datei zum Entpacken von Dateien aus fullpackage.zip, wenn man die auf dem Hosting Server
-                        hochladet.
+                    <dd> Datei zum Entpacken von Dateien aus fullpackage.zip, nachdem man die auf dem Hosting Server
+                        hochladen hat
                     </dd>
                 </dl>
             </li>
@@ -94,19 +93,16 @@
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                Screenshots
-            </dt>
-            <dd> hier sind Screenshots vom Template. Nicht für Produktion
-            </dd>
+                <b>Screenshots</b>
+            <dd> enthält Screenshots vom Template</dd>
         </dl>
     </li>
     <li class="folder">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                Sources
-            </dt>
-            <dd> es gibt hier Quelldateien der Vorlage</dd>
+                <b>Sources</b>
+            <dd> enthält Quelldateien der Vorlage</dd>
         </dl>
         <ul>
             <li class="folder">
@@ -115,7 +111,8 @@
                         <i class="fa fa-folder"></i>
                         psd
                     </dt>
-                    <dd> Adobe Photoshop Quelldateien (.psd) vom Template</dd>
+                    <dd> Adobe Photoshop Quelldateien (.psd) vom Template
+                    </dd>
                 </dl>
             </li>
             <li class="folder">
@@ -124,7 +121,7 @@
                         <i class="fa fa-folder"></i>
                         to_the_root_folder
                     </dt>
-                    <dd> hier befinden sich Dateien und Verzeichnises, die im Hauptverzeichnis Ihrer Joomla Installation
+                    <dd> hier befinden sich Dateien und Ordner, die zum Hauptverzeichnis Ihrer Joomla Installation
                         hochgeladen werden sollen
                     </dd>
                 </dl>
@@ -135,7 +132,7 @@
                         <i class="fa fa-file"></i>
                         dump.sql
                     </dt>
-                    <dd> die Sicherungsdatei der Vorlage. Es gibt hier Beispielinhalte von Theme.
+                    <dd> die Datenbank dump Datei. Enthält Beispieldaten des Themas
                     </dd>
                 </dl>
             </li>
@@ -145,7 +142,7 @@
                         <i class="fa fa-file"></i>
                         pkg_bundle.zip
                     </dt>
-                    <dd> Hier finden Sie zusätzliche Erweiterungen, die mit der Theme mitgeliefert werden.
+                    <dd> enthält zusätzliche Erweiterungen
                     </dd>
                 </dl>
             </li>
@@ -157,8 +154,7 @@
                 <i class="fa fa-file"></i>
                 fonts_info.txt
             </dt>
-            <dd> Hier finden Sie Links zum Download den benutzerdefinierten Schriften.
-            </dd>
+            <dd> enthält Links zum Download der benutzerdefinierten Schriften </dd>
         </dl>
     </li>
     <li class="file">
@@ -167,8 +163,7 @@
                 <i class="fa fa-file"></i>
                 info.txt
             </dt>
-            <dd> Hier gibt es Anweisungen zum Entpacken den Quelldateien
-            </dd>
+            <dd> Anweisungen zum Entpacken den Quelldateien</dd>
         </dl>
     </li>
 </ul>

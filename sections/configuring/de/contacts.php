@@ -1,29 +1,22 @@
-<h3>Kontaktseite</h3>
+<h3>Kontakte</h3>
 
-<p> Kontaktseite stellt den Kontaktformular, die Adresse und Google Map dar. Um die
-    Kontaktinformationen (
-    <i> Kontakt-E-Mail-Adresse, Adresse usw.</i>
-    ) zu verändern,
-    gehen Sie auf <b>Komponente > Kontakt > Kontakt > Website Besitzer</b> (Components >
-    Contacts > Contacts > Website Owner). Mit Hilfe von oberen Tabs können Sie
-    verschiedener Kontaktoptionen zugreifen.
+<p>Kontaktseite stellt das Kontaktformular, die Adresse und Google Map dar. Um die Kontaktinformationen
+ (<i>E-Mail-Adresse, Adresse usw.</i>), gehen Sie zum <b>Komponente > Kontakt > Kontakt > Website Besitzer</b> Tab. Mit den top Tabs, erhalten Sie Zugriff auf verschiedene Einstellungen .
 </p>
 
-<p> Im <b>System > Globale Konfiguration > Kontakt</b> (System > Global Configuration >
-    Contacts) konfigurieren Sie, was auf der Kontaktseite gestaltet sollte. </p>
+<p>Um das Kontaktformular zu konfigurieren, navigieren Sie bitte zur <b>System > Global
+        Configuration > Contacts</b> Sektion.</p>
 
-<p><b>Google Map</b> wird auf der Kontaktseite über das Google Map Plugin erstellt. Man
-    kann es durch <b>Erweiterungen > Plug-in Manager > Google Maps</b> (Extensions >
-    Plug-in Manager > Google Maps) konfigurieren</p>
+<p><b>Google Map</b> wird mit Hilfe des Google Maps Plugins auf der Seite "Contacts" angezeigt. Man kann es  in der <b>Erweiterungen  > Plugin Manager >
+        Google Maps</b> Sektion konfigurieren.</p>
+
+<h6><strong>Tipp:</strong> um schnell das benötigte Plugin zu finden, sollten Sie den Filter oben verwenden, wie unten auf dem Screenshot gezeigt wird:
+</h6>
 
 <figure class="img-polaroid">
     <img src="img/plugin-manager.jpg" alt="">
 </figure>
 
-
-<h6><strong>Tipp:</strong> Verwenden Sie den Filten über der
-    Liste von Plugins, um Ihre Suche einzugrenzen.</h6>
-
-<p class="alert alert-info">Schauen Sie die ausführliche Video-Tutorial an: <a
-        href="/help/de/joomla-3-x-how-to-change-google-map-coordinates.html"
-        target="_blank">Wie ändert man Google Map Koordinaten</a></p>
+<p class="alert alert-info">Sie können sich auch das detaillierte Video-Tutorial anschauen:
+    <a href="/help/joomla-3-x-how-to-change-google-map-coordinates.html"
+       target="_blank">Wie ändert man Google Map Koordinaten</a>.</p>

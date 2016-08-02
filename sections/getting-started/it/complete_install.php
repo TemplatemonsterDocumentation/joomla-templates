@@ -1,247 +1,217 @@
-<h3>Installazione Completa</h3>
+<h3>Installazione completa</h3>
 
-<p>Non ho un sito Web in Joomla e vorrei installarlo per la prima volta.</p>
+<p>Questo metodo è adatto a voi, per avere un sito web Joomla e quando si desidera installarlo da zero. </p>
 
-<p>Tramite questo sistema installerete un motore CMS Joomla,un modello Joomla, un contenuto esempioe le relative
-    estensioni necessarie.</p>
+<p>Utilizzando questo metodo, avrai il motore installato su CMS Joomla, template Joomla, i dati di esempio e tutto il necessario compreso le espansioni.</p>
 
 <!-- Creating database -->
 
+<h3>Creazione di un database</h3>
 
-<h3>Creazione di un Database</h3>
-
-<p>Quando avrete finito di caricare i file all’interno del server di hostingpotrete preparare un nuovo databaseper il
-    vostro sito Joomla. Potrete creare il nuovo database ricorrendo allo strumento di gestione del database dal pannello
-    di controllo del vostro host (
-    <i>di solito PhpMyAdmin</i>
-    ).
+<p>Quando tutti i file verranno caricati sul server di hosting, è necessario preparare un nuovo database per il sito web Joomla. Essa
+    potrà essere creata utilizzando i dati utensile di gestione di database nel web hosting direttamente dal pannello di controllo(<i> solitamente usato il PhpMyAdmin</i>).
 </p>
 
-<p>Con lo strumento phpMyAdmin creerete il vostro database in 3 semplici passi: (guardate le slide in basso)</p>
+<h6>Con phpMyAdmin è possibile creare un nuovo database, seguire i 3 semplici passi (segui le seguenti slide):</h6>
 
 <ol class="index-list">
-    <li>Cliccate sul pulsante“Databases”dal menù di navigazione in altoper accedere all’elenco dei database </li>
+    <li>Fare clic sul pulsante di database (database) nel menu di navigazione in alto per andare alla lista dei database.</li>
 
-    <li>Inserite il nome del database nella voce "Crea nuovo database"(eng. Create new database) </li>
+    <li>Immettere il nome del database nella sezione "Create new database" (Creare un nuovo database). </li>
 
-    <li>Cliccate sul tasto “Crea” sulla destra(eng. Create)</li>
+    <li>Fare clic sul pulsante "Create" (Crea) sulla destra.</li>
 </ol>
 
-<p>Il vostro database è visibile adesso nell’elenco dei database. Cliccate sul nome corrispondente per accedervi.</p>
+<p>La banca dati apparirà nella lista. Clicca sul nome del database per accedere.</p>
 
+<div class="owl-carousel">
+    <div class="item">
+        <p>1. Aprire la scheda "Database" (Database) per andare alla lista dei database:</p>
 
-<div class="flexslider clearfix img-polaroid">
-    <ul class="slides">
-        <li>
+        <figure class="img-polaroid">
             <img src="img/database-create-1.jpg" alt=""/>
+        </figure>
+    </div>
+    <div class="item">
+        <p>2. Immettere il nome del database:</p>
 
-            <div class="flex-caption">
-                <p>1. Fare clic sul pulsante Database per accedere alla lista di database</p>
-            </div>
-        </li>
-        <li>
+        <figure class="img-polaroid">
             <img src="img/database-create-2.jpg" alt=""/>
+        </figure>
+    </div>
+    <div class="item">
+        <p>3. Fare clic sul pulsante "Start":</p>
 
-            <div class="flex-caption">
-                <p>2. Nome del database di ingresso<br> 3. Fare clic sul pulsante Create</p>
-            </div>
-        </li>
-        <li>
+        <figure class="img-polaroid">
             <img src="img/database-create-3.jpg" alt=""/>
+        </figure>
+    </div>
+    <div class="item">
+        <p>4. La banca dati apparirà nella lista. Clicca sul nome del database per accedere:</p>
 
-            <div class="flex-caption">
-                <p>4. Il database può essere visto nel profilo del database. Fare clic sul suo nome per ottenere
-                    l'accesso al database.</p>
-            </div>
-        </li>
-    </ul>
+        <figure class="img-polaroid">
+            <img src="img/database-create-4.jpg" alt=""/>
+        </figure>
+    </div>
 </div>
 
-
-<p>Guarda anche il video tutorial su
-    <a href="/help/how-to-create-a-database.html" target="_blank">Come creare un database</a>
+<p class="alert alert-info">È inoltre possibile utilizzare il video tutorial dettagliato:
+    <a href="/help/how-to-create-a-database.html" target="_blank">Come creare un database</a>.
 </p>
 
-<p class="alert alert-info">Nel caso di problemi nella creazione del database contattare il vostro fornitore di hosting
-    per assistenza.</p>
-
+<p>Se avrai difficoltà con la creazione del database, contattare il proprio fornitore di hosting per il supporto. </p>
 
 <!-- Uploading files -->
 
-<h3>Caricamento e decompressione</h3>
+<h3>Scaricare e decomprimere</h3>
 
-<p class="">Per iniziare a lavorare con Joomla bisognerà prima caricare i file sul server di hosting. Per farlo potrete
-    utilizzare il vostro hosting file manager o un FTP manager esterno.</p>
+<p>Per iniziare con Joomla, si desidera caricare file sul server di hosting. Questo può essere fatto con il
+    File manager del hosting nel pannello di controllo o tramite il FTP.</p>
 
 <ol class="index-list">
-    <li>Aprite la cartella delle directory del vostro modelloe andate sulla directory 'joomla' </li>
+    <li>Aprire il modello, e passare alla cartella 'joomla'.</li>
 
-    <li>2. Selezionare i file 'unzip.php' e 'fullpackage.zip' e caricateli sul vostro server(
-        <a href="/help/how-upload-files-server-2.html" target="_blank">Come caricarei file sul server.</a>
-        )
+    <li>Selezionare i file 'unzip.php' e 'fullpackage.zip' e caricarli sul server (<a href="/help/how-upload-files-server-2.html" target="_blank">Come caricare file sul server</a>).
     </li>
-    <li>Digitate il percorso del file 'unzip.php' sul vostro server (
-        <i class="muted">http://your_domain_name/unzip.php</i>
-        ) in your
-        <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">nel browser.</abbr>.
+    <li>Immettere il percorso del file 'unzip.php' sul server (<i class="muted">http://your_domain_name/unzip.php</i>) nel tuo browser <abbr
+            title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc."></abbr>.
     </li>
 
-    <li><p>Dovreste visualizzare la seguente schermata:</p>
+    <li>
+        <p>Si dovrebbe vedere la seguente finestra:</p>
 
         <figure class="img-polaroid">
             <img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen.">
         </figure>
-
-
     </li>
+    <li>Nella sezione 'Choose your zip file’ (Scegli il file zip) Selezionare il file scaricato fullpackage.zip. </li>
 
-    <li>Nella finestra 'Choose your zip file' seleziona il file fullpackage.zip caricato. </li>
+    <li>Nella sezione (Decomprimere in…) specificare la cartella in cui si desidera estrarre i file. </li>
 
-    <li>Nella casella 'Unzip to' specifica la directory in cui volete estrarre i file. </li>
-
-    <li>Clicca sul pulsante 'Unzip' per proseguire.</li>
+    <li>Premi il pulsante 'Unzip’ (Decomprimere), per estrarre i file.</li>
 </ol>
 
-<p class="alert alert-info">Assicurarsi di avere impostato i permessi corretti per la directory in cui avete deciso di
-    estrarre i file. I permessi dovrebbero essere CHMOD 755 o 777 a seconda della configurazione del vostro server.</p>
+<p class="alert alert-info">Impostare le autorizzazioni corrette per la cartella in cui si desidera decomprimere i file. I permessi devono
+    essere chmod 755 o 777, a seconda della configurazione del server.</p>
 
 
 <!-- Joomla CMS installation -->
 
 
-<h3>Installazione del CMS Joomla</h3>
+<h3>Installazione Joomla CMS</h3>
 
-<p> Assicurarsi di aver completato tutte le
-    <a href="#prepare">fasi preparatorie</a>
-    e di essere in possesso di tutto il necessario.
+<h6> Assicurarsi di avere tutte le
+    fasi preparatorie
+    e la disponibilità dei programmi richiesti.
+</h6>
+
+<p>Aprire il browser e cercare la cartella Joomla nel tuo browser (<i>ad esempio, http://your_domain_name/joomla</i>). Si dovrebbe vedere la finestra di installazione Joomla CMS:
 </p>
 
-<p>Aprire il browser e digitare il percorso della vostra directory Joomla sulla barra degli indirizzi(
-    <i>e.g. http://your_domain_name/joomla</i>
-    ). Dovreste visualizzare la schermata iniziale dell’istallazione del CMS Joomla:
-</p>
 
+<h4>Configurazione sito</h4>
 
-<h4>
-    Configurazione
-</h4>
-
-
-<p> Utilizzate la finestra "Select Language" per scegliere la lingua dell’installazione di Joomla.</p>
+<p>Nell'elenco a discesa “Select Language” (Scegli la lingua) selezionare la lingua di installazione Joomla.</p>
 
 <p>
-    <span class="label">Attenzione:</span>
-    la finestra "Select Language" vi permetterà di scegliere la lingua per la sola fase di installazione. Non
-    modificherà la lingua del vostro sito.
+    <span class="label">Si prega di notare:</span>
+    discesa “Select Language” (Scegli la lingua) esso consente di selezionare solo la lingua del processo di installazione di Joomla. Queste impostazione
+non pregiudicano la lingua del sito Web.
 </p>
 
-<p>Dovrete riempire tutti i campi dell’area "Main Configuration". I campi richiesti sono contrassegnati da un asterisco
-    *.</p>
+<p>E' necessario compilare tutti i campi nella sezione “Main Configuration” (Impostazioni principali). I campi obbligatori sono contrassegnati
+    con il asterisco *.</p>
 
-<p>Compila i campi "Admin Email", "Admin Username" e "Admin Password" nella Colonna di destraper creare un nuovo utente
-    Joomla con i diritti di amministratore.</p>
+<p>Compilare i campi “Admin Email” (Email amministratore), “Admin Username” (Nome amministratore) e “Admin Password” (Password
+    amministratore) nella colonna di destra, per creare un nuovo sito web utente Joomla con i permessi dell'amministratore.</p>
 
-<p class="alert alert-danger">"Admin Email", "Admin Username" e "Admin Password" sono necessari per accederealla sezione
-    del Web Joomla riservata agli
-    <abbr title="Pannello di Amministrazione di Joomla che viene utilizzato per lavorare con i contenuti del sito Web">amministratori</abbr>.
-    Conservateli per non dimentcarli.
-</p>
+<p class="alert alert-danger">”Admin Email” (Email amministratore), “Admin Username” (Nome amministratore) e "Admin  Password” (Password amministratore) necessario per accedere al sito Web di amministrazione Joomla. Tenerli in una cassetta di sicurezza
+    nel posto sicuro. </p>
 
-<p>Quando avrete completato questa parte cliccate sul pulsante
-    <strong>Next</strong>
-    sull’angoloalto a destra per proseguire.
+<p>Quando si immette tutti i dati, cliccare sul pulsante
+    <strong>Next</strong> (Avanti)
+    nell'angolo in alto a destra successivamente:
 </p>
 
 <figure class="img-polaroid">
     <img src="img/cms-install-1.jpg" alt="">
 </figure>
 
-<h4>
-    Database
-</h4>
+<h4>Configurazione della database</h4>
 
 
-<p>Durante la seconda fase dell’installazione del CMS di Joomla dovrete inserire i dettagli del vostro database. Se non
-    siete sicuri contattate il provider del vostro hosting per avere i dettagli precisi.</p>
+<p>Nella seconda fase di installazione di Joomla CMS, è necessario inserire i dettagli del database. Se essi non sono noti, fare riferimento al
+    hosting provider.</p>
 
-<p>Trattandosi di un’installazione di Joomla dal principiodovrete solamente inserire "NomeHost", "Username",
-    "NomeDatabase" e "Password". Potrete tranquillamente lasciare le altre impostazioni come predefinite. Tuttavia
-    potrebbe esserci qualche differenza in funzione del vostro provider di hosting.</p>
+<p>Dal momento che Joomla è installato da zero, basta inserire "Host Name" (Nome di hosting), "Username" (Nome
+    utente), "Database Name" (Nome database) e la "Password" (Password). Altre opzioni dovono essere lasciate di
+    default, anche se ci possono essere differenze a seconda del fornitore di hosting. </p>
 
-<p>Dopo aver completato questa operazione cliccate sul pulsante
-    <strong>Install</strong>
-    nell’angolo in alto a destra per proseguire.
+<p>Quando si entra con i dettagli, fare clic sul pulsante
+    <strong>Install</strong> (Installare)
+    nell'angolo in alto a destra:
 </p>
 
 <figure class="img-polaroid">
     <img src="img/cms-install-2.jpg" alt="">
 </figure>
 
+<h4>Panoramica</h4>
 
-<h4>
-    Panoramica
-</h4>
+<p>Installare Joomla CMS è completare la procedura. Al "Panoramica" è necessario specificare l'installazione di dati demo Joomla. </p>
 
+<p class="alert alert-warning">Nota: i dati demo sono necessarie se si vuole avere una visualizzazione del sito di default di Joomla
+    completamente installato come esempio,
+    come la demo dle modello: con tutte le impostazioni immagini, testi e moduli. Per fare questo, selezionare i dati demo chiamati
+    "sample_theme###", dove ### - è il numero dell'argomento.</p>
 
-<p>Avete quasi completato l’installazione del CMS Joomla. In questa fase dovrete selezionare se installare o menoi dati
-    di esempio Joomla.</p>
+<p>Selezionare i dati demo per l'installazione o fare clic "None" (No), se 
 
-<p class="alert alert-warning">Attenzione: I dati di esempiosono richiesti se volete fare apparire il vostro sito
-    Joomlacome un modello demo livecon tutte le immagini, i campioni di testo e i moduli configurati. Per visualizzare
-    il vostro modulo come una pagina live demoselezionate il pacchetto dati di esempio con il nome "sample_theme###"
-    dove ### è il numero del vostro tema.</p>
-
-<p>Selezionate il pacchetto Dati di Esempio(Sample Data) se volete installarlo, o scegliete "None" se preferite
-    impostare il sito Joomla senza nessun contenuto.</p>
+non si desidera installare i dati demo per il tuo sito Joomla:</p>
 
 <figure class="img-polaroid">
     <img src="img/cms-install-3-1.jpg" alt="">
 </figure>
 
-<p>In basso potrete verificare che i dati di accesso inseriti nella configurazione del database e nel pannello di
-    amministrazionesiano validie inviarli al vostro indirizzo mail se necessario</p>
+<p>Qui di seguito, è possibile verificare se i dettagli di accesso al database e i dettagli nel pannello di amministrazione sono corretti, è anche possibile inviarli al proprio indirizzo e-mail:</p>
 
 <figure class="img-polaroid">
     <img src="img/cms-install-3-2.jpg" alt="">
 </figure>
 
-<p>Sarà inoltre possibile visualizzare le impostazioni di installazione everificare che il server di hosting sia
-    compatibile con i requisiti di Joomla. Se doveste trovare una finestra di notifica in rossonella sezione
-    "Impostazioni raccomandate" contattate il vostro provider di hosting per assistenza.</p>
-
-<p>Dopo aver finito cliccate sul pulsante
-    <strong>Install</strong>
-    sulla parte alta dell’angolo a destra per proseguire.
-</p>
+<p> È inoltre possibile controllare le impostazioni della installazione e la loro conformità con i requisiti del server che ospita. Se si note una sezione di allarme segnalato in rosso “Recommended settings” (Impostazioni consigliate), contattare il proprio fornitore di hosting per
+    ulteriore sostegno:</p>
 
 <figure class="img-polaroid">
     <img src="img/cms-install-3-3.jpg" alt="">
 </figure>
 
-<h4>
-    Installazione Completata
-</h4>
+<p>Una volta terminata la verifica, premere
+    <strong>Install</strong> (Installare)
+    nell'angolo in alto a destra.
+</p>
+
+<h4>Installazione completa</h4>
 
 
-<p>Congratulazioni! Avete installato con successo il CMS Joomla.</p>
+<p>Complimenti! È stato installato Joomla:</p>
 
 <figure class="img-polaroid">
     <img src="img/cms-install-4.jpg" alt="">
 </figure>
 
+<p class="alert alert-danger">Al fine di aumentare la sicurezza, eliminare la cartella "Installation" la cartella principale di Joomla.</p>
 
-<p class="alert alert-danger">Per ragioni di sicurezza, sarà opportuno cancellare la directory di "installation" dalla
-    vostra root del vostro sito.</p>
-
-<p class="alert alert-info">Suggerimento: Guardate il video tutorial su
-    <a href="/help/joomla-3-0-how-to-install-joomla-engine.html" target="_blank">Come installare il motore Joomla 3</a>
+<p class="alert alert-info">Suggerimento:
+    È possibile utilizzare il video tutorial dettagliato:
+    <a href="/help/joomla-3-0-how-to-install-joomla-engine.html" target="_blank">Come installare Joomla Motore 3</a>
 </p>
 
-<p class="alert alert-info">Attenzione: Completando la sezione "Installazione Completata" potrete saltare i passaggi
-    successivi "Installazione Modello", "Installazione Dati di Esempio" e "Installazione Estensioni" disponendo già di
-    tutti gli elementi installati.</p>
+<p class="alert alert-warning">Nota: Se si esegue una nuova installazione, è possibile saltare
+    sezione “Template Installation” (Installazione del modello), “Sample data installation” (Installa dati demo) e
+    “Extensions Installation” (Installazione delle estensioni), poiché tutti questi elementi sono installati.</p>
 
 
-<p>Adesso siete pronti a procedere con la configurazione del vostro sito Web basato su un CMS Joomla. Clicate sul
-    pulsante
-    <b>"Site"</b> per visualizzare il vostro sito o "<b>Administrator</b>" per accedere all’area riservatadi Joomla.</p>
+<p>Ora è possibile iniziare a personalizzare il sito web CMS Joomla. Stampa “<b>Site</b>” (Sito), per scoprire
+    sito web oppure “<b>Administrator</b>" (Amministratore), andare al pannello di amministrazione di Joomla.
+</p> 

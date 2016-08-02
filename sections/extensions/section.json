@@ -27,6 +27,34 @@
       }
     },
     {
+      "id": "owl_carousel",
+      "translations": {
+        "en": "Owl Carousel",
+        "ru": "Owl Carousel",
+        "es": "Owl Carousel",
+        "de": "Owl Carousel",
+        "fr": "Owl Carousel",
+        "it": "Owl Carousel",
+        "pl": "Owl Carousel",
+        "pt": "Owl Carousel",
+        "tr": "Owl Carousel"
+      }
+    },
+    {
+      "id": "Swiper",
+      "translations": {
+        "en": "Swiper",
+        "ru": "Swiper",
+        "es": "Swiper",
+        "de": "Swiper",
+        "fr": "Swiper",
+        "it": "Swiper",
+        "pl": "Swiper",
+        "pt": "Swiper",
+        "tr": "Swiper"
+      }
+    },
+    {
       "id": "articles_single",
       "translations": {
         "en": "Articles Single",
@@ -80,6 +108,34 @@
         "pl": "Moduł Formularza Kontaktowego TM Ajax",
         "pt": "Módulo de Formulário de Contato TM Ajax",
         "tr": "TM Ajax Contact Form Modülü"
+      }
+    },
+    {
+      "id": "tm_parallax",
+      "translations": {
+        "en": "TM Parallax Module",
+        "ru": "Модуль TM Parallax",
+        "es": "Módulo TM Parallax",
+        "de": "Modul TM Parallax",
+        "fr": "Module TM Parallax",
+        "it": "Modulo TM Parallax",
+        "pl": "Moduł TM Parallax",
+        "pt": "Módulo TM Parallax",
+        "tr": "TM Parallax Modülü"
+      }
+    },
+    {
+      "id": "tm_youtube_background_video",
+      "translations": {
+        "en": "TM Youtube background video Module",
+        "ru": "Модуль TM Youtube background video",
+        "es": "Módulo TM Youtube background video",
+        "de": "Modul TM Youtube background video",
+        "fr": "TM Youtube background video Module",
+        "it": "TM Youtube background video Module",
+        "pl": "TM Youtube background video Module",
+        "pt": "TM Youtube background video Module",
+        "tr": "TM Youtube background video Module"
       }
     },
     {

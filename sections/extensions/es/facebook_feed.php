@@ -1,17 +1,16 @@
-<h3>Pantalla de SW Facebook</h3>
-
-<p>Pantalla de SW Facebook - m&oacute;dulo que permite mostrar el bot&oacute;n "Me Gusta
-    de Facebook".</p>
+<h3>TM Facebook Page Plugin</h3>
+ 
+<p>TM Facebook Page es un módulo que permite mostrar su página de Facebook en la página web:</p>
 
 <figure class="img-polaroid">
     <img src="img/facebook_feed-1.jpg" alt="">
 </figure>
 
-<p>Aqu&iacute; puedes ver las configuraciones de la pantalla de SW Facebook. No dudes en
-    consultar m&aacute;s detalles en la <a
-        href="http://socialwidgets.net/documentation/26-sw-facebook-display.html"
-        target="_blank" rel="nofollow">p&aacute;gina web oficial</a>.</p>
-<figure class="img-polaroid">
+<p>Aquí puede encontrar las configuraciones de módulo TM Facebook Page. El campo de Facebook App ID es requerido. Es un identificador de Facebook App. Con el fin de obtener el identificador, por favor, abra la página web: <a
+        href="https://developers.facebook.com/" rel="nofollow" target="_blank">https://developers.facebook.com/</a>
+    y cree una aplicación para su página web. Usted puede aprender más acerca de otros ajustes en la <a href="https://developers.facebook.com/docs/plugins/page-plugin"
+                       rel="nofollow" target="_blank">página oficial</a>:</p>
+
+<figure class="img-polaroid"> 
     <img src="img/facebook_feed-2.jpg" alt="">
 </figure>
-

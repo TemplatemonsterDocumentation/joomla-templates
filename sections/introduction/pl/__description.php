@@ -1,36 +1,28 @@
 <h2 class="item1">Wstęp</h2>
 
-<h5>Dziękujemy za zakup szablonu Joomla. Ta dokumentacja składa się z kilku części i pokazuje cały proces, jak ustawić i
-    zarządzać stroną Joomla. Dołożyliśmy wszelkich starań, aby ten manual był jak najbardziej przejrzysty i łatwy w
-    użyciu. </h5>
+<h5>Dziękujemy za zakup szablonu Joomla. Ta dokumentacja składa się z kilku części i pokazuje informacje dotyczące całego procesu tworzenia i utworzenia strony internetowej Joomla od podstaw. Dołożyliśmy wszelkich starań, aby ten manual był jaknajbardziej zrozumiałym oraz łatwym .</h5>
 
 
-<h3>Czym jest Joomla CMS?</h3>
+<h3>Co to Joomla CMS?</h3>
 
-<p>Joomla CMS jest rozwiązaniem open source do tworzenia bogatych w treść stron internetowych. Pozwala on na tworzenie
-    stron oraz skutecznych aplikacji online, i nie wymaga prawie żadnych technicznych umiejętności czy wiedzy do
-    zarządzania. Wiele aspektów, wliczając w to łatwość użycia oraz elastyczność, sprawiają, że Joomla jest
-    najpopularniejszy, oprogramowaniem stron internetowych.
-    <a href="http://www.joomla.org/about-joomla.html" target="_blank">Dowiedz się Więcej</a>
+<p>Joomla CMS  to rozwiązanie opensource do tworzenia stron internetowych. Pozwala na budowanie stron internetowych i sprawnych aplikacji internetowych i nie wymaga prawie żadnych umiejętności technicznych lub wiedzy. Wiele aspektów, w tym jego łatwość obsługi i rozszerzalność, zrobiły Joomla jaknajbardziej popularnym oprogramowaniem strony internetowej. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Dowiedz się więcej</a>
 </p>
 
-<h3>Czym jest szablon Joomla</h3>
+<h3>Co to JoomlaTemplate?</h3>
 
-<p>Szablon Joomla jest nakładką na Twoją platformę Joomla CMS. Innymi słowy, możesz łatwo zmienić wygląd swojej strony
-    Joomla, instalując nowy szablon w kilku prostych krokach. W swojej prostocie, szablon Joomla jest dostarczony ze
-    wszystkimi potrzebnymi plikami źródłowymi, które możesz dowolnie edytować i zmieniać w odpowiadający Ci sposób.</p>
+<p>Joomla Template jest motywem dla platformy Joomla CMS. Inaczej mówiąc, można łatwo zmienić wygląd strony internetowej Joomla, instalując nowy szablon w kilku prostych krokach. Przy całej swej prostocie, szablon Joomla jest wyposażony we wszystkie niezbędne pliki źródłowe i można dowolnie edytować lub rozszerzać szablon, według własnego życzenia .</p>
 
-<h3>Struktura plików</h3>
+<h3>Struktura Szablonu</h3>
 
-<h6>Pakiet szablonu, jaki pobrałeś, składa się z kilku folderów. Sprawdźmy co zawiera każdy folder :</h6>
+<h6>Pakiet szablonu, jaki został zakupiony, składa się z kilku folderów. Sprawdźmy, co zawiera każdy folder:</h6>
 
 <ul class="files_structure">
     <li class="folder">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                <b>Documentation</b></dt>
-            <dd> zawiera pliki z dokumentacją</dd>
+                <b>Dokumentacja</b></dt>
+            <dd> zawiera pliki dokumentacji</dd>
         </dl>
         <ul>
             <li class="file">
@@ -39,7 +31,7 @@
                         <i class="fa fa-file"></i>
                         documentation.html
                     </dt>
-                    <dd> główny plik z dokumentacją. Jesteś właśnie tutaj :)
+                    <dd> główny plik dokumentacji szablonu. Właśnie, Państwo czytają go teraz :)
                     </dd>
                 </dl>
             </li>
@@ -50,7 +42,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Joomla</b></dt>
-            <dd> zawiera archiwum motywów Joomla, pakiet szybkiej instalacji oraz plik skryptowy.
+            <dd> zawiera archiwum z motywem Joomla, pakiet szybkiego instalowania oraz plik ze skryptem unzip.
             </dd>
         </dl>
         <ul>
@@ -60,8 +52,7 @@
                         <i class="fa fa-file"></i>
                         theme###.zip
                     </dt>
-                    <dd> archiwum motywów. Zawiera wszystkie pliki z motywami. Powienien być
-                        <a href="#template-installation">instalowany przez menadżera rozszerzeń Joomla</a>
+                    <dd> archiwum motywu. Zawiera wszystkie pliki motywu. Powinien być zainstalowany <a href="#template-installation">przy pomocy menedżera rozszerzeń Joomla</a>.
                     </dd>
                 </dl>
             </li>
@@ -72,8 +63,9 @@
                         fullpackage.zip
                     </dt>
                     <dd> zawiera
-                        <a href="#complete_install">kompletny pakiet instalacyjnjy Joomla</a>
-                        z plikami silnika, motywem oraz przykładową treścią (baza danych, przykładowe obrazy)
+                        <a href="#complete_install">
+                           Pakiet kompletnej inatalacji Joomla</a>
+                        z plikami silnika, motywami i przykładową zawartością (pliku zrzutu bazy danych i przykładowe obrazy)
                     </dd>
                 </dl>
             </li>
@@ -83,8 +75,7 @@
                         <i class="fa fa-file"></i>
                         unzip.php
                     </dt>
-                    <dd> plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera
-                        hostingowego
+                    <dd> plik służy do rozpakowywania fullpackage.zip po przesłaniu go na serwer hostingowy
                     </dd>
                 </dl>
             </li>
@@ -94,16 +85,16 @@
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                <b>Screenshots</b>
-            <dd> zawiera screenshoty szablonu.</dd>
+                <b>Zrzuty ekranowe</b>
+            <dd> zawiera zrzuty ekranowe motywu</dd>
         </dl>
     </li>
     <li class="folder">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                <b>Sources</b>
-            <dd> zawiera pliki źródłowe szablonu</dd>
+                <b>Źródła</b>
+            <dd> zawiera pliki przykładowej zawartości motywu</dd>
         </dl>
         <ul>
             <li class="folder">
@@ -112,7 +103,7 @@
                         <i class="fa fa-folder"></i>
                         psd
                     </dt>
-                    <dd> pliki źródłowe szablonu Adobe Photoshop (.psd)
+                    <dd> pliki źrodłowe szablonu do aplikacji Adobe Photoshop (.psd)
                     </dd>
                 </dl>
             </li>
@@ -122,8 +113,7 @@
                         <i class="fa fa-folder"></i>
                         to_the_root_folder
                     </dt>
-                    <dd> zawiera przykładowe pliki z treścią, aby stworzyć stronę jako szablon live demo. Ten folder
-                        powinien zostać umieszczony w katalogu głównym Joomla.
+                    <dd> folder z przykładowymi danymi, które są niezbędne, aby strona wygląda jak Live Demo szablonu. Zawartość tego folderu należy przesłać do głównego katalogu Joomla
                     </dd>
                 </dl>
             </li>
@@ -133,7 +123,7 @@
                         <i class="fa fa-file"></i>
                         dump.sql
                     </dt>
-                    <dd> plik z danymi. Zawiera przykładową treść motywu.
+                    <dd> plik zrzutu bazy danych. Zawiera przykładowe dane motywu
                     </dd>
                 </dl>
             </li>
@@ -143,7 +133,7 @@
                         <i class="fa fa-file"></i>
                         pkg_bundle.zip
                     </dt>
-                    <dd> zawiera dodatkowe rozszerzenia powiązane z motywem
+                    <dd> Zawiera dodatkowe rozszerzenia motywu
                     </dd>
                 </dl>
             </li>
@@ -155,8 +145,7 @@
                 <i class="fa fa-file"></i>
                 fonts_info.txt
             </dt>
-            <dd> zawiera linki, skąd różne czcionki do szablonu mogą być pobrane
-            </dd>
+            <dd> zawiera linki do pobierania czcionek motywu </dd>
         </dl>
     </li>
     <li class="file">
@@ -165,8 +154,7 @@
                 <i class="fa fa-file"></i>
                 info.txt
             </dt>
-            <dd> zawiera instrukcje, jak rozpakować pliki źródłowe
-            </dd>
+            <dd> poradnik dla rozpakowywania plików przykładowej zawartości</dd>
         </dl>
     </li>
 </ul>

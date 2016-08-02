@@ -1,29 +1,27 @@
 <h3>Acymailing</h3>
 
-<p>Acymailing - the subscription component for Joomla!</p>
+<p>Acymailing is the subscription component for Joomla!</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<p>Here is the main page of Acymailing component in the admin panel. Feel free to check
-    more details at the <a href="https://www.acyba.com/acymailing/doc.html"
-                           target="_blank" rel="nofollow">official website</a>.</p>
+<p>Here is the main page of Acymailing in the admin panel. Feel free to check more details at the <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+                     rel="nofollow">official website</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-2.jpg" alt="">
 </figure>
 
-<p>This is the settings page of Acymailing module. Feel free to check more details at
-    the <a href="https://www.acyba.com/acymailing/62-acymailing-module.html"
-           target="_blank" rel="nofollow">official website</a>.</p>
+<p>This is the settings page of Acymailing module. Feel free to check more details at <a
+        href="https://www.acyba.com/acymailing/62-acymailing-module.html"
+        target="_blank" rel="nofollow">official website</a>:</p>
 
 <figure class="img-polaroid">
     <img src="img/acymailing-3.jpg" alt="">
 </figure>
 
-<p>This is the list of the system plugins that are getting installed together with
-    Acymailing component:</p>
+<p>This is the list of system plugins that get installed together with Acymailing component:</p>
 
 <ul class="marked-list">
     <li>plg_acymailing_contentplugin</li>

@@ -1,4 +1,4 @@
-<h3>Impostare un video di sottofondo (Background video)</h3>
+<h3>L'aggiunta di un video di sfondo</h3>
 
 
 <figure class="img-polaroid">
@@ -6,15 +6,14 @@
 </figure>
 
 
-<p>E' possibile aggiungere un video di sottofondo al template grazie al plugin jQuery <a
+<p>Per visualizzare il video di sfondo in un modello utilizzando jQuery plugin <a
         href="http://vodkabears.github.io/vide/" target="_blank" rel="nofollow">Vide</a>.
-    Controlla che il plugin sia abilitato. Per controllare, naviga su "Template manager
-    -> Templates", poi vai sul tema che stai usando (ThemeXXXX Details and Files), apri
-    il file "index.php" e controlla se il plugin è inizializzato, come illustrato nell'
-    Controlla anche che il plugin sia disponibile nella cartella "js" folder.
-    Nel caso in cui il plugin non fosse lì, è possibile scaricarlo cliccando sul link
-    qui sopra per poi caricarlo nella cartella specificata. Non dimenticare anche di
-    aggiungere lo script al file "index.php".</p>
+    Controllare se il plugin è incluso nel modello. Per fare questo, andare alla sezione "Template Manager"
+    -> "Modelli", poi andare al modello utilizzato (Theme**** Details and Files) e
+    aprire il file "index.php". Controllare il collegamento a spina, dovrebbe essere così,
+    come mostrato nello screenshot qui sotto. Inoltre, controllare il plugin della cartella "js". Se
+    plugin non è disponibile, scaricare dal link qui sopra e il luogo in un apposita
+    cartella è caricata ed ha il collegamento, il file è "index.php":</p>
 
 
 <figure class="img-polaroid">
@@ -22,10 +21,9 @@
 </figure>
 
 
-<p>Per impostare un video di sottofondo, naviga su "Template Manager -> Templates" e
-    clicca sul template che stai usando (ThemeXXXX Details and Files). Nella directory
-    "html -> mod_custom", crea un file "
-    class="mod_table".php" con i seguenti contenuti:
+<p>Per inserire un video di sfondo per una pagina, si deve andare al "Template Manager" ->
+    "Modelli" e passare al modello utilizzato (Theme**** Details and Files). Dopodichè,
+    è necessario creare un file "&lt;nome&gt;.php" nella cartella "html -> mod_custom" con questi contenuti:
 </p>
 
 <code>&lt;?php <br>
@@ -50,22 +48,19 @@
     &lt;/div&gt; <br>
     &lt;/div&gt;</code>
 
-<p>dove [nome_file] è il nome del file video, senza aggiungere l'estensione.</p>
+<p>dove [nome_file] - è il nome del file video senza estensione:</p>
 
 <figure class="img-polaroid">
     <img src="img/video-2.png" alt="">
 </figure>
 
-<p>Dovresti anche preparare i seguenti formati video: mp4, ogv, webm e poster video nei
-    formati png, jpg e gif. Il nome del file dovrebbe essere lo stesso per tutti i file
-    e dovrebbe corrispondere a quello creato prima [nome_file]. Tutti i file vanno
-    caricati sulla cartella media\video\ della directory root di Joomla
+<p>Successivamente, è necessario preparare un video in seguenti formati MP4, WebM ogv, e l'immagine e video
+    i formati PNG, JPG e GIF. Nome di tutti i file devono essere trattati allo stesso modo e in conformità
+    indicato in precedenza [nome_file]. Tutti i file preparati devono essere collocati in una cartella
+    media\video\ nella cartella principale del vostro sito Joomla.</p>
 
-</p>
-
-
-<p>Nella fase successiva si deve creare un modulo che mostri il video. Aggiungi un
-    modulo HTML custom con i seguenti contenuti:</p>
+<p>Quindi è necessario creare un modulo per la visualizzazione di video. Creare Modulo codice HTML
+    (custom HTML) con i seguenti contenuti:</p>
 
 
 <figure class="img-polaroid">
@@ -73,7 +68,9 @@
 </figure>
 
 
-<p>Sia nella scheda "Advanced" che nella scheda "Alternative Layout", seleziona il
-    template file creato prima, [nome_file].</p>
+<p>Nella scheda "Impostazioni avanzate", (Advanced) nella lista a discesa
+    "Layout Alternativo" (Alternative Layout) scegliere il layout creato in precedenza [nome
+    file].</p>
 
-<p>Dopo aver completato tutte le fasi, vedrai il modulo con il video di sottofondo.</p>
+<p>Dopo aver apportato le modifiche, il modulo con lo sfondo appare sulla pagina seguente
+    video.</p>

@@ -1,6 +1,5 @@
-<h2 class="item4">Moduli Configuranti</h2>
+<h2 class="item4">Configurazione dei moduli</h2>
 
-<h6>Il layout di un sito Joomla si compone di due parti principali–la sezione dei contenutie
-    le posizioni del modulo (visualizzate la mappadelle posizioni delmodulo per maggiori
-    dettagli). I moduli in Joomla sono usati per collocare i contenuti in posizioni
-    stabilite.</h6>
+<h6>Sito web Joomla consiste di due parti principali - la sezione con il contenuto del sito e la posizione dei moduli (per il ricevimento
+    delle informazioni dettagliate, conoscere le posizioni dei moduli disponibili). I moduli utilizzati in
+    Joomla, servono per visualizzare il contenuto in posizioni preparate.</h6>
