@@ -44,8 +44,8 @@ if (!isset($sections)) {
         </div>
         <div class="panel">
 
-            <div class="select select-version">
-                <!-- <select>
+          <!--   <div class="select select-version">
+                <select>
                     <option data-href="#" selected>Version v3-4</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-3/index_en.html">Version v3-3</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-2/index_en.html">Version v3-2</option>
@@ -53,8 +53,8 @@ if (!isset($sections)) {
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-0/index_en.html">Version v3-0</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v2-4/index_en.html">Version v2-4</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v2-3/index_en.html">Version v2-3</option>
-                </select> -->
-            </div>
+                </select>
+            </div> -->
             <div class="select select-lang">
                 <select>
                     <option
@@ -65,7 +65,7 @@ if (!isset($sections)) {
                         data-href="<?php echo $path; ?>/index.php?lang=ru&section=<?php echo $section_param; ?>" <?php echo $lang == "ru" ? "selected" : ""; ?>>
                         RU
                     </option>
-                  <!--   <option
+                   <!--  <option
                         data-href="<?php echo $path; ?>/index.php?lang=es&section=<?php echo $section_param; ?>" <?php echo $lang == "es" ? "selected" : ""; ?>>
                         ES
                     </option>
