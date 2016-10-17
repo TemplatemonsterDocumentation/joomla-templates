@@ -111,6 +111,20 @@
       }
     },
     {
+      "id": "tm_youtube_background_video",
+      "translations": {
+        "en": "TM Youtube background video",
+        "ru": "Модуль TM Youtube background video",
+        "es": "TM Youtube background video",
+        "de": "TM Youtube background video",
+        "fr": "TM Youtube background video",
+        "it": "TM Youtube background video",
+        "pl": "TM Youtube background video",
+        "pt": "TM Youtube background video",
+        "tr": "TM Youtube background video"
+      }
+    },
+    {
       "id": "olark",
       "translations": {
         "en": "TM Olark live chat module",
