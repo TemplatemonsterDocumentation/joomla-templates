@@ -10,13 +10,13 @@
     "pl": "Ustawienia Szablonu",
     "pt": "Configurações do Template",
     "tr": "Şablon Ayarları"
-  },
+    },
   "articles": [
     {
       "id": "layout",
       "translations": {
         "en": "Layout",
-        "ru": "Макет",
+        "ru": "Макет сайта",
         "es": "Diseño",
         "de": "Layout",
         "fr": "Agencement",
@@ -30,7 +30,7 @@
       "id": "typography",
       "translations": {
         "en": "Typography",
-        "ru": "Оформление",
+        "ru": "Оформление заголовков",
         "es": "Tipografía",
         "de": "Typografie",
         "fr": "Typographie",

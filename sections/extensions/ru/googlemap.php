@@ -1,12 +1,12 @@
 <h3>Googlemap plugin</h3>
 
-<p>Googlemap - плагин для вывода карты Google.</p>
+<p>Googlemap – плагин для вывода блока с картами Google.</p>
 
 <figure class="img-polaroid">
     <img src="img/googlemap-1.jpg" alt="">
 </figure>
 
-<p>Так выглядит страница описания плагина Googlemap в админ панели. Более детальная
+<p align="justify">Так выглядит страница описания плагина Googlemap в админ панели. Более детальная
     информация на <a
         href="http://tech.reumer.net/Google-Maps/Documentation-of-plugin-Googlemap/"
         target="_blank" rel="nofollow">официальном сайте</a>.</p>

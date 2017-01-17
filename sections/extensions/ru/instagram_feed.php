@@ -1,14 +1,14 @@
 <h3>TM Instagram</h3>
  
-<p>TM Instagram - модуль для вывода "Instagram Widget"</p>
+<p>TM Instagram – модуль для вывода "Instagram Widget".</p>
 
 <figure class="img-polaroid">
     <img src="img/instagram-1.jpg" alt="">
 </figure>
 
-<p>Так выглядят основные настройки модуля TM Instagram. В поле Instagram username
+<p align="justify">Так выглядят основные настройки модуля TM Instagram. В поле Instagram username
     указывается название профиля в Instagram, в поле Number of photos - количество
-    картинок, выводимых в виджете, в поле Your Instagram CLIENT ID указывается
+    фото из ленты инстаграм, выводимых в виджете, в поле Your Instagram CLIENT ID указывается
     идентификатор Вашего приложения Instagram. Чтобы получить идентификатор, перейдите
     по ссылке <a href="https://instagram.com/accounts/login/?next=%2Fdeveloper%2F"
                  target="_blank" rel="nofollow">https://instagram.com/accounts/login/?next=%2Fdeveloper%2F</a>

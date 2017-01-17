@@ -1,6 +1,6 @@
 <h3>Articles Newsflash (Advanced)</h3>
 
-<p>Модуль Articles Newsflash (Advanced) представляет собой расширенную версию
+<p align="justify">Модуль Articles Newsflash (Advanced) представляет собой расширенную версию
     стандартного модуля Joomla Articles Newsflash. В дополнение к исходным функциям
     модуля предлагаются опции для шаблонов, основанных на Bootstrap.</p>
 
@@ -27,8 +27,8 @@
 <p><b>Show intro images (Показывать изображения статьи) </b> - позволяет отображать
     картинки статьи.</p>
 
-<p><b>Intro image align (Выравнивание изображений статьи) </b> - позволяет выравнивать
-    изображения статьи</p>
+<p><b>Intro image align (Выравнивание изображений статьи) </b> - позволяет выравнивнить
+    все изображения статьи.</p>
 
 <figure class="img-polaroid">
     <img src="img/newsflash-adv-1.png" alt="">

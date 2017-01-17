@@ -1,6 +1,6 @@
 <h3>Joomla Social Login</h3>
 
-<p>Joomla Social Login - компонент для вывода кнопок авторизации через социальные
+<p>Joomla Social Login – компонент для вывода кнопок авторизации через социальные
     сети.</p>
 
 <figure class="img-polaroid">

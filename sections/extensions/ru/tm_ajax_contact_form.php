@@ -1,22 +1,17 @@
 <h3>Módulo de Formulário de Contato TM Ajax</h3>
 
-<p> O Formulário de Contato TM Ajax é um módulo de formulário para a engine do Joomla.
-    Esse módulo permite adicionar formulários de contato em qualquer página do Joomla.</p>
+<p align="justify"> TM Ajax Contact Form — это модуль, который позволяет добавлять контактную форму на любую страницу сайта. Введенные в форму данные  преобразуются с помощью запроса AJAX, следовательно страница не будет обновляьтся.</p>
 
 <figure class="img-polaroid">
     <img src="img/contact-form-1.png" alt="">
 </figure>
 
-<p> O envio de dados é feito usando requisições AJAX, então a página não será recarregada.
-    As configurações do módulo permitem que você inclua proteção contra bots
-    (reCaptcha), configure os campos desejados, suas labels e enviar para um endereço de
-    sua escolha, com cópias e mensagens de erro e sucesso. Veja a lista completa abaixo.
-</p>
+<p> Модуль позволяет добввить механизм защиты от ботов, проводить точную настройку полей формы, настраивать ярлыки, задавать адрес получателя и адресс, для отправления на него СС, ошибок и предложений.</p>
 
 <figure class="img-polaroid">
     <img src="img/contact-form-2.png" alt="">
 </figure>
-<p>As configurações deste módulo permitem que você administre todas as funções do construtor de formulários, desta forma você pode incluir campos de qualquer tipo (text, email, checkbox, textarea). Graças a isso, o forumlário pode ser personalizado de acordo com suas necessidades.</p>
+<p>Параметры настроек этоuj модуля позволяют осуществлять управление всеми функциями (опциями) форм конструктора. А значит, Вы можете добавлять любое поле любого типа (текст, email).  Именно благодаря этому любая форма может быть настроена в соответствии   вашим требованиям.</p>
 <figure class="img-polaroid">
     <img src="img/contact-form-3.png" alt="">
 </figure>

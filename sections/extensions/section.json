@@ -13,6 +13,20 @@
   },
   "articles": [
     {
+      "id": "acymailing",
+      "translations": {
+        "en": "Acymailing",
+        "ru": "Acymailing",
+        "es": "Acymailing",
+        "de": "Acymailing",
+        "fr": "Acymailing",
+        "it": "Acymailing",
+        "pl": "Acymailing",
+        "pt": "Acymailing",
+        "tr": "Acymailing"
+      }
+    },
+    {
       "id": "articles-newsflash",
       "translations": {
         "en": "Articles Newsflash",
@@ -24,20 +38,6 @@
         "pl": "Przegląd Artykułów",
         "pt": "Artigos de Última Hora",
         "tr": "Makaleler Flaş Haberler"
-      }
-    },
-    {
-      "id": "image_swoop",
-      "translations": {
-        "en": "Image Swoop",
-        "ru": "Image Swoop",
-        "es": "Image Swoop",
-        "de": "Image Swoop",
-        "fr": "Image Swoop",
-        "it": "Image Swoop",
-        "pl": "Image Swoop",
-        "pt": "Image Swoop",
-        "tr": "Resim Swoop"
       }
     },
     {
@@ -69,6 +69,76 @@
       }
     },
     {
+      "id": "googlemap",
+      "translations": {
+        "en": "Googlemap plugin",
+        "ru": "Plugin de Googlemap",
+        "es": "Googlemap plugin",
+        "de": "Googlemap plugin",
+        "fr": "Googlemap plugin",
+        "it": "Plugin Googlemap",
+        "pl": "Wtyczka Googlemap",
+        "pt": "Googlemap plugin",
+        "tr": "Googlemap plugin"
+      }
+    },
+     {
+      "id": "image_swoop",
+      "translations": {
+        "en": "Image Swoop",
+        "ru": "Image Swoop",
+        "es": "Image Swoop",
+        "de": "Image Swoop",
+        "fr": "Image Swoop",
+        "it": "Image Swoop",
+        "pl": "Image Swoop",
+        "pt": "Image Swoop",
+        "tr": "Resim Swoop"
+      }
+    },
+    {
+      "id": "joomgallery",
+      "translations": {
+        "en": "JoomGallery",
+        "ru": "JoomGallery",
+        "es": "JoomGallery",
+        "de": "JoomGallery",
+        "fr": "JoomGallery",
+        "it": "JoomGallery",
+        "pl": "JoomGallery",
+        "pt": "JoomGallery",
+        "tr": "JoomGallery"
+      }
+    },
+     {
+      "id": "cookies",
+      "translations": {
+        "en": "Joomla Cookie Directive Plugin",
+        "ru": "Joomla Cookie Directive Plugin",
+        "es": "Plugin Joomla Cookie Directive",
+        "de": "Joomla Cookie Directive Plugin",
+        "fr": "Joomla Cookie Directive Plugin",
+        "it": "Joomla Cookie Directive Plugin",
+        "pl": "Wtyczka Zarządzania plikami Joomla Cookie",
+        "pt": "Joomla Cookie Directive Plugin",
+        "tr": "Joomla Cookie Directive Plugin"
+      }
+    },
+    {
+      "id": "social_login",
+      "translations": {
+        "en": "Joomla Social Login",
+        "ru": "Joomla Social Login",
+        "es": "Joomla Social Login",
+        "de": "Joomla Social Login",
+        "fr": "Joomla Social Login",
+        "it": "Joomla Social Login",
+        "pl": "Joomla Social Login",
+        "pt": "Joomla Social Login",
+        "tr": "Joomla Social Login"
+      }
+    },
+     {
       "id": "komento",
       "translations": {
         "en": "Komento Comments",
@@ -96,49 +166,7 @@
         "tr": "Kunena Forum"
       }
     },
-    {
-      "id": "tm_ajax_contact_form",
-      "translations": {
-        "en": "TM Ajax Contact Form Module",
-        "ru": "Модуль TM Ajax Contact Form",
-        "es": "Módulo TM Ajax Contact Form",
-        "de": "Modul TM Ajax Contact Form",
-        "fr": "Module de Formulaire de Contact en Ajax TM",
-        "it": "Modulo Contatti TM Ajax",
-        "pl": "Moduł Formularza Kontaktowego TM Ajax",
-        "pt": "Módulo de Formulário de Contato TM Ajax",
-        "tr": "TM Ajax Contact Form Modülü"
-      }
-    },
-    {
-      "id": "tm_youtube_background_video",
-      "translations": {
-        "en": "TM Youtube background video",
-        "ru": "Модуль TM Youtube background video",
-        "es": "TM Youtube background video",
-        "de": "TM Youtube background video",
-        "fr": "TM Youtube background video",
-        "it": "TM Youtube background video",
-        "pl": "TM Youtube background video",
-        "pt": "TM Youtube background video",
-        "tr": "TM Youtube background video"
-      }
-    },
-    {
-      "id": "olark",
-      "translations": {
-        "en": "TM Olark live chat module",
-        "ru": "Модуль TM Olark live chat",
-        "es": "M&oacute;dulo de chat en vivo de TM Olark",
-        "de": "TM Olark live chat Modul",
-        "fr": "Le module du Chat en direct TM Olark",
-        "it": "Modulo live chat TM Olark",
-        "pl": "Moduł TM Olark czat na żywo",
-        "pt": "Módulo de Bate-Papo TM Olark", 
-        "tr": "TM Olark live chat modülü"
-      }
-    }, 
-    {  
+      {  
       "id": "facebook_feed",
       "translations": {
         "en": "SW Facebook Display",
@@ -181,48 +209,6 @@
       }
     },
     {
-      "id": "instagram_feed",
-      "translations": {
-        "en": "TM Instagram",
-        "ru": "TM Instagram",
-        "es": "TM Instagram",
-        "de": "TM Instagram",
-        "fr": "TM Instagram",
-        "it": "TM Instagram",
-        "pl": "TM Instagram",
-        "pt": "TM Instagram",
-        "tr": "TM Instagram"
-      }
-    },
-    {
-      "id": "social_login",
-      "translations": {
-        "en": "Joomla Social Login",
-        "ru": "Joomla Social Login",
-        "es": "Joomla Social Login",
-        "de": "Joomla Social Login",
-        "fr": "Joomla Social Login",
-        "it": "Joomla Social Login",
-        "pl": "Joomla Social Login",
-        "pt": "Joomla Social Login",
-        "tr": "Joomla Social Login"
-      }
-    },
-    {
-      "id": "acymailing",
-      "translations": {
-        "en": "Acymailing",
-        "ru": "Acymailing",
-        "es": "Acymailing",
-        "de": "Acymailing",
-        "fr": "Acymailing",
-        "it": "Acymailing",
-        "pl": "Acymailing",
-        "pt": "Acymailing",
-        "tr": "Acymailing"
-      }
-    },
-    {
       "id": "tmaddthis",
       "translations": {
         "en": "TM Addthis",
@@ -237,45 +223,17 @@
       }
     },
     {
-      "id": "googlemap",
+      "id": "tm_ajax_contact_form",
       "translations": {
-        "en": "Googlemap plugin",
-        "ru": "Plugin de Googlemap",
-        "es": "Googlemap plugin",
-        "de": "Googlemap plugin",
-        "fr": "Googlemap plugin",
-        "it": "Plugin Googlemap",
-        "pl": "Wtyczka Googlemap",
-        "pt": "Googlemap plugin",
-        "tr": "Googlemap plugin"
-      }
-    },
-    {
-      "id": "cookies",
-      "translations": {
-        "en": "Joomla Cookie Directive Plugin",
-        "ru": "Joomla Cookie Directive Plugin",
-        "es": "Plugin Joomla Cookie Directive",
-        "de": "Joomla Cookie Directive Plugin",
-        "fr": "Joomla Cookie Directive Plugin",
-        "it": "Joomla Cookie Directive Plugin",
-        "pl": "Wtyczka Zarządzania plikami Joomla Cookie",
-        "pt": "Joomla Cookie Directive Plugin",
-        "tr": "Joomla Cookie Directive Plugin"
-      }
-    },
-    {
-      "id": "joomgallery",
-      "translations": {
-        "en": "JoomGallery",
-        "ru": "JoomGallery",
-        "es": "JoomGallery",
-        "de": "JoomGallery",
-        "fr": "JoomGallery",
-        "it": "JoomGallery",
-        "pl": "JoomGallery",
-        "pt": "JoomGallery",
-        "tr": "JoomGallery"
+        "en": "TM Ajax Contact Form Module",
+        "ru": "Модуль TM Ajax Contact Form",
+        "es": "Módulo TM Ajax Contact Form",
+        "de": "Modul TM Ajax Contact Form",
+        "fr": "Module de Formulaire de Contact en Ajax TM",
+        "it": "Modulo Contatti TM Ajax",
+        "pl": "Moduł Formularza Kontaktowego TM Ajax",
+        "pt": "Módulo de Formulário de Contato TM Ajax",
+        "tr": "TM Ajax Contact Form Modülü"
       }
     },
     {
@@ -291,6 +249,49 @@
         "pt": "TM Ajax Style Switcher",
         "tr": "TM Ajax Style Switcher"
       }
-    }
+    },
+    {
+      "id": "instagram_feed",
+      "translations": {
+        "en": "TM Instagram",
+        "ru": "TM Instagram",
+        "es": "TM Instagram",
+        "de": "TM Instagram",
+        "fr": "TM Instagram",
+        "it": "TM Instagram",
+        "pl": "TM Instagram",
+        "pt": "TM Instagram",
+        "tr": "TM Instagram"
+      }
+    },
+    {
+      "id": "olark",
+      "translations": {
+        "en": "TM Olark live chat module",
+        "ru": "Модуль TM Olark live chat",
+        "es": "M&oacute;dulo de chat en vivo de TM Olark",
+        "de": "TM Olark live chat Modul",
+        "fr": "Le module du Chat en direct TM Olark",
+        "it": "Modulo live chat TM Olark",
+        "pl": "Moduł TM Olark czat na żywo",
+        "pt": "Módulo de Bate-Papo TM Olark", 
+        "tr": "TM Olark live chat modülü"
+      }
+    },
+    {
+      "id": "tm_youtube_background_video",
+      "translations": {
+        "en": "TM Youtube background video",
+        "ru": "Модуль TM Youtube background video",
+        "es": "TM Youtube background video",
+        "de": "TM Youtube background video",
+        "fr": "TM Youtube background video",
+        "it": "TM Youtube background video",
+        "pl": "TM Youtube background video",
+        "pt": "TM Youtube background video",
+        "tr": "TM Youtube background video"
+      }
+    } 
+       
   ]
 }
