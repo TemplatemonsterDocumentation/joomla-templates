@@ -1,1 +1,0 @@
-<h2 class="item3">Pierwsze kroki</h2>
