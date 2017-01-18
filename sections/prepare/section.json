@@ -1,0 +1,19 @@
+{
+	"id":"prepare",
+	"translations":
+	{
+		"en":"Preparation for the installation process",
+		"ru":"Подготовка к процессу установки",
+		"es":"Preparación",
+		"de":"Vorbereitung",
+		"fr":"Préparation",
+		"it":"Preparazione",
+		"pl":"Przygotowanie",
+		"pt":"Preparar",
+		"tr":"Hazırlamak"
+	},
+	"articles":
+	{
+		
+	}
+}

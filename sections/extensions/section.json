@@ -1,0 +1,310 @@
+{
+  "id": "extensions",
+  "translations": {
+    "en": "Extensions",
+    "ru": "Расширения",
+    "es": "Extensiones",
+    "de": "Erweiterungen",
+    "fr": "Extensions",
+    "it": "Estensioni",
+    "pl": "Rozszerzenia",
+    "pt": "Extensões",
+    "tr": "Eklentiler"
+  },
+  "articles": [
+    {
+      "id": "acymailing",
+      "translations": {
+        "en": "Acymailing",
+        "ru": "Acymailing",
+        "es": "Acymailing",
+        "de": "Acymailing",
+        "fr": "Acymailing",
+        "it": "Acymailing",
+        "pl": "Acymailing",
+        "pt": "Acymailing",
+        "tr": "Acymailing"
+      }
+    },
+    {
+      "id": "articles-newsflash",
+      "translations": {
+        "en": "Articles Newsflash",
+        "ru": "Articles Newsflash",
+        "es": "Artículos Newsflash",
+        "de": "Articles Newsflash",
+        "fr": "Articles Newsflash",
+        "it": "Articles Newsflash",
+        "pl": "Przegląd Artykułów",
+        "pt": "Artigos de Última Hora",
+        "tr": "Makaleler Flaş Haberler"
+      }
+    },
+    {
+      "id": "articles_single",
+      "translations": {
+        "en": "Articles Single",
+        "ru": "Articles Single",
+        "es": "Articles Single",
+        "de": "Articles Single",
+        "fr": "Articles Single",
+        "it": "Articles Single",
+        "pl": "Moduł Pojedyncze Artykuły",
+        "pt": "Articles Single",
+        "tr": "Tek makaleler"
+      }
+    },
+    {
+      "id": "googlemap",
+      "translations": {
+        "en": "Googlemap Plugin",
+        "ru": "Googlemap Plagin",
+        "es": "Googlemap Plugin",
+        "de": "Googlemap plugin",
+        "fr": "Googlemap Plugin",
+        "it": "Plugin Googlemap",
+        "pl": "Wtyczka Googlemap",
+        "pt": "Googlemap Plugin",
+        "tr": "Googlemap Plugin"
+      }
+    },
+    {
+      "id": "joomgallery",
+      "translations": {
+        "en": "JoomGallery",
+        "ru": "JoomGallery",
+        "es": "JoomGallery",
+        "de": "JoomGallery",
+        "fr": "JoomGallery",
+        "it": "JoomGallery",
+        "pl": "JoomGallery",
+        "pt": "JoomGallery",
+        "tr": "JoomGallery"
+      }
+    },
+    {
+      "id": "cookies",
+      "translations": {
+        "en": "Joomla Cookie Directive Plugin",
+        "ru": "Joomla Cookie Directive Plugin",
+        "es": "Plugin Joomla Cookie Directive",
+        "de": "Joomla Cookie Directive Plugin",
+        "fr": "Joomla Cookie Directive Plugin",
+        "it": "Joomla Cookie Directive Plugin",
+        "pl": "Wtyczka Zarządzania plikami Joomla Cookie",
+        "pt": "Joomla Cookie Directive Plugin",
+        "tr": "Joomla Cookie Directive Plugin"
+      }
+    },
+    {
+      "id": "social_login",
+      "translations": {
+        "en": "Joomla Social Login",
+        "ru": "Joomla Social Login",
+        "es": "Joomla Social Login",
+        "de": "Joomla Social Login",
+        "fr": "Joomla Social Login",
+        "it": "Joomla Social Login",
+        "pl": "Joomla Social Login",
+        "pt": "Joomla Social Login",
+        "tr": "Joomla Social Login"
+      }
+    },
+    {
+      "id": "komento",
+      "translations": {
+        "en": "Komento Comments",
+        "ru": "Komento Comments",
+        "es": "Komento Comments",
+        "de": "Komento Kommentare",
+        "fr": "Commentaires de Komento",
+        "it": "Commenti Komento",
+        "pl": "Komponent Komentarze Komento",
+        "pt": "Comentários Komento",
+        "tr": "Komento Yorumlar"
+      }
+    },
+    {
+      "id": "kunena",
+      "translations": {
+        "en": "Kunena Forum",
+        "ru": "Kunena Forum",
+        "es": "Foro Kunena",
+        "de": "Forum Kunena",
+        "fr": "Forum Kunena",
+        "it": "Kunena Forum",
+        "pl": "Kunena Forum",
+        "pt": "Fórum Kunena",
+        "tr": "Kunena Forum"
+      }
+    },
+    {
+      "id": "owl_carousel",
+      "translations": {
+        "en": "Owl Carousel",
+        "ru": "Owl Carousel",
+        "es": "Owl Carousel",
+        "de": "Owl Carousel",
+        "fr": "Owl Carousel",
+        "it": "Owl Carousel",
+        "pl": "Owl Carousel",
+        "pt": "Owl Carousel",
+        "tr": "Owl Carousel"
+      }
+    },
+    {
+      "id": "swiper",
+      "translations": {
+        "en": "Swiper",
+        "ru": "Swiper",
+        "es": "Swiper",
+        "de": "Swiper",
+        "fr": "Swiper",
+        "it": "Swiper",
+        "pl": "Swiper",
+        "pt": "Swiper",
+        "tr": "Swiper"
+      }
+    },
+    {
+      "id": "tmaddthis",
+      "translations": {
+        "en": "TM Addthis",
+        "ru": "TM Addthis",
+        "es": "TM Addthis",
+        "de": "TM Addthis",
+        "fr": "TM Addthis",
+        "it": "TM Addthis",
+        "pl": "TM Addthis",
+        "pt": "TM Addthis",
+        "tr": "TM Addthis"
+      }
+    },
+    {
+      "id": "tm_ajax_contact_form",
+      "translations": {
+        "en": "TM Ajax Contact Form Module",
+        "ru": "TM Ajax Contact Form Module",
+        "es": "Módulo TM Ajax Contact Form",
+        "de": "Modul TM Ajax Contact Form",
+        "fr": "Module de Formulaire de Contact en Ajax TM",
+        "it": "Modulo Contatti TM Ajax",
+        "pl": "Moduł Formularza Kontaktowego TM Ajax",
+        "pt": "Módulo de Formulário de Contato TM Ajax",
+        "tr": "TM Ajax Contact Form Modülü"
+      }
+    },
+    {
+      "id": "style_switcher",
+      "translations": {
+        "en": "TM Ajax Style Switcher",
+        "ru": "TM Ajax Style Switcher",
+        "es": "TM Ajax Style Switcher",
+        "de": "TM Ajax Style Switcher",
+        "fr": "TM Ajax Style Switcher",
+        "it": "TM Ajax Style Switcher",
+        "pl": "TM Ajax Style Switcher",
+        "pt": "TM Ajax Style Switcher",
+        "tr": "TM Ajax Style Switcher"
+      }
+    },
+    {  
+      "id": "facebook_feed",
+      "translations": {
+        "en": "SW Facebook Display",
+        "ru": "TM Facebook Display",
+        "es": "SW Facebook Display",
+        "de": "SW Facebook Display", 
+        "fr": "SW Facebook Display",
+        "it": "SW Facebook Display", 
+        "pl": "Wyświetlacz SW Facebook",
+        "pt": "SW Facebook Display",
+        "tr": "SW Facebook Display"
+      }
+    },
+    {
+      "id": "instagram_feed",
+      "translations": {
+        "en": "TM Instagram",
+        "ru": "TM Instagram",
+        "es": "TM Instagram",
+        "de": "TM Instagram",
+        "fr": "TM Instagram",
+        "it": "TM Instagram",
+        "pl": "TM Instagram",
+        "pt": "TM Instagram",
+        "tr": "TM Instagram"
+      }
+    },
+    {
+      "id": "olark",
+      "translations": {
+        "en": "TM Olark live chat module",
+        "ru": "TM Olark live chat Module",
+        "es": "M&oacute;dulo de chat en vivo de TM Olark",
+        "de": "TM Olark live chat Modul",
+        "fr": "Le module du Chat en direct TM Olark",
+        "it": "Modulo live chat TM Olark",
+        "pl": "Moduł TM Olark czat na żywo",
+        "pt": "Módulo de Bate-Papo TM Olark", 
+        "tr": "TM Olark live chat modülü"
+      }
+    }, 
+    {
+      "id": "tm_parallax",
+      "translations": {
+        "en": "TM Parallax Module",
+        "ru": "TM Parallax Module",
+        "es": "Módulo TM Parallax",
+        "de": "Modul TM Parallax",
+        "fr": "Module TM Parallax",
+        "it": "Modulo TM Parallax",
+        "pl": "Moduł TM Parallax",
+        "pt": "Módulo TM Parallax",
+        "tr": "TM Parallax Modülü"
+      }
+    },
+    { 
+      "id": "pinterest_feed",
+      "translations": {
+        "en": "SW Pinterest Display",
+        "ru": "SW Pinterest Display",
+        "es": "SW Pinterest Display",
+        "de": "SW Pinterest Display",
+        "fr": "SW Pinterest Display",
+        "it": "SW Pinterest Display",
+        "pl": "Wyświetlacz SW Pinterest",
+        "pt": "SW Pinterest Display",
+        "tr": "SW Pinterest Display"
+      }
+    },
+    {
+      "id": "twitter_feed",
+      "translations": {
+        "en": "SW Twitter Display",
+        "ru": "SW Twitter Display",
+        "es": "SW Twitter Display",
+        "de": "SW Twitter Display",
+        "fr": "SW Twitter Display",
+        "it": "SW Twitter Display",
+        "pl": "Wyświetlacz SW Twitter",
+        "pt": "SW Twitter Display",
+        "tr": "SW Twitter Display"
+      }
+    },
+    {
+      "id": "tm_youtube_background_video",
+      "translations": {
+        "en": "TM Youtube background video Module",
+        "ru": "TM Youtube background video Module",
+        "es": "Módulo TM Youtube background video",
+        "de": "Modul TM Youtube background video",
+        "fr": "TM Youtube background video Module",
+        "it": "TM Youtube background video Module",
+        "pl": "TM Youtube background video Module",
+        "pt": "TM Youtube background video Module",
+        "tr": "TM Youtube background video Module"
+      }
+    }
+  ]
+}

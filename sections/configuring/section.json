@@ -1,0 +1,44 @@
+{
+  "id": "configuring",
+  "translations": {
+    "en": "Configuring Pages",
+    "ru": "Настройка страниц",
+    "es": "Configuración de Páginas",
+    "de": "Konfiguration von Seiten",
+    "fr": "Configuration des pages",
+    "it": "Pagine Configuranti",
+    "pl": "Konfiguracja Stron",
+    "pt": "Páginas de Configuração",
+    "tr": "Yapılandırma Sayfası"
+  },
+  "articles": [
+    {
+      "id": "contacts",
+      "translations": {
+        "en": "Contacts Page",
+        "ru": "Контакты",
+        "es": "Página de Contacto",
+        "de": "Kontaktseite",
+        "fr": "Contacts",
+        "it": "Pagina Contatti",
+        "pl": "Strona Kontaktów",
+        "pt": "Página de Contatos",
+        "tr": "İletişim Sayfası"
+      }
+    },
+    {
+      "id": "gallery",
+      "translations": {
+        "en": "Gallery Page",
+        "ru": "Галерея",
+        "es": "Página de Galería",
+        "de": "Galerie Seite",
+        "fr": "Galerie",
+        "it": "Galleria",
+        "pl": "Strona Galerii",
+        "pt": "Página da Galeria",
+        "tr": "Galeri Sayfası"
+      }
+    }
+  ]
+}

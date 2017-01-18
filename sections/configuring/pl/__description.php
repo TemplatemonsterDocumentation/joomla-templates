@@ -1,0 +1,1 @@
+<h2 class="item6">Konfigurowanie stron</h2>
