@@ -1,13 +1,13 @@
 <h3>Owl Carousel</h3>
 
 <p>Owl Carousel представляет собой модуль карусели изображений, разработанный на основе
-    стандартного модуля Joomla Articles Newsflash и плагина jQuery Owl Carousel:</p>
+    стандартного модуля Joomla Articles Newsflash и плагина jQuery Owl Carousel.</p>
 
 <figure class="img-polaroid">
     <img src="img/owl-carousel.png" alt="">
 </figure>
 
-<h6>Все необходимые опции карусели доступны в настройках модуля: </h6>
+<h6>Все доступные параметры настроек модуля: </h6>
 
 <ol class="index-list">
     <li>Ширина элемента;</li>

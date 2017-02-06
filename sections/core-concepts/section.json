@@ -1,0 +1,170 @@
+{
+  "id": "core-concepts",
+  "translations": {
+    "en": "Core Concepts of Joomla",
+    "ru": "Core Concepts of Joomla",
+    "es": "Core Concepts of Joomla",
+    "de": "Core Concepts of Joomla",
+    "fr": "Core Concepts of Joomla",
+    "it": "Core Concepts of Joomla",
+    "pl": "Core Concepts of Joomla",
+    "pt": "Core Concepts of Joomla",
+    "tr": "Core Concepts of Joomla"
+    },
+  "articles": [
+    {
+      "id": "frontend",
+      "translations": {
+        "en": "Frontend",
+        "ru": "Frontend",
+        "es": "Frontend",
+        "de": "Frontend",
+        "fr": "Frontend",
+        "it": "Frontend",
+        "pl": "Frontend",
+        "pt": "Frontend",
+        "tr": "Frontend"
+      }
+    },
+    {
+      "id": "administrator",
+      "translations": {
+        "en": "Administrator",
+        "ru": "Administrator",
+        "es": "Administrator",
+        "de": "Administrator",
+        "fr": "Administrator",
+        "it": "Administrator",
+        "pl": "Administrator",
+        "pt": "Administrator",
+        "tr": "Administrator"
+      }
+    },
+    {
+      "id": "global",
+      "translations": {
+        "en": "Global configuration",
+        "ru": "Global configuration",
+        "es": "Global configuration",
+        "de": "Global configuration",
+        "fr": "Global configuration",
+        "it": "Global configuration",
+        "pl": "Global configuration",
+        "pt": "Global configuration",
+        "tr": "Global configuration"
+      }
+    },  
+    {
+      "id": "categories",
+      "translations": {
+        "en": "Categories",
+        "ru": "Categories",
+        "es": "Categories",
+        "de": "Categories",
+        "fr": "Categories",
+        "it": "Categories",
+        "pl": "Categories",
+        "pt": "Categories",
+        "tr": "Categories"
+      }
+    },
+    {
+      "id": "articles",
+      "translations": {
+        "en": "Articles",
+        "ru": "Articles",
+        "es": "Articles",
+        "de": "Articles",
+        "fr": "Articles",
+        "it": "Articles",
+        "pl": "Articles",
+        "pt": "Articles",
+        "tr": "Articles"
+      }
+    },
+    {
+      "id": "menus",
+      "translations": {
+        "en": "Menus",
+        "ru": "Menus",
+        "es": "Menus",
+        "de": "Menus",
+        "fr": "Menus",
+        "it": "Menus",
+        "pl": "Menus",
+        "pt": "Menus",
+        "tr": "Menus"
+      }
+    },
+    {
+      "id": "modules",
+      "translations": {
+        "en": "Modules",
+        "ru": "Modules",
+        "es": "Modules",
+        "de": "Modules",
+        "fr": "Modules",
+        "it": "Modules",
+        "pl": "Modules",
+        "pt": "Modules",
+        "tr": "Modules"
+      }
+    },
+    {
+  "id": "modules_config",
+  "translations": {
+    "en": "Configuring Modules",
+    "ru": "Настройка модулей",
+    "es": "Configuración de Módulos",
+    "de": "Modulkonfiguration",
+    "fr": "Configuration des modules",
+    "it": "Moduli Configuranti",
+    "pl": "Konfiguracja Modułów",
+    "pt": "Configurando Módulos",
+    "tr": "Modülleri Yapılandırma"
+      }
+    },
+    {
+      "id": "images",
+      "translations": {
+        "en": "Images",
+        "ru": "Images",
+        "es": "Images",
+        "de": "Images",
+        "fr": "Images",
+        "it": "Images",
+        "pl": "Images",
+        "pt": "Images",
+        "tr": "Images"
+      }
+    },
+    {
+      "id": "templates",
+      "translations": {
+        "en": "Templates",
+        "ru": "Templates",
+        "es": "Templates",
+        "de": "Templates",
+        "fr": "Templates",
+        "it": "Templates",
+        "pl": "Templates",
+        "pt": "Templates",
+        "tr": "Templates"
+      }
+    },
+    {
+      "id": "extensions",
+      "translations": {
+        "en": "Extensions",
+        "ru": "Extensions",
+        "es": "Extensions",
+        "de": "Extensions",
+        "fr": "Extensions",
+        "it": "Extensions",
+        "pl": "Extensions",
+        "pt": "Extensions",
+        "tr": "Extensions"
+      }
+    }
+  ]
+}

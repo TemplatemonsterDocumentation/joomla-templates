@@ -2,9 +2,8 @@
 	"introduction",
 	"prepare",
 	"getting-started",
-	"modules_config",
+	"core-concepts",
   	"extensions",
-	"configuring",
-	"template-settings",
-	"addendum"
+  	"configuring",
+	"conclusion"
 ]

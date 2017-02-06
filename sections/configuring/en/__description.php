@@ -1,1 +1,1 @@
-<h2 class="item6">Configuring Pages</h2>
+<h2 class="item6"> Pages Configuring</h2>

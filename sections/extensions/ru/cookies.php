@@ -1,14 +1,16 @@
-<h3>Плагин Joomla Cookie Directive</h3>
+<h3>Joomla Cookie Directive Plugin</h3>
 
-<p>Joomla Cookie Directive - плагин для вывода баннера с сообщением об использовании куки-файлов:</p>
+<p>Joomla Cookie Directive Plugin – плагин для вывода баннера с сообщением об
+    использовании куки-файлов.</p>
 
 <figure class="img-polaroid">
     <img src="img/cookies-1.jpg" alt="">
 </figure>
 
-<p>Ниже Вы найдёте основные настройки плагина Joomla Cookie Directive. Вы можете найти более детальную информацию на <a
+<p align="justify">Так выглядят окно основных настроек плагина Joomla Cookie Directive Plugin. За более
+    детальной информацией обращайтесь к <a
         href="http://www.channeldigital.co.uk/resources/joomla-cookie-directive-plugin.html"
-        target="_blank" rel="nofollow">официальном сайте</a>:</p>
+        target="_blank" rel="nofollow">официальному сайту</a>.</p>
 
 <figure class="img-polaroid">
     <img src="img/cookies-2.jpg" alt="">

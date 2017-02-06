@@ -7,7 +7,9 @@
     "de": "Modulkonfiguration",
     "fr": "Configuration des modules",
     "it": "Moduli Configuranti",
-    "pl": "Konfiguracja Modułów"
+    "pl": "Konfiguracja Modułów",
+    "pt": "Configurando Módulos",
+    "tr": "Modülleri Yapılandırma"
   },
   "articles": [
     {
@@ -19,7 +21,9 @@
         "de": "Positionskarte von Module",
         "fr": "Plan des positions",
         "it": "Mappa delle posizioni dei Moduli",
-        "pl": "Mapa pozycji modułów"
+        "pl": "Mapa pozycji modułów",
+        "pt": "Mapa de posições dos Módulos",
+        "tr": "Modül Pozisyon Haritası"
       }
     },
     {
@@ -31,7 +35,9 @@
         "de": "Konfigurationstabelle von Module",
         "fr": "Tableau de configuration",
         "it": "Tabella di Configurazione dei Moduli",
-        "pl": "Tabela Konfiguracji Modułów"
+        "pl": "Tabela Konfiguracji Modułów",
+        "pt": "Mesa de Configuração de Módulos",
+        "tr": "Modüller Konfigürasyon Tablosu"
       }
     }
   ]
