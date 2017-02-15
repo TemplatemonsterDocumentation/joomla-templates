@@ -9,10 +9,17 @@
 <h3>Creating a database</h3>
 
 <p align="justify">Once you've completed uploading the files to a hosting-server, you should prepare an empty database for your Joomla website. It should be created with the help of the database management tool in Hosting CPanel
+<<<<<<< HEAD
  [<i>the PhpMyAdmin</i> typically].
 </p>
 
 <h6> Follow the simple instructions to create a new database through the phpMyAdmin [check the slides below]:</h6>
+=======
+ (<i>the PhpMyAdmin</i> typically).
+</p>
+
+<h6> Follow the simple instructions to create a new database through the phpMyAdmin (check the slides below):</h6>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <ol class="index-list">
 <li>In order to access  the list of databases, press the “Database” button in the top navigation menu.</li>
@@ -23,7 +30,11 @@
 </ol>
 
 <p>You will see the new database in the listing. Click on the database name link in order to get access to the one.</p>
+<<<<<<< HEAD
 <p>Check the instruction accompanied by the illustrations [click on switches to move on]:</p>
+=======
+<p>Check the instruction accompanied by the illustrations (click on switches to move on):</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <div class="owl-carousel">
 <div class="item">
@@ -72,10 +83,17 @@
 <ol class="index-list">
 <li>Open the template and access to 'joomla' folder.</li>
 
+<<<<<<< HEAD
     <li>Select the  'unzip.php' and 'fullpackage.zip' files and upload them to your server [for more information check <a href="/help/how-upload-files-server-2.html" target="_blank">How to upload files to the server</a>].
     </li>
     <li>
       <div align="justify">Enter the pass to 'unzip.php' file on the server [<i class="muted">http://your_domain_name/unzip.php</i>] in the  address bar<abbr
+=======
+    <li>Select the  'unzip.php' and 'fullpackage.zip' files and upload them to your server (for more information check <a href="/help/how-upload-files-server-2.html" target="_blank">How to upload files to the server</a>).
+    </li>
+    <li>
+      <div align="justify">Enter the pass to 'unzip.php' file on the server (<i class="muted">http://your_domain_name/unzip.php</i>) in the  address bar<abbr
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
             title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari, etc."></abbr>.
       </div>
   </li>
@@ -104,7 +122,11 @@
 
 <h6>Please, complete all the preparation steps and install all the necessary software.</h6>
 
+<<<<<<< HEAD
 <p align="justify">Open your browser and enter the path to Joomla folder in the browser address bar [<i>for example, http://your_domain_name/joomla</i>]. You will see the Joomla CMS Installation window.</p>
+=======
+<p align="justify">Open your browser and enter the path to Joomla folder in the browser address bar (<i>for example, http://your_domain_name/joomla</i>). You will see the Joomla CMS Installation window.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <h4>Website configuration</h4>
 
 <p>In the “Select Language” dropdown menu , select the language of your Joomla installation-master.</p>
@@ -113,7 +135,11 @@
     <span class="label">Attention:</span>
     in the “Select Language” dropdown menu  you have an option choose  the language of the Joomla installation process only. You not select your website language.</p>
 
+<<<<<<< HEAD
 <p align="justify">Fill in all the form fields of the “Main Configuration” section. Be sure to complete all fields that are marked with an asterisk [ mandatory field].</p>
+=======
+<p align="justify">Fill in all the form fields of the “Main Configuration” section. Be sure to complete all fields that are marked with an asterisk ( mandatory field).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <p align="justify">Please fill in the fields: &quot;Admin Email&quot;, &quot;Admin Username&quot; and &quot;Admin Password&quot; in the right column in order to create a new Joomla website user with admin rights.</p>
 

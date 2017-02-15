@@ -4,14 +4,22 @@
 <figure class="img-polaroid">
     <img src="img/background-video.jpg" alt="">
 </figure>
+<<<<<<< HEAD
 <h5>
   <p>In order to configurate the TM YouTube background video module, perform the following steps:</p></h5>
+=======
+<h5><p>In order to configurate the <strong>TM Parallax </strong>module, perform the following steps:</p></h5>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <ol class="marked-list">
 <li><p>Navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong> tab:</p></li>
 <figure class="img-polaroid">
 <p><img src="img/contact-form-7.png" alt=""></p></figure>
       <li>
+<<<<<<< HEAD
         <p>Next you should select the <strong>TM YouTube background video</strong> module to edit.</p>
+=======
+        <p>Next you should select the<strong> TM Parallax </strong>module to edit.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       </li>
 <div class="alert alert-warning">
  <div align="justify"><strong>Tip:</strong> if you want to find all <strong>TM YouTube background video</strong> modules, use the filters to simplify the process. Press &quot;<strong>Search Tool</strong>&quot; button and select the &quot;<strong>TM YouTube background video</strong>&quot; type in the &quot;<strong>- Select Type -</strong>&quot; filter dropdown list. </div>
@@ -22,7 +30,11 @@
 <figure class="img-polaroid">
     <p> <img src="img/background-video-3.jpg" alt="">
 </p></figure></div>
+<<<<<<< HEAD
       <li>To open any edit required module settings, click on  its title. [Let's edit <strong>Home youtube</strong> module.]</li>
+=======
+      <li>To open any edit required module settings, click on  its title. (Let's edit <strong>Home youtube</strong> module.)</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <li>
   <div align="justify">The <strong>Home youtube </strong>module editing interface is opened in front of you. </div>
   <figure class="img-polaroid">
@@ -56,7 +68,11 @@
       <li><strong>Show play/pause button</strong> – you can either show or hide the buttons.</li>
       <li> <strong>Play/Pause button text</strong> – specify the buttons' text.</li>
       <li>
+<<<<<<< HEAD
         <p><strong>Mobile Image</strong> – show this image on mobile devices instead of a video. [To upload images go to the <strong>Content </strong>&gt; <strong>Media</strong> section.]</p>
+=======
+        <p><strong>Mobile Image</strong> – show this image on mobile devices instead of a video. (To upload images go to the <strong>Content </strong>&gt; <strong>Media</strong> section.)</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         <figure class="img-polaroid">
     <p> <img src="img/background-video-4.jpg" alt=""></p></figure>
       </li>

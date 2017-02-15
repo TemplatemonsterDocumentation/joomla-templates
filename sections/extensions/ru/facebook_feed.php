@@ -1,5 +1,6 @@
 <h3>TM Facebook Page Plugin</h3>
  
+<<<<<<< HEAD
 <p><strong>TM Facebook Page</strong> — это модуль, который позволит вывести  страницу профиля Facebook на любую страницу вашего веб-сайта:</p>
 
 <figure class="img-polaroid">
@@ -53,6 +54,20 @@
 </p></figure>
     <h5>6. Упростите этап создания приложения</h5>
     <p align="justify">Окно мастера быстрого создания приложения поможет значительно ускорить этот процесс. А также, поможет настроить приложение Facebook для выбранной платформы. Позже вы всегда сможете вернуться в мастер, чтобы продолжить настройку приложения или добавить новую платформу для него.</p>
+=======
+<p>TM Facebook Page Plugin – модуль для вывода "Facebook Page Plugin".(независимо компилируемого программного модуля).</p>
+
+<figure class="img-polaroid">
+    <img src="img/facebook_feed-1.jpg" alt="">
+</figure>
+
+<p align="justify">Так выглядят основные настройки модуля TM Facebook Page Plugin. Поле  Facebook App ID является обязательным для заполнения. Это идентификатор приложения Facebook. Для того
+    чтобы получить идентификатор, перейдите по ссылке <a
+        href="https://developers.facebook.com/" rel="nofollow" target="_blank">https://developers.facebook.com/</a>
+    и создайте приложение для вашего сайта. Детальную информацию по остальным настройкам
+    можно узнать на <a href="https://developers.facebook.com/docs/plugins/page-plugin"
+                       rel="nofollow" target="_blank">официальном сайте</a>.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <h5>7.  Получите ID вашего приложения</h5>
     <p align="justify">На этом этапе вы получите ваш уникальный  ID для приложения. Этот ID понадобится вам всякий раз, когда вы будете использовать наши <a href="https://developers.facebook.com/docs/apis-and-sdks">SDK</a> или теги<a href="https://developers.facebook.com/docs/sharing/webmasters/">Open Graph для публикации</a>. Его   [ID  приложения] доступен в главном окне <a href="https://developers.facebook.com/apps/">  панели приложения</a>.</p>

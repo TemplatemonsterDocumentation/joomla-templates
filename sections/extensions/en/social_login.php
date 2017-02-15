@@ -44,7 +44,11 @@
     </figure>
   </p>
   <li>Now you need to publish  plugins  and the module.</li>
+<<<<<<< HEAD
   <li>You can publish plugins [ 	Social Login Facebook auth, Social Login Google auth, Social Login Instagram auth, ect] via component settings window [<strong>Components</strong> &gt; <strong>Slogin</strong>].</li>
+=======
+  <li>You can publish plugins ( 	Social Login Facebook auth, Social Login Google auth, Social Login Instagram auth, ect) via component settings window (<strong>Components</strong> &gt; <strong>Slogin</strong>).</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </ol>
 <ol class="marked-list">
   <p>In order to this, open any plugin settings.
@@ -122,7 +126,11 @@
 <p></p>
 <li>Choose the module position. Let's select the <strong>megamenu</strong> position.</li>
 <li>
+<<<<<<< HEAD
   <div align="justify">Publish the module [You can puplish the module via the Modules Manager, pressing the red &quot;x&quot; button near the modul title.].</div>
+=======
+  <div align="justify">Publish the module (You can puplish the module via the Modules Manager, pressing the res &quot;x&quot; button near the modul title.).</div>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </li>
  <p>
     <figure class="img-polaroid">
@@ -146,7 +154,11 @@
 <div class="alert alert-warning">
   <p>
   
+<<<<<<< HEAD
     You can get plugins settings [ 	Social Login Facebook auth, Social Login Google auth, Social Login Instagram auth, ect] via component settings window [<strong>Components</strong> &gt; <strong>Slogin</strong>].</p>
+=======
+    You can get plugins settings ( 	Social Login Facebook auth, Social Login Google auth, Social Login Instagram auth, ect) via component settings window (<strong>Components</strong> &gt; <strong>Slogin</strong>).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>
     <figure class="img-polaroid">
       <img src="img/sociallogin-3.jpg" alt="">
@@ -162,7 +174,11 @@
 <p align="justify">Beforehand it is required to set up a plugin. Navigate to <strong>Extensions</strong> &gt; <strong>Plugins</strong> &gt; group of plugins &quot;<strong>slogin_auth</strong>&quot; &gt;    plug-in &quot;<strong>Social Login Google auth</strong>&quot;.</p>
 <ol class="marked-list">
   <li>Go <a href="https://code.google.com/apis/console" target="_blank">here</a> and create new project. </li>
+<<<<<<< HEAD
   <li>Enter it's name and click <strong>API Access </strong>on the   next page. Hit the <strong>Create an OAuth2 client ID</strong> button, enter name [can   be the same as project] and choose <strong>Web application</strong> as type. Now click   the <strong>More options</strong> link, enter your site<strong> URL</strong> and put   http://<strong>mysite</strong>/?option=com_slogin&amp;task=check&amp;plugin=google as   Callback URI. Now you can copy <strong>Client ID</strong> and <strong>Client Secret</strong> and paste them in   corresponding fields in component settings. Save settings and enable   Google login.</li>
+=======
+  <li>Enter it's name and click <strong>API Access </strong>on the   next page. Hit the <strong>Create an OAuth2 client ID</strong> button, enter name (can   be the same as project) and choose <strong>Web application</strong> as type. Now click   the <strong>More options</strong> link, enter your site<strong> URL</strong> and put   http://<strong>mysite</strong>/?option=com_slogin&amp;task=check&amp;plugin=google as   Callback URI. Now you can copy <strong>Client ID</strong> and <strong>Client Secret</strong> and paste them in   corresponding fields in component settings. Save settings and enable   Google login.</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   <li>Create google application :
 <p></p>
 <figure class="img-polaroid">
@@ -179,7 +195,11 @@
 <li><p>Gets something like this image:</p></li>
 <p><figure class="img-polaroid"><img src="http://joomline.ru/images/QIP_Shot_-_Screen_148_12.11.15.png" alt=""/></figure></p>
 
+<<<<<<< HEAD
   <li>Get client_id [Client ID] and secret_key [Client Secret].</li>
+=======
+  <li>Get client_id (Client ID) and secret_key (Client Secret).</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   <li>Specify the name of the product and email:</li>
 
 <ol class="marked list">
@@ -199,7 +219,11 @@
 <p><figure class="img-polaroid"><img src="http://joomline.org/images/addfacebookappnewen3.png" alt="" /></figure></p>
 
   <li>Go to the &quot;App Review&quot; section. In the &quot;Make public?&quot;, Select &quot;YES&quot;.</li>
+<<<<<<< HEAD
   <li>Go to the section &quot;Dashboard&quot; and copy settings client_id [App ID] and secret_key [App Secret] in Slogin Facebook plugin.</li>
+=======
+  <li>Go to the section &quot;Dashboard&quot; and copy settings client_id (App ID) and secret_key (App Secret) in Slogin Facebook plugin.</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </ol>
 <p>&nbsp;</p>
 <div class="alert alert-warning">
@@ -212,7 +236,11 @@
 <ol class="marked-list">
 <li>Go <a href="https://apps.twitter.com/app/new" target="_blank">here</a> and create new application.</li>
   <li>
+<<<<<<< HEAD
     <div align="justify">Fill only required fields and save it. On the next page click &quot;<strong>Create   my access token</strong>&quot; button and put <strong>Callback URL</strong> -   http:/<strong>/mysite</strong>.com/component/slogin/callback/twitter or   /?option=com_slogin%26task=check%26plugin=twitter [if you are not using   SEF URLs Joomla], correct the link to see the Twitter plugin field   &quot;callback URL&quot; as Callback URL. Now take <strong>Consumer Key </strong>[API key]  and   <strong>Consumer Secret </strong>[<span class="heading">API secret</span>] and enter them in corresponding fields in component settings. Save settings and enable Twitter login.</div>
+=======
+    <div align="justify">Fill only required fields and save it. On the next page click &quot;<strong>Create   my access token</strong>&quot; button and put <strong>Callback URL</strong> -   http:/<strong>/mysite</strong>.com/component/slogin/callback/twitter or   /?option=com_slogin%26task=check%26plugin=twitter (if you are not using   SEF URLs Joomla), correct the link to see the Twitter plugin field   &quot;callback URL&quot; as Callback URL. Now take <strong>Consumer Key </strong>(API key)  and   <strong>Consumer Secret </strong>(<span class="heading">API secret</span>) and enter them in corresponding fields in component settings. Save settings and enable Twitter login.</div>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li></ol>
 
 <p><figure class="img-polaroid"><img src="http://joomline.org/images/oauth_twitter1.jpg" alt="" /></figure></p>
@@ -224,7 +252,11 @@
 <ol class="marked-list">
   <li>Go <a href="http://dev.odnoklassniki.ru/wiki/pages/viewpage.action?pageId=5668937" target="_blank">here</a> and register as a developer. </li>
   <li>
+<<<<<<< HEAD
     <div align="justify">Wait untill you request is approved, go <a href="http://dev.odnoklassniki.ru/wiki/pages/viewpage.action?pageId=13992188" target="_blank">here</a>, fill the <strong>OAuth access</strong> form and wait again for approval email. Now go to your main <a href="http://www.odnoklassniki.ru" target="_blank">Odnoklassniki Account</a> &gt; Games  &gt; My Downloaded &gt; Add New Application, choose   Outside Odnoklassniki &gt; Oauth Authorization and fill the form   completely [including image links!]. You'll receve email shortly. Get<strong> Application ID</strong>, <strong>Public Key</strong> and<strong> Secret Key</strong> from it and enter them in   corresponding fields in component settings. Save settings and enable   Odnoclassniki login.</div>
+=======
+    <div align="justify">Wait untill you request is approved, go <a href="http://dev.odnoklassniki.ru/wiki/pages/viewpage.action?pageId=13992188" target="_blank">here</a>, fill the <strong>OAuth access</strong> form and wait again for approval email. Now go to your main <a href="http://www.odnoklassniki.ru" target="_blank">Odnoklassniki Account</a> &gt; Games  &gt; My Downloaded &gt; Add New Application, choose   Outside Odnoklassniki &gt; Oauth Authorization and fill the form   completely (including image links!). You'll receve email shortly. Get<strong> Application ID</strong>, <strong>Public Key</strong> and<strong> Secret Key</strong> from it and enter them in   corresponding fields in component settings. Save settings and enable   Odnoclassniki login.</div>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
 </ol>
 </ul>

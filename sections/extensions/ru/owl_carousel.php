@@ -1,5 +1,12 @@
 <h3>Owl Carousel</h3>
+<<<<<<< HEAD
 <p align="justify">Owl Carousel — это модуль, который был создан на основе стандартного модуля Articles Newsflash module и плагина Owl Carousel jQuery.</p>
+=======
+
+<p>Owl Carousel представляет собой модуль карусели изображений, разработанный на основе
+    стандартного модуля Joomla Articles Newsflash и плагина jQuery Owl Carousel.</p>
+
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
   <img src="img/owl-carousel-1.jpg" alt="">
 </figure>
@@ -51,7 +58,11 @@
   </li>
   <li><strong>Status</strong>. [Published/Unpublished/Trashed] Статус публикации модуля.</li>
 
+<<<<<<< HEAD
   <li><strong>Access</strong>. Определите правила доступа к просмотру этого модуля.</li>
+=======
+<h6>Все доступные параметры настроек модуля: </h6>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
   <li>
     <div align="justify"><strong>Module Ordering</strong>.  В выплывающем списке опции, вы найдете информации о текущем положении модуля. Это значение порядка отображения модуля как на сайте, так и в таблице менеджера модулей [Module Manager].</div>

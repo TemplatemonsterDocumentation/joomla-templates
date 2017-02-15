@@ -1,4 +1,12 @@
 <h3>TM Ajax Style Switcher Module</h3>
+<<<<<<< HEAD
+=======
+
+<p align="justify"><strong>TM Ajax Style Switcher Module</strong> – это модуль позволяющий переключать цветовые схемы на фронтенде
+    сайта. Модуль автоматически применяет цветовые схемы из папки color_schemes\css\ активной темы.</p>
+
+<p>Данный модуль не имеет особых настроек в админ панели, только стандартные для всех модулей настройки.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <p align="justify"><strong>TM Ajax Style Switcher Module</strong> – это модуль позволяющий переключать цветовые схемы на фронтенде
 сайта. Модуль автоматически применяет цветовые схемы из папки color_schemes\css\ активной темы.</p>
@@ -46,6 +54,7 @@
       <img src="img/style_switcher_6.jpg" alt="">
   </figure>
 
+<<<<<<< HEAD
     <li>Перейдите по ссылке имен пользователя и вы попадете к окну настроек. </li>
     <figure class="img-polaroid">
   <img src="img/style_switcher_9.jpg" alt=""></figure>
@@ -85,3 +94,8 @@
     <div align="justify">
       <p>Пользователь группы <strong>Super User</strong>, обладает всеми  видами прав по управлению сайтом [Delete/Edit/Edit State/Frontend Editing]. Будьте внимательны, когда вносите очередного пользователя в группу  &quot;<strong>Super Users</strong>&quot;.</p>
 </div></div>
+=======
+<p align="justify" class="alert alert-warning">Обратите внимание, что на демо-версии шаблона Принцип действия модуля показан лишь частично,
+    используя cookies. На действующем сайте модуль работает в полноценном режиме и доступен только для авторизованных
+    пользователей с правами категории пользователей SuperAdmin.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

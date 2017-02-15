@@ -5,7 +5,11 @@
 
 <p>Следующая таблица показывает все модуля, использованные в шаблоне, и то как их правильно
     настроить. Все модули находятся в админ-панели Joomla в меню<b> Extensions
+<<<<<<< HEAD
         [Расширения] > Modules</b> [Менеджер модулей].</p>
+=======
+        (Расширения) > Modules</b> (Менеджер модулей).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid"><img src="img/modules-config-1.png" alt=""></figure>
 
 <div class="table">

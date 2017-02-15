@@ -1,12 +1,26 @@
+<<<<<<< HEAD
 <h3>GoogleMap Plugin</h3>
 
 <p>GoogleMap – это плагин для вывода блока с картами Google.</p>
+=======
+<h3>Googlemap Plugin</h3>
+
+<p>Googlemap – плагин для вывода блока с картами Google.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <figure class="img-polaroid">
     <img src="img/googlemap-1.jpg" alt="">
 </figure>
 
+<<<<<<< HEAD
 <p align="justify"><strong>Что бы перейти к настройке модуля, пройдите к разделу  Extensions &gt; Plugins. Перед вами откроется окно  Plugins Mameger. Введите &quot;Google&quot; в поле поиска, нажмите кнопку поиска и в таблице менеджера вы увидите плагин System - Google Maps, прейдите по ссылке его заголовка.</strong></p>
+=======
+<p align="justify">Так выглядит страница описания плагина Googlemap в админ панели. Более детальная
+    информация на <a
+        href="http://tech.reumer.net/Google-Maps/Documentation-of-plugin-Googlemap/"
+        target="_blank" rel="nofollow">официальном сайте</a>.</p>
+
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/googlemap-3.jpg" alt="">
 </figure>

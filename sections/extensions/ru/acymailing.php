@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h3>AcyMailing
 </h3>
 <p align="justify"><span class="" id="result_box" lang="ru" xml:lang="ru"><strong>AcyMailing</strong> — это  компонент  подписки для Joomla. AcyMailing является, оправдавшим надежность и стабильность работы, расширением  типа информационный бюллетень и электронный маркетинг.    Это расширение позволит: </span></p>
@@ -7,15 +8,32 @@
   <li><span class="" lang="ru" xml:lang="ru" align="justify">отправлять персонализированные информационные бюллетени отдельным абонентам.</span></li>
 </ol>
 <p>Используя модуль <strong>AcyMailing</strong> на своем сайте, форма подписки будет иметь   следующий вид:</p>
+=======
+<h3>Acymailing</h3>
+
+<p>Acymailing – компонент для выведения блока подписки для Joomla.</p>
+
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
+<<<<<<< HEAD
 <p>Что бы перейти к окну главной панели расширения AcyMailing, пройдите к разделу <strong>Components</strong> &gt; <strong>AcyMailing</strong>.</p>
+=======
+<p align="justify">Так выглядит главная страница компонента Acymailing в админ панели. Более детальная
+    информация находится на <a href="https://www.acyba.com/acymailing/doc.html" target="_blank"
+                     rel="nofollow">официальном сайте</a>.</p>
+
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/acymailing-4.jpg" alt="">
 </figure>
 
+<<<<<<< HEAD
+=======
+<p>Так выглядит страница настроек модуля Acymailing. </p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <p align="justify"> Приступить к настройке модуля AcyMailing вы можете перейдя к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>. Для создания нового модуля этого типа, нажмите кнопку <strong>New</strong>.</p>
 <figure class="img-polaroid">
@@ -47,3 +65,25 @@
     <img src="img/acymailing-9.jpg" alt="">
   </figure>
 
+<<<<<<< HEAD
+=======
+<p>С компонентом Acymailing также устанавливаются следующие системные плагины:</p>
+
+<ul class="marked-list">
+    <li>plg_acymailing_contentplugin;</li>
+    <li>plg_acymailing_managetext;</li>
+    <li>plg_acymailing_online;</li>
+    <li>plg_acymailing_share;</li>
+    <li>plg_acymailing_stats;</li>
+    <li>plg_acymailing_tablecontents;</li>
+    <li>plg_acymailing_tagcbuser;</li>
+    <li>plg_acymailing_tagcontent;</li>
+    <li>plg_acymailing_tagsubscriber</li>
+    <li>plg_acymailing_tagsubscription</li>
+    <li>plg_acymailing_tagtime;</li>
+    <li>plg_acymailing_taguser;</li>
+    <li>plg_acymailing_template;</li>
+    <li>plg_editors_acyeditor;</li>
+    <li>plg_system_regacymailing.</li>
+</ul>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

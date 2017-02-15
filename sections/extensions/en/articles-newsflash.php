@@ -16,12 +16,20 @@
     <tr>
         <td width="154" class="col-1"><strong>Category</strong></td>
         <td width="29">-</td>
+<<<<<<< HEAD
         <td width="781"> <div align="justify">Select Articles from a specific Category or a set of Categories. If no selection will show all categories as default.</div></td>
+=======
+        <td width="781"> Select Articles from a specific Category or a set of Categories. If no selection will show all categories as default.</td>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </tr>
     <tr>
         <td class="col-1"><strong>Child Category Articles </strong></td>
         <td>-</td>
+<<<<<<< HEAD
         <td>[Exclude/</em>Include]. Exclude or Include Articles from child Categories.</td>
+=======
+        <td> (Exclude</em>Include). Exclude or Include Articles from child Categories.</td>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr> <tr>
         <td class="col-1"><strong>Category Depth</strong></td>
         <td>-</td>
@@ -41,7 +49,11 @@
     <tr>
     <td class="col-1"><strong>Ordering Results</strong></td>
         <td>-</td>
+<<<<<<< HEAD
         <td>Select the order in which you want query results presented.</td>
+=======
+        <td>Select the in which you want query results presented.</td>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>
         <td class="col-1"><strong>Ordering Directions</strong></td>
         <td>-</td>
@@ -64,11 +76,19 @@
 </table>
 
 
+<<<<<<< HEAD
 <p align="justify">If you want to modify &quot;<strong>WHAT WE OFFER</strong>&quot; section on your site, select it from the modules list. Navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/newsflash-adv-6.jpg" alt="" /></figure>
 </p>
 <p align="justify">Then choose <strong>&quot;What we offer&quot;</strong> module, which is belong to<strong> Newsflash [Advanced]</strong> type. You may use Ctrl+F to find it. Press Ctrl+F  key combination and type <strong>212</strong> [it's the &quot;What we offer&quot; module ID]. Click its title link and you'll the configuration window of one.</p>
+=======
+<p>If you want to modify &quot;<strong>WHAT WE OFFER</strong>&quot; section on your site, select it from the modules list. Navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong>.</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/newsflash-adv-6.jpg" alt="" /></figure>
+</p>
+<p align="justify">Then choose <strong>&quot;What we offer&quot;</strong> module with<strong> Newsflash (Advanced)</strong> type. You may use Ctrl+F to find it. Press Ctrl+F  key combination and type <strong>212</strong> (it's the &quot;What we offer&quot; module ID). Click its topic link and you'll the configuration window of one.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>
   <figure class="img-polaroid"> <img src="img/newsflash-adv-7.jpg" alt="" /></figure>
 </p>

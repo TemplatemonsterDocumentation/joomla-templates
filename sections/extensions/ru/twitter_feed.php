@@ -1,8 +1,14 @@
 <h3>SW Twitter Display</h3>
  
+<<<<<<< HEAD
 <p><strong>SW Twitter Display</strong> модуль для вывода &quot;Twitter Widget&quot;.</p>
 <p>
   <figure class="img-polaroid">
+=======
+<p>SW Twitter Display – модуль для вывода "Twitter Widget".</p>
+
+<figure class="img-polaroid">
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     <img src="img/twitter_feed-1.jpg" alt="">
   </figure>
 </p>
@@ -41,6 +47,7 @@
 </ol>
 <p>Рассмотрим доступные настройки для этого модуля:</p>
 
+<<<<<<< HEAD
 <table width="980"  class="options-table">
 <tr>
         <td width="154" class="col-1"><strong>Twitter User Name</strong></td>
@@ -143,3 +150,12 @@
 <div align="justify">Не забудьте сохранить изменения, нажав кнопку <strong>Save</strong>:</div>
 <figure class="img-polaroid">
 <p><img src="img/contact-form-12.png" alt=""></p></figure>
+=======
+<p>Так выглядят основные настройки модуля SW Twitter Display. Более детальная информация
+    на <a href="http://socialwidgets.net/documentation/27-sw-twitter-display.html"
+          target="_blank" rel="nofollow">официальном сайте</a>.</p>
+
+<figure class="img-polaroid"> 
+    <img src="img/twitter_feed-2.jpg" alt="">
+</figure>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

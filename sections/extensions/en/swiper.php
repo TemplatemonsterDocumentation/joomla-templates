@@ -22,19 +22,31 @@
     <img src="img/swiper-3.jpg" alt="">
 </figure>
   <li>
+<<<<<<< HEAD
     <p align="justify"> As you can see, this template has two Swiper slider modules, added by default. Let&rsquo;s edit the <strong>Home slider</strong>. Click on a title link to open the module for editing [settings window].</p>
+=======
+    <p align="justify"> As you can see, this template has two Swiper slider modules, added by default. Let&rsquo;s edit the <strong>Home slider</strong>. Click on a title link to open the module for editing (settings window).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
     <figure class="img-polaroid">
     <img src="img/swiper-4.jpg" alt="">
 </figure>
   <li>
+<<<<<<< HEAD
     <p align="justify"> The first tab allows you to edit general module   settings [<strong>Module</strong> tab]. Here you can select the category for your slide articles,   choose whether to display the slides&rsquo; titles and images, set the titles   and links, etc. You may also define the number of articles to show within this module at   this section: </p>
+=======
+    <p align="justify"> The first tab allows you to edit general module   settings (<strong>Module</strong> tab). Here you can select the category for your slide articles,   choose whether to display the slides&rsquo; titles and images, set the titles   and links, etc. You may also define the number of slides to show up at   this section: </p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
    <figure class="img-polaroid">
     <img src="img/swiper-5.jpg" alt="">
 </figure>
   <li>
+<<<<<<< HEAD
     <p align="justify"> The Swiper slider module has the regular modules&rsquo; settings, such as <strong>Menu Assignment </strong>[here you can select what pages include the slider], <strong>Module Permissions </strong>[you may select group of site users who can see the module], <strong>Advanced </strong>[feel free to define slider bootstrap size and CSS classes here]. They can be set at the respective tabs. </p>
+=======
+    <p align="justify"> The Swiper slider module has the regular modules&rsquo; settings, such as <strong>Menu Assignment </strong>(here you can select what pages include the slider), <strong>Module Permissions </strong>(you may select group of site users who can see the module), <strong>Advanced </strong>(feel free to define slider bootstrap size and CSS classes here). They can be set at the respective tabs. </p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   <strong>Menu Assignment:</strong> </li>
   
   <p>
@@ -74,7 +86,11 @@
     </figure>
   </p>
       <li>
+<<<<<<< HEAD
         <p align="justify">Slide #2 is the<strong> video slide</strong>, you may select its video file from your site media library [to upload file go to the <strong>Content</strong> &gt; <strong>Media</strong>].</p>
+=======
+        <p align="justify">Slide #2 is the<strong> video slide</strong>, you may select its video file from your site media library (to upload file go to the <strong>Content</strong> &gt; <strong>Media</strong>).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       </li>
       <p>
     <figure class="img-polaroid"><img src="img/swiper-11.jpg" alt="">
@@ -83,7 +99,11 @@
       <div class="alert alert-info">
         <p align="justify"><strong>NOTE</strong></p>
         <div align="justify">
+<<<<<<< HEAD
           <p>To upload file [image/video] to be used for parallax  and video background effect  of a slider go to the <strong>Content</strong> &gt; <strong>Medi </strong>section. You need to store the video files in media/<strong>swiper-videos</strong>/ folder for video files and in the images/slider/<strong>parallax</strong>/ folder for images. The downloaded media files will be available to chose in <strong>Video </strong> and <strong>Select a Background Image </strong> options' drop-down list.</p>
+=======
+          <p>To upload file (image/video) to be used for parallax  and video background effect  of a slider go to the <strong>Content</strong> &gt; <strong>Medi </strong>section. You need to store the video files in media/<strong>swiper-videos</strong>/ folder for video files and in the images/slider/<strong>parallax</strong>/ folder for images. The downloaded media files will be available to chose in <strong>Video </strong> and <strong>Select a Background Image </strong> options' drop-down list.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         </div>
       </div>
       <li>
@@ -107,7 +127,11 @@
         <figure class="img-polaroid"><img src="img/swiper-18.jpg" alt="" /> </figure>
       </p>
       <li>
+<<<<<<< HEAD
         <p align="justify">Slide #1 has no specific effects added, so its image is set at the slider article itself [to change image go to <strong>Content </strong>&gt; <strong>Articles </strong>&gt; choose <strong>Slider</strong> in <strong>Select Category</strong> drop-down list <strong>[Search Tools</strong>]. Press the <strong>Make a Website That Stands Out</strong> title link and in the appeared settings window click the <strong>Images&amp;Links</strong> tab].</p>
+=======
+        <p align="justify">Slide #1 has no specific effects added, so its image is set at the slider article itself (to change image go to <strong>Content </strong>&gt; <strong>Articles </strong>&gt; choose <strong>Slider</strong> in <strong>Select Category</strong> drop-down list <strong>(Search Tools</strong>). Press the <strong>Make a Website That Stands Out</strong> title link and in the appeared settings window click the <strong>Images&amp;Links</strong> tab).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       </li>
       
       <p>Click the <strong>Images&amp;Links</strong> tab:</p>
@@ -124,6 +148,10 @@
   </li>
   <p></p>
   <li>
+<<<<<<< HEAD
     <p align="justify"> Feel free to try different options here to configure slider up to your needs. Then save the module and check the result on site [refresh it to see the edits, you might also need to clear your browser cache].</p>
+=======
+    <p align="justify"> Feel free to try different options here to configure slider up to your needs. Then save the module and check the result on site (refresh it to see the edits, you might also need to clear your browser cache).</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
 </ol>

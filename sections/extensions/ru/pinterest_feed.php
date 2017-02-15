@@ -1,11 +1,16 @@
 <h3>SW Pinterest Display</h3>
 
+<<<<<<< HEAD
+=======
+<p>SW Pinterest Display – модуль для вывода "Pinterest Board Widget".</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <p align="justify"><strong>SW Pinterest</strong> — это модуль для отображения виджета Pinterest Board на вашем сайте. Данный модуль поможет поместить модуль с вашим профилем и лентой Pinterest прямо на ваш сайт.</p>
 <figure class="img-polaroid">
     <img src="img/pinterest_feed-1.jpg" alt="">
 </figure>
 
+<<<<<<< HEAD
 <p align="justify">Перейдите к менеджеру модулей [<strong>Module Manager</strong>], где в списке доступных модулей вы найдете модуль &quot;<strong>SW Pinterest Display</strong>&quot;. Перейдите к настройке модуля, кликнув на ссылке его заголовка или  же создайте новый модуль этого же типа [типа SW Pinterest Display], нажав кнопку &quot;<strong>New</strong>&quot;.</p>
 <figure class="img-polaroid">
     <img src="img/pinterest_feed-4.jpg" alt="">
@@ -97,6 +102,13 @@
     <figure class="img-polaroid">
     <p><img src="img/contact-form-12.png" alt=""></p></figure>
 <p>Что бы быстро найти модуль <strong>Pinterest Profile Widget</strong>, перейдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>. </p>
+=======
+<p align="justify">Так выглядят основные настройки модуля SW Pinterest Display. Более детальную
+    информацию Вы можете найти на <a
+        href="http://socialwidgets.net/documentation/28-sw-pinterest-display.html"
+        target="_blank" rel="nofollow">официальном сайте</a>.</p>
+
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-3.jpg" alt=""></p>
 </figure>

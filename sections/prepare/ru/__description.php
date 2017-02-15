@@ -15,14 +15,24 @@
 <ol class="index-list">
     <li>
       <div align="justify">Прежде всего нужны  приложения для распаковывания защищенного паролем
+<<<<<<< HEAD
         архива sources_#########.zip. Можно воспользоваться архиваторами WinZip 9+ [для Windows] и
         Stuffit Expander 10+ [для системы Mac].
+=======
+        архива sources_#########.zip. Можно воспользоваться архиваторами WinZip 9+ (для Windows) и
+        Stuffit Expander 10+ (для системы Mac).
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       </div>
     </li>
     <li>
       <div align="justify">Также может понадобиться Adobe Photoshop. Этот графический редактор используется для
+<<<<<<< HEAD
         изменения исходных файлов .psd [изменения
         графического дизайна и изображения шаблона].
+=======
+        изменения исходных файлов .psd (изменения
+        графического дизайна и изображения шаблона).
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       </div>
     </li>
     <li>
@@ -66,6 +76,7 @@
             target="_blank">Как установить среду веб-разработки</a><a
             href="/help/how-to-install-xamp-web-development-environment.html"
             target="_blank"> XAMP </a></li>
+<<<<<<< HEAD
 </ul>
 <h3>Технические требования для Joomla 3.x</h3>
 <p>&nbsp;</p>
@@ -127,3 +138,6 @@
     </tr>
   </tbody>
 </table>
+=======
+</ul>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

@@ -8,7 +8,11 @@
   <p><img src="img/templates-1.jpg" alt=""></p>
 </figure>
 <h5>Finding Templates</h5>
+<<<<<<< HEAD
 <p>There are hundreds of off the shelf Templates available for Joomla.  A google search for Joomla 3 Template will provide many results, and you can also find a list of our recommended Templates in the <strong>Joomla Templates</strong> section of our website.</p>
+=======
+<p>There are hundreds of off the shelf Templates available for Joomla.  A google search for Joomla 3 Template will provide many results, and you can also find a list of our recommended Templates in the Resources section of our website.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <blockquote>
 <p align="center"><a href="https://www.templatemonster.com/joomla-templates.php">www.templatemonster.com</a></p>
 </blockquote>

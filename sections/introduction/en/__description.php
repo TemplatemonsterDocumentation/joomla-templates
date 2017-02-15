@@ -72,7 +72,11 @@
                       <div align="justify"> contains
                         <a href="#complete_install">
                            Complete Joomla installation package</a>
+<<<<<<< HEAD
                         with engine files, themes and sample content [database dump file and sample images];</div>
+=======
+                        with engine files, themes and sample content (database dump file and sample images);</div>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
                     </dd>
                 </dl>
             </li>
@@ -110,7 +114,11 @@
                         <i class="fa fa-folder"></i>
                         psd
                     </dt>
+<<<<<<< HEAD
                     <dd> template source files for Adobe Photoshop [.psd];</dd>
+=======
+                    <dd> template source files for Adobe Photoshop (.psd);</dd>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
                 </dl>
             </li>
             <li class="folder">

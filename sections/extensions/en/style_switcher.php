@@ -8,10 +8,14 @@
     <img src="img/style_switcher_2.jpg" alt="">
 </figure>
 <p align="justify" class="alert alert-warning"><strong>Note</strong>: on the template Live Demo the template works in preview mode using cookies. On your website the module will work in full mode and will be available for authorized users with SuperAdmin user category rights.</p>
+<<<<<<< HEAD
 <p align="justify" class="alert alert-warning">Обратите внимание, что на демо-версии шаблона, принцип действия модуля показан лишь частично,
     с помощью cookies. На действующем сайте модуль работает в полноценном режиме и доступен только для авторизованных
 пользователей с правами категории пользователей SuperAdmin.</p>
 <h5> Как работать с модулем TM ajax style switcher module </h5>
+=======
+<h5> How to work with &ldquo;TM ajax style switcher module&rdquo; </h5>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p align="justify">To configurate the <strong>TM Ajax Style Switcher Module</strong> navigate to <strong>Extensions </strong>&gt;<strong>Modules</strong>. </p>
 <figure class="img-polaroid">
   <img src="img/style_switcher_3.jpg" alt="">
@@ -85,6 +89,10 @@
   <div class="alert alert-info">
     <p align="justify"><strong>Note</strong>: </p>
     <div align="justify">
+<<<<<<< HEAD
       <p>Once you've logged as <strong>Super User</strong>, you have all the site administration rights [Delete/Edit/Edit State/Frontend Editing]. So pay attention when  assigning the user to &lsquo;<strong>Super Users</strong>&rsquo; group.</p>
+=======
+      <p>Once you've logged as <strong>Super User</strong>, you have all the site administration rights (Delete/Edit/Edit State/Frontend Editing). So pay attention when  assigning the user to &lsquo;<strong>Super Users</strong>&rsquo; group.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </div></div>
   <p>&nbsp;</p>

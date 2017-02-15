@@ -76,7 +76,41 @@ steps to creating a new Module:</p>
 <h5>Module Order</h5>
 <p align="justify">The last issue that we will consider in this section is the <strong>ordering</strong> of Modules on the page. We can change the order that Modules display by setting the<strong> Ordering </strong>column in the Module Manager. We will go through the required steps to change the ordering. As always, begin by signing in to Administrator.</p>
 <ol class="marked-list">
+<<<<<<< HEAD
   <li>NAVIGATE to the <strong>Extensions </strong>menu and then <strong>Modules</strong>.</li>
+=======
+<li>NAVIGATE to the <strong>Extensions </strong>menu and then <strong>Modules</strong>.</li>
+
+<figure class="img-polaroid">
+    <p><img src="img/modules-1.jpg" alt=""></p>
+</figure>
+
+<li>CLICK <strong>New</strong> button.</li>
+<figure class="img-polaroid">
+    <p><img src="img/modules-2.jpg" alt=""></p>
+</figure>
+<li>CHOOSE the <strong>Module type</strong> from the list box.</li>
+
+<figure class="img-polaroid">
+    <p><img src="img/modules-7.jpg" alt=""></p>
+</figure>
+ <li>ENTER a<strong> Title</strong> for the new Module.</li>
+ <figure class="img-polaroid">
+    <p><img src="img/modules-3.jpg" alt=""></p>
+</figure>
+<li>SELECT a <strong>Template Position </strong>to display the new Module.</li>
+ <figure class="img-polaroid">
+    <p><img src="img/modules-4.jpg" alt=""></p>
+</figure>
+ <li>ENTER any other applicable <strong>settings</strong> or <strong>content</strong> for the Module.</li>
+
+ <li>SAVE the Module and CHECK the frontend by refreshing your browser.</li>
+</ol>
+<h6>Assigning Modules to Menu Items </h6>
+<p align="justify">Modules can be set to display on all pages throughout the site, or just pages that you specify. First, as always, sign in to the Administrator.</p>
+<ol class="marked-list">
+<li>NAVIGATE to the <strong>Extensions </strong>menu and then <strong>Modules</strong>.</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <figure class="img-polaroid">
     <p><img src="img/modules-1.jpg" alt=""></p>

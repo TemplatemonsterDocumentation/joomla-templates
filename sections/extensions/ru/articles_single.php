@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <h3>Articles Single
 </h3>
 <p align="justify"><strong>Articles Single</strong> — это модуль, позволяющий поместить  блок с одной статьей в любое место сайта [конкретной страницы].</p>
+=======
+<h3>Articles Single</h3>
+
+<p align="justify">Articles Single — это модуль, позволяющий поместить  блок с одной статьей в любое место сайта (конкретной страницы). </p>
+
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/articles-single-1.jpg" alt="">
 </figure>
 
+<<<<<<< HEAD
 <p align="justify">Единственной довольно сложной, но только первый взгляд, опцией модуля является <strong>Custom Link</strong> [Кастомная
         ссылка]. Она позволяет отображать любую кастомную ссылку под контентом модуля. Ее
 можно задать на внешний URL или страницу вашего Joomla веб-сайта. </p>
+=======
+<p align="justify">Единственной довольно сложной, но первый взгляд, опцией модуля является <b>Custom Link (Кастомная
+        ссылка)</b>. Она позволяет отображать кастомную ссылку под контентом модуля. Ее
+    можно задать на внешний URL или страницу веб-сайта Joomla. </p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <p align="justify">
   <figure class="img-polaroid">
     <img src="img/articles-single-2.jpg" alt="">
+<<<<<<< HEAD
   </figure>
 </p>
 <p align="justify">
@@ -147,3 +161,6 @@
       <p>Не забудьте СОХРАНИТЬ изменения, нажав кнопку Save.</p>
 </div></div>
 
+=======
+</figure>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

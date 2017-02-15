@@ -3,7 +3,11 @@
 <p><strong>TM Parallax</strong> is a module that uses RD Parallax script for implementing parallax functionality in the template. </p>
 <figure class="img-polaroid">
 <p> <img src="img/tm-parallax-20.jpg" alt=""></p></figure>
+<<<<<<< HEAD
 <p align="justify">The module will now be available from the Module Manager found under the <strong>Extensions</strong> tab in the top menu of the admin interface. You can create additional modules by clicking on the <strong>New</strong> button. Select the modules you have already made in order to configure them. Don't forget to publish them in the correct positioning and on the right pages.</p>
+=======
+<p align="justify">The module will now be available from the Module Manager found under the <strong>Extensions</strong> tab in the top menu of the admin interface. An initial module will be created for you, and you can create additional modules by clicking on the <strong>New</strong> button. Select the modules you have already made in order to configure them. Don't forget to publish them in the correct positioning and on the right pages.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <h5><p>In order to configurate the <strong>TM Parallax </strong>module, perform the following steps:</p></h5>
 <li><p>Navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong> tab:</p></li>
@@ -17,7 +21,11 @@
   <figure class="img-polaroid">
 <p> <img src="img/tm-parallax-1.jpg" alt=""></p></figure></div>
 <ol class="marked-list">
+<<<<<<< HEAD
       <li>To open any edit required module settings, click on  its title. [Let's edit  <strong>Home parallax</strong> module.]</li>
+=======
+      <li>To open any edit required module settings, click on  its title. (Let's edit  <strong>Home parallax</strong> module.)</li>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <li>
   <div align="justify">The<strong> TM Parallax </strong>module editing interface is opened in front of you.            
   </div>
@@ -55,7 +63,11 @@ Here you will see the following options:
     <tr>
         <td class="col-1"><strong>Select a Background Image</strong></td>
         <td>-</td>
+<<<<<<< HEAD
         <td>If you select an image here, it will automatically be inserted as an inline style for the wrapping div element. Store image files in images/<strong>parallax</strong> folder. [To upload images  go to the <strong>Content</strong> &gt; <strong>Media</strong> section.]</td>
+=======
+        <td>If you select an image here, it will automatically be inserted as an inline style for the wrapping div element. Store image files in images/<strong>parallax</strong> folder. (To upload images  go to the <strong>Content</strong> &gt; <strong>Media</strong> section.)</td>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr> <tr>
         <td height="45" class="col-1"><strong> Parallax speed </strong></td>
         <td>-</td>

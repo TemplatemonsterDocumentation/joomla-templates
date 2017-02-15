@@ -71,7 +71,11 @@ follow the instructions below.
         <li><strong>Description</strong> – any short description.</li>
   <li><strong>Website URL</strong> – have to be <a href="https://elfsight.com/service/generate-instagram-access-token/" target="_blank">https://elfsight.com/service/generate-instagram-access-token/</a>.</li>
         <li>
+<<<<<<< HEAD
           <div align="justify"><strong>Valid redirect URIs</strong> – have to be <a href="https://elfsight.com/service/generate-instagram-access-token/" target="_blank">https://elfsight.com/service/generate-instagram-access-token/</a> <strong>[note that you should set the link exactly to our service]</strong>.</div>
+=======
+          <div align="justify"><strong>Valid redirect URIs</strong> – have to be <a href="https://elfsight.com/service/generate-instagram-access-token/" target="_blank">https://elfsight.com/service/generate-instagram-access-token/</a> <strong>(note that you should set the link exactly to our service)</strong>.</div>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         </li>
       </ol>
 <p>Now <strong>confirm your data</strong> and proceed to the next page. Here you can see received Instagram Client ID and Client Secret.</p>
@@ -99,7 +103,11 @@ follow the instructions below.
     <img src="img/instagram-12.jpg" alt="">
 </figure>
       <p><strong>Copy the Generetad Access Token</strong></p>
+<<<<<<< HEAD
 <p align="justify">Congratulations! You&rsquo;ve achieved the task and <strong>get your Instagram Access Token</strong>. Feel free to use it and display Instagram photos on your website with the help of  <strong>TM Instagram</strong> plugin.</p>
+=======
+<p align="justify">Congratulations! You&rsquo;ve achieved the task and <strong>get your Instagram Access Token</strong>. Feel free to use it and display Instagram photos on your website with the help of our Instagram plugins <a href="https://elfsight.com/instagram-feed-instashow/" target="_blank">InstaShow</a> or <a href="https://elfsight.com/instagram-widget-instalink/" target="_blank">InstaLink</a>.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>You&rsquo;ve received your Access Token: </p>
 <figure class="img-polaroid">
   <img src="img/instagram-13.jpg" alt="">

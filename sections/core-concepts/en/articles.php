@@ -34,7 +34,11 @@
   <figure class="img-polaroid">
     <img src="img/global-1.jpg" alt=""></figure>
       </p>
+<<<<<<< HEAD
       <p>Next you need to choose&quot;<strong>Editor - TineMCE</strong>&quot; in <strong>Default Editot</strong> dropdown list.</p>
+=======
+      <p>Next you need to &quot;<strong>Editor - TineMCE</strong>&quot; in <strong>Default Editot</strong> dropdown list.</p>
+>>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       <figure class="img-polaroid">
         <p><img src="img/articles-4.jpg" alt=""></p> </figure>
       <p>After enablind the editor, the <strong>Toggle Editor</strong> button will appear on the editing window interface. Press the button to use the editor.</p>
