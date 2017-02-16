@@ -1,6 +1,6 @@
 <h2 class="item1">Introduction</h2>
 
-<h5 align="justify"> Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installating, creating and setting up a Joomla website process. </h5>
+<h5 align="justify"> Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installing, creating and setting up a Joomla website process. </h5>
 <h5 align="justify">We did our best to make  this manual  information  to be  presented in a simple, straightforward manner.   For ease of reference, the text  the manual provides has been restructured in different  chapters, you can  see  in the leftside menu.  You are able to navigate to any part of the documentation, using the active content headers' links.</h5>
 <h5 align="justify">We recommend you start reading   the documentation at    the  first section. </h5>
 <h3>What is Joomla CMS?</h3>
