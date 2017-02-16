@@ -9,7 +9,7 @@
   </figure>
 </p>
 <h5>Files and Folders</h5>
-<p align="justify">Joomla provides a layer of abstraction for the inner workings of the website, meaning that an administrator does not need to know how to maintain or change individual files in order to update a website. It is still beneficial to get a glimpse of what files and folders exist. You may even need to access a folder such as the <strong>Images</strong> folder at some time. You can see in the image below what some of tht some of the folder structure looks like. This is taken from the Total Commander manager.</p>
+<p align="justify">Joomla provides a layer of abstraction for the inner workings of the website, meaning that an administrator does not need to know how to maintain or change individual files in order to update a website. It is still beneficial to get a glimpse of what files and folders exist. You may even need to access a folder such as the <strong>Images</strong> folder at some time. You can see in the image below what some of the folder structure looks like. This is taken from the Total Commander manager.</p>
 <p>
   <figure class="img-polaroid">
     <img src="img/frontend-1.jpg" alt="">
