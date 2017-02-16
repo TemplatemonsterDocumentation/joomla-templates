@@ -1,5 +1,5 @@
 <h3>Administrator </h3>
-<h5>Accesssing Administrator</h5>
+<h5>Accessing Administrator</h5>
 <p align="justify">Now that you understand the difference between the frontend and the backend, we'll look at how to access and use the Joomla Administrator.</p>
 <ol class="marked-list">
 <li>NAVIGATE to your web address followed by <strong>/administrator</strong>.</li>
