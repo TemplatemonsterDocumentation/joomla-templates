@@ -182,17 +182,12 @@
   <li>Проходим по меню <strong>название приложения</strong> &gt;<strong> APIs &amp; auth</strong> &gt; <strong>credential.</strong></li>
   <li>Создаем новый Client ID: Для этого выбираем oAuth 2.0 client ID и в нем Web application.</li>
 
-<<<<<<< HEAD
 <p>
   <figure class="img-polaroid">
 <img src="http://joomline.ru/images/QIP_Shot_-_Screen_147_12.11.15.png" alt=""/></figure></p>
 <li><p>Получает примерно такого вида картинку:</p>
 </li>
 <p><figure class="img-polaroid"><img src="http://joomline.ru/images/QIP_Shot_-_Screen_148_12.11.15.png" alt=""/></figure></p>
-=======
-<p>Joomla Social Login – компонент для вывода кнопок авторизации через социальные
-    сети.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
   <li>Получаем <strong>client_id </strong>[Client ID] и <strong>secret_key</strong> [Client Secret].</li>
   <li>Задайте имя продукта и email:</li>
@@ -234,18 +229,11 @@
     <div align="justify">Вводим имя, описание, наш сайт и <strong>URL</strong> скрипта-обработчика  — http://mysite.ru/component/slogin/callback/twitter или /?option=com_slogin%26task=check%26plugin=twitter [если вы не используете SEF ссылки Joomla], точный адрес смотрите в настройках плагина Твиттер &quot;<strong>Callback URI</strong>&quot;. </div>
   </li>
 
-<<<<<<< HEAD
 <p><figure class="img-polaroid"><img src="http://joomline.org/images/oauth_twitter1.jpg" alt="" /></figure></p>
 <li>На странице настроек нажимаем кнопку <strong>Create my access token</strong>.</li>
 <li>Получаем <strong>Consumer key</strong> [API key] и <strong>Consumer secret </strong>[API secret] вносим их в плагин.</li>
 <figure class="img-polaroid"><img src="http://joomline.org/images/QIP_Shot_-_Screen_408_01.07.14.png" alt="" /></figure>
 </ol>
-=======
-<p>Так выглядят основные настройки компонента Joomla Social Login. Более детальная
-    информация на <a
-        href="http://support.loginradius.com/hc/en-us/articles/201968987-Joomla-Social-Login-instructions"
-        target="_blank" rel="nofollow">официальном сайте</a>.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <h5><strong>Одноклассники</strong> — настройка авторизации через социальную сеть Одноклассники</h5>
 <p align="justify">Предварительно требуется перейти к окну настроек плагина. Перейдите в раздел <strong>Extensions</strong> &gt; <strong>Plugins</strong> &gt; найдите группу плагинов &quot;<strong>slogin_auth</strong>&quot; &gt;   а затем плагин&quot;<strong>Social Login Odnoclassniki auth</strong>&quot;.</p>

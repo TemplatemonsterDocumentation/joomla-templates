@@ -12,11 +12,7 @@
 <figure class="img-polaroid"><img src="img/forum-3.jpg" alt=""></figure>
 <p align="justify"><strong>Category manager</strong>. In the middle there will be all   current categories available in your Forum. Select any to modify if   needed. You can edit its parent section, the name, alias, description, header, and other settings:  </p>
 <figure class="img-polaroid"><img src="img/forum-4.jpg" alt=""></figure>
-<<<<<<< HEAD
 <p align="justify"> This will be the area that holds your member&rsquo;s discussion. You can   create as many discussions as needed. Each discussion should be assigned   to the general Section [it is used as a header for forum topics]. </p>
-=======
-<p align="justify"> This will be the area that holds your member&rsquo;s discussion. You can   create as many discussions as needed. Each discussion should be assigned   to the general Section (it is used as a header for forum topics). </p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid"><img src="img/forum-5.jpg" alt=""></figure>
 <p align="justify"><strong>Category Permissions</strong> tab specifies the access level of the specific category – groups of users to view and edit it. </p>
 <figure class="img-polaroid"><img src="img/forum-6.jpg" alt=""></figure>

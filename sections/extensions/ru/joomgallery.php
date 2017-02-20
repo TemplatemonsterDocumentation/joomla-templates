@@ -1,12 +1,7 @@
 <h3>JoomGallery</h3>
 
-<<<<<<< HEAD
 <p align="justify"><strong>JoomGallery</strong> — это компонент для реализации полноценной фотогалереи на Joomla сайте. Для более детальной информации обращайтесь к  <a href="http://www.en.joomgallery.net/documentation/" target="_blank"
        rel="nofollow">официальному веб-сайту</a>. </p>
-=======
-<p>JoomGallery — компонент для реализации полноценной фотогалереи на базе Joomla.</p>
-<p>Ниже Вы можете увидеть примеры галереи:</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <figure class="img-polaroid">
   <img src="img/gallery-6.jpg" alt="">
@@ -186,7 +181,6 @@
   <img src="img/gallery-19.jpg" alt="">
 </figure>
 
-<<<<<<< HEAD
   <li>
     <div align="justify">Во вкладке <strong>Replace image files</strong> вы можете загрузить графические изображения с жесткого диска компьютера,  которые заменят соответствующие изображения в галерее. Загрузите новые изображения используя кнопку &quot;Browse...&quot;.</div>
   </li>
@@ -289,13 +283,3 @@
 
 <figure class="img-polaroid">
 <img src="img/gallery-28.jpg" alt="" /></figure>
-=======
-<p align="justify">Так выглядит страница описания компонента JoomGallery. Более детальная информация на
-    <a href="http://www.en.joomgallery.net/documentation/" target="_blank"
-       rel="nofollow">официальном сайте</a>. Также для полноценной работы данного
-    компонента дополнительно устанавливается JoomFancybox плагин.</p>
-
-<figure class="img-polaroid">
-    <img src="img/gallery-5.jpg" alt="">
-</figure>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

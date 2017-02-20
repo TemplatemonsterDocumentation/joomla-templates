@@ -1,8 +1,8 @@
 <h2 class="item1">Introduction</h2>
 
-<h5 align="justify"> Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installing, creating and setting up a Joomla website process. </h5>
+<h5 align="justify"> Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installating, creating and setting up a Joomla website process. </h5>
 <h5 align="justify">We did our best to make  this manual  information  to be  presented in a simple, straightforward manner.   For ease of reference, the text  the manual provides has been restructured in different  chapters, you can  see  in the leftside menu.  You are able to navigate to any part of the documentation, using the active content headers' links.</h5>
-<h5 align="justify">We recommend you start reading   the documentation at    the  first section. </h5>
+<h5 align="justify">We recommend you start reading   the documentation at    the  fitst section. </h5>
 <h3>What is Joomla CMS?</h3>
 
 <p align="justify">Joomla CMS  is an opensource solution for creating websites. Wide functionalities of the system lets you to build websites and powerful online applications both. The Joomla CMS would not require any additional skills and training to be operated.  All the necessary theoty  and basic skills description you will need can be found in this documantation.</p>
@@ -72,11 +72,7 @@
                       <div align="justify"> contains
                         <a href="#complete_install">
                            Complete Joomla installation package</a>
-<<<<<<< HEAD
                         with engine files, themes and sample content [database dump file and sample images];</div>
-=======
-                        with engine files, themes and sample content (database dump file and sample images);</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
                     </dd>
                 </dl>
             </li>
@@ -114,11 +110,7 @@
                         <i class="fa fa-folder"></i>
                         psd
                     </dt>
-<<<<<<< HEAD
                     <dd> template source files for Adobe Photoshop [.psd];</dd>
-=======
-                    <dd> template source files for Adobe Photoshop (.psd);</dd>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
                 </dl>
             </li>
             <li class="folder">

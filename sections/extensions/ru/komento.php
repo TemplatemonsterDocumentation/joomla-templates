@@ -1,6 +1,5 @@
 <h3>Komento Comments</h3>
 
-<<<<<<< HEAD
 <p><strong>Komento</strong> — это компонент для комментариев в Joomla. Он позволяет добавлять комментарии
 к статьям Joomla.</p>
 <figure class="img-polaroid"><img src="img/komento-1.jpg" alt=""></figure>
@@ -27,18 +26,6 @@
 
   <li>
     <p>Сейчас мы <strong>отключили</strong> комментарии [см.  скриншот ниже].</p></li>
-=======
-<p>Komento – это компонент для комментариев в Joomla. Он позволяет добавлять комментарии
-    к статьям Joomla. </p>
-
-<figure class="img-polaroid"><img src="img/komento-1.jpg" alt=""></figure>
-
-<p>Компонент Komento находится в меню <b>Components (Компоненты)> Komento </b>
-    админ-панели Joomla.</p>
-
-<p align="justify">Чтобы перейти в настройки, проследуйте в меню <b>Components (Компоненты) > Komento >
-        Integrations (Интеграция)</b> и нажмите <b>Articles (Статьи)</b></p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
     <figure class="img-polaroid"><img src="img/komento-6.jpg" alt=""></figure>
   
@@ -90,7 +77,6 @@
   Введите желаемый текст и сохраните изменения, нажатием кнопки <strong>Save</strong> в левом верхнем углу:</li>
   <figure class="img-polaroid"><img src="img/komento-14.jpg" alt=""></figure>
 
-<<<<<<< HEAD
 <p>Текст сообщения был успешно изменён:</p>
 <figure class="img-polaroid"><img src="img/komento-15.jpg" alt=""></figure>
 </ol>
@@ -103,17 +89,3 @@
     подписаться на <a href="http://stackideas.com/komento/plans">полную версию</a> продукта. Чтобы увидеть полный список функций, посетите <a
         href="http://stackideas.com/komento?ref=kmfeature">http://stackideas.com/komento.html?ref=kmfeature</a>.
 Платная версия предполагает Komento  профессиональную техническую поддержку.</p>
-=======
-<p align="justify">При помощи настроек компонента, можно активировать комментарии для определенных
-    категорий и статей, добавить captcha (компьютерный тест, используемый для того, чтобы определить, кем является пользователь системы: человеком или компьютером, желаещюму оставить комментарий предлагается ввести символы из картинки), профили пользователей и т.п. Более детальную
-    информацию о Komento можно найти на <a
-        href="http://stackideas.com/docs/komento.html" target="_blank">официальном
-        сайте.</a></p>
-
-<p align="justify">В наших шаблонax используется только стандартная версия Komento. Чтобы
-    воспользоваться дополнительными возможностями данного модуля, мы рекомендуем
-    подписаться на <a href="http://stackideas.com/komento/plans">полную версию</a>
-    продукта. Чтобы увидеть полный список функций, посетите <a
-        href="http://stackideas.com/komento?ref=kmfeature">http://stackideas.com/komento.html?ref=kmfeature</a>.
-    Платная версия предполагает Komento  профессиональную техническую поддержку.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

@@ -2,11 +2,7 @@
   "id": "core-concepts",
   "translations": {
     "en": "Core Concepts of Joomla",
-<<<<<<< HEAD
     "ru": "Ключевые понятия CMS Joomla",
-=======
-    "ru": "Core Concepts of Joomla",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     "es": "Core Concepts of Joomla",
     "de": "Core Concepts of Joomla",
     "fr": "Core Concepts of Joomla",
@@ -34,11 +30,7 @@
       "id": "administrator",
       "translations": {
         "en": "Administrator",
-<<<<<<< HEAD
         "ru": "Администрирование сайта",
-=======
-        "ru": "Administrator",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Administrator",
         "de": "Administrator",
         "fr": "Administrator",
@@ -52,11 +44,7 @@
       "id": "global",
       "translations": {
         "en": "Global configuration",
-<<<<<<< HEAD
         "ru": "Общие параметры конфигурации",
-=======
-        "ru": "Global configuration",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Global configuration",
         "de": "Global configuration",
         "fr": "Global configuration",
@@ -70,11 +58,7 @@
       "id": "categories",
       "translations": {
         "en": "Categories",
-<<<<<<< HEAD
         "ru": "Категории",
-=======
-        "ru": "Categories",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Categories",
         "de": "Categories",
         "fr": "Categories",
@@ -88,11 +72,7 @@
       "id": "articles",
       "translations": {
         "en": "Articles",
-<<<<<<< HEAD
         "ru": "Статьи",
-=======
-        "ru": "Articles",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Articles",
         "de": "Articles",
         "fr": "Articles",
@@ -106,11 +86,7 @@
       "id": "menus",
       "translations": {
         "en": "Menus",
-<<<<<<< HEAD
         "ru": "Mеню",
-=======
-        "ru": "Menus",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Menus",
         "de": "Menus",
         "fr": "Menus",
@@ -124,11 +100,7 @@
       "id": "modules",
       "translations": {
         "en": "Modules",
-<<<<<<< HEAD
         "ru": "Модули",
-=======
-        "ru": "Modules",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Modules",
         "de": "Modules",
         "fr": "Modules",
@@ -142,11 +114,7 @@
   "id": "modules_config",
   "translations": {
     "en": "Configuring Modules",
-<<<<<<< HEAD
     "ru": "Настройка параметров модулей",
-=======
-    "ru": "Настройка модулей",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     "es": "Configuración de Módulos",
     "de": "Modulkonfiguration",
     "fr": "Configuration des modules",
@@ -160,11 +128,7 @@
       "id": "images",
       "translations": {
         "en": "Images",
-<<<<<<< HEAD
         "ru": "Изображения",
-=======
-        "ru": "Images",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Images",
         "de": "Images",
         "fr": "Images",
@@ -178,11 +142,7 @@
       "id": "templates",
       "translations": {
         "en": "Templates",
-<<<<<<< HEAD
         "ru": "Шаблоны",
-=======
-        "ru": "Templates",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Templates",
         "de": "Templates",
         "fr": "Templates",
@@ -196,11 +156,7 @@
       "id": "extensions",
       "translations": {
         "en": "Extensions",
-<<<<<<< HEAD
         "ru": "Дополнения",
-=======
-        "ru": "Extensions",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
         "es": "Extensions",
         "de": "Extensions",
         "fr": "Extensions",

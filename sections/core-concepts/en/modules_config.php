@@ -1,9 +1,5 @@
 <h3>Configuring modules</h3>
-<<<<<<< HEAD
 <h6>Joomla website layout is divided into two main parts - content section and module positions [check the module positions map below for more details]. Modules in Joomla are used to output content into prepared positions.</h6>
-=======
-<h6>Joomla website layout is divided into two main parts - content section and module positions (check the module positions map below for more details). Modules in Joomla are used to output content into prepared positions.</h6>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <h5>Module positions map</h5>
 
 <p>Available module positions can vary accotding to the template. The general module positions map can be found below:</p>
@@ -18,17 +14,10 @@
 
 <p align="justify" class="alert alert-warning">Please note: If you installed the template sample data or used the Complete installation method, you can skip the following step as it is related to manual modules configuration.</p>
 
-<<<<<<< HEAD
 <p align="justify">The table below lists all the modules used  and shows  the settings parameters of ones in the current template. All the modules can be accessed through Joomla admin panel from the <b>Extensions > Modules</b> tab:</p>
 <figure class="img-polaroid"><img src="img/modules-config-1.png" alt=""></figure>
 
 <div class="table"> 
-=======
-<p align="justify">The table below lists all the modules used in this template and shows how to configure them correctly. All the modules can be accessed through Joomla admin panel from the <b>Extensions > Modules</b> tab:</p>
-<figure class="img-polaroid"><img src="img/modules-config-1.png" alt=""></figure>
-
-<div class="table">
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     <div class="container">
         <div class="row">
             <div class="grid_3">
@@ -130,32 +119,8 @@
                 </ul>
             </div>
         </div>
-<<<<<<< HEAD
         <div class='row'>
         <div class='grid_4'><b>6 - Simple</b></div>
-=======
-
-        <div class='row'>
-            <div class='grid_4'>User Menu</div>
-
-            <div class='grid_4'>
-                <ul>
-                    <li><b>Type:</b> mod_menu</li>
-                    <li><b>Position:</b> header</li>
-                    <li><b>Show Title:</b> no</li>
-                    <li><b>Order:</b> 1</li>
-                </ul>
-            </div>
-            <div class='grid_4'>
-                <ul>
-                    <li><b>Pages:</b> Home</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class='row'>
-            <div class='grid_4'><b>6 - Simple</b></div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
             <div class='grid_4'>
                 <ul>

@@ -15,11 +15,7 @@
 </figure>
 <h5>Details</h5>
 <ol class="marked-list">
-<<<<<<< HEAD
   <li><strong>Title:</strong> Module must have a title [in our case it is <strong>Carousel</strong>].</li>
-=======
-  <li><strong>Title:</strong> Module must have a title (in our case it is <strong>Carousel</strong>).</li>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </ol>
 <h5>Module</h5>
 <p>The <strong>Owl Carousel </strong> Module will display a fixed number of Articles from a specific Category or a set of Categories.</p>
@@ -27,7 +23,6 @@
   <li>
     <div align="justify"><strong>Category</strong>: Select Articles from a specific Category or a set of Categories. If no selection will show all categories as default. </div>
   </li>
-<<<<<<< HEAD
   <li><strong>Images</strong>: [Hide/Show]. Display Article images.</li>
   <li><strong>Article title</strong>: Show/Hide Article title.</li>
   <li><strong>Linked Titles</strong>: [Use Global/No/Yes]. Link the Article titles to Articles.</li>
@@ -41,41 +36,18 @@
   <li><strong>Number of Articles</strong>: The number of Articles to display within this module.</li>
   <li>
     <div align="justify"><strong>Order Results</strong>: [Published Date/Created Date/Ordering/Random]. Select the order in which you want query results presented.</div>
-=======
-  <li><strong>Images</strong>: (Hide/Show). Display Article images.</li>
-  <li><strong>Article title</strong>: Show/Hide Article title.</li>
-  <li><strong>Linked Titles</strong>: (Use Global/No/Yes). Link the Article titles to Articles.</li>
-  <li> <strong>Publishing Date</strong>: Display publishing date of an item.</li>
-  <li><strong>Header Level</strong>: (h1/h2/h3/h4/h5). Select the desired HTML header level for the Article titles.</li>
-  <li><strong>Show intro images</strong>:  	Select if you want to display article intro images.</li>
-  <li><strong> Intro image align</strong>: (Mone/left/right) Select intro image alignment. Overrides article settings.</li>
-  <li>
-    <div align="justify"><strong>'Read more...' Link:</strong> (Show/Hide). If set to Show, the 'Read more...' link will show if Main text has been provided for an Article.</div>
-  </li>
-  <li><strong>Number of Articles</strong>: The number of Articles to display within this module.</li>
-  <li>
-    <div align="justify"><strong>Order Results</strong>: (Published Date/Created Date/Ordering/Random). Select the order in which you want query results presented.</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
   <li><strong>Pretext</strong>: You can input text you want to display before module content. Doesn't support any HTML tags.</li>
 </ol>
 <h5>Common Details</h5>
 <ol class="marked-list">
   <li>
-<<<<<<< HEAD
     <div align="justify"><strong>Show Title</strong>. [Show/Hide] Choose whether to show or hide the   modules title in the front end. The title will be the one in the Form   Field above.</div>
-=======
-    <div align="justify"><strong>Show Title</strong>. (Show/Hide) Choose whether to show or hide the   modules title in the front end. The title will be the one in the Form   Field above.</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
   <li>
     <div align="justify"><strong>Module Position</strong>. Choose the module position you wish this module to be displayed in. A custom module position can be entered for use with the load position plugin or the position button can be pressed to select a module position from the template.</div>
   </li>
-<<<<<<< HEAD
   <li><strong>Status</strong>. [Published/Unpublished/Trashed] The published status of the item.</li>
-=======
-  <li><strong>Status</strong>. (Published/Unpublished/Trashed) The published status of the item.</li>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
   <li><strong>Access</strong>. The viewing Access Level for this item.</li>
 
@@ -88,27 +60,16 @@
   </li>
 
   <li>
-<<<<<<< HEAD
     <div align="justify"><strong>Finish Publishing</strong>. Date and time to finish publishing. Use   this field if you want to have content automatically changed to   Unpublished state at a future time [for example, when it is no longer   applicable].</div>
-=======
-    <div align="justify"><strong>Finish Publishing</strong>. Date and time to finish publishing. Use   this field if you want to have content automatically changed to   Unpublished state at a future time (for example, when it is no longer   applicable).</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
 
   <li><strong>Language</strong>. Item language.</li>
 
   <li>
-<<<<<<< HEAD
     <div align="justify"><strong>Note</strong>. Item note. This is normally for the site   administrator's use [for example, to document information about this   item] and does not show in the front end of the site.</div>
   </li>
 </ol>
 <p>Now we should set the module parameters  as shown in  the image below [You should choose the<strong> feature </strong>position type in Position field]:</p>
-=======
-    <div align="justify"><strong>Note</strong>. Item note. This is normally for the site   administrator's use (for example, to document information about this   item) and does not show in the front end of the site.</div>
-  </li>
-</ol>
-<p>Now we should set the module parameters  as shown in  the image below (You should choose the<strong> feature </strong>position type in Position field):</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <p><img src="img/owl-carousel-6.jpg" alt="" /></p></figure>
     <p align="justify">Next you choose the page, where to place the module in. You should use the <strong>Menu Assignment </strong>tab  for this purpose. </p>
@@ -123,11 +84,7 @@
 <p align="justify"><strong>ADVISE</strong></p>
     <div align="justify">
       <div align="justify">To add a new article to <strong>Testimonials category,</strong> perform the following steps:<br />
-<<<<<<< HEAD
       The first step to creating a new article is to navigate to the Article Manager's Add a New Article page. This can be done using the admin menu at the top of the Administrator side of your Joomla site. Just navigate to <strong>Content</strong> &gt; <strong>Articles</strong> &gt; <strong>Add a New Article</strong> and you should be brought to a page which includes a text editor and article-specific options [pictured above].</div>
-=======
-      The first step to creating a new article is to navigate to the Article Manager's Add a New Article page. This can be done using the admin menu at the top of the Administrator side of your Joomla site. Just navigate to <strong>Content</strong> &gt; <strong>Articles</strong> &gt; <strong>Add a New Article</strong> and you should be brought to a page which includes a text editor and article-specific options (pictured above).</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       <figure class="img-polaroid">
         <p align="justify"><img src="img/owl-carousel-5.jpg" alt="" /></p>
       </figure>

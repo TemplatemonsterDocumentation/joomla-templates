@@ -89,11 +89,7 @@
         <div align="justify"> <strong>Position</strong>. You may select a module position from the list of pre-defined positions or enter your own module position by typing the name in the field and pressing enter.</div>
       </li>
       <li><strong> Status</strong>. If published, this module will display on your site Frontend or Backend depending on the module.</li>
-<<<<<<< HEAD
       <li> Date for publishing [<strong>Start Publishing</strong>/<strong>Finish Publishing</strong>] An optional date to Start/Finish Publishing the module.</li>
-=======
-      <li> Date for publishing (<strong>Start Publishing</strong>/<strong>Finish Publishing</strong>) An optional date to Start/Finish Publishing the module.</li>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       <li> <strong>Access</strong>. The access level group that is allowed to view this item.</li>
       <li> <strong>Ordering</strong>. Select the ordering.</li>
       <li> <strong>Language</strong>. Assign a language to this module.</li>

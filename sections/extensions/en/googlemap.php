@@ -28,11 +28,7 @@
     <tr>
         <td class="col-1"><div align="justify"><strong>Debug?</strong></div></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">If the map shows debug messages [as comments] in the html-page. The comments can be showed by looking at the page source. </div></td>
-=======
-        <td><div align="justify">If the map shows debug messages (as comments) in the html-page. The comments can be showed by looking at the page source. </div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr> <tr>
         <td class="col-1"><strong>Plugin code</strong></td>
         <td>-</td>
@@ -41,21 +37,13 @@
     <tr>
         <td class="col-1"><strong>Brackets</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">What brackets should be used around the plugin code: {} [default with [] for multiple kml], [] [with () for multiple kml] or both.</div></td>
-=======
-        <td><div align="justify">What brackets should be used around the plugin code: {} (default with [] for multiple kml), [] (with () for multiple kml) or both (() for multiple kml. [] will give problems with multiple kml).</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>
    
     <tr>
         <td class="col-1"><strong>Google API version </strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">The version of the Google API that has to be used [3.exp latest developed version, 3.number for specific version and 3 for stable version (default)].</div></td>
-=======
-        <td><div align="justify">The version of the Google API that has to be used (3.exp latest developed version, 3.number for specific version and 3 for stable version (default)).</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>
     <tr>
     <td class="col-1"><strong>Visual Refresh</strong></td>
@@ -64,21 +52,13 @@
     </tr>
         <td class="col-1"><strong>Signed In</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td> The visitor is recognised as a google user and they will see the map customised by google.</td>
-=======
-        <td>What google website should be used for geocoding and directions.</td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr><td class="col-1"><div align="justify"><strong>Show map?</strong></div></td>
         <td>-</td>
         <td>Show the map or don't show the map. Can be used to only show a lightbox link or streetview or directions on a page.</td>
     </tr>    <td class="col-1"><strong>Print button</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">Show a print button or link to print a map, streetview and its direction [none (default), icon, text, both or your own text/image as link].</div></td>
-=======
-        <td><div align="justify">Show a print button or link to print a map, streetview and its direction (none (default), icon, text, both or your own text/image as link).</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>  <td height="26" class="col-1"><strong>CSS Class name</strong></td>
       <td>-</td>
         <td>CSS class name for a map to use for styling of the map. Default empty.</td>
@@ -90,17 +70,10 @@
     </tr>
       <td class="col-1"><strong>Load with mootools?</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td>If mootools [default] should be used to load the map or a timeinterval.</td>
     </tr><td class="col-1"><strong>Timeinterval </strong></td>
         <td>-</td>
         <td><div align="justify">To show the map a timeinterval in ms is done to wait for the page is loaded correctly [default 500ms]. Especially for IE this can prevent a fatal error.</div></td>
-=======
-        <td>If mootools (default) should be used to load the map or a timeinterval.</td>
-    </tr><td class="col-1"><strong>Timeinterval </strong></td>
-        <td>-</td>
-        <td><div align="justify">To show the map a timeinterval in ms is done to wait for the page is loaded correctly (default 500ms). Especially for IE this can prevent a fatal error.</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr><td class="col-1"><strong>Googlemaps API Key</strong></td>
         <td>-</td>
         <td>The optional Google API key for Google Maps 3 for Usage and billing.</td>
@@ -108,25 +81,16 @@
         <p><strong>Googlemaps Multi </strong><strong>API Key</strong></p>
 </div></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">The optional Google API key[s] for Google Maps version 3 for Usage and billing. With multi you can add your multi domains for your site and behind it the key. The next domain goes on a new line.</div></td>
     </tr>
     <td class="col-1"><strong>URL variable</strong></td>
         <td>-</td>
         <td>Use HTTP_HOST [default] or Joomla setting.</td>
-=======
-        <td><div align="justify">The optional Google API key(s) for Google Maps version 3 for Usage and billing. With multi you can add your multi domains for your site and behind it the key. The next domain goes on a new line.</div></td>
-    </tr>
-    <td class="col-1"><strong>URL variable</strong></td>
-        <td>-</td>
-        <td>Use HTTP_HOST (default) or Joomla setting.</td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>  <td class="col-1"><strong>Google website</strong></td>
         <td>-</td>
         <td>What google website should be used for geocoding and directions.</td>
     </tr><td class="col-1"><strong>Styled Map</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><p>The JSON string to style the map; You can change your Map style. Check the more styles <a
         href="https://snazzymaps.com/"
         target="_blank" rel="nofollow">here</a>.</p>
@@ -143,17 +107,6 @@
     </tr><td class="col-1"><strong>Language option</strong></td>
         <td>-</td>
         <td><div align="justify">If the language of maps [buttons, tooltips] should be determined by: site — language of site; user — so browser language/location. </div></td>
-=======
-        <td>The JSON string to style the map; You can change your Map style. Check the more styles <a
-        href="https://snazzymaps.com/"
-        target="_blank" rel="nofollow">here</a>.</td>
-    </tr><td class="col-1"><strong>Align</strong></td>
-        <td>-</td>
-        <td> How the map should be aligned within the content (parent html object).</td>
-    </tr><td class="col-1"><strong>Language option</strong></td>
-        <td>-</td>
-        <td><div align="justify">If the language of maps (buttons, tooltips) should be determined by: site - language of site user - so browser language/location config - defined in this config with language.</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr><td class="col-1"><strong>Language</strong></td>
         <td>-</td>
         <td>When language is determined by config then set language here.</td>
@@ -165,10 +118,6 @@
         <td>Height of the map. You must put the units behind the number like 100% or 400px.</td>
     </tr><td class="col-1"><strong>Effect on Map</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td>What effect has to be used on the Map [Horizontal use absolute width!].</td>
-=======
-        <td>What effect has to be used on the Map (Horizontal use absolute width!).</td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>
 </table>

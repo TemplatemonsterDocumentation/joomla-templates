@@ -33,20 +33,12 @@
     <tr>
         <td width="154" class="col-1"> <strong>Alias </strong></td>
         <td width="29">-</td>
-<<<<<<< HEAD
         <td width="781"><div align="justify">Leave this blank and JoomGallery will fill in a default value, which is the category path in lower case and with dashes instead of spaces. You may enter the Alias manually. If you do so please use lowercase letters and hyphens [-]. No spaces or underscores are allowed. The Alias will be used in the SEF URL. </div></td>
-=======
-        <td width="781"><div align="justify">Leave this blank and <strong>JoomGallery</strong> will fill in a default value, which is the category path in lower case and with dashes instead of spaces. You may enter the <strong>Alias</strong> manually. If you do so please use lowercase letters and hyphens (-). No spaces or underscores are allowed. The <strong>Alias</strong> will be used in the SEF URL. Default value will be a <strong>date and time</strong> if the alias is typed in non-latin letters.</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </tr>
     <tr>
         <td class="col-1"><strong>Hidden</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">With hiding this category it won't be displayed in gallery or category view anymore, but it will still be available through direct linking. If you don't want it to be available please unpublish it instead. By hiding categories it is possible to create separate areas in the gallery, for example. For that please create a menu item for the hidden categories. It is also possible to manage certain images in the gallery without showing them in it [e.g. you can use the gallery as additional manager for images that are included into content articles].</div></td>
-=======
-        <td><div align="justify">With <strong>hiding</strong> this category it won't be displayed in gallery or category view anymore, but it will still be available through direct linking. If you don't want it to be available please <strong>unpublish</strong> it instead. By hiding categories it is possible to create separate areas in the gallery, for example. For that please<strong> create a menu item</strong> for the hidden categories. It is also possible to manage certain images in the gallery without showing them in it (e.g. you can use the gallery as additional manager for images that are included into content articles).</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr> <tr>
         <td class="col-1"><strong>Access</strong></td>
         <td>-</td>
@@ -55,17 +47,12 @@
     <tr>
         <td class="col-1"><strong> Exclude from toplists </strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td>With enabling this option you can exclude this category from the toplists. Please note that this option is not automatically passed on to sub-categories. Of course, enabling this option distorts the toplists which could be detected by the visitors of your site.</td>
-=======
-        <td>With <strong>enabling</strong> this option you can <strong>exclude</strong> this category from the toplists. Please <strong>note</strong> that this option is not automatically passed on to sub-categories. Of course, <strong>enabling</strong> this option distorts the toplists which could be detected by the visitors of your site.</td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>
    
     <tr>
         <td class="col-1"><strong>Exclude from search</strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">With enabling this option you can exclude this category from the search. Please note that this option is not automatically passed on to sub-categories. Of course, enabling this option could create confusion at the visitors of your site because some images won't appear in the search results even if they type in correct keywords.</div></td>
     </tr>
         <td class="col-1"><strong>Thumbnail</strong></td>
@@ -84,70 +71,6 @@
 </table>
 <div class="alert alert-info">
   <p align="justify"><strong>Advise</strong></p>
-=======
-        <td><div align="justify">With <strong>enabling</strong> this option you can exclude this category from the search. Please <strong>note</strong> that this option is not automatically passed on to sub-categories. Of course, <strong>enabling</strong> this option could create confusion at the visitors of your site because some images won't appear in the search results even if they type in correct keywords.</div></td>
-    </tr>
-    <tr>
-    <td class="col-1"><strong>Owner</strong></td>
-        <td>-</td>
-        <td>Owner of this image.</td>
-    </tr>
-        <td class="col-1"><strong>Thumbnail</strong></td>
-        <td>-</td>
-        <td>Here you may <strong>select an image</strong> which is set as the thumbnail of this category.</td>
-    </tr><td class="col-1"><strong> Thumbnail alignment </strong></td>
-        <td>-</td>
-        <td>Please select the <strong>alignment</strong> for the category thumbnail you have chosen above.</td>
-    </tr>    <td class="col-1"><strong>Ordering</strong></td>
-        <td>&nbsp;</td>
-        <td>You may <strong>change the position</strong> of this category here.</td>
-    </tr>  <td height="26" class="col-1"><strong> Password </strong></td>
-      <td>-</td>
-        <td><div align="justify">Here you can specify a <strong>password</strong> for the category. With that, the category will only be accessible for the users in frontend if they enter the correct password. Please note that restricting access via access levels is stronger which means that users cannot access categories with too high access level even if they know the respective password.</div></td>
-    </tr>
-    <tr>
-        <td class="col-1"><strong>Upload </strong></td>
-        <td>-</td>
-        <td>New setting for <strong>upload actions</strong> in this category and the calculated setting based on the parent category or the extension setting and group permissions.</td>
-    </tr>
-    <tr>
-        <td class="col-1"><strong>Upload in Own</strong></td>
-        <td>-</td>
-        <td><div align="justify">New setting for<strong> upload in own</strong> actions on this category and the calculated setting based on the parent category or the extension setting and group permissions.</div></td>
-    </tr><tr>
-        <td class="col-1"><strong>Create</strong></td>
-        <td>-</td>
-        <td><p align="justify">New setting for <strong>create actions</strong> in this category and the calculated setting based on the parent category or the extension setting and group permissions.</p></td>
-    </tr><tr>
-        <td class="col-1"><strong>Create in Own </strong></td>
-        <td>-</td>
-        <td><p align="justify">New setting for <strong>create in own</strong> actions in this category and the calculated setting based on the parent category or the extension setting and group permissions.</p></td>
-    </tr><tr>
-        <td class="col-1"><strong>Delete</strong></td>
-        <td>-</td>
-        <td><div align="justify">New setting for <strong>delete actions</strong> on this category and the calculated setting based on the parent category or the extension setting and group permissions.</div></td>
-    </tr><tr>
-        <td class="col-1"><strong>Edit</strong></td>
-        <td>-</td>
-        <td><div align="justify">New setting for <strong>edit actions </strong>on this category and the calculated setting based on the parent category or the extension setting and group permissions.</div></td>
-    </tr><tr>
-        <td class="col-1"><strong>Edit State</strong></td>
-        <td>-</td>
-        <td><div align="justify">New setting for <strong>edit state actions</strong> on this category and the calculated setting based on the parent category or the extension setting and group permissions.</div></td>
-    </tr><tr>
-        <td class="col-1"><strong>Edit Own </strong></td>
-        <td>-</td>
-        <td><div align="justify">New setting for <strong>edit own actions</strong> on this category and the calculated setting based on the parent category or the extension setting and group permissions.</div></td>
-    </tr>
-</table>
-<div class="alert alert-danger">
-
-    <div align="justify">
-      <p>If you change the setting, it will apply to this item. Note that: Inherited means that the permissions from global configuration, parent group and category will be used. Denied means that no matter what the global configuration, parent group or category settings are, the group being edited can't take this action on this item. Allowed means that the group being edited will be able to take this action for this item (but if this is in conflict with the global configuration, parent group or category it will have no impact; a conflict will be indicated by Not Allowed (Inherited) under Calculated Settings). </p>
-</div></div>
-<div class="alert alert-info">
-<p align="justify"><strong>Advise</strong></p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   <div align="justify">
       <p>To save changes, you should click the Save button.</p>
 </div></div>
@@ -181,14 +104,6 @@
   <figure class="img-polaroid">
   <img src="img/gallery-13.jpg" alt="">
 </p></figure>
-<<<<<<< HEAD
-=======
-<div class="alert alert-warning">
-<p align="justify"><strong>I M P O R T A N T     N O T I C E ! !</strong></p>
-    <div align="justify">
-      <p>In order to use the FTP upload you have to upload the images into the folder displayed below first (with the help of an FTP client, for example). This folder can also be adjusted in tab 'General Settings' &gt; 'Paths and directories' of the configuration manager. Additionally, you are able to create sub-directories via FTP which can then be selected below. </p>
-</div></div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </ol>
   
 <h5><p>Let's try <strong>Image Upload</strong>. </p></h5>
@@ -200,11 +115,7 @@
     <div align="justify">Press <strong>Browse</strong> button in the <strong>Image Selection</strong> section and select media files on your computer. </div>
   </li>
   <li>
-<<<<<<< HEAD
     <div align="justify">Specify <strong>Category</strong> for these images [you can upload bunch of images for each category this way], <strong>Generic Title</strong> for these images [for example, if you upload 3 files with generic title &quot;test&quot;, they will appear in your Image manager as test_1, test_2 and test_3]. </div>
-=======
-    <div align="justify">Specify <strong>Category</strong> for these images (you can upload bunch of images for each category this way), <strong>Generic Title</strong> for these images (for example, if you upload 3 files with generic title &quot;test&quot;, they will appear in your Image manager as test_1, test_2 and test_3). </div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
   <li>
     <div align="justify">Specify <strong>Generic Description</strong> and <strong>Author</strong> if needed. Set the <strong>Access</strong> type: public, super users, registered, special. </div>
@@ -255,11 +166,7 @@
 </figure>
 
   <li>
-<<<<<<< HEAD
     <div align="justify">In <strong>Replace image files</strong> tab you may select image files from your hard drive in order to replace the correspondent current files in the gallery. Upload new images using the Browse button.</div>
-=======
-    <div align="justify">In <strong>Replace image files</strong> tab you may select image files from your hard drive in order to replace the correspondent current files in the gallery. If you want to replace all files of this image with the same image you will also be able to only replace the original file and use the '<strong>Recreate</strong>' button of image manager after that in order to create the others automatically.</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
   </li>
 
 <p>

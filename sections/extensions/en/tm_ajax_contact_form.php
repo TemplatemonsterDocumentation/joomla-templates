@@ -2,41 +2,11 @@
 
 <p align="justify"><strong>TM Ajax Contact Form Module</strong> is a contact form module for Joomla engine.
 This module allows adding contact form to any page of your Joomla website.</p>
-<<<<<<< HEAD
 <p align="justify"><strong>Contact form </strong>is basically a set of questions filled out on the website page by your visitor that is automatically sent to your email when it is filled out. Usually a contact form includes fields for filling in name, address, phone, email and type of comment. Once the visitors of your website have filled out the contact form fields, they will click the Submit [Send] button to submit the information.</p>
-=======
-<p align="justify"><strong>Contact form </strong>is basically a set of questions filled out on the website page by your visitor that is automatically sent to your email when it is filled out. Usually a contact form includes fields for filling in name, address, phone, email and type of comment. Once the visitors of your website have filled out the contact form fields, they will click the Submit (Send) button to submit the information.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/contact-form-1.png" alt="">
 </figure>
 
-<<<<<<< HEAD
-=======
-<h5> How to manage TM Ajax Contact Form module </h5>
-<p>First, you will need to add the form to the required page. That can be done in a few simple steps:</p>
-<ol class="marked-list">
-  <li>
-    <p>Navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong>. Press <strong>Add new</strong> button.</p>
-  </li>
-  <figure class="img-polaroid">
-    <p><img src="img/contact-form-2.png" alt=""></p>
-  </figure>
-  <li>Click on <strong>TM Ajax Contact Form</strong> module title link.</li> <figure class="img-polaroid">
-    <p><img src="img/contact-form-3.png" alt=""></p>
-  </figure>
-  <li>
-    <p> You need to assign the module to the position you need.</p>
-  </li>
-  <figure class="img-polaroid">
-    <p><img src="img/contact-form-4.png" alt=""></p>
-  </figure>
-  <li>Then you need to open the <strong>Module Settings</strong> tab in order to apply customizations.</li>
- <figure class="img-polaroid">
-    <p><img src="img/contact-form-5.png" alt=""></p>
-  </figure>
-</ol>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>You will see the following options:</p>
 <table width="980"  class="options-table">
   <tr>
@@ -47,11 +17,7 @@ This module allows adding contact form to any page of your Joomla website.</p>
     <tr>
         <td class="col-1"><strong> Fields </strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td><div align="justify">Select and configure fields to display. You can enter a label of field,  name of field, choose a type of field [text/email/tel/url/textarea].</div></td>
-=======
-        <td><div align="justify">Select and configure fields to display. You can enter a label of field,  name of field, choose a type of field (text/email/tel/url/textarea), Enter list of options for the 'select' type.</div></td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr> <tr>
         <td height="45" class="col-1"><strong>Label </strong></td>
         <td>-</td>
@@ -68,24 +34,12 @@ This module allows adding contact form to any page of your Joomla website.</p>
         <td>-</td>
         <td>Choose a type of field.</td>
     </tr>
-<<<<<<< HEAD
-=======
-    <tr>
-    <td class="col-1"><strong>Options </strong></td>
-        <td>-</td>
-        <td>Enter list of options for the 'select' type.</td>
-    </tr>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
             <td class="col-1"><strong>Title </strong></td>
         <td>-</td>
         <td>Enter title of field. If empty, the same as label.</td>
     </tr>      <td class="col-1"><strong>Required </strong></td>
         <td>-</td>
-<<<<<<< HEAD
         <td>If field  is required [yes/no].</td>
-=======
-        <td>If field  is required (yes/no). It is shown in the contact form according to your needs.</td>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     </tr>      <td class="col-1"><strong>Bootstrap Size </strong></td>
         <td>-</td>
         <td>Set a number of columns the field will use.</td>
@@ -149,7 +103,6 @@ This module allows adding contact form to any page of your Joomla website.</p>
       </li>
       <figure class="img-polaroid">
     <p align="justify"><img src="img/contact-form-9.png" alt=""></p></figure>
-<<<<<<< HEAD
     <p>You will see the following options:</p>
 <table width="980"  class="options-table">
   <tr>
@@ -226,12 +179,6 @@ This module allows adding contact form to any page of your Joomla website.</p>
         <div align="justify">The first thing you see is <strong>Pretext</strong> field, below is available contact form fields – this is where you should perform the changes.</div></li>
       <li>
         <div align="justify">Click on the <strong>plus</strong> [+] button next to the field you would like to add the new field after. Let&rsquo;s  assume that you want to add <strong>Subject</strong> field after the <strong>Your email</strong> field. You can see new empty field is appeared now:</div>
-=======
-      <li>
-        <div align="justify">The first thing you see is <strong>Pretext</strong> field, below is available contact form fields – this is where you should perform the changes.</div></li>
-      <li>
-        <div align="justify">Click on the <strong>plus</strong> (+) button next to the field you would like to add the new field after. Let&rsquo;s  assume that you want to add <strong>Subject</strong> field after the <strong>Your email</strong> field. You can see new empty field is appeared now:</div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
       </li>
        <figure class="img-polaroid">
     <p align="justify"><img src="img/contact-form-10.png" alt=""></p></figure>

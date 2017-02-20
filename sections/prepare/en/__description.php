@@ -9,11 +9,7 @@
 
 <ol class="index-list">
 <li>
-<<<<<<< HEAD
   <div align="justify"> First of all, you need the proper software to extract the password-protected sources_#########.zip archive. For this purpose, you can use WinZip 9+ [for Windows system] or Stuffit Expander 10+ program [for Mac system].    </div>
-=======
-  <div align="justify"> First of all, you need the proper software to extract the password-protected sources_#########.zip archive. For this purpose, you can use WinZip 9+ (for Windows system) or Stuffit Expander 10+ program (for Mac system).    </div>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 </li>
     <li>
       <div align="justify"> You may also need the Adobe Photoshop. It is used to edit the .psd source files and is necessary, in case you want to change the template graphics and images.    </div>

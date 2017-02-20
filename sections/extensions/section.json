@@ -2,11 +2,7 @@
   "id": "extensions",
   "translations": {
     "en": "Jumerix Plugins & Modules",
-<<<<<<< HEAD
     "ru": "Плагины и Модули Jumerix",
-=======
-    "ru": "Расширения",
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     "es": "Extensiones",
     "de": "Erweiterungen",
     "fr": "Extensions",

@@ -1,31 +1,12 @@
 <h3>TM Instagram</h3>
  
-<<<<<<< HEAD
 <p><strong>TM Instagram — </strong>модуль для вывода  плагина &quot;Instagram Widget&quot;.</p>
-=======
-<p>TM Instagram – модуль для вывода "Instagram Widget".</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <figure class="img-polaroid">
   <p><img src="img/instagram-1.jpg" alt=""></p>
 </figure>
 
-<<<<<<< HEAD
 <p>Так выглядят окно основных настроек модуля <strong>TM Instagram</strong>: </p>
-=======
-<p align="justify">Так выглядят основные настройки модуля TM Instagram. В поле Instagram username
-    указывается название профиля в Instagram, в поле Number of photos – количество
-    фото из ленты инстаграм, выводимых в виджете, в поле Your Instagram CLIENT ID указывается
-    идентификатор Вашего приложения Instagram. Чтобы получить идентификатор, перейдите
-    по ссылке <a href="https://instagram.com/accounts/login/?next=%2Fdeveloper%2F"
-                 target="_blank" rel="nofollow">https://instagram.com/accounts/login/?next=%2Fdeveloper%2F</a>
-    и зарегистрируйтесь. Далее перейдите по ссылке <a
-        href="http://instagram.com/developer/clients/manage/" target="_blank"
-        rel="nofollow">http://instagram.com/developer/clients/manage/</a> и создайте
-    там приложение. После этого у вас появятся данные Вашего приложения, в которых будет
-    указан идентификатор (CLIENT ID).</p>
- 
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
   <p><img src="img/instagram-2.jpg" alt=""></p>
 </figure>

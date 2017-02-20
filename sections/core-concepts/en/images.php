@@ -1,10 +1,6 @@
 <h3>Images
 </h3>
-<<<<<<< HEAD
 <p align="justify">The Joomla Media Manager is used to add images to <strong>Articles</strong> and <strong>Modules</strong>, and can be accessed in different ways. In this section we will go over how to add images to your content and how to upload them through the <strong>Media Manager</strong>.</p>
-=======
-<p align="justify">The Joomla Media Manager is used to add images to <strong>Articles</strong> and <strong>Modules</strong>, and can be accessed in different ways. In this section we will go over how to add images to your content, the importance of resizing them and how to upload them through the <strong>Media Manager</strong>.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <h6>Adding Images to an Article or Module</h6>
 <p align="justify">After deciding where to place your image and adjusting it for file size and pixel size, follow these steps to include your image in your content. Make sure you are signed in to Administrator.</p>
 <ol class="marked-list">

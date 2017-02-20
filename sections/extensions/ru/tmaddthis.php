@@ -1,11 +1,7 @@
 <h3>TM Addthis</h3>
 
-<<<<<<< HEAD
 <p align="justify"><strong>AddThis</strong> является крупнейшей в мире платформой обмена контентом. Платформа эта предоставляет инструменты упрощения процесса обмена  контентом через социальные сети, а также инструменты, которые способны помочь увеличить трафик вашего сайта.  <strong>AddThis</strong> может быть интегрирован в веб-сайт с помощью виджета. После добавления виджета на ваш сайт, ого посетители сайта могут делать закладки на ваш контент, используя широкий спектр сервисов, таких как Facebook, MySpace, Google Bookmarks, Pinterest и Twitter.</p>
 <p><strong>TM Addthis </strong>— это плагин для отображения кнопок типа &quot;поделиться&quot; на вашем сайте:</p>
-=======
-<p>TM Addthis – плагин для вывода кнопок "поделиться".</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 
 <p align="justify">
   <figure class="img-polaroid"><img src="img/addthis-5.jpg" alt=""></figure>
@@ -38,7 +34,6 @@
         href="https://www.addthis.com" target="_blank"
         rel="nofollow">https://www.addthis.com</a>:</p>
 
-<<<<<<< HEAD
 <p>
   <figure class="img-polaroid"><img src="img/addthis-7.jpg" alt=""></figure>
 </p>
@@ -88,11 +83,3 @@
 <p>
   <figure class="img-polaroid"><img src="img/addthis-18.jpg" alt=""></figure>
 </p>
-=======
-<p align="justify">Так выглядят основные настройки плагина TM Addthis. В поле Profile ID указывается
-    идентификатор профиля, который вы можете получить после регистрации и создания профиля на странице <a
-        href="https://www.addthis.com/settings/publisher" target="_blank"
-        rel="nofollow">https://www.addthis.com/settings/publisher</a>.</p>
-
-<figure class="img-polaroid"><img src="img/addthis-2.jpg" alt=""></figure>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

@@ -71,11 +71,7 @@ Adding our share buttons for Joomla to your   Joomla website is a great way to g
 <p>
   <figure class="img-polaroid"><img src="img/addthis-15.jpg" alt=""></figure>
 </p>
-<<<<<<< HEAD
 <p>You have and option to exclude categories [pages] where you don't want to place the plugin.</p>
-=======
-<p>You have and option to exclude categories (pages) where you don't want to place the plugin.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>
   <figure class="img-polaroid"><img src="img/addthis-16.jpg" alt=""></figure>
 </p>

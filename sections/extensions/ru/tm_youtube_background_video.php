@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h3>TM YouTube background video module</h3>
 
 <p align="justify"><strong>TM Youtube Background Video</strong> — это модуль для добавления фонового видео, взятого из сервиса YouTube, на ваш сайт.</p>
@@ -81,24 +80,3 @@
 
 <p align="justify" class="alert alert-warning">В большинстве наших шаблонов содержимое модуля <strong>TM Youtube background video</strong> представлено в виде подключения определенного модуля или позиции, например, &quot;{loadmodule articles_single, About us}&quot;. Для предотвращения возникновения ошибки 404 на сайте, убедитесь, что название подключаемого модуля совпадает с тем, которое было указано при подключении. В данном случае модуль &quot;About us&quot; должен быть в состоянии published и не содержать более одного пробела в названии.
 Вы можете получить детальную информацию про loadmodule/loadposition на <a href="https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F" target="_blank">этом сайте</a>. </p>
-=======
-<h3>TM Youtube Background Video</h3>
-
-<p>TM Youtube Background Video — это модуль для добавления фонового видео youtube на сайт.</p>
-
-<h6>Доступные опции модуля:</h6>
-
-<ol class="index-list">
-<li>Ссылка на видео с youtube;</li>
-    <li>Настройки воспроизведения видео;</li>
-    <li>Настройки для мобильных устройств;</li>
-    <li>Настройки кнопки воспроизведения/остановки видео.</li>
-</ol>
-<figure class="img-polaroid">
-    <img src="img/background-video.jpg" alt="">
-</figure>
-<p align="justify" class="alert alert-warning">
-В большинстве наших шаблонов содержимое модуля TM Youtube Background Video представлено в виде подключения определенного модуля или позиции, например, "{loadmodule articles_single, About us}". Для предотвращения возникновения ошибки 404 на сайте, убедитесь, что название подключаемого модуля совпадает с тем, которое было указано при подключении. В данном случае модуль "About us" должен быть в состоянии published и не содержать более одного пробела в названии.
-    Вы можете получить детальную информацию про loadmodule/loadposition на <a href="https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F" target="_blank">этом сайте</a>.
-</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

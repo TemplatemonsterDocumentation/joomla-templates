@@ -3,7 +3,6 @@
 
 <h6>Adding a Menu Item to an Existing Menu</h6>
 <p align="justify">We will add a <strong>Menu Item</strong> to the <strong>Main Menu</strong> on the  Jumerix site. The new link will be displayed on the main menu. </p>
-<<<<<<< HEAD
 <ol class="marked-list">
 <li>NAVIGATE to the <strong>Menus </strong>menu and then <strong>Main Menu</strong>.</li>
 
@@ -42,18 +41,3 @@
     <p align="justify"><img src="img/menu-6.jpg" alt=""></p>
 </figure>
 </ol>
-=======
-<h6>Creating a Menu from Scratch</h6>
-
-<p><b>Theme layout</b> - select if you want the theme width to be fixed (in pixels) or fluid (in percent);</p>
-
-<p><b>Logo</b> - select the logo image;</p>
-
-<p><b>Logo Width</b> - select logo container width (based on Bootstrap grid);</p>
-
-<p><b>Sidebar Width</b> - allows to set sidebar width.</p>
-
-<figure class="img-polaroid">
-    <img src="img/template-settings-2.jpg" alt="">
-</figure>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a

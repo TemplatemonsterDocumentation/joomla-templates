@@ -1,5 +1,5 @@
 <h3>Administrator </h3>
-<h5>Accessing Administrator</h5>
+<h5>Accesssing Administrator</h5>
 <p align="justify">Now that you understand the difference between the frontend and the backend, we'll look at how to access and use the Joomla Administrator.</p>
 <ol class="marked-list">
 <li>NAVIGATE to your web address followed by <strong>/administrator</strong>.</li>
@@ -34,11 +34,7 @@
 <h5> Main Administrator Sections</h5>
 <strong>System Menu </strong>
 
-<<<<<<< HEAD
 <p align="justify">The most important links under the <strong>System menu</strong> are <strong>Control Panel</strong> which takes you back to the initial screen that displays when you first log in, and the <strong>Global Configuration</strong> section which allows you to set all of the main settings for your site.</p><figure class="img-polaroid">
-=======
-<p align="justify">The most important links under the <strong>System menu</strong> are Control Panel which takes you back to the initial screen that displays when you first log in, and the Global Configuration section which allows you to set all of the main settings for your site.</p><figure class="img-polaroid">
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p><img src="img/administrator-5.jpg" alt=""></p> </figure>
 <strong>Users Menu </strong>
 
@@ -60,11 +56,7 @@ Content Menu
 <figure class="img-polaroid">
 <p><img src="img/administrator-8.jpg" alt=""></p> </figure>
 <strong> Components and Extensions Menus</strong>
-<<<<<<< HEAD
 <p align="justify">The <strong>Components</strong> menu holds the links to installed pieces of software that provide functionality on your Joomla website. You'll find Joomla core Components, such as Banners and Joomla Update, as well as third party installed Components,such as SLogin and JoomGallery. </p>
-=======
-<p align="justify">The <strong>Components</strong> menu holds the links to installed pieces of software that provide functionality on your Joomla website. You'll find Joomla core Components, such as Banners and Joomla Update, as well as third party installed Components, such as Akeeba Backup and JCE. The Extensions menu provides links to all of the other types of Extenions within Joomla, such as Modules, Plugins, Templates and Languages. </p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
 <p><img src="img/administrator-9.jpg" alt=""></p> </figure>
 <p align="justify">The<strong> Extensions</strong> menu provides links to all of the other types of Extenions within Joomla, such as Modules, Plugins, Templates and Languages.</p>

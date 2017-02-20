@@ -2,38 +2,22 @@
 
 <p align="justify">Этот способ установки используется, когда у вас уже есть сайт созданный на базе Joomla и вы хотите поменять дизайн существующего сайта.</p>
 
-<<<<<<< HEAD
 <p align="justify">Используя данный метод, вы устанавливаете<strong> шаблон Joomla</strong> и все требуемые<strong> расширения</strong>.</p>
 
 <!-- Extensions manager -->
 <h6>В админ-панели  перейдите в меню <b>"Extensions
         [Расширения] > Manage "</b>.</h6>
-=======
-<p align="justify">Используя данный метод, Вы устанавливаете<strong> шаблон Joomla</strong> и все требуемые<strong> расширения</strong>.</p>
-
-<!-- Extensions manager -->
-<h6>В админ-панели  перейдите в меню <b>"Extensions
-        (Расширения) > Manage "</b>.</h6>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/template-install-1.png" alt="">
 </figure>
 
 <!-- Upload theme zip -->
 <h6>Затем, во вкладке &quot;Upload Package File&quot;  нажмите
-<<<<<<< HEAD
     кнопку "Choose File [выбрать файл]" и выберите файл "<b>theme###.zip</b>", который находится в папке
     "joomla"в пакете шаблона . Где ### – это номер темы.</h6>
 
 <p>Щелкните кнопку
     <strong>Upload & Install [Загрузить и установить]</strong>
-=======
-    кнопку "Choose File (Выбрать файл)" и выберите файл "<b>theme###.zip</b>", который находится в папке
-    "joomla"в пакете шаблона . Где ### – это номер темы.</h6>
-
-<p>Щелкните кнопку
-    <strong>Upload & Install (Загрузить и установить)</strong>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
     для установки шаблона Joomla.
 </p>
 <p align="justify">Делее неодходимо установить вме расширения. Алгоритм действий подобный. </p>

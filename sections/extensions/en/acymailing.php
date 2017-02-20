@@ -6,11 +6,7 @@
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<<<<<<< HEAD
 <p>Navigate to <strong>Components</strong> &gt; <strong>AcyMailing</strong> and you'll  be directed to AcyMailing Dashboard.</p>
-=======
-<p>Navigate to <strong>Components</strong> &gt; <strong>AcyMailing</strong> and you'll  be directed to AcyMailingt Dashboard.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <figure class="img-polaroid">
     <img src="img/acymailing-4.jpg" alt="">
 </figure>
@@ -24,11 +20,7 @@
 <figure class="img-polaroid">
   <p><img src="img/acymailing-7.jpg" alt=""></p>
 </figure>
-<<<<<<< HEAD
 <p align="justify">This is the settings page of AcyМailing module:</p>
-=======
-<p align="justify">This is the settings page of Acymailing module.</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>
   <figure class="img-polaroid">
     <img src="img/acymailing-3.jpg" alt="">
@@ -40,11 +32,7 @@
  <figure class="img-polaroid">
     <img src="img/acymailing-8.jpg" alt="">
 </figure>
-<<<<<<< HEAD
 <p align="justify">This is the list of system plugins that get installed together with Acymailing component, to see it navigate to <strong>Components</strong> &gt; <strong>AcyMailing </strong>&gt; <strong>Confiration</strong> &gt; <strong>Plugins</strong>:</p>
-=======
-<p>This is the list of system plugins that get installed together with Acymailing component, to see it navigate to <strong>Components</strong> &gt; <strong>AcyMailing </strong>&gt; <strong>Confiration</strong> &gt; <strong>Plugins</strong>:</p>
->>>>>>> c311937bdba8e3656ecdfe93dbc91037d29de47a
 <p>
   <figure class="img-polaroid">
     <img src="img/acymailing-5.jpg" alt="">
