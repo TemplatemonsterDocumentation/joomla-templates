@@ -82,7 +82,7 @@
         <td>-</td>
         <td><span class="glossaryLink">Выберите,  хотите ли вы отображать границы, скроллбар и колонтитул.</span></td>
     </tr>
-</table></ul>
+</table>
 <p>
   <figure class="img-polaroid">
     <img src="img/twitter_feed-5.jpg" alt="">

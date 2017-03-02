@@ -1,6 +1,6 @@
 <h2 class="item2">Preparation</h2>
 
-<h6> Before you proceed to setting up your Joomla website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
+<h6>  Before  setting up your Joomla website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
 
 
 <h4>Software required</h4>
