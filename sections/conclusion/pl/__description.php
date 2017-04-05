@@ -1,11 +1,10 @@
-<h2 class="item8">Uzupełnienie</h2>
-
-<p>Dołożyliśmy wszelkich starań, aby niniejsza dokumentacja była jak najbardziej jasna. Jednakże, jeśli Państwo mają jakiekolwiek trudności z szablonem Joomla czy jakiekolwiek sugestie dotyczące polepszenia szablonu lub dokumentacji, prosimy o kontakt z naszym zespołem pomocy technicznej za pośrednictwem:</p>
-
-<h4>Pomoc i wsparcie techniczne</h4>
+<h2 class="item8">Wnioski (Conclusion)
+</h2>
+<h4>Pomoc i wsparcie (Help &amp; Support)</h4>
+<div align="justify">W przypadku jakichkolwiek trudności z <strong> Jumerix Template</strong> lub jakichkolwiek innych produktów <a href="https://www.templatemonster.com/support.php">TemplateMonster.com</a>, prosimy o kontakt z naszym zespołem pomocy technicznej 24/7 w celu uzyskania pomocy.</div>
 <ul class="marked-list">
-    <li><a href="http://chat.template-help.com/" target="_blank">Live Chat</a></li>
-    <li><a href="http://support.template-help.com/index.php?/Tickets/Submit"
+<li><a href="http://chat.template-help.com/" target="_blank">Live Chat</a></li>
+    <li><a href="https://support.template-help.com/index.php?/Tickets/Submit"
            target="_blank">System Pomocy Ticket</a></li>
 </ul>
 <h4>Dokumentacja</h4>
@@ -16,15 +15,6 @@
     <li><a href="/help/cms-blog-templates/joomla/joomla-tutorials/" target="_blank">Joomla!
             Tutoriale</a></li>
 </ul>
-<h4>Ewentualne problemy z czcionkami Google</h4>
-
-<p>Jeżeli czcionki nie zostaną wyświetlone poprawnie po instalacji, należy otworzyć plik do edycji szablonu 
-index.php (\templates\theme****\index.php). Aby to zrobić, należy przejść na kartę Rozszerzenia -> Menedżer szablonów
- w panelu administracyjnym Joomla i wybrać szablon (Motyw**** Szczegóły i pliki).</p>
-
-<p>Prosimy znaleźć następujący wiersz:</p>
-    <code>"$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');"</code><p> i zastąpić ją poniższym wierszem:</p>
-<code>"$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');".</code>
 <h4>Joomla! Rozszerzenia</h4>
 
 <p> Na stronie <a href="http://extensions.joomla.org/" target="_blank">extensions.joomla.org</a> można pobrać więcej niż 6 tysięcy modułów, dodatków i komponentów, w celu dodania różnych funkcji do swojej strony Joomla.</p>

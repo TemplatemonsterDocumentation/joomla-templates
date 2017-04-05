@@ -1,4 +1,4 @@
-<h2 class="item2">Preparación</h2>
+<h2 class="item2">Preparación para el proceso de instalación</h2>
 
 <h6> Antes de proceder con la creación de su sitio web de Joomla, asegúrese de que está completamente preparado. Por favor, complete los siguientes pasos de preparación:</h6>
 
@@ -6,10 +6,10 @@
 <h4>Software necesario</h4>
 
 <p>Para sentirse cómodo trabajando con la plantilla de Joomla, se recomienda descargar todas las aplicaciones necesarias. Se puede ver la lista de software necesario en la página de vista previa de la plantilla.
-Los requisitos pueden variar para diferentes plantillas, aquí vamos a mostrarle los que Usted necesita en general:</p>
+Los requisitos pueden variar significativamente dependiendo de la plantilla, los comunes solo se definirán:</p>
 
 <ol class="index-list">
-    <li> En primer lugar Usted necesita las aplicaciones adecuadas para descomprimir el archivo sources_#########.zip protegido por la contraseña. Usted puede utilizar WinZip 9+ (Windows) y Stuffit Expander 10+ (Mac) .    </li>
+<li> En primer lugar Usted necesita las aplicaciones adecuadas para descomprimir el archivo sources_#########.zip protegido por la contraseña. Usted puede utilizar WinZip 9+ (Windows) y Stuffit Expander 10+ (Mac) .    </li>
     <li> También Usted va a necesitar la aplicación Adobe Photoshop. Se utilízala para la modificación de ficheros .PSD y es necesario si desea modificar imágenes y gráficos de diseño de plantilla.  </li>
     <li> Para modificar los ficheros de código de origen de la plantilla Usted va a necesitar algún editor de código como Adobe Dreamweaver, Notepad++, Sublime Text etc. </li>
     <li> Para subir sus ficheros al Іervidor de hosting es posible que necesite un administrador de FTP como Total Commander, FileZilla, CuteFTP, etc..   </li>

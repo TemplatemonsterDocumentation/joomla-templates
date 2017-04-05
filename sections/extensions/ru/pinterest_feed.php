@@ -96,7 +96,7 @@
 <div align="justify">Нажмите кнопку <strong>Save</strong> вверху страницы и вы сохраните настройки данного модуля:</div></li>
     <figure class="img-polaroid">
     <p><img src="img/contact-form-12.png" alt=""></p></figure>
-<p>Что бы быстро найти модуль <strong>Pinterest Profile Widget</strong>, перейдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>. </p>
+<p>Чтобы быстро найти модуль <strong>Pinterest Profile Widget</strong>, перейдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>. </p>
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-3.jpg" alt=""></p>
 </figure>

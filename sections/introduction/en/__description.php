@@ -1,22 +1,18 @@
-<h2 class="item1">Introduction</h2>
-
-<h5 align="justify"> Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installating, creating and setting up a Joomla website process. </h5>
-<h5 align="justify">We did our best to make  this manual  information  to be  presented in a simple, straightforward manner.   For ease of reference, the text  the manual provides has been restructured in different  chapters, you can  see  in the leftside menu.  You are able to navigate to any part of the documentation, using the active content headers' links.</h5>
-<h5 align="justify">We recommend you start reading   the documentation at    the  fitst section. </h5>
+<h2 class="item1">Introduction
+</h2>
+<h5 align="justify">Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installation, creating and setting up a Joomla website process. </h5>
+<h5 align="justify">We did our best to make this manual information to be presented in a simple, straightforward manner. For ease of reference, the text the manual provides has been restructured in different chapters. You can see them in the left-side menu. You are able to navigate to any part of the documentation using the active content headers' links.</h5>
+<h5 align="justify">We recommend that you start reading the documentation at the first section.</h5>
 <h3>What is Joomla CMS?</h3>
 
-<p align="justify">Joomla CMS  is an opensource solution for creating websites. Wide functionalities of the system lets you to build websites and powerful online applications both. The Joomla CMS would not require any additional skills and training to be operated.  All the necessary theoty  and basic skills description you will need can be found in this documantation.</p>
-<p align="justify"> With these advantages, ease of use and   its scalability including,   the  Joomla CMS became the most popular website software available. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Learn More</a>
-</p>
-
-<h3>What is JoomlaTemplate?</h3>
-
-<p align="justify">Joomla Template is a theme for your website based on the Joomla CMS platform. In other words, you can easily change your Joomla website appearance by installing a new template. The whole installation process  is carried out by  a few easy to deal with  steps. While simple, the Joomla template comes with all the necessary source files which you are free to edit. </p>
+<p align="justify">JJoomla CMS is an open-source solution for creating websites. Wide functionalities of the system allow you to build both websites and powerful online applications. Joomla CMS would not need any additional skills and training to be operated. All the necessary theory and basic required skills description can be found in this documentation.</p>
+<p align="justify"> With these advantages, ease of use and its scalability, Joomla CMS became the most popular website software available. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Learn More!</a> </p>
+<h3>What is Joomla Template?</h3>
+<p align="justify">Joomla Template is a theme for your website based on the Joomla CMS platform. In other words, you can easily change your Joomla website appearance by installing a new template. The whole installation process is carried out by a few easy to deal with steps. While simple, the Joomla template comes with all the necessary source files which you are free to edit. </p>
 <div class="alert alert-info">
-<div align="justify">There are often many different settings that are available with a new Template, and
-  because this is open source software, it isn't always the same for each developer.
-  Make sure to read through this documentation available for the Template that you
-  are installing so you know what features are available to you.</div>
+  <div align="justify">
+    <p>There are often many different settings that are available with a new Template, and as this is an open-source software, it isn't always the same for each developer. Make sure to read through this documentation available for the Template that you are installing so that you know what features are available for you.</p>
+  </div>
 </div>
 
 <h3>Template Structure</h3>

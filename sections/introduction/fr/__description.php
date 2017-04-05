@@ -1,16 +1,25 @@
+
 <h2 class="item1">Introduction</h2>
 
-<h5>Merci d'avoir acheté de modèle pour Joomla. Cette documentation est en plusieurs parties et vous montre en détails comment installer et administrer un site web Joomla de zéro. Nous avons fait de notre mieux pour rendre ce manuel aussi clair et facile à suivre que possible.</h5>
-
-
+<h5 align="justify">Cette documentation se compose de plusieurs parties et decrit l'installation, la creation et la mise en place d'un site Joomla.</h5>
+<h5 align="justify">Nous avons fait de notre mieux pour que ces informations puissent être présentées de façon simple et directe.
+Pour plus de facilité, le texte que le manuel fournit a été restructuré dans différents chapitres, vous pouvez voir dans le menu de gauche.
+Vous pouvez naviguer vers n'importe quelle partie de la documentation, en utilisant les liens actifs de l'en-tête.</h5>
+<h5 align="justify">Nous vous recommandons de commencer à lire la documentation de la première section.</h5>
 <h3>Qu'est-ce que Joomla CMS?</h3>
 
-<p>Joomla CMS - est une solution open source pour construire des sites web. Il vous permet de construire des sites web et de puissantes applications en ligne, et sa gestion ne requiert presque aucune compétence ou connaissance technique. Beaucoup d'aspects, y compris sa convivialité et son extensibilité, ont fait de Joomla le logiciel de site web le plus populaire. <a href="http://www.joomla.org/about-joomla.html" target="_blank">En savoir plus</a>
+<p align="justify">Joomla CMS est une solution « open source » pour la création de sites web. Les fonctionnalités étendues du système vous permettent de créer des sites Web et des puissantes applications en ligne. Le CMS Joomla ne nécessiterait pas d'autres compétences et de formation. Vous trouverez dans cette documentation toute la description de la théorie et des compétences de base dont vous aurez besoin.</p>
+<p align="justify">Avec ses avantages, sa facilité d'utilisation et son évolutivité, le Joomla CMS est devenu le logiciel de site Web le plus populaire disponible. <a href="http://www.joomla.org/about-joomla.html" target="_blank">En savoir plus</a>
 </p>
 
-<h3>Qu'est-ce qu'un modèle pour Joomla?</h3>
+<h3>Qu'est-ce que Joomla Template?</h3>
 
-<p>Un modèle pour Joomla est un habillage pour la plateforme de CMS Joomla. En d'autres termes, vous pouvez facilement changer l'apparence de votre site web Joomla en installant un nouveau modèle en quelques étapes simples. En plus de cette simplicité, les modèles pour Joomla sont livrés avec tous les fichiers source nécessaires, et vous êtes libres de les éditer ou de les modifier selon vos besoins.</p>
+<p align="justify">Joomla Template est un thème pour votre site web basé sur la plate-forme CMS Joomla. En d'autres termes, vous pouvez facilement changer l'apparence de votre site Joomla en installant un nouveau modèle. Le processus d'installation est effectuée par quelques étapes, faciles à traiter. Bien que simple, le modèle Joomla est livré avec tous les fichiers sources nécessaires que vous êtes libre de modifier.</p>
+<div class="alert alert-info">
+<div align="justify">Il existe souvent de nombreux paramètres différents qui sont disponibles avec un nouveau modèle, et
+ parce qu'il s'agit d'un logiciel open source, il n'est pas toujours le même pour chaque développeur.
+Assurez-vous de lire cette documentation, proposée pour le modèle que vous installez pour connaître les fonctionnalités disponibles.</div>
+</div>
 
 <h3>Structure des fichiers</h3>
 

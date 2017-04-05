@@ -13,7 +13,7 @@
     <img src="img/articles-single-2.jpg" alt="">
   </figure>
 </p>
-<p align="justify">If you want to change the design of the &quot;<strong>HOW WE WORK</strong>&quot; section, navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong>. Then choose &quot;<strong>How we work</strong>&quot; module, which is belong to <strong>Articles - Single</strong> type.You may use Ctrl+F to find it. Press Ctrl+F key combination and type <strong>220</strong> [it's the &quot;How we work&quot; module ID]. Click its topic link and you'll see the configuration window of one.</p>
+<p align="justify">If you want to change the design of the &quot;<strong>HOW WE WORK</strong>&quot; section, navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong>. Then choose &quot;<strong>How we work</strong>&quot; module, which belongs to the <strong>Articles - Single</strong> type. You may use Ctrl+F to find it. Press Ctrl+F key combination and type <strong>220</strong> [it's the &quot;How we work&quot; module ID]. Click its link and you'll see the configuration window.</p>
  <p>
    <figure class="img-polaroid">
      <img src="img/articles-single-4.jpg" alt="">
@@ -25,13 +25,13 @@
      <p><img src="img/articles-single-5.jpg" alt="">
      </p>
 </figure>
-<p align="justify"> This screen is similar to the <strong>Article Manager</strong>. You can use the <strong>Filter fields</strong> to find the desired article and then click on the article's <strong>Title</strong> to select it. At that point, the modal window will close and the title will show in the <strong>Select Article field</strong>.     </p>
-     <p align="justify">Now you have an opportunity to edit article. To edit article click the<strong> Edit</strong> button and you'll see the <strong>Edit Article </strong>window. Here you have an option to edit the article content and its image and links.</p>
+<p align="justify"> This screen is similar to the <strong>Article Manager</strong>. You can use the <strong>Filter fields</strong> to find the desired article and then click on the article's <strong>Title</strong> to select it. At that point, the modal window will close and the title will show in the <strong>Select Article field</strong>.</p>
+<p align="justify">Now you have an opportunity to edit an article. Click the <strong>Edit</strong> button and you'll see the <strong>Edit Article</strong> window. Here you have an option to edit the article content with its image and links.</p>
 <figure class="img-polaroid">
      <p><img src="img/articles-single-7.jpg" alt="">
      </p>
 </figure>
-     <p align="justify">The <strong>Article Single</strong>  has the following <strong>Article Options</strong> [Options Tab], as shown below. These options determine how the article will show on the Front End Site layout. Note that these options include &quot;<strong>Use Global</strong>&quot;. If this is selected, the setting from the Article Manager Options will be used.</p>
+<p align="justify">The <strong>Article Single</strong> has the following <strong>Article Options</strong> [Options Tab], as shown below. These options determine how the article will show up on a frontend site layout. Note that these options include &quot;<strong>Use Global</strong>&quot;. If this is selected, the setting from the Article Manager Options will be used.</p>
     <figure class="img-polaroid">
      <p><img src="img/articles-single-8.jpg" alt="">
      </p></figure>
@@ -50,7 +50,7 @@
     </tr> <tr>
         <td height="45" class="col-1"><strong>Show Intro Text</strong></td>
         <td>-</td>
-        <td><span class="col-1">[Use Global/Hide/Show]. If set to Show, the Intro Text of the article will show when you drill down to the article. If set to Hide, only the part of the article after the &quot;Read More&quot; break will show. </span></td>
+        <td><span class="col-1">[Use Global/Hide/Show]. If set to Show, the Intro Text of the article will show when you drill down to the article. If set to Hide, only the part of the article after the &quot;Read More&quot; break will show up. </span></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Position of Article Info</strong></td>
@@ -66,7 +66,7 @@
     <tr>
     <td class="col-1"><strong>Show Category</strong></td>
         <td>-</td>
-        <td>[Use Global/Hide/Show].Whether  to show the Article's Category. </td>
+        <td>[Use Global/Hide/Show]. Whether  to show the Article's Category. </td>
     </tr>
           <td class="col-1"><strong>Link Category</strong></td>
         <td>-</td>
@@ -116,7 +116,7 @@
         <td> [Use Global/Hide/Show]. Show or Hide the number of times the article has been hit [displayed by a user]. </td>
     </tr><td class="col-1"><p align="justify"><strong>Show Tags</strong></p></td>
         <td>-</td>
-        <td> <div align="justify">Whether to hide or show any tags for this item.         Use Global: Use the default value from the contacts options screen. Show: Show to allow users to select a contact in a drop down list.         Hide: Do not display the Contact list. </div></td>
+        <td> <div align="justify">Whether to hide or show any tags for this item.         Use Global: Use the default value from the contacts options screen. Show: Show to allow users to select a contact in a drop down list.         Hide: Do not display the Contacts list. </div></td>
     </tr>    <td class="col-1"><strong>Show Unauthorized Links</strong></td>
         <td>-</td>
         <td> [Use Global/No/Yes]. If Yes, the Intro Text for restricted articles will show. Clicking on the &quot;Read More&quot; link will require users to log in to view the full article content. </td>
@@ -134,13 +134,13 @@
      <p><img src="img/articles-single-3.jpg" alt=""></p>
 </figure></div>
 <div class="alert alert-warning">
-    <div align="justify">To add new article use<strong> Content</strong> &gt; <strong>Articles</strong> &gt;<strong> Add New Article</strong>. Don't forget to add the article category.</div>
+    <div align="justify">To add a new article use<strong> Content</strong> &gt; <strong>Articles</strong> &gt;<strong> Add New Article</strong>. Don't forget to add the article category.</div>
 <figure class="img-polaroid">
      <img src="img/articles-single-9.jpg" alt="">
   </figure></div>
 <div class="alert alert-info">
 <p align="justify"><strong>Advise</strong></p>
     <div align="justify">
-      <p>To save changes, you should click the Save button.</p>
+      <p>To save the changes, you should click the Save button.</p>
 </div></div>
 

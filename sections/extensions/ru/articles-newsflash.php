@@ -67,7 +67,7 @@
 </table>
 
 
-<p align="justify">Что бы перейти к настройке модуля  &quot;<strong>WHAT WE OFFER</strong>&quot;, перейдите по ссылке его заголовка, которую вы найдете в менеджере модулей. Для начала пройдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>.</p>
+<p align="justify">Чтобы перейти к настройке модуля  &quot;<strong>WHAT WE OFFER</strong>&quot;, перейдите по ссылке его заголовка, которую вы найдете в менеджере модулей. Для начала пройдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/newsflash-adv-6.jpg" alt="" /></figure>
 </p>

@@ -1,12 +1,11 @@
-<h2 class="item8">Addendum</h2>
+<h2 class="item8">Conclusión </h2>
 
-<p>Hicimos todo lo posible para que esta documentación sea lo más claro posible. Sin embargo, si usted tiene alguna dificultad con su plantilla Joomla o cualquier sugerencia sobre cómo mejorar la plantilla o la documentación, no dude en ponerse en contacto con nuestro equipo de soporte a través:</p>
-
-<h4>Ayuda y Apoyo</h4>
+<h4>Help &amp; Support</h4>
+<div align="justify">En caso de dificultades con <strong> Jumerix Template</strong> o cualquier otro producto de <a href="https://www.templatemonster.com/?utm_expid=2187874-88.E4frEvLdRUiVnTFNAZQ_cw.0">TemplateMonster.com</a> póngase en contacto con nuestro equipo de apoyo 24/7 para obtener asistencia.</div>
 <ul class="marked-list">
-    <li><a href="http://chat.template-help.com/" target="_blank">Chat en Vivo</a></li>
+<li><a href="http://chat.template-help.com/" target="_blank">Chat Vivo</a></li>
     <li><a href="http://support.template-help.com/index.php?/Tickets/Submit"
-           target="_blank">Sistema de Tickets de ayuda</a></li>
+           target="_blank">Sistema de Tickets de Ayuda</a></li>
 </ul>
 <h4>Documentación</h4>
 <ul class="marked-list">
@@ -16,15 +15,6 @@
     <li><a href="/help/cms-blog-templates/joomla/joomla-tutorials/" target="_blank">Joomla!
             Tutoriales</a></li>
 </ul>
-<h4>Posibles problemas con Google Fonts</h4>
-
-<p>Si las fuentes no se muestran correctamente después de la instalación, por favor, abra el archivo 
-index.php (\templates\theme****\index.php) de plantilla para la edición. Para ello, vaya a la pestaña Extensions (Extensiones)-> Template Manager (Administrador de Plantillas)
- en su panel de administración de Joomla y seleccione su plantilla (Theme**** Details and Files).</p>
-
-<p>Por favor, encuentre la línea siguiente:</p>
-    <code>"$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');"</code><p> y sustituyala por:</p>
-<code>"$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');".</code>
 <h4>Joomla! Extensions</h4>
 
 <p> En <a href="http://extensions.joomla.org/" target="_blank">extensions.joomla.org</a> se puede descargar más de 6 mil módulos, plugins y componentes para añadir diversas características de su sitio web Joomla.</p>

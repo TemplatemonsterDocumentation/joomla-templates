@@ -1,26 +1,27 @@
 <h3>TM Facebookfeed</h3>
  
-<p align="justify"><strong>TM Facebookfeed</strong> is a module that allows displaying your Facebook page on the website.  It will grab facebook wall post automatically and display feeds of the posts of user's Facebook page or profile. Just put the facebook access token.</p>
+<p align="justify"><strong>TM Facebookfeed</strong> is a module that allows displaying your Facebook feeds on the website.  It will grab facebook wall post automatically and display feeds of the posts of user's Facebook page or profile. Just put the facebook access token.</p>
 
 <figure class="img-polaroid">
-    <p><img src="img/facebookfeed-1.jpg" alt="">
+    <p><img src="img/facebookfeed-30.jpg" alt="">
     </p></figure>
     <p>To configure the <strong>TM Facebookfeed </strong> module navigate to <strong>Extensions</strong> &gt; <strong>Modules</strong>. </p>
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-3.jpg" alt="">
     </p></figure>
-    <p align="justify">Press &quot;<strong>Search Tool</strong>&quot; button and select the <strong>TM Facebookfeed </strong>in the &quot;- Select Type -&quot; filter dropdown list. You will see the<strong> TM Facebookfeed </strong>Module.</p>
+    <p align="justify">Press &quot;<strong>Search Tool</strong>&quot; button and select the <strong>TM Facebookfeed </strong>in the &quot;- Select Type -&quot; filter dropdown list. You will see the<strong>  See It In Action  </strong>Module.</p>
     <figure class="img-polaroid">
-    <p><img src="img/facebookfeed.jpg" alt="">
+    <p><img src="img/facebookfeed-31.jpg" alt="">
 </p></figure>
     <p>Click on module title link to be brought to the settings window of the module. </p>
  <figure class="img-polaroid">
     <p><img src="img/facebookfeed-5.jpg" alt=""></p></figure>
     <figure class="img-polaroid">
     <p><img src="img/facebookfeed-20.jpg" alt=""></p></figure>
-   <p>At the <strong>Module</strong> tab you may set up the following options:</p>
-    <ol class="marked-list">
-      <li><strong> AccessToken</strong>* — create an application in your Facebook account, generate the AccessToken and insert here.</li>
+   <p>At the <strong>Module</strong> tab you may set up the following options:   </p>
+   <ol class="marked-list">
+     <li><strong>Pretext</strong> — allows displaying custom text before the module content;</li>
+     <li><strong> AccessToken</strong>* — create an application in your Facebook account, generate the AccessToken and insert here.</li>
     </ol>
 <h5>Items settings </h5>
     <ol class="marked-list">
@@ -53,7 +54,7 @@
         href="https://developers.facebook.com/" rel="nofollow" target="_blank">https://developers.facebook.com/</a> and create an app for your website.</p>
 <p>You may also set up the following options for the module at the <strong>Module</strong> tab:</p>
     <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-13.jpg" alt="">
+    <p><img src="img/modu.jpg" alt="">
 </p></figure>
 <ol class="marked-list">
       <li> <strong>Show Title</strong>. You can show or hide module title on display. Effect will depend on the chrome style in the template.</li>
@@ -73,11 +74,11 @@
 </p></figure>
     <p align="justify"><strong>Module Permissions</strong> Tab:</p>
     <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-15.jpg" alt="">
+    <p><img src="img/perm.jpg" alt="">
 </p></figure>
 <p>At the <strong>Advanced</strong> tab you will see the following options:</p>
 <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-16.jpg" alt="">
+    <p><img src="img/adv.jpg" alt="">
 </p></figure>
     <ol class="marked-list">
       <li> 

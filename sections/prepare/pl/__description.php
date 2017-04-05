@@ -1,4 +1,4 @@
-<h2 class="item2">Przygotowanie</h2>
+<h2 align="justify" class="item2">Przygotowanie do procesu instalacji (Preparation for the Installation Process)</h2>
 
 <h6> Przed rozpoczęciem konfigurowania swojej strony Joomla, należy upewnić się, że Państwo są w pełni przygotowane. Prosimy o wykonanie następujących etapów przygotowawczych:</h6>
 
@@ -6,10 +6,10 @@
 <h4>Wymagane oprogramowanie</h4>
 
 <p>Aby Państwo mogli swobodnie pracować z szablonem Joomla, zalecamy pobieranie wszystkich wymaganych aplikacji. Można zobaczyć listę wymaganego oprogramowania na stronie szablonu Live Demo. 
-Wymagania mogą się różnić dla poszczególnych szablonów, więc opiszemy tutaj Państwu w ogólności, co jest potrzebne:</p>
+Wymagania mogą się znacznie różnić w zależności od szablonu, dlatego zostaną określone tylko powszechne:</p>
 
 <ol class="index-list">
-    <li> Przede wszystkim, są potrzebne odpowiedne aplikacje, aby rozpakować zabezpieczone hasłem archiwum sources_#########.zip. Można użyć WinZip 9+ (Windows) lub Stuffit Expander 10+ (Mac).    </li>
+<li> Przede wszystkim, są potrzebne odpowiedne aplikacje, aby rozpakować zabezpieczone hasłem archiwum sources_#########.zip. Można użyć WinZip 9+ (Windows) lub Stuffit Expander 10+ (Mac).    </li>
     <li> Może być również potrzebne oprogramowanie Adobe Photoshop. Służy do edytowania plików źródłowych .PSD i jest niezbędy, jeżeli trzeba edytować grafiki i obrazki zawarte w projektach szablonów.    </li>
     <li> W celu edytowania plików kodu źródłowego szablonów potrzebny jest edytor kodów, na przykład, Adobe Dreamweaver, Notepad++, Sublime Text, itp. </li>
     <li>Aby przesłać pliki na serwer hostingowy, może być potrzebny menedżer FTP, jak Total Commander, FileZilla, CuteFTP, itp.    </li>

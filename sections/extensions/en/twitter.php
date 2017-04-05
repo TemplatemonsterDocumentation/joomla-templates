@@ -9,40 +9,43 @@
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-3.jpg" alt="">
     </p></figure>
-    <p align="justify">Press &quot;<strong>Search Tool</strong>&quot; button and select the <strong>TM Twitterfeed </strong>in the &quot;- Select Type -&quot; filter dropdown list. You will see the<strong> TM Twitterfeed </strong>Module.</p>
+    <p align="justify">Press &quot;<strong>Search Tool</strong>&quot; button and select the <strong>TM Twitterfeed </strong>in the &quot;- Select Type -&quot; filter dropdown list. You will see the<strong>  See It In Action </strong>Module.</p>
     <figure class="img-polaroid">
     <p><img src="img/twitterfeed.jpg" alt="">
 </p></figure>
     <p>Click on module title link to be brought to the settings window of the module. </p>
  <figure class="img-polaroid">
     <p><img src="img/twitterfeed-5.jpg" alt=""></p></figure>
+    <figure class="img-polaroid">
+    <p><img src="img/twitterfeed-30.jpg" alt=""></p></figure>
 <p>At the <strong>Module</strong> tab you may set up the following options:</p>
     <ol class="marked-list">
+      <li><strong>Pretext</strong> — allows displaying custom text before the module content;</li>
       <li><strong> Consumer key </strong> —  consumer key generated for Twitter application;</li>
       <li><strong>Consumer secret </strong>— consumer secret key generated for Twitter application;</li>
       <li><strong>Access token</strong> — consumer access token generated for Twitter application;</li>
       <li><strong> Access secret</strong> — consumer access secret generated for Twitter application;</li>
-      <li><strong> Displaying tweets by a </strong>— choose if you want to display feeds by a username or hashtag;</li>
+      <li><strong> Displaying tweets by a </strong>— choose if you want to display feeds by the username or hashtag;</li>
       <li><strong> User name</strong> — set the user name the tweets will be displayed by;</li>
       <li><strong>Hashtag</strong> — set the hashtag the tweets will be displayed by</li>
-    </ol>
-<h5>Items settings </h5>
-    <ol class="marked-list">
-      <li><strong> Number of items</strong> — the number of items to display within this module;</li>
-      <li> <strong>Columns</strong> — set the number of columns;</li>
     </ol>
 <h5>Date format settings</h5>
     <ol class="marked-list">
       <li> <strong>Year format</strong> — set a year format (display full year format/display 2 last digits of the year);</li>
       <li> <strong>Month format</strong> —  set a month format (displays full month name/displays month number);</li>
     </ol>
+    <h5>Items settings </h5>
+    <ol class="marked-list">
+      <li><strong> Number of items</strong> — the number of items to display within this module;</li>
+      <li> <strong>Columns</strong> — set the number of columns;</li>
+    </ol>
 <h5> Display settings &nbsp;</h5>
     <ol class="marked-list"><li><strong>Display avatar</strong> — whether to show the avatar;</li>
       <li><strong> Display date </strong> — whether to show date;</li>
       <li><strong> Display user login </strong> — whether to show the user login;</li>
       <li> <strong>Display user name </strong> — whether to show the user name;</li>
-      <li><strong> Display tweet text</strong> — whether to show the text of the tweet;</li>
-      <li><strong> Display tweet image </strong>— whether to show the image or the tweet.</li>
+      <li><strong> Display tweet image </strong>— whether to show the image or the tweet;</li>
+      <li><strong> Display tweet text</strong> — whether to show the text of the tweet.</li>
     </ol>
 <p>You have to create a twitter app for your website.</p>
 <p>Go here — <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> — then click on &ldquo;Create a new application&rdquo; button on top right.</p>
@@ -50,7 +53,7 @@
 <p align="justify">Then   you will get your Consumer Key and Consumer Secret – for access token   and access token secret click on the button &ldquo;Create my access token&rdquo; –   from bottom.</p>
 <p>You may also set up the following options for the module at the <strong>Module</strong> tab:</p>
     <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-13.jpg" alt="">
+    <p><img src="img/modu.jpg" alt="">
 </p></figure>
 <ol class="marked-list">
       <li> <strong>Show Title</strong>. You can show or hide module title on display. Effect will depend on the chrome style in the template.</li>
@@ -66,15 +69,15 @@
 <p align="justify">The <strong>Menu Assignment</strong> &amp; <strong>Module Permissions</strong> tabs are standard for Joomla modules. You may set up menu items for the module to appear at and define the permissions.</p>
     <p align="justify"><strong>Menu Assignment</strong> Tab:</p>
     <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-14.jpg" alt="">
+    <p><img src="img/assi.jpg" alt="">
 </p></figure>
     <p align="justify"><strong>Module Permissions</strong> Tab:</p>
     <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-15.jpg" alt="">
+    <p><img src="img/perm.jpg" alt="">
 </p></figure>
 <p>At the <strong>Advanced</strong> tab you will see the following options:</p>
 <figure class="img-polaroid">
-    <p><img src="img/facebook_feed-16.jpg" alt="">
+    <p><img src="img/adv.jpg" alt="">
 </p></figure>
     <ol class="marked-list">
       <li> 

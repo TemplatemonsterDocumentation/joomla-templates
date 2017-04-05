@@ -6,7 +6,7 @@
     <img src="img/googlemap-1.jpg" alt="">
 </figure>
 
-<p align="justify"><strong>Что бы перейти к настройке модуля, пройдите к разделу  Extensions &gt; Plugins. Перед вами откроется окно  Plugins Mameger. Введите &quot;Google&quot; в поле поиска, нажмите кнопку поиска и в таблице менеджера вы увидите плагин System - Google Maps, прейдите по ссылке его заголовка.</strong></p>
+<p align="justify">Чтобы перейти к настройке модуля, пройдите к разделу  Extensions &gt; Plugins. Перед вами откроется окно  Plugins Mameger. Введите &quot;Google&quot; в поле поиска, нажмите кнопку поиска и в таблице менеджера вы увидите плагин System - Google Maps, прейдите по ссылке его заголовка.</p>
 <figure class="img-polaroid">
     <img src="img/googlemap-3.jpg" alt="">
 </figure>

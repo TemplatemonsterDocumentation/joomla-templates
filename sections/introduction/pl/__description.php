@@ -1,16 +1,23 @@
-<h2 class="item1">Wstęp</h2>
+<h2 class="item1">Wprowadzenie (Introduction)</h2>
 
-<h5>Dziękujemy za zakup szablonu Joomla. Ta dokumentacja składa się z kilku części i pokazuje informacje dotyczące całego procesu tworzenia i utworzenia strony internetowej Joomla od podstaw. Dołożyliśmy wszelkich starań, aby ten manual był jaknajbardziej zrozumiałym oraz łatwym .</h5>
+<h5 align="justify"> Gratulujemy zakupu szablonu Joomla! Niniejsza dokumentacja składa się z kilku części i opisuje instalację, tworzenie i ustanawianie procesu strony internetowej Joomla. </h5>
+<h5 align="justify">Dołożyliśmy wszelkich starań, aby niniejsza instrukcja obsługi została przedstawiona w sposób prosty i bezpośredni. Dla ułatwienia wyszukiwania informacji, tekst instrukcji zawiera został przebudowany w różnych rozdziałach, można zobaczyć w menu po lewej stronie. Jest możliwość przejścia do dowolnej części dokumentacji, korzystając z linków w nagłówkach aktywnej zawartości.</h5>
+<h5 align="justify">Zalecamy rozpocząć czytanie dokumentacji od pierwszej sekcji. </h5>
+<h3>Co to jest Joomla CMS?(What is Joomla CMS?)</h3>
 
-
-<h3>Co to Joomla CMS?</h3>
-
-<p>Joomla CMS  to rozwiązanie opensource do tworzenia stron internetowych. Pozwala na budowanie stron internetowych i sprawnych aplikacji internetowych i nie wymaga prawie żadnych umiejętności technicznych lub wiedzy. Wiele aspektów, w tym jego łatwość obsługi i rozszerzalność, zrobiły Joomla jaknajbardziej popularnym oprogramowaniem strony internetowej. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Dowiedz się więcej</a>
+<p align="justify">Joomla CMS jest rozwiązaniem otwartego oprogramowania (open source) dla tworzenia stron internetowych. Szerokie możliwości systemu pozwalają na budowanie zarówno stron internetowych oraz potężnych aplikacji online. Joomla CMS nie wymaga żadnych dodatkowych umiejętności i szkolenia, aby była eksploatowana. Wszystkie niezbędne opisy teorii i podstawowych umiejętności, jeżeli będą potrzebne, można znaleźć w tej dokumentacji.</p>
+<p align="justify"> Dzięki tym zaletom, w tym łatwość użytkowania i jego skalowalność, Joomla CMS stał się najbardziej popularnym dostępnym oprogramowaniem strony internetowej. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Zobacz więcej</a>
 </p>
 
-<h3>Co to JoomlaTemplate?</h3>
+<h3>Co to jest Szablon Joomla? (What is JoomlaTemplate?)</h3>
 
-<p>Joomla Template jest motywem dla platformy Joomla CMS. Inaczej mówiąc, można łatwo zmienić wygląd strony internetowej Joomla, instalując nowy szablon w kilku prostych krokach. Przy całej swej prostocie, szablon Joomla jest wyposażony we wszystkie niezbędne pliki źródłowe i można dowolnie edytować lub rozszerzać szablon, według własnego życzenia .</p>
+<p align="justify">Szablon Joomla jest motywem na swojej stronie internetowej oparty o platformę Joomla CMS. Inaczej mówiąc, oznacza to możliwość, aby z łatwością zmienić wygląd swojej strony Joomla instalując nowy szablon. Cały proces instalacyjny jest przeprowadzany przez kilka łatwych do czynienia kroków. Chociaż prosty, szablon Joomla jest także wyposażony we wszystkie niezbędne pliki źródłowe, które można dowolnie zmieniać. </p>
+<div class="alert alert-info">
+<div align="justify">Często oferowane są wiele różnych ustawień, które są dostępne z nowym szablonem, a
+  ponieważ jest to oprogramowanie open source, to nie zawsze jest takie samo dla każdego dewelopera.
+  Należy upewnić się, że przeczytasz tę dokumentację do szablonu, który
+   jest instalowany, aby wiedzieć, jakie funkcje są dostępne dla użytkownika.</div>
+</div>
 
 <h3>Struktura Szablonu</h3>
 

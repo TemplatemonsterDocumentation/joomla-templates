@@ -1,14 +1,14 @@
-<h2 class="item2">Preparation</h2>
+<h2 class="item2">Preparing to the Installation Process</h2>
 
 <h6>  Before  setting up your Joomla website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
 
 
 <h4>Software required</h4>
 
-<p align="justify">To feel comfortable working with the Joomla template, we recommend downloading all the applications required. You can see the list of required software at the template Live Demo page. Requirements can vary significantly depending upon the  template, the common ones will be defined  only:</p>
+<p align="justify">To feel comfortable working with the Joomla template, we recommend downloading all the applications required. You can see the list of required software at the template Live Demo page. Requirements can vary significantly depending upon the template, the common ones will be defined only:</p>
 
 <ol class="index-list">
-<li>
+  <li>
   <div align="justify"> First of all, you need the proper software to extract the password-protected sources_#########.zip archive. For this purpose, you can use WinZip 9+ [for Windows system] or Stuffit Expander 10+ program [for Mac system].    </div>
 </li>
     <li>
@@ -46,7 +46,6 @@
 </ul>
 <p>More details can be found on the <a target="_blank" rel="noreferrer noopener" class="external text" href="https://downloads.joomla.org/technical-requirements">Joomla! Downloads Portal</a>.</p>
 <h3>Requirements for Supported Software</h3>
-<p>&nbsp;</p>
 <table width="980" class="wikitable">
   <tbody>
     <tr>

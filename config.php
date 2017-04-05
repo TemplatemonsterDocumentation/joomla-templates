@@ -5,7 +5,7 @@ $path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 
 // Variables
-$product_name = "Jumerix";
+$product_name = "Joomla";
 $product_desc = "Documentation";
 $doc_title = $product_name . " " . $product_desc;
 

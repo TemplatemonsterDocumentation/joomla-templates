@@ -20,7 +20,7 @@
   <li>Click on the button <strong>Add site</strong>.</li>
   <li>In the <strong>Callback</strong> referenced format   http://<strong>site.ru</strong>/index.php?option=com_slogin&amp;task=check&amp;plugin=service.    </li>
      <figure class="img-polaroid">
-    <img src="http://joomline.ru/images/QIP_Shot_-_Screen_215_25.12.15.png" alt="">
+    <img src="img/joomline.png" alt="">
      </figure>
   <li><strong>Site.ru</strong> replace on your website or you can copy the link from the   field ready <strong>Callbsck URL</strong> in the settings Slogin.</li>
 </br>
@@ -134,3 +134,5 @@
   <div align="justify">Go back to your website and refresh the page. Now you are able to login  to your Joomla web site via numerous social networks.</div>
 </li>
 </ol>
+<div class="alert alert-warning">
+<p>This information was taken from the <a href="http://joomline.org/docs/slogin.html">joomline.org/docs</a> official documentation. </p></div>

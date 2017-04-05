@@ -1,9 +1,9 @@
 <h2 class="item8">Conclusion
 </h2>
 <h4>Help &amp; Support</h4>
-<div align="justify">In case of any difficulties with the<strong> Jumerix Template</strong> or any other products of <a href="https://www.templatemonster.com/?utm_expid=2187874-88.E4frEvLdRUiVnTFNAZQ_cw.0">TemplateMonster.com</a> please contact our 24/7 support team for assistance.</div>
+<div align="justify">In case of any difficulties with the<strong> Jumerix Template</strong> or any other products of <a href="https://www.templatemonster.com/support.php">TemplateMonster.com</a>, please, contact our 24/7 support team for assistance.</div>
 <ul class="marked-list">
-<li><a href="http://chat.template-help.com/" target="_blank">Live Chat</a></li>
+  <li><a href="http://chat.template-help.com/" target="_blank">Live Chat</a></li>
     <li><a href="http://support.template-help.com/index.php?/Tickets/Submit"
            target="_blank">Help Ticket system</a></li>
 </ul>

@@ -1,11 +1,11 @@
 <h3>Joomla Cookie Directive Plugin</h3>
 
-<p><strong>Joomla Cookie Directive Plugin</strong> able to display a cookie acceptance banner at the top of the site to warn about the site using cookies.</p>
+<p><strong>Joomla Cookie Directive Plugin</strong> is used to display a cookie acceptance banner at the top of the site. It warns that the site is using cookies.</p>
 
 <figure class="img-polaroid">
     <p><img src="img/cookies-1.jpg" alt="">
     </p></figure>
-    <p align="justify">To configurate the <strong>Joomla Cookie Directive</strong> plugin navigate to <strong>Extensions</strong> &gt; <strong>Plugins</strong>. To find the needed plugin among the other, type &quot;cook/.../&quot; in the search field.</p>
+    <p align="justify">To configure the <strong>Joomla Cookie Directive</strong> plugin navigate to <strong>Extensions</strong> &gt; <strong>Plugins</strong> section. To find the needed plugin among the others, type &quot;cook/.../&quot; in the search field.</p>
     <p align="justify">Click the &quot;<strong>system - EUCookieDirectiveLite</strong>&quot; title link and you'll see the main <strong>Joomla Cookie Directive</strong> plugin settings.</p>
 
 <p>This screen allows you to edit the details and options for plugins. </p>
@@ -15,7 +15,7 @@
     <img src="img/cookies-2.jpg" alt="">
   </figure>
 </p>
-<p>While configurating you may have to deal with the following settings:</p>
+<p>While configuring you may have to deal with the following settings:</p>
 <table width="980"  class="options-table">
   <tr>
         <td width="154" class="col-1"><strong>Width px [0 = full width]</strong></td>

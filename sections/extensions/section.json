@@ -1,8 +1,8 @@
 {
   "id": "extensions",
   "translations": {
-    "en": "Jumerix Plugins & Modules",
-    "ru": "Плагины и Модули Jumerix",
+    "en": "Joomla Plugins & Modules",
+    "ru": "Плагины и Модули Joomla",
     "es": "Extensiones",
     "de": "Erweiterungen",
     "fr": "Extensions",
@@ -54,6 +54,20 @@
         "tr": "Tek makaleler"
       }
     },
+     {
+      "id": "events",
+      "translations": {
+        "en": "Events Calendar",
+        "ru": "Events Calendar",
+        "es": "Events Calendar",
+        "de": "Events Calendar",
+        "fr": "Events Calendar",
+        "it": "Events Calendar",
+        "pl": "Events Calendar",
+        "pt": "Events Calendar",
+        "tr": "Events Calendar"
+      }
+    },
     {
       "id": "googlemap",
       "translations": {
@@ -80,6 +94,20 @@
         "pl": "JoomGallery",
         "pt": "JoomGallery",
         "tr": "JoomGallery"
+      }
+    },
+     {
+      "id": "flickr",
+      "translations": {
+        "en": "Flickr Gallery",
+        "ru": "Flickr Gallery",
+        "es": "Flickr Gallery",
+        "de": "Flickr Gallery",
+        "fr": "Flickr Gallery",
+        "it": "Flickr Gallery",
+        "pl": "Flickr Gallery",
+        "pt": "Flickr Gallery",
+        "tr": "Flickr Gallery"
       }
     },
     {
@@ -152,6 +180,20 @@
         "tr": "Owl Carousel"
       }
     },
+     {
+      "id": "olark",
+      "translations": {
+        "en": "TM Olark Live Chat",
+        "ru": "TM Olark Live Chat",
+        "es": "TM Olark Live Chat",
+        "de": "TM Olark Live Chat",
+        "fr": "TM Olark Live Chat",
+        "it": "TM Olark Live Chat",
+        "pl": "TM Olark Live Chat",
+        "pt": "TM Olark Live Chat",
+        "tr": "TM Olark Live Chat"
+      }
+    },
     {
       "id": "swiper",
       "translations": {
@@ -211,15 +253,29 @@
     {  
       "id": "facebook_feed",
       "translations": {
-        "en": "SW Facebook Display",
-        "ru": "TM Facebook Display",
-        "es": "SW Facebook Display",
-        "de": "SW Facebook Display", 
-        "fr": "SW Facebook Display",
-        "it": "SW Facebook Display", 
-        "pl": "Wyświetlacz SW Facebook",
-        "pt": "SW Facebook Display",
-        "tr": "SW Facebook Display"
+        "en": "Facebook Display",
+        "ru": "Facebook Display",
+        "es": "Facebook Display",
+        "de": "Facebook Display", 
+        "fr": "Facebook Display",
+        "it": "Facebook Display", 
+        "pl": "Wyświetlacz Facebook",
+        "pt": "Facebook Display",
+        "tr": "Facebook Display"
+      }
+    },
+    {  
+      "id": "facebook",
+      "translations": {
+        "en": "Facebook Feed",
+        "ru": "Facebook Feed",
+        "es": "Facebook Feed",
+        "de": "Facebook Feed", 
+        "fr": "Facebook Feed",
+        "it": "Facebook Feed", 
+        "pl": "Facebook Feed",
+        "pt": "Facebook Feed",
+        "tr": "Facebook Feed"
       }
     },
     {
@@ -234,6 +290,20 @@
         "pl": "TM Instagram",
         "pt": "TM Instagram",
         "tr": "TM Instagram"
+      }
+    },
+    {
+      "id": "instagram",
+      "translations": {
+        "en": "Instagram Feed",
+        "ru": "Instagram Feed",
+        "es": "Instagram Feed",
+        "de": "Instagram Feed",
+        "fr": "Instagram Feed",
+        "it": "Instagram Feed",
+        "pl": "Instagram Feed",
+        "pt": "Instagram Feed",
+        "tr": "Instagram Feed"
       }
     },
     {
@@ -253,29 +323,57 @@
     { 
       "id": "pinterest_feed",
       "translations": {
-        "en": "SW Pinterest Display",
-        "ru": "SW Pinterest Display",
-        "es": "SW Pinterest Display",
-        "de": "SW Pinterest Display",
-        "fr": "SW Pinterest Display",
-        "it": "SW Pinterest Display",
-        "pl": "Wyświetlacz SW Pinterest",
-        "pt": "SW Pinterest Display",
-        "tr": "SW Pinterest Display"
+        "en": "Pinterest Display",
+        "ru": "Pinterest Display",
+        "es": "Pinterest Display",
+        "de": "Pinterest Display",
+        "fr": "Pinterest Display",
+        "it": "Pinterest Display",
+        "pl": "Wyświetlacz Pinterest",
+        "pt": "Pinterest Display",
+        "tr": "Pinterest Display"
+      }
+    },
+    { 
+      "id": "pricing",
+      "translations": {
+        "en": "Pricing Tables",
+        "ru": "Pricing Tables",
+        "es": "Pricing Tables",
+        "de": "Pricing Tables",
+        "fr": "Pricing Tables",
+        "it": "Pricing Tables",
+        "pl": "Pricing Tables",
+        "pt": "Pricing Tables",
+        "tr": "Pricing Tables"
       }
     },
     {
       "id": "twitter_feed",
       "translations": {
-        "en": "SW Twitter Display",
-        "ru": "SW Twitter Display",
-        "es": "SW Twitter Display",
-        "de": "SW Twitter Display",
-        "fr": "SW Twitter Display",
-        "it": "SW Twitter Display",
-        "pl": "Wyświetlacz SW Twitter",
-        "pt": "SW Twitter Display",
-        "tr": "SW Twitter Display"
+        "en": "Twitter Display",
+        "ru": "Twitter Display",
+        "es": "Twitter Display",
+        "de": "Twitter Display",
+        "fr": "Twitter Display",
+        "it": "Twitter Display",
+        "pl": "Wyświetlacz Twitter",
+        "pt": "Twitter Display",
+        "tr": "Twitter Display"
+      }
+    },
+    {
+      "id": "twitter",
+      "translations": {
+        "en": "Twitter Feed",
+        "ru": "Twitter Feed",
+        "es": "Twitter Feed",
+        "de": "Twitter Feed",
+        "fr": "Twitter Feed",
+        "it": "Twitter Feed",
+        "pl": "Twitter Feed",
+        "pt": "Twitter Feed",
+        "tr": "Twitter Feed"
       }
     },
     {
