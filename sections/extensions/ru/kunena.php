@@ -19,7 +19,7 @@
 <figure class="img-polaroid"><img src="img/forum-6.jpg" alt=""></figure>
 <p align="justify"><strong>Category Settings</strong> позволяет управлять всеми общими настройками отображения сообщений категории.</p>
 <figure class="img-polaroid"><img src="img/forum-7.jpg" alt=""></figure>
-<p align="justify">Вы можете использовать кнопку <strong>New Category</strong> для того, что бы создать новую категорию для форума. Заполните все необходимые поля параметров настроек новой категории и сохраните изменения.</p>
+<p align="justify">Вы можете использовать кнопку <strong>New Category</strong> для того, чтобы  создать новую категорию для форума. Заполните все необходимые поля параметров настроек новой категории и сохраните изменения.</p>
 <p align="justify"><strong>Users section.</strong> Здесь вы можете производить настройки профиля,  правил доступа к редактированию и просмотру форума для каждого отдельного пользователя:</p>
 <figure class="img-polaroid"><img src="img/forum-8.jpg" alt=""></figure>
 <p align="justify">Перейдите по ссылке имени определенного юзера и перед собой вы увидите окно настроек, в котором, в разделе <strong>Basic settings</strong>, вы можете изменить  <strong>аватар </strong>и <strong>подпись</strong> этого пользователя, если есть такая необходимость. </p>
@@ -31,7 +31,7 @@
 <figure class="img-polaroid"><img src="img/forum-11.jpg" alt=""></figure>
 <p><strong>Emotions</strong>. Здесь расположены все доступные смайлы для форума. </p>
 <figure class="img-polaroid"><img src="img/forum-12.jpg" alt=""></figure>
-<p>Используйте область <strong>New Smile</strong>, что бы добавить новые смайлы если необходимо:</p>
+<p>Используйте область <strong>New Smile</strong>, чтобы  добавить новые смайлы если необходимо:</p>
 <figure class="img-polaroid"><img src="img/forum-13.jpg" alt=""></figure>
 <p align="justify"><strong>Ranks</strong>. Здесь вы найдёте список рангов, доступных для пользователей. Каждый ранг можно изменить вручную:</p>
 <figure class="img-polaroid"><img src="img/forum-14.jpg" alt=""></figure>

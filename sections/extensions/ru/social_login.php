@@ -54,7 +54,7 @@
     <div align="justify">Опубликовать плагины модуля [Social Login Facebook auth, Social Login Google auth, Social Login Instagram auth, ect] вы можете через главное окно настроек модуля <strong>Slogin </strong>[<strong>Components</strong> &gt; <strong>Slogin</strong>].</div>
   </li>
 <blockquote>
-  <p>Для того, что бы опубликовать плагин, откройте окно его настроек, кликая на ссылке его заголовка.
+  <p>Для того, чтобы  опубликовать плагин, откройте окно его настроек, кликая на ссылке его заголовка.
   </p>
    <p>
     <figure class="img-polaroid">
@@ -84,7 +84,7 @@
        <img src="img/sociallogin-7.jpg" alt="">
      </figure>
    </p>
-<li>Что бы перейти в меню  настроек модуля <strong>Slolin, </strong>кликните на ссылку его заголовка.</li>
+<li>Чтобы  перейти в меню  настроек модуля <strong>Slolin, </strong>кликните на ссылку его заголовка.</li>
  <p>
     <figure class="img-polaroid">
       <img src="img/sociallogin-9.jpg" alt="">
@@ -149,7 +149,7 @@
 <h5><strong>Вконтакте</strong> — настройка авторизации Вконтакте по протоколу oAuth</h5>
 <p align="justify">Предварительно требуется перейти к окну настроек плагина. Перейдите в раздел <strong>Extensions</strong> &gt; <strong>Plugins</strong> &gt; найдите группу плагинов &quot;<strong>slogin_auth</strong>&quot; &gt;   а затем плагин&quot;<strong>Social Login Vkontakte auth</strong>&quot;.</p>
 <div class="alert alert-warning">
-  <div align="justify"><strong>Совет:</strong> используйте фильтры поиска для того, что бы быстро найти группу плагинов   &quot;slogin_auth&quot;. Нажмите кнопку &quot;Search Tool&quot; и выберите тип плагина &quot;<strong>slogin_auth</strong>&quot; в раскрывающемся списке фильтра &quot;<strong>- Select Type -</strong>&quot;.</div>
+  <div align="justify"><strong>Совет:</strong> используйте фильтры поиска для того, чтобы  быстро найти группу плагинов   &quot;slogin_auth&quot;. Нажмите кнопку &quot;Search Tool&quot; и выберите тип плагина &quot;<strong>slogin_auth</strong>&quot; в раскрывающемся списке фильтра &quot;<strong>- Select Type -</strong>&quot;.</div>
  <figure class="img-polaroid">
       <img src="img/sociallogin-12.jpg" alt="">
   </figure>

@@ -14,7 +14,7 @@
   <li>Добавляйте счетчик к кнопкам типа &quot;поделиться&quot; [сколько раз поделились];</li>
   <li>Настраивайте внешний вид кнопок по своему вкусу.</li>
 </ol>
-<p align="justify">Перейдите к разделу <strong>Extensions</strong> &gt; <strong>Plugins </strong>и вы попадете к менеджеру плагинов [<strong>Plugins Manager</strong>]. Введите, к примеру, текст &quot;Add&quot; в поле поиска, затем, нажмите кнопку поиска и в таблице менеджера вы увидите плагин <strong>Content - TM AddThis</strong>. Перейдите по ссылке его заголовка, что бы приступить в настройке модуля.</p>
+<p align="justify">Перейдите к разделу <strong>Extensions</strong> &gt; <strong>Plugins </strong>и вы попадете к менеджеру плагинов [<strong>Plugins Manager</strong>]. Введите, к примеру, текст &quot;Add&quot; в поле поиска, затем, нажмите кнопку поиска и в таблице менеджера вы увидите плагин <strong>Content - TM AddThis</strong>. Перейдите по ссылке его заголовка, чтобы  приступить в настройке модуля.</p>
 <p>
   <figure class="img-polaroid"><img src="img/addthis-2.jpg" alt=""></figure>
 </p>
@@ -26,7 +26,7 @@
 <p>
   <figure class="img-polaroid"><img src="img/addthis-4.jpg" alt=""></figure>
 </p>
-<p>Перейдите по ссылке  заголовка плагина [<strong>Content - TM AddThis]</strong>, что бы приступить к его настройке.</p>
+<p>Перейдите по ссылке  заголовка плагина [<strong>Content - TM AddThis]</strong>, чтобы  приступить к его настройке.</p>
 <p>
   <figure class="img-polaroid"><img src="img/addthis-6.jpg" alt=""></figure>
 </p>
@@ -37,7 +37,7 @@
 <p>
   <figure class="img-polaroid"><img src="img/addthis-7.jpg" alt=""></figure>
 </p>
-<p align="justify">Первое, что вы должны сделать, что бы поменять уже существующие кнопки типа &quot;поделиться&quot; на вашем сайте — это создать свой профиль в системе <strong>AddThis</strong>:</p>
+<p align="justify">Первое, что вы должны сделать, чтобы  поменять уже существующие кнопки типа &quot;поделиться&quot; на вашем сайте — это создать свой профиль в системе <strong>AddThis</strong>:</p>
 <p>После того как вы создали профиль в системе, вам нужно приступить к процессу создания кнопок  типа &quot;поделиться&quot;. </p>
 <p>Для этого нажмите кнопку &quot;<strong>AddThis</strong>&quot; на панели инструментав, в верхней части страницы  вашего профиля <strong>AddThis</strong>.</p>
 <p>

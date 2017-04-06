@@ -115,7 +115,7 @@
   <figure class="img-polaroid">
     <p align="justify"><img src="img/contact-form-11.png" alt=""></p></figure>
   <li>
-    <div align="justify">Прокрутите страницу вверх и нажмите на кнопку <strong>Save</strong> слева сверху, для того, что бы сохранить изменения модуля:</div></li>
+    <div align="justify">Прокрутите страницу вверх и нажмите на кнопку <strong>Save</strong> слева сверху, для того, чтобы  сохранить изменения модуля:</div></li>
     <figure class="img-polaroid">
     <p align="justify"><img src="img/contact-form-12.png" alt=""></p></figure>
   <li>

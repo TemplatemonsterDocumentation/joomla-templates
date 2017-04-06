@@ -30,7 +30,7 @@
     <p> <img src="img/twitter_feed-7.jpg" alt="" /></p>
   </figure>
 </div>
-<ul>
+<ol>
   <li>Перейдите в окно настроек любого модуля, кликнув по ссылке его заголовка. [Перейдем к настройкам модуля<strong> twitter Timelin</strong>, в качестве примера.]</li>
   <li>
     <div align="justify">Перед вами откроется окно настроек модуля типа <strong> TM Parallax</strong>. </div>

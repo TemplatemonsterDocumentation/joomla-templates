@@ -4,7 +4,7 @@
   <img src="img/owl-carousel-1.jpg" alt="">
 </figure>
 <h5>Как управлять модулем <strong>Owl Carousel</strong></h5>
-<p>Для того, что бы добавить модуль типа  <strong>Owl Carousel</strong>, перейдите к  менеджеру модулей [Module Manager]:</p>
+<p>Для того, чтобы  добавить модуль типа  <strong>Owl Carousel</strong>, перейдите к  менеджеру модулей [Module Manager]:</p>
 <p>Пройдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>.</p>
 <figure class="img-polaroid">
     <img src="img/owl-carousel-2.jpg" alt="">

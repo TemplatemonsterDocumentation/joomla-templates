@@ -11,7 +11,7 @@
     <img src="img/acymailing-1.jpg" alt="">
 </figure>
 
-<p>Что бы перейти к окну главной панели расширения AcyMailing, пройдите к разделу <strong>Components</strong> &gt; <strong>AcyMailing</strong>.</p>
+<p>Чтобы  перейти к окну главной панели расширения AcyMailing, пройдите к разделу <strong>Components</strong> &gt; <strong>AcyMailing</strong>.</p>
 <figure class="img-polaroid">
     <img src="img/acymailing-4.jpg" alt="">
 </figure>
@@ -36,7 +36,7 @@
         target="_blank" rel="nofollow">oфициальной документации модуля</a> за детальной информацией.</p>
  <figure class="img-polaroid"><img src="img/acymailing-8.jpg" alt="">
 </figure>
-<p align="justify">Ниже приводится список всех системных плагинов установленных в комплексе с модулем <strong>AcyMailing.</strong> Для того, что бы увидеть перечень всех плагиов модуля перейдёте в раздел  <strong>Components</strong> &gt; <strong>AcyMailing </strong>&gt; <strong>Confiration</strong> &gt; <strong>Plugins</strong>:</p>
+<p align="justify">Ниже приводится список всех системных плагинов установленных в комплексе с модулем <strong>AcyMailing.</strong> Для того, чтобы  увидеть перечень всех плагиов модуля перейдёте в раздел  <strong>Components</strong> &gt; <strong>AcyMailing </strong>&gt; <strong>Confiration</strong> &gt; <strong>Plugins</strong>:</p>
 <p>
   <figure class="img-polaroid">
     <img src="img/acymailing-5.jpg" alt="">

@@ -5,7 +5,7 @@
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-1.jpg" alt="">
     </p></figure>
-    <p>Для того, что бы прейти к главному окну настроек модуля <strong>TM Facebook Page Plugin</strong>, пройдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>. </p>
+    <p>Для того, чтобы  прейти к главному окну настроек модуля <strong>TM Facebook Page Plugin</strong>, пройдите к разделу <strong>Extensions</strong> &gt; <strong>Modules</strong>. </p>
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-3.jpg" alt="">
     </p></figure>
@@ -70,7 +70,7 @@
 </p></figure>
     <h5>10. Добавьте детальную информацию о приложении</h5>
     <p>Пройдите во вкладку  <strong>App Details</strong>, которая расположена в левом боковом меню. В окне этой вкладки вы сможете  просмотреть и, если есть такая необходимость, добавить дополнительную информацию о вашем приложении.</p>
-<p align="justify">Если вы хотите, что бы информация о вашем приложении размещалась в app-center, активируйте опцию  <strong>App   Center Listed Platform</strong>. Добавляйте к приложению иконки, рекламные банеры и видео. Make sure to follow the <a href="https://developers.facebook.com/docs/games/appcenter/guidelines">App Center Guidelines</a> to be approved for listing in App Center.</p>
+<p align="justify">Если вы хотите, чтобы  информация о вашем приложении размещалась в app-center, активируйте опцию  <strong>App   Center Listed Platform</strong>. Добавляйте к приложению иконки, рекламные банеры и видео. Make sure to follow the <a href="https://developers.facebook.com/docs/games/appcenter/guidelines">App Center Guidelines</a> to be approved for listing in App Center.</p>
 <p align="justify">Если вы хотите, чтобы ваше приложение было представлено в Центре приложений, включите настройку <strong>App   Center Listed Platform</strong> [Указанные платформы Центра приложений] для полной или мобильной версии своего сайта. Добавьте значки, рекламные изображения и видео. Следуйте <a href="https://developers.facebook.com/docs/games/appcenter/guidelines">Рекомендациям Центра приложений</a>, чтобы ваше приложение было одобрено для размещения.</p>
 <figure class="img-polaroid">
     <p><img src="img/facebook_feed-11.jpg" alt="">

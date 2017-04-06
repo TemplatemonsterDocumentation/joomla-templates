@@ -11,7 +11,7 @@
   <p><img src="img/instagram-2.jpg" alt=""></p>
 </figure>
 
-Для того, что бы получить   <strong>Instagram USER ID</strong> и <strong>Access Token</strong>
+Для того, чтобы  получить   <strong>Instagram USER ID</strong> и <strong>Access Token</strong>
 выполните следующие действия.
 <h5>Что же такое Instagram Access Token – Краткое описание</h5>
 <p align="justify">Ни один  аuthenticated [аутентифицированный] запрос Instagram не обходится без <strong>Instagram Access token </strong>[маркер доступа].   Маркер доступа используется для идентификации пользователя, приложения или страницы. Он может быть использован приложением для создания  graph API calls [графика вызовов API]. Маркер доступа всегда является уникальным для каждого отдельного пользователя.</p>
@@ -32,7 +32,7 @@
     <img src="img/instagram-3.jpg" alt="">
 </figure>
   <p><strong>Войдите в систему Instagram в качестве пользователя.</strong></p>
-<p align="justify">Для того, что бы получить Client ID и Client Secret вы должны быть зарегистрированы в Instagram как пользователь. Что бы перейти к следующему шагу, войдите в систему Instagram, используя действительную учетную запись. Если вы не зарегистрированы, создайте новую учетную запись  <strong>Instagram</strong>.</p>
+<p align="justify">Для того, чтобы  получить Client ID и Client Secret вы должны быть зарегистрированы в Instagram как пользователь. Чтобы  перейти к следующему шагу, войдите в систему Instagram, используя действительную учетную запись. Если вы не зарегистрированы, создайте новую учетную запись  <strong>Instagram</strong>.</p>
 <p>Вход в систему осуществлён успешно:</p>
 <figure class="img-polaroid">
   <img src="img/instagram-4.jpg" alt="">
@@ -88,7 +88,7 @@
 </figure>
 <blockquote>
   <div align="justify">
-    <p>Если вы на выходе вы хотите получить квадратные фото в ленте, активируйте опцию non-square media. Перейдите к окну редактирования настроек нового клиента и найдите там раздел <strong>&quot;Migrations&quot;</strong>. НЕ ЗАБУДЬТЕ нажать кнопку <strong>&quot;Update Plugin&quot;</strong>, что бы сохранить все изменения.</p>
+    <p>Если вы на выходе вы хотите получить квадратные фото в ленте, активируйте опцию non-square media. Перейдите к окну редактирования настроек нового клиента и найдите там раздел <strong>&quot;Migrations&quot;</strong>. НЕ ЗАБУДЬТЕ нажать кнопку <strong>&quot;Update Plugin&quot;</strong>, чтобы  сохранить все изменения.</p>
 </div>
 </blockquote>
 <p>Раздел  non-square media:</p>
