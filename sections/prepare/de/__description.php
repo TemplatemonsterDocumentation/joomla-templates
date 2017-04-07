@@ -1,4 +1,4 @@
-<h2 class="item2">Vorbereitung</h2>
+<h2 class="item2">Vorbereitung für den Installationsprozess</h2>
 
 <h6> Bevor Sie Ihre Joomla Website einrichten, sorgen Sie dafür, dass Sie alles Notwendige vorbereitet haben. Führen Sie die folgenden Vorbereitungsschritte aus </h6>
 
@@ -7,8 +7,7 @@
 
 <p> Damit Sie sich mit dem Joomla Template wohl fühlen, empfehlen wir Ihnen alle
     notwendige Anwendungen herunterzuladen. Auf der Vorschauseite vom Template finden
-    Sie die Liste der erforderlichen Software. <br> Je nach Template-Typ unterscheiden
-    sich die Anforderungen, deswegen geben wir hier eine allgemeine Übersicht:</p>
+    Sie die Liste der erforderlichen Software. Die Anforderungen können je nach Vorlage variieren, die hauptsächlichen sind:</p>
 
 <ol class="index-list">
 	<li> Zunächst brauchen Sie die richtige Anwendung, um das passwortgeschützte

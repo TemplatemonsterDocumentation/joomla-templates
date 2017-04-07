@@ -1,5 +1,3 @@
-<h2 class="item5">Espansione</h2>
+<h2 class="item5">Joomla Plugins &amp; Modules</h2>
 
-<h6>Le funzionalità del sito web basato su Joomla possono essere aumentate utilizzando varie estensioni.
-    Alcuni di loro sono spesso utilizzati nei nostri modelli. In questa sezione viene mostrato come, ad 
-    esempio, lavorare con delle estensioni.</h6>
+<h5 align="justify">Funzionalità sito Joomla può essere migliorata utilizzando vari <strong>Joomla Plugins &amp; Moduli</span></strong>. Alcuni di loro sono spesso usati nei nostri modelli. In questa sezione vi insegnerà come lavorare con <strong>Plugins &amp; Moduli</strong>.</h5>

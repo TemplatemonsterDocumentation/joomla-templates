@@ -1,4 +1,4 @@
-<h2 class="item2">Préparation</h2>
+<h2 class="item2">Préparation du processus d'installation</h2>
 
 <h6> Avant de procéder à l'installation de votre site web Joomla, veuillez vous assurer d'être complètement préparé. Veuillez compléter les étapes de préparation suivantes:</h6>
 
@@ -7,10 +7,10 @@
 
 <p>Pour être confortable en travaillant avec un modèle Joomla, nous vous recommandons 
    de télécharger toutes les applications requises. Vous pouvez consulter la liste des logiciels requis 
-   sur la page de démo live du modèle. Les exigences peuvent varier pour différents modèles, nous allons vous dire ici ce qu'il faut avoir en général:</p>
+   sur la page de démo live du modèle. Les exigences peuvent varier considérablement selon le modèle, mais les exigences communes ne seront définies que:</p>
 
 <ol class="index-list">
-    <li> Tout d'abord vous aurez besoin des bonnes applications pour extraire l'archive protégée par mot de passe sources_#########.zip. Vous pouvez utiliser WinZip 9+ (Windows) et Stuffit Expander 10+ (Mac).    </li>
+<li> Tout d'abord vous aurez besoin des bonnes applications pour extraire l'archive protégée par mot de passe sources_#########.zip. Vous pouvez utiliser WinZip 9+ (Windows) et Stuffit Expander 10+ (Mac).    </li>
     <li> Vous aurez peut-être aussi besoin de Adobe Photoshop pour éditer les fichiers source PSD si vous voulez modifier les graphiques et images du modèle.    </li>
     <li> Pour éditer le code source des fichiers du modèle vous aurez besoin d'un éditeur de code tel qu'Adobe Dreamweaver, Notepad++, Sublime Text etc. </li>
     <li>Pour envoyer les fichiers sur le serveur d'hébergement, vous aurez peut-être aussi besoin d'un gestionnaire FTP, tel que Total Commander, FileZilla, CuteFTP etc.    </li>

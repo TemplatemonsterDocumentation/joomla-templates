@@ -5,8 +5,8 @@
 
 <p>Следующая таблица показывает все модуля, использованные в шаблоне, и то как их правильно
     настроить. Все модули находятся в админ-панели Joomla в меню<b> Extensions
-        (Расширения) > Module Manager</b> (Менеджер модулей).</p>
-<figure class="img-polaroid"><img src="img/modules-config-1.jpg" alt=""></figure>
+        [Расширения] > Modules</b> [Менеджер модулей].</p>
+<figure class="img-polaroid"><img src="img/modules-config-1.png" alt=""></figure>
 
 <div class="table">
     <div class="container">
@@ -15,7 +15,7 @@
                 <h5>Module Name</h5>
             </div>
             <div class="grid_8">
-                <h5>Configuration</h5>
+                <h5>Settings</h5>
             </div>
         </div>
         <div class='row'>
@@ -53,7 +53,7 @@
             </div>
             <div class='grid_4'>
                 <ul>
-                    <li><b>Pages:</b> All</li>
+                    <li><b>Pages:</b> all</li>
                     <li></li>
                     <li><b>Additional info:</b> &nbsp;</li>
                 </ul>

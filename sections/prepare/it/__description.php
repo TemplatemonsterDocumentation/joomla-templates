@@ -1,4 +1,4 @@
-<h2 class="item2">Preparazione</h2>
+<h2 class="item2">La preparazione per il processo di installazione</h2>
 
 <h6>Prima di procedere all'installazione del sito web Joomla, è necessario essere pienamente preparati.
 Eseguire le seguenti fasi preparatorie:</h6>
@@ -8,9 +8,7 @@ Eseguire le seguenti fasi preparatorie:</h6>
 
 <p>Per visualizzare questo template Joomla, si consiglia di scaricare tutto il necessario compreso
     l'applicazione. Elenco del software necessario è sulla pagina,
-    Anteprima modello. <br>
-    I requisiti per diversi modelli possono cambiare, quindi abbiamo solo la lista
-    principali:</p>
+    Anteprima modello. Requisiti possono variare significativamente a seconda del modello, i comuni saranno solo definiti:</p>
 
 <ol class="index-list">
     <li>Prima di tutto, abbiamo bisogno l'applicazione giusta per l'estrazione file che sono protette con la password
