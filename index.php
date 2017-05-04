@@ -47,7 +47,6 @@ if (!isset($sections)) {
             <div class="select select-version">
                 <select>
                     <option data-href="#" selected>Version v3-4</option>
-                    <option data-href="/help/quick-start-guide/joomla-templates/v3-4/index_en.html">Version v3-4</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-3/index_en.html">Version v3-3</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-2/index_en.html">Version v3-2</option>
                     <option data-href="/help/quick-start-guide/joomla-templates/v3-1/index_en.html">Version v3-1</option>
