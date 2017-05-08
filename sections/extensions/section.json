@@ -54,6 +54,20 @@
         "tr": "Tek makaleler"
       }
     },
+    {
+      "id": "diagrams-graphs",
+      "translations": {
+        "en": "Diagrams & Graphs",
+        "ru": "Diagrams & Graphs",
+        "es": "Diagrams & Graphs",
+        "de": "Diagrams & Graphs",
+        "fr": "Diagrams & Graphs",
+        "it": "Diagrams & Graphs",
+        "pl": "Diagrams & Graphs",
+        "pt": "Diagrams & Graphs",
+        "tr": "Diagrams & Graphs"
+      }
+    },
      {
       "id": "events",
       "translations": {
