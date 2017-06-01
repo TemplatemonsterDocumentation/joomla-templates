@@ -1,82 +1,62 @@
 <h3>Sample Data Installation</h3>
 
-<p>Sample data is used to make your Joomla website appear as the template live demo
-    page. It contains sample articles, images, modules settings, website settings etc.
-    If you are not planning to use sample images or any other sample content, please
-    skip this step. </p>
+<p align="justify">Sample data are used to make your Joomla website look similar to our Live Demo. It contains sample articles, images, module settings, website settings, etc. </p>
+<p align="justify">In case, you do not want to use sample images or any other sample content, please skip this step.</p>
 
-<p>To install sample data you need to complete two simple steps.</p>
+<p>Sample Data installation can be achieved in two simple steps:</p>
 
-<h4>Upload sample images.</h4>
+<h4>Uploading sample images</h4>
 
-<p>To upload sample images please open your template package directory and go to the
-    "sources" folder. There you should see the "to_the_root_directory" directory. It
-    contains files that should be placed to your Joomla installation root. Please use
-    the file manager to upload files to your server.</p>
+<p align="justify">In order to upload sample images, please open the template package and go to "sources" folder. Here you will find "to_root_folder". It contains files that need be uploaded to the root directory of your Joomla engine. </p>
+<p align="justify">In order to upload files to your server, please use File Manager of your Hosting cPanel. </p>
 
-<h4>Import SQL file.</h4>
+<h4>SQL file import</h4>
 
-<p>The final and most important step of the sample data installation is the import of
-    the SQL file. The SQL file is a dump of the sample database, all Joomla website data
-    is stored there. The SQL file can be imported using your database management tool
-    (phpMyAdmin). The template SQL file - "dump.sql" is located in the "sources"
-    directory of the template package. </p>
+<p align="justify">The last and the most important step of installing Sample Data is SQL file importing.
+    SQL file is the database dump file that contains all the Joomla website data. SQL file [dump.sql] can be imported with the help of database management tool [phpMyAdmin].
+    The template SQL file "dump.sql" is in the "sources" folder. See the instruction below.</p>
 
 
-<p class="alert alert-danger">Please <b>DO NOT</b> import the SQL file if you have a live website as it will totally
-    replace your website database and all your data will be lost.</p>
-<p class="alert alert-danger">Beware: before importing the SQL file please make sure your database table prefix matches
-    the table prefix in the SQL file.</p>
-<p>You can check the table prefix directly in the database through the database
-    management tool. Check for the tables names. The prefix is a set of symbols before
-    the table name (
-    <i>e.g. table "jos_assets" prefix is "jos_"</i>
-    ). You can also find
-    the database prefix in the "configuration.php" file in your Joomla root directory.
-    Search for line 19:</p> <code>public $dbprefix = 'jos_';</code><p> (
-    <i>where the prefix is
-        "jos_"
-    </i>
-    ).
+<p align="justify" class="alert alert-danger">Please <b>DO NOT</b> import the SQL file [dump.sql] to the database if you have a live website as it will completely replace your database contents, and all your website data will be lost.</p>
+
+<p align="justify" class="alert alert-danger">Please note: before the SQL file [dump.sql] import, please make sure that your database table prefix matches the table prefix. Check this information in the SQL file.</p>
+
+<p align="justify">You can check the table prefix directly in the database with the help of a database management tool. Please pay attention to table names. Prefix is a set of symbols before the table names [<i>for instance, in the table "jos_assets" the prefix is "jos_"</i>].
+    You can also find out the table prefix in the "configuration.php" file in the website root folder.
+    Line 19: </p><code>public $dbprefix = 'jos_';</code> <p>[<i>where the prefix is "jos_"</i>].
 </p>
 
-<p>If the table prefixes don't match, open the "dump.sql" file with your code editor and
-    using the Search &amp; Replace tool (CTRL+F or CTRL+H hotkeys) replace the "jos_"
-    table prefix (
-    <i>used in the SQL file</i>
-    ) with the one that matches your database.
-    You can check the detailed video tutorial on <a
+<p align="justify">If the table prefix differ, please open the "dump.sql" file in any code editor. With the help of 
+&quot;Find and replace&quot; button [or CTRL+F] replace the table prefix "jos_" [<i>it’s used in the SQL
+file</i>] with your database prefix [the prefix you've set, when installing the Joomla engine]. </p>
+<p align="justify">You can also check the detailed video-tutorial that will show you <a
         href="/help/joomla-how-to-change-database-tables-prefix-in-sql-file.html"
-        target="_blank">how to change database prefix in SQL file</a>.
+        target="_blank">How to change database prefix in the SQL file</a>.
 </p>
 
-<h6>Now you can import that SQL file to your database. <br>
-    To import sample data to your database please perform these simple steps (check the
-    slides below):</h6>
+<h6><br>
+In order to import sample content [dump.sql ] to the database, please follow the next steps [please check out the slides below]:</h6>
 
 <ol class="index-list">
-    <li><p>Select your database from the database list in the left column in the phpMyAdmin
-            tool.</p>
+  <li><p>Select your database from the database list in the left column in the phpMyAdmin tool:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-1.jpg" alt=""/>
         </figure>
-
-    </li>
-    <li><p>Click the "Import" button from the top navigation menu.</p>
+  </li>
+    <li><p>Click the "Import" button in the top navigation menu:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-2.jpg" alt=""/>
         </figure>
     </li>
-    <li><p>Click "Choose file" and browse for the dump.sql file in the template package
-            "sources" directory.</p>
+    <li><p>Click "Choose file" and browse for the dump.sql file in the template package "sources" directory:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-3.jpg" alt=""/>
         </figure>
     </li>
-    <li><p>Click the "Go" button to start importing the sample data.</p>
+    <li><p>Press "Go" to start importing sample data:</p>
 
         <figure class="img-polaroid">
             <img src="img/sample-install-4.jpg" alt=""/>
@@ -84,6 +64,7 @@
     </li>
 </ol>
 
-<p class="alert alert-info">You can also check the detailed tutorial on <a
-        href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html"
-        target="_blank">how to import SQL file using phpMyAdmin tool.</a></p>
+<p class="alert alert-info">You can also check the detailed video-tutorial on <a
+        href="/help/phpmyadmin-how-to-import-sample-data-dump-file.html"
+        target="_blank">how to import SQL file using phpMyAdmin tool</a>.
+</p>

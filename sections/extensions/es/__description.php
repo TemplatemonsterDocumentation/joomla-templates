@@ -1,5 +1,3 @@
-<h2 class="item5">Extensiones</h2>
+<h2 class="item5">Joomla Plugins &amp; Módulos</h2>
 
-<h6>Se puede mejorar la funcionalidad del sitio de Joomla utilizando diversas extensiones de
-    Joomla. Algunas de ellas son utilizadas a menudo en nuestras plantillas. Esta sección le
-    mostrará las instrucciones para trabajar con las extensiones personalizadas.</h6>
+<h5 align="justify">La funcionalidad del sitio web de Joomla se puede mejorar mediante <strong>Plugins &amp; Módulos de Joomla</span></strong>. Algunos de ellos se utilizan a menudo en nuestras plantillas. Esta sección le enseñará cómo trabajar con  <strong>Plugins &amp; Módulos</strong>.</h5>

@@ -1,7 +1,7 @@
 {
   "id": "configuring",
   "translations": {
-    "en": "Configuring Pages",
+    "en": "Pages Configuring",
     "ru": "Настройка страниц",
     "es": "Configuración de Páginas",
     "de": "Konfiguration von Seiten",
@@ -12,20 +12,6 @@
     "tr": "Yapılandırma Sayfası"
   },
   "articles": [
-    {
-      "id": "gallery",
-      "translations": {
-        "en": "Gallery Page",
-        "ru": "Галерея",
-        "es": "Página de Galería",
-        "de": "Galerie Seite",
-        "fr": "Galerie",
-        "it": "Galleria",
-        "pl": "Strona Galerii",
-        "pt": "Página da Galeria",
-        "tr": "Galeri Sayfası"
-      }
-    },
     {
       "id": "contacts",
       "translations": {
@@ -38,6 +24,20 @@
         "pl": "Strona Kontaktów",
         "pt": "Página de Contatos",
         "tr": "İletişim Sayfası"
+      }
+    },
+    {
+      "id": "gallery",
+      "translations": {
+        "en": "Gallery Page",
+        "ru": "Галерея",
+        "es": "Página de Galería",
+        "de": "Galerie Seite",
+        "fr": "Galerie",
+        "it": "Galleria",
+        "pl": "Strona Galerii",
+        "pt": "Página da Galeria",
+        "tr": "Galeri Sayfası"
       }
     }
   ]

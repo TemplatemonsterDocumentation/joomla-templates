@@ -1,8 +1,8 @@
 {
   "id": "extensions",
   "translations": {
-    "en": "Extensions",
-    "ru": "Расширения",
+    "en": "Joomla Plugins & Modules",
+    "ru": "Плагины и Модули Joomla",
     "es": "Extensiones",
     "de": "Erweiterungen",
     "fr": "Extensions",
@@ -12,6 +12,20 @@
     "tr": "Eklentiler"
   },
   "articles": [
+    {
+      "id": "acymailing",
+      "translations": {
+        "en": "Acymailing",
+        "ru": "Acymailing",
+        "es": "Acymailing",
+        "de": "Acymailing",
+        "fr": "Acymailing",
+        "it": "Acymailing",
+        "pl": "Acymailing",
+        "pt": "Acymailing",
+        "tr": "Acymailing"
+      }
+    },
     {
       "id": "articles-newsflash",
       "translations": {
@@ -24,20 +38,6 @@
         "pl": "Przegląd Artykułów",
         "pt": "Artigos de Última Hora",
         "tr": "Makaleler Flaş Haberler"
-      }
-    },
-    {
-      "id": "image_swoop",
-      "translations": {
-        "en": "Image Swoop",
-        "ru": "Image Swoop",
-        "es": "Image Swoop",
-        "de": "Image Swoop",
-        "fr": "Image Swoop",
-        "it": "Image Swoop",
-        "pl": "Image Swoop",
-        "pt": "Image Swoop",
-        "tr": "Resim Swoop"
       }
     },
     {
@@ -55,17 +55,101 @@
       }
     },
     {
-      "id": "caroufredsel",
+      "id": "diagrams-graphs",
       "translations": {
-        "en": "CarouFredSel",
-        "ru": "CarouFredSel",
-        "es": "CarouFredSel",
-        "de": "CarouFredSel",
-        "fr": "CarouFredSel",
-        "it": "CarouFredSel",
-        "pl": "Moduł CarouFredSel",
-        "pt": "CarouFredSel",
-        "tr": "CarouFredSel"
+        "en": "Diagrams & Graphs",
+        "ru": "Diagrams & Graphs",
+        "es": "Diagrams & Graphs",
+        "de": "Diagrams & Graphs",
+        "fr": "Diagrams & Graphs",
+        "it": "Diagrams & Graphs",
+        "pl": "Diagrams & Graphs",
+        "pt": "Diagrams & Graphs",
+        "tr": "Diagrams & Graphs"
+      }
+    },
+     {
+      "id": "events",
+      "translations": {
+        "en": "Events Calendar",
+        "ru": "Events Calendar",
+        "es": "Events Calendar",
+        "de": "Events Calendar",
+        "fr": "Events Calendar",
+        "it": "Events Calendar",
+        "pl": "Events Calendar",
+        "pt": "Events Calendar",
+        "tr": "Events Calendar"
+      }
+    },
+    {
+      "id": "googlemap",
+      "translations": {
+        "en": "Googlemap Plugin",
+        "ru": "Googlemap Plagin",
+        "es": "Googlemap Plugin",
+        "de": "Googlemap plugin",
+        "fr": "Googlemap Plugin",
+        "it": "Plugin Googlemap",
+        "pl": "Wtyczka Googlemap",
+        "pt": "Googlemap Plugin",
+        "tr": "Googlemap Plugin"
+      }
+    },
+    {
+      "id": "joomgallery",
+      "translations": {
+        "en": "JoomGallery",
+        "ru": "JoomGallery",
+        "es": "JoomGallery",
+        "de": "JoomGallery",
+        "fr": "JoomGallery",
+        "it": "JoomGallery",
+        "pl": "JoomGallery",
+        "pt": "JoomGallery",
+        "tr": "JoomGallery"
+      }
+    },
+     {
+      "id": "flickr",
+      "translations": {
+        "en": "Flickr Gallery",
+        "ru": "Flickr Gallery",
+        "es": "Flickr Gallery",
+        "de": "Flickr Gallery",
+        "fr": "Flickr Gallery",
+        "it": "Flickr Gallery",
+        "pl": "Flickr Gallery",
+        "pt": "Flickr Gallery",
+        "tr": "Flickr Gallery"
+      }
+    },
+    {
+      "id": "cookies",
+      "translations": {
+        "en": "Joomla Cookie Directive Plugin",
+        "ru": "Joomla Cookie Directive Plugin",
+        "es": "Plugin Joomla Cookie Directive",
+        "de": "Joomla Cookie Directive Plugin",
+        "fr": "Joomla Cookie Directive Plugin",
+        "it": "Joomla Cookie Directive Plugin",
+        "pl": "Wtyczka Zarządzania plikami Joomla Cookie",
+        "pt": "Joomla Cookie Directive Plugin",
+        "tr": "Joomla Cookie Directive Plugin"
+      }
+    },
+    {
+      "id": "social_login",
+      "translations": {
+        "en": "Joomla Social Login",
+        "ru": "Joomla Social Login",
+        "es": "Joomla Social Login",
+        "de": "Joomla Social Login",
+        "fr": "Joomla Social Login",
+        "it": "Joomla Social Login",
+        "pl": "Joomla Social Login",
+        "pt": "Joomla Social Login",
+        "tr": "Joomla Social Login"
       }
     },
     {
@@ -86,7 +170,7 @@
       "id": "kunena",
       "translations": {
         "en": "Kunena Forum",
-        "ru": "Форум Kunena",
+        "ru": "Kunena Forum",
         "es": "Foro Kunena",
         "de": "Forum Kunena",
         "fr": "Forum Kunena",
@@ -97,129 +181,45 @@
       }
     },
     {
-      "id": "tm_ajax_contact_form",
+      "id": "owl_carousel",
       "translations": {
-        "en": "TM Ajax Contact Form Module",
-        "ru": "Модуль TM Ajax Contact Form",
-        "es": "Módulo TM Ajax Contact Form",
-        "de": "Modul TM Ajax Contact Form",
-        "fr": "Module de Formulaire de Contact en Ajax TM",
-        "it": "Modulo Contatti TM Ajax",
-        "pl": "Moduł Formularza Kontaktowego TM Ajax",
-        "pt": "Módulo de Formulário de Contato TM Ajax",
-        "tr": "TM Ajax Contact Form Modülü"
+        "en": "Owl Carousel",
+        "ru": "Owl Carousel",
+        "es": "Owl Carousel",
+        "de": "Owl Carousel",
+        "fr": "Owl Carousel",
+        "it": "Owl Carousel",
+        "pl": "Owl Carousel",
+        "pt": "Owl Carousel",
+        "tr": "Owl Carousel"
       }
     },
-    {
-      "id": "tm_youtube_background_video",
-      "translations": {
-        "en": "TM Youtube background video",
-        "ru": "Модуль TM Youtube background video",
-        "es": "TM Youtube background video",
-        "de": "TM Youtube background video",
-        "fr": "TM Youtube background video",
-        "it": "TM Youtube background video",
-        "pl": "TM Youtube background video",
-        "pt": "TM Youtube background video",
-        "tr": "TM Youtube background video"
-      }
-    },
-    {
+     {
       "id": "olark",
       "translations": {
-        "en": "TM Olark live chat module",
-        "ru": "Модуль TM Olark live chat",
-        "es": "M&oacute;dulo de chat en vivo de TM Olark",
-        "de": "TM Olark live chat Modul",
-        "fr": "Le module du Chat en direct TM Olark",
-        "it": "Modulo live chat TM Olark",
-        "pl": "Moduł TM Olark czat na żywo",
-        "pt": "Módulo de Bate-Papo TM Olark", 
-        "tr": "TM Olark live chat modülü"
-      }
-    }, 
-    {  
-      "id": "facebook_feed",
-      "translations": {
-        "en": "SW Facebook Display",
-        "ru": "Плагин TM Facebook",
-        "es": "SW Facebook Display",
-        "de": "SW Facebook Display", 
-        "fr": "SW Facebook Display",
-        "it": "SW Facebook Display", 
-        "pl": "Wyświetlacz SW Facebook",
-        "pt": "SW Facebook Display",
-        "tr": "SW Facebook Display"
-      }
-    },
-    { 
-      "id": "pinterest_feed",
-      "translations": {
-        "en": "SW Pinterest Display",
-        "ru": "Плагин TM Pinterest",
-        "es": "SW Pinterest Display",
-        "de": "SW Pinterest Display",
-        "fr": "SW Pinterest Display",
-        "it": "SW Pinterest Display",
-        "pl": "Wyświetlacz SW Pinterest",
-        "pt": "SW Pinterest Display",
-        "tr": "SW Pinterest Display"
+        "en": "TM Olark Live Chat",
+        "ru": "TM Olark Live Chat",
+        "es": "TM Olark Live Chat",
+        "de": "TM Olark Live Chat",
+        "fr": "TM Olark Live Chat",
+        "it": "TM Olark Live Chat",
+        "pl": "TM Olark Live Chat",
+        "pt": "TM Olark Live Chat",
+        "tr": "TM Olark Live Chat"
       }
     },
     {
-      "id": "twitter_feed",
+      "id": "swiper",
       "translations": {
-        "en": "SW Twitter Display",
-        "ru": "Плагин TM Twitter",
-        "es": "SW Twitter Display",
-        "de": "SW Twitter Display",
-        "fr": "SW Twitter Display",
-        "it": "SW Twitter Display",
-        "pl": "Wyświetlacz SW Twitter",
-        "pt": "SW Twitter Display",
-        "tr": "SW Twitter Display"
-      }
-    },
-    {
-      "id": "instagram_feed",
-      "translations": {
-        "en": "TM Instagram",
-        "ru": "TM Instagram",
-        "es": "TM Instagram",
-        "de": "TM Instagram",
-        "fr": "TM Instagram",
-        "it": "TM Instagram",
-        "pl": "TM Instagram",
-        "pt": "TM Instagram",
-        "tr": "TM Instagram"
-      }
-    },
-    {
-      "id": "social_login",
-      "translations": {
-        "en": "Joomla Social Login",
-        "ru": "Joomla Social Login",
-        "es": "Joomla Social Login",
-        "de": "Joomla Social Login",
-        "fr": "Joomla Social Login",
-        "it": "Joomla Social Login",
-        "pl": "Joomla Social Login",
-        "pt": "Joomla Social Login",
-        "tr": "Joomla Social Login"
-      }
-    },
-    {
-      "id": "acymailing",
-      "translations": {
-        "en": "Acymailing",
-        "ru": "Acymailing",
-        "es": "Acymailing",
-        "de": "Acymailing",
-        "fr": "Acymailing",
-        "it": "Acymailing",
-        "pl": "Acymailing",
-        "pt": "Acymailing",
-        "tr": "Acymailing"
+        "en": "Swiper",
+        "ru": "Swiper",
+        "es": "Swiper",
+        "de": "Swiper",
+        "fr": "Swiper",
+        "it": "Swiper",
+        "pl": "Swiper",
+        "pt": "Swiper",
+        "tr": "Swiper"
       }
     },
     {
@@ -237,45 +237,17 @@
       }
     },
     {
-      "id": "googlemap",
+      "id": "tm_ajax_contact_form",
       "translations": {
-        "en": "Googlemap plugin",
-        "ru": "Plugin de Googlemap",
-        "es": "Googlemap plugin",
-        "de": "Googlemap plugin",
-        "fr": "Googlemap plugin",
-        "it": "Plugin Googlemap",
-        "pl": "Wtyczka Googlemap",
-        "pt": "Googlemap plugin",
-        "tr": "Googlemap plugin"
-      }
-    },
-    {
-      "id": "cookies",
-      "translations": {
-        "en": "Joomla Cookie Directive Plugin",
-        "ru": "Joomla Cookie Directive Plugin",
-        "es": "Plugin Joomla Cookie Directive",
-        "de": "Joomla Cookie Directive Plugin",
-        "fr": "Joomla Cookie Directive Plugin",
-        "it": "Joomla Cookie Directive Plugin",
-        "pl": "Wtyczka Zarządzania plikami Joomla Cookie",
-        "pt": "Joomla Cookie Directive Plugin",
-        "tr": "Joomla Cookie Directive Plugin"
-      }
-    },
-    {
-      "id": "joomgallery",
-      "translations": {
-        "en": "JoomGallery",
-        "ru": "JoomGallery",
-        "es": "JoomGallery",
-        "de": "JoomGallery",
-        "fr": "JoomGallery",
-        "it": "JoomGallery",
-        "pl": "JoomGallery",
-        "pt": "JoomGallery",
-        "tr": "JoomGallery"
+        "en": "TM Ajax Contact Form Module",
+        "ru": "TM Ajax Contact Form Module",
+        "es": "Módulo TM Ajax Contact Form",
+        "de": "Modul TM Ajax Contact Form",
+        "fr": "Module de Formulaire de Contact en Ajax TM",
+        "it": "Modulo Contatti TM Ajax",
+        "pl": "Moduł Formularza Kontaktowego TM Ajax",
+        "pt": "Módulo de Formulário de Contato TM Ajax",
+        "tr": "TM Ajax Contact Form Modülü"
       }
     },
     {
@@ -290,6 +262,146 @@
         "pl": "TM Ajax Style Switcher",
         "pt": "TM Ajax Style Switcher",
         "tr": "TM Ajax Style Switcher"
+      }
+    },
+    {  
+      "id": "facebook_feed",
+      "translations": {
+        "en": "Facebook Display",
+        "ru": "Facebook Display",
+        "es": "Facebook Display",
+        "de": "Facebook Display", 
+        "fr": "Facebook Display",
+        "it": "Facebook Display", 
+        "pl": "Wyświetlacz Facebook",
+        "pt": "Facebook Display",
+        "tr": "Facebook Display"
+      }
+    },
+    {  
+      "id": "facebook",
+      "translations": {
+        "en": "Facebook Feed",
+        "ru": "Facebook Feed",
+        "es": "Facebook Feed",
+        "de": "Facebook Feed", 
+        "fr": "Facebook Feed",
+        "it": "Facebook Feed", 
+        "pl": "Facebook Feed",
+        "pt": "Facebook Feed",
+        "tr": "Facebook Feed"
+      }
+    },
+    {
+      "id": "instagram_feed",
+      "translations": {
+        "en": "TM Instagram",
+        "ru": "TM Instagram",
+        "es": "TM Instagram",
+        "de": "TM Instagram",
+        "fr": "TM Instagram",
+        "it": "TM Instagram",
+        "pl": "TM Instagram",
+        "pt": "TM Instagram",
+        "tr": "TM Instagram"
+      }
+    },
+    {
+      "id": "instagram",
+      "translations": {
+        "en": "Instagram Feed",
+        "ru": "Instagram Feed",
+        "es": "Instagram Feed",
+        "de": "Instagram Feed",
+        "fr": "Instagram Feed",
+        "it": "Instagram Feed",
+        "pl": "Instagram Feed",
+        "pt": "Instagram Feed",
+        "tr": "Instagram Feed"
+      }
+    },
+    {
+      "id": "tm_parallax",
+      "translations": {
+        "en": "TM Parallax Module",
+        "ru": "TM Parallax Module",
+        "es": "Módulo TM Parallax",
+        "de": "Modul TM Parallax",
+        "fr": "Module TM Parallax",
+        "it": "Modulo TM Parallax",
+        "pl": "Moduł TM Parallax",
+        "pt": "Módulo TM Parallax",
+        "tr": "TM Parallax Modülü"
+      }
+    },
+    { 
+      "id": "pinterest_feed",
+      "translations": {
+        "en": "Pinterest Display",
+        "ru": "Pinterest Display",
+        "es": "Pinterest Display",
+        "de": "Pinterest Display",
+        "fr": "Pinterest Display",
+        "it": "Pinterest Display",
+        "pl": "Wyświetlacz Pinterest",
+        "pt": "Pinterest Display",
+        "tr": "Pinterest Display"
+      }
+    },
+    { 
+      "id": "pricing",
+      "translations": {
+        "en": "Pricing Tables",
+        "ru": "Pricing Tables",
+        "es": "Pricing Tables",
+        "de": "Pricing Tables",
+        "fr": "Pricing Tables",
+        "it": "Pricing Tables",
+        "pl": "Pricing Tables",
+        "pt": "Pricing Tables",
+        "tr": "Pricing Tables"
+      }
+    },
+    {
+      "id": "twitter_feed",
+      "translations": {
+        "en": "Twitter Display",
+        "ru": "Twitter Display",
+        "es": "Twitter Display",
+        "de": "Twitter Display",
+        "fr": "Twitter Display",
+        "it": "Twitter Display",
+        "pl": "Wyświetlacz Twitter",
+        "pt": "Twitter Display",
+        "tr": "Twitter Display"
+      }
+    },
+    {
+      "id": "twitter",
+      "translations": {
+        "en": "Twitter Feed",
+        "ru": "Twitter Feed",
+        "es": "Twitter Feed",
+        "de": "Twitter Feed",
+        "fr": "Twitter Feed",
+        "it": "Twitter Feed",
+        "pl": "Twitter Feed",
+        "pt": "Twitter Feed",
+        "tr": "Twitter Feed"
+      }
+    },
+    {
+      "id": "tm_youtube_background_video",
+      "translations": {
+        "en": "TM Youtube background video Module",
+        "ru": "TM Youtube background video Module",
+        "es": "Módulo TM Youtube background video",
+        "de": "Modul TM Youtube background video",
+        "fr": "TM Youtube background video Module",
+        "it": "TM Youtube background video Module",
+        "pl": "TM Youtube background video Module",
+        "pt": "TM Youtube background video Module",
+        "tr": "TM Youtube background video Module"
       }
     }
   ]

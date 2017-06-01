@@ -1,1 +1,0 @@
-<h2 class="item6">Yapılandırma Sayfası</h2>

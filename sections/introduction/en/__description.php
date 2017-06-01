@@ -1,38 +1,31 @@
-<h2 class="item1">Introduction</h2>
-
-
-<h5>Thank you for purchasing a Joomla template. This documentation consists of several parts and shows you the entire
-    process of how to set up and administer a Joomla Web site from scratch. We did our best to make this manual as clear
-    and easy to follow as possible. </h5>
-
-
+<h2 class="item1">Introduction
+</h2>
+<h5 align="justify">Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installation, creating and setting up a Joomla website process. </h5>
+<h5 align="justify">We did our best to make this manual information to be presented in a simple, straightforward manner. For ease of reference, the text the manual provides has been restructured in different chapters. You can see them in the left-side menu. You are able to navigate to any part of the documentation using the active content headers' links.</h5>
+<h5 align="justify">We recommend that you start reading the documentation at the first section.</h5>
 <h3>What is Joomla CMS?</h3>
 
-<p>Joomla CMS is an open source solution for building rich content Web sites. It enables you to build Web sites and
-    powerful on-line applications and requires almost no technical skills or knowledge to manage. Many aspects,
-    including its ease of use and extensibility, have made Joomla the most popular Web site software available.
-    <a href="http://www.joomla.org/about-joomla.html" target="_blank">Learn More</a>
-</p>
+<p align="justify">JJoomla CMS is an open-source solution for creating websites. Wide functionalities of the system allow you to build both websites and powerful online applications. Joomla CMS would not need any additional skills and training to be operated. All the necessary theory and basic required skills description can be found in this documentation.</p>
+<p align="justify"> With these advantages, ease of use and its scalability, Joomla CMS became the most popular website software available. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Learn More!</a> </p>
+<h3>What is Joomla Template?</h3>
+<p align="justify">Joomla Template is a theme for your website based on the Joomla CMS platform. In other words, you can easily change your Joomla website appearance by installing a new template. The whole installation process is carried out by a few easy to deal with steps. While simple, the Joomla template comes with all the necessary source files which you are free to edit. </p>
+<div class="alert alert-info">
+  <div align="justify">
+    <p>There are often many different settings that are available with a new Template, and as this is an open-source software, it isn't always the same for each developer. Make sure to read through this documentation available for the Template that you are installing so that you know what features are available for you.</p>
+  </div>
+</div>
 
+<h3>Template Structure</h3>
 
-<h3>What is a Joomla template?</h3>
-
-<p>A Joomla template is a skin for your Joomla CMS platform. In other words, you can easily change your Joomla Web site
-    appearance installing a new template in a few easy steps. With all its simplicity a Joomla template is provided with
-    all the necessary source files and you are free to edit or extend it the way you need.</p>
-
-
-<h3>Files structure</h3>
-
-<h6>The template package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
+<h6>The theme package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
 
 <ul class="files_structure">
-    <li class="folder">
+  <li class="folder">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Documentation</b></dt>
-            <dd> contains documentation files.</dd>
+            <dd> contains documentation files;</dd>
         </dl>
         <ul>
             <li class="file">
@@ -41,8 +34,7 @@
                         <i class="fa fa-file"></i>
                         documentation.html
                     </dt>
-                    <dd> the main documentation file. You are right here :)
-                    </dd>
+                    <dd> this is the main documentation file you are reading at the moment;</dd>
                 </dl>
             </li>
         </ul>
@@ -52,8 +44,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>Joomla</b></dt>
-            <dd> contains the Joomla theme archive, quick install package and unzip script file.
-            </dd>
+            <dd> contains an archive with Joomla theme, quick install package and a file with unzip script;</dd>
         </dl>
         <ul>
             <li class="file">
@@ -62,9 +53,8 @@
                         <i class="fa fa-file"></i>
                         theme###.zip
                     </dt>
-                    <dd> the theme archive. Contains all the theme files. Should be
-                        <a href="#template-installation">installed through Joomla extension manager</a>
-                        .
+                    <dd>
+                      <div align="justify"> a theme archive. Stored all the theme files. Should be installed <a href="#template-installation">with the help of Joomla extension manager</a>;</div>
                     </dd>
                 </dl>
             </li>
@@ -74,9 +64,11 @@
                         <i class="fa fa-file"></i>
                         fullpackage.zip
                     </dt>
-                    <dd> contains the
-                        <a href="#complete_install">complete Joomla installation package</a>
-                        with engine files, theme and sample content (database dump, sample images).
+                    <dd>
+                      <div align="justify"> contains
+                        <a href="#complete_install">
+                           Complete Joomla installation package</a>
+                        with engine files, themes and sample content [database dump file and sample images];</div>
                     </dd>
                 </dl>
             </li>
@@ -86,7 +78,7 @@
                         <i class="fa fa-file"></i>
                         unzip.php
                     </dt>
-                    <dd> the file used to extract files from the fullpackage.zip when uploaded to the hosting server.
+                    <dd> the file which is used for unpacking the fullpackage.zip after uploading it to a hosting server;
                     </dd>
                 </dl>
             </li>
@@ -96,16 +88,16 @@
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                <b>Screenshots</b></dt>
-            <dd> contains the template screenshots.</dd>
+                <b>Screenshots</b>
+            <dd> contains theme screenshots;</dd>
         </dl>
     </li>
     <li class="folder">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
-                <b>Sources</b></dt>
-            <dd> contains the template source files.</dd>
+                <b>Sources</b>
+            <dd> contains theme sample content files;</dd>
         </dl>
         <ul>
             <li class="folder">
@@ -114,8 +106,7 @@
                         <i class="fa fa-folder"></i>
                         psd
                     </dt>
-                    <dd> the template Adobe Photoshop source files (.psd).
-                    </dd>
+                    <dd> template source files for Adobe Photoshop [.psd];</dd>
                 </dl>
             </li>
             <li class="folder">
@@ -124,8 +115,8 @@
                         <i class="fa fa-folder"></i>
                         to_the_root_folder
                     </dt>
-                    <dd> contains the sample content files used to make your website appear as the template live demo.
-                        This folder content should be uploaded to your Joomla root directory.
+                    <dd>
+                      <div align="justify"> a folder with  sample data required to make the website  look identical to the  template Live Demo. The entire contents of the folder  should be uploaded to the Joomla root folder;</div>
                     </dd>
                 </dl>
             </li>
@@ -135,7 +126,7 @@
                         <i class="fa fa-file"></i>
                         dump.sql
                     </dt>
-                    <dd> the database dump file. Contains the theme sample content.
+                    <dd> database dump file. Contains theme sample data;
                     </dd>
                 </dl>
             </li>
@@ -145,8 +136,7 @@
                         <i class="fa fa-file"></i>
                         pkg_bundle.zip
                     </dt>
-                    <dd> contains additional extensions provided with the theme.
-                    </dd>
+                    <dd> contains additional theme extensions;</dd>
                 </dl>
             </li>
         </ul>
@@ -157,8 +147,7 @@
                 <i class="fa fa-file"></i>
                 fonts_info.txt
             </dt>
-            <dd> contains links where the template custom fonts can be downloaded.
-            </dd>
+            <dd> contains links for downloading the theme fonts;</dd>
         </dl>
     </li>
     <li class="file">
@@ -167,8 +156,7 @@
                 <i class="fa fa-file"></i>
                 info.txt
             </dt>
-            <dd> contains instructions on how to extract source files.
-            </dd>
+            <dd> a guide for unzipping sample content files.</dd>
         </dl>
     </li>
 </ul>

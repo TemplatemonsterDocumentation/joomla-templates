@@ -1,31 +1,27 @@
-<h3>Gallery Page</h3>
+<h3>Gallery</h3>
 
-<p>The Gallery page displays posts from the 'Gallery' category and its subcategories. The Gallery page has a filter in
-    the top right corner that allows to filter images by categories.</p>
+<p align="justify">Gallery page displays posts from the "Gallery" category and its subcategories. The Gallery page has a filter at the top right, which allows to filter images by categories:</p>
 
 <figure class="img-polaroid">
     <img src="img/pages-gallery-preview.jpg" alt="">
 </figure>
 
-<h4>Adding Images</h4>
-<p>To add more images to the gallery you simply need to add new articles to 'Gallery'
-    subcategories. Each article should have a full image and an intro image uploaded. Both images are usually placed
-    into the 'images/gallery' directory.</p>
+<h4>Adding images</h4>
 
-<p>An intro image is displayed within the gallery and gallery item views. A full image is displayed once the intro image
-    is clicked.</p>
+<p align="justify">In order to add more images to the gallery, you just need to add new articles to 'Gallery' subcategories. Each article should have a full image and an intro image uploaded. Both images are usually placed into the 'images/gallery' directory.</p>
+
+<p align="justify">An intro image is displayed within the gallery and gallery item views. A full image is displayed once the intro image is clicked on:</p>
 
 <figure class="img-polaroid">
     <img src="img/pages-gallery-1.jpg" alt="">
 </figure>
 
-<h4>Adjust layout</h4>
-<p>The Gallery page layout can be adjusted as any Joomla category page. Open '<b>Menus > Main
-        Menu</b>' section from the Joomla administration panel and edit the Gallery menu item. Switch to the <b>Advanced
-        Options</b> tab and you'll get access to the Gallery page settings. </p>
+<h4>Adjusting layout</h4>
 
-<p>For example if you want to change the number of columns for the Gallery page, change the <b>Columns</b> option from
-    the <b>Blog Layout Options</b> settings area. </p>
+<p align="justify">The Gallery page layout can be adjusted as any Joomla category page. Open <b>Menus > Main Menu</b> tab in the admin panel and open the "Gallery" item. Navigate to 
+    <b>Advanced Options</b> tab to access Gallery page settings. </p>
+
+<p align="justify">For example, if you want to change the number of columns on the Gallery page, change the number of <b>Columns</b> in <b>Blog Layout Options</b> section: </p>
 
 <figure class="img-polaroid">
     <img src="img/pages-gallery-2.jpg" alt="">

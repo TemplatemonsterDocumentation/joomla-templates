@@ -1,5 +1,3 @@
-<h2 class="item5">Rozszerzenia</h2>
+<h2 class="item5">Wtyczki oraz moduły Joomla (Joomla Plugins &amp; Modules)</h2>
 
-<h6>Funkcjonalność strony internetowej Joomla może zostać rozszerzona przy użyciu różnych
-    rozszerzeń Joomla. Niektóre z nich są często używane w naszych szablonach. Ta sekcja
-    pokaże Ci, jak pracować z różnymi rozszerzeniami.</h6>
+<h5 align="justify">Funkcjonalność strony internetowej Joomla może zostać wzmocniona za pomocą różnych <strong>wtyczek oraz modułów Joomla (Joomla Plugins &amp; Modules)</span></strong>. Niektóre z nich są często wykorzystywane w naszych szablonach. Ta sekcja nauczy was jak pracować z silnymi <strong>wtyczkami oraz modułami (Plugins &amp; Modules)</strong>.</h5>

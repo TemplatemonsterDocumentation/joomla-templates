@@ -1,1 +1,1 @@
-<h2 class="item6">Konfiguration von Seiten</h2>
+<h2 class="item6">Konfigurieren von Seiten</h2>

@@ -1,5 +1,3 @@
-<h2 class="item4">Konfiguracja Modułów</h2>
+<h2 class="item4">Konfigurowanie modułów</h2>
 
-<h6>Layout strony Joomla jest podzielony na dwie główne części - sekcja treści oraz pozycje
-    modułów (sprawdź mapę pozycji modułów poniżej po więcej szczegółów). Moduły w Joomla
-    służą do umieszczania treści w określonych pozycjach.</h6>
+<h6>Układ strony internetowej Joomla jest podzielony na dwie główne części - zawartość sekcji i pozycje modułu (należy sprawdzić pozycje modułu na poniższej mapie, by otrzymać wiecej informacji). Moduły w Joomla są używane dla wyprowadzenia zawartości do przygotowanych pozycji.</h6>

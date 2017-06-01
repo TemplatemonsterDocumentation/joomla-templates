@@ -1,5 +1,3 @@
-<h2 class="item5">Erweiterungen</h2>
+<h2 class="item5">Joomla Plugins &amp; Module</h2>
 
-<h6>Joomla Website-Funktionalität kann mit Hilfe von verschiedene Joomla Erweiterungen
-    verbessert werden. Die einige von ihnen wird oft in unserer Vorlagen verwendet. Hier
-    erfahren Sie, wie man mit benutzerdefinierten Erweiterungen arbeitet. </h6>
+<h5 align="justify">Die Website-Funktionalität von Joomla kann durch die Verwendung von verschiedenen <strong>Joomla Plugins &amp; Modulen</span></strong> verbessert werden. Einige von ihnen werden oft in unseren Vorlagen verwendet. In diesem Abschnitt erfahren Sie, wie Sie mit den <strong>Plugins &amp; Modulen</strong> arbeiten können.</h5>
