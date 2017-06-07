@@ -1,0 +1,198 @@
+{
+  "id": "framework",
+  "translations": {
+    "en": "T3 Framework",
+    "ru": "T3 Framework",
+    "es": "T3 Framework",
+    "de": "T3 Framework",
+    "fr": "T3 Framework",
+    "it": "T3 Framework",
+    "pl": "T3 Framework",
+    "pt": "T3 Framework",
+    "tr": "T3 Framework"
+  },
+  "articles": [
+    {
+      "id": "how-to-access",
+      "translations": {
+        "en": "How to Access",
+        "ru": "How to Access",
+        "es": "How to Access",
+        "de": "How to Access",
+        "fr": "How to Access",
+        "it": "How to Access",
+        "pl": "How to Access",
+        "pt": "How to Access",
+        "tr": "How to Access"
+      }
+    },
+    {
+      "id": "general",
+      "translations": {
+        "en": "General Settings",
+        "ru": "General Settings",
+        "es": "General Settings",
+        "de": "General Settings",
+        "fr": "General Settings",
+        "it": "General Settings",
+        "pl": "General Settings",
+        "pt": "General Settings",
+        "tr": "General Settings"
+      }
+    },
+    {
+      "id": "theme",
+      "translations": {
+        "en": "Theme Settings",
+        "ru": "Theme Settings",
+        "es": "Theme Settings-",
+        "de": "Theme Settings",
+        "fr": "Theme Settings",
+        "it": "Theme Settings",
+        "pl": "Theme Settings",
+        "pt": "Theme Settings",
+        "tr": "Theme Settings"
+      }
+    },
+    {
+      "id": "layout",
+      "translations": {
+        "en": "Layout",
+        "ru": "Layout",
+        "es": "Layout",
+        "de": "Layout",
+        "fr": "Layout",
+        "it": "Layout",
+        "pl": "Layout",
+        "pt": "Layout",
+        "tr": "Layout"
+      }
+    },
+     {
+      "id": "navigation",
+      "translations": {
+        "en": "Navigation Settings",
+        "ru": "Navigation Settings",
+        "es": "Navigation Settings",
+        "de": "Navigation Settings",
+        "fr": "Navigation Settings",
+        "it": "Navigation Settings",
+        "pl": "Navigation Settings",
+        "pt": "Navigation Settings",
+        "tr": "Navigation Settings"
+      }
+    },
+    {
+      "id": "add-ons",
+      "translations": {
+        "en": "Add-ons Tab",
+        "ru": "Add-ons Tab",
+        "es": "Add-ons Tab",
+        "de": "Add-ons Tab",
+        "fr": "Add-ons Tab",
+        "it": "Add-ons Tab",
+        "pl": "Add-ons Tab",
+        "pt": "Add-ons Tab",
+        "tr": "Add-ons Tab"
+      }
+    },
+    {
+      "id": "custom-code",
+      "translations": {
+        "en": "Custom Code Tab",
+        "ru": "Custom Code Tab",
+        "es": "Custom Code Tab",
+        "de": "Custom Code Tab",
+        "fr": "Custom Code Tab",
+        "it": "Custom Code Tab",
+        "pl": "Custom Code Tab",
+        "pt": "Custom Code Tab",
+        "tr": "Custom Code Tab"
+      }
+    },
+     {
+      "id": "layout-set",
+      "translations": {
+        "en": "Layout Settings",
+        "ru": "Layout Settings",
+        "es": "Layout Settings",
+        "de": "Layout Settings",
+        "fr": "Layout Settings",
+        "it": "Layout Settings",
+        "pl": "Layout Settings",
+        "pt": "Layout Settings",
+        "tr": "Layout Settings"
+      }
+    },
+    {
+      "id": "typography",
+      "translations": {
+        "en": "Typography Settings",
+        "ru": "Typography Settings",
+        "es": "Typography Settings",
+        "de": "Typography Settings",
+        "fr": "Typography Settings",
+        "it": "Typography Settings",
+        "pl": "Typography Settings",
+        "pt": "Typography Settings",
+        "tr": "Typography Settings"
+      }
+    },
+    {
+      "id": "features",
+      "translations": {
+        "en": "Features Tab",
+        "ru": "Features Tab",
+        "es": "Features Tab",
+        "de": "Features Tab",
+        "fr": "Features Tab",
+        "it": "Features Tab",
+        "pl": "Features Tab",
+        "pt": "Features Tab",
+        "tr": "Features Tab"
+      }
+    },
+     {
+      "id": "assignment",
+      "translations": {
+        "en": "Assignment Tab",
+        "ru": "Assignment Tab",
+        "es": "Assignment Tab",
+        "de": "Assignment Tab",
+        "fr": "Assignment Tab",
+        "it": "Assignment Tab",
+        "pl": "Assignment Tab",
+        "pt": "Assignment Tab",
+        "tr": "Assignment Tab"
+      }
+    },
+    {
+      "id": "megamenu",
+      "translations": {
+        "en": "Megamenu",
+        "ru": "Megamenu",
+        "es": "Megamenu",
+        "de": "Megamenu",
+        "fr": "Megamenu",
+        "it": "Megamenu",
+        "pl": "Megamenu",
+        "pt": "Megamenu",
+        "tr": "Megamenu"
+      }
+    },
+    {
+      "id": "theme-magic",
+      "translations": {
+        "en": "Theme Magic",
+        "ru": "Theme Magic",
+        "es": "Theme Magic",
+        "de": "Theme Magic",
+        "fr": "Theme Magic",
+        "it": "Theme Magic",
+        "pl": "Theme Magic",
+        "pt": "Theme Magic",
+        "tr": "Theme Magic"
+      }
+    }
+  ]
+}
