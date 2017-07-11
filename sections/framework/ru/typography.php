@@ -1,6 +1,6 @@
-<h3>Typography Settings</h3>
-<p>Go to the<strong> Typography </strong>tab.</p>
-<p> Change the <strong>Page heading</strong> and <strong>Item heading</strong> font size for the  Featured Articles page, Category Blog page, Category Articles, Gallery View, Archived Articles and Single Article pages. </p>
+<h3>Настройка шрифтов</h3>
+<p>Перейдите во вкладку <strong> Typography</strong>.</p>
+<p>Здесь вы можете изменить размер заголовка страницы (<strong>Page heading</strong>) and и размер заголовка блока (<strong>Item heading</strong>)  для таких страниц, как Featured Articles, Category Blog, Category Articles и Single Article. </p>
 <figure class="img-polaroid">
   <p><img src="img/t3-17.jpg" alt="" /> </p>
 </figure>

@@ -36,13 +36,13 @@
         target="_blank" rel="nofollow">oфициальной документации модуля</a> за детальной информацией.</p>
  <figure class="img-polaroid"><img src="img/acymailing-8.jpg" alt="">
 </figure>
-<p align="justify">Ниже приводится список всех системных плагинов установленных в комплексе с модулем <strong>AcyMailing.</strong> Для того, чтобы увидеть перечень всех плагиов модуля перейдёте в раздел  <strong>Components</strong> &gt; <strong>AcyMailing </strong>&gt; <strong>Confiration</strong> &gt; <strong>Plugins</strong>:</p>
+<p align="justify">Ниже приводится список всех системных плагинов установленных в комплексе с модулем <strong>AcyMailing.</strong> Для того, чтобы увидеть перечень всех плагинов модуля перейдёте в раздел  <strong>Components</strong> &gt; <strong>AcyMailing </strong>&gt; <strong>Confiration</strong> &gt; <strong>Plugins</strong>:</p>
 <p>
   <figure class="img-polaroid">
     <img src="img/acymailing-5.jpg" alt="">
   </figure>
   
-<p align="justify">Переходя на ссылке заголовка плагина, вы переходите к окну его настройки. Напр., если вы пеерейдете по ссылке заголовка плагина &quot;<strong>AcyMailing : share on social networks</strong>&quot;, вы автоматически попадете на страницу настройки этого плагина.<p align="justify">
+<p align="justify">Переходя на ссылке заголовка плагина, вы переходите к окну его настройки. Напр., если вы перейдете по ссылке заголовка плагина &quot;<strong>AcyMailing : share on social networks</strong>&quot;, вы автоматически попадете на страницу настройки этого плагина.<p align="justify">
 <figure class="img-polaroid">
     <img src="img/acymailing-9.jpg" alt="">
   </figure>

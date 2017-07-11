@@ -34,7 +34,7 @@
   <p><img src="img/t3-12.jpg" alt="" /> </p>
 </figure>
 <ol class="marked-list">
-  <li><strong>Left Sidebar Width</strong>: set right sidebar width in grid columns.</li>
-  <li> <strong>Right Sidebar width</strong>: Set right sidebar width in grid columns.</li>
+  <li><strong>Left Sidebar Width</strong>: set the left sidebar width in grid columns.</li>
+  <li> <strong>Right Sidebar width</strong>: set the right sidebar width in grid columns.</li>
   
 </ol>

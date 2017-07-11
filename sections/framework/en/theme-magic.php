@@ -30,14 +30,6 @@
   <p><img src="img/t3-28.jpg" alt="" /> </p>
   
 </figure>
-<p><strong>Grid</strong></p>
-<ol class="marked-list">
-  <li><strong>Large Desktop Width</strong>: set the large desktop width in pixels only. </li>
-  <li><strong>Gutter Width</strong>: set the gutter width in pixels only.</li>
-</ol>
-<figure class="img-polaroid">
-  <p><img src="img/t3-28.jpg" alt="" /> </p>
-</figure>
 <ol class="marked-list">
   <li>Click on preview to see the changes.    </li>
   <li>Save or save as copy the customized theme.</li>

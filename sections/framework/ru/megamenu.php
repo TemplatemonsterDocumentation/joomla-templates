@@ -1,24 +1,24 @@
 <h3>Megamenu</h3>
-<p>To enable Megamenu, please open Navigation tab. Enable Megamenu  option then open Megamenu configuration panel.</p>
+<p>Вы сможете воспользоваться возможностями функции Megamenu, только после ее активации для вашей темы (вкладка Navigation). </p>
+<p>Для того чтобы перейти к окну настроек Megamenu кликните на одноименную кнопку расположенную на панели навигации.</p>
 <figure class="img-polaroid">
 <img src="img/t3-19.jpg" alt="" /> </figure>
-<p><strong>Sub-megamenu configuration</strong></p>
-<p>You need to select the sub-menu to see the settings.</p>
-<p>This setting allows you to configure the width of the sub-megamenu, add column, and add class that style for it.</p>
+<p><strong>Настройка субменю </strong></p>
+<p>Кликните на блок субменю, который хотите настроить, чтобы увидеть настройки, позволяющие изменять ширину блока субменю и добавлять колонки к блоку.</p>
 
 <figure class="img-polaroid">
-  <p><img src="img/t3-20.jpg" alt="" /> </strong></p></figure>
-  <p><strong>Columns Configuration</strong></p>
-  <p>You need to select the column to see the settings.</p>
-  <p>In this level of configuration, you can: Add column, remove column, set width of column, assign module to column.</p>
-  <p>You should create an empty column to enable the <strong>Select Module </strong>option.</p>
+<p><img src="img/t3-20.jpg" alt="" /> </strong></p></figure>
+  <p><strong>Настройка колонок</strong></p>
+  <p>Для того, чтобы получить доступ к настройкам колонок, кликните на колонку блока субменю, которую хотите изменить.</p>
+<p>На данном уровне конфигурации вы можете: добавить колонку к блоку, удалить колонку, задать ширину колонки,  прикрепить модуль к колонке (прикрепленный модуль будет отображаться в пределах колонки субменю).</p>
+  <p>Опция <strong>Select Module</strong> активируется только для пустой колонки (для этого вам необходимо создать пустую колонку).</p>
 <figure class="img-polaroid">
   <p><strong><img src="img/t3-21.jpg" alt="" /> </strong></p>
   
 </figure>
-<p><strong>Menu Item Configuration</strong></p>
-<p>You need to select the menu item to see the settings.</p>
-<p> In this level of configuration, you can: enable or disable submenu if a menu item, display sub-menus in group or not, move menu item to right or left, assign a module to a module menu item, add icon for menu item.</p>
+<p><strong>Настройка пунктов меню</strong></p>
+<p>Кликните на нужном пункте меню, чтобы получить доступ к настройкам данного пункта.</p>
+<p> На данном уровне конфигурации вы можете:  включить или выключить отображение субменю для данного пункта, перемещать пункты меню, прикреплять модуль к пункту меню, добавлять иконку для пункта меню.</p>
 <figure class="img-polaroid">
   <p><strong><img src="img/t3-22.jpg" alt="" /> </strong></p>
   

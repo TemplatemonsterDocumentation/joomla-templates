@@ -39,7 +39,7 @@
 </p>
 <p align="justify">Первое, что вы должны сделать, чтобы поменять уже существующие кнопки типа &quot;поделиться&quot; на вашем сайте — это создать свой профиль в системе <strong>AddThis</strong>:</p>
 <p>После того как вы создали профиль в системе, вам нужно приступить к процессу создания кнопок  типа &quot;поделиться&quot;. </p>
-<p>Для этого нажмите кнопку &quot;<strong>AddThis</strong>&quot; на панели инструментав, в верхней части страницы  вашего профиля <strong>AddThis</strong>.</p>
+<p>Для этого нажмите кнопку &quot;<strong>AddThis</strong>&quot; на панели инструментов, в верхней части страницы  вашего профиля <strong>AddThis</strong>.</p>
 <p>
   <figure class="img-polaroid"><img src="img/addthis-8.jpg" alt=""></figure>
 </p>
@@ -59,7 +59,7 @@
 <p>
   <figure class="img-polaroid"><img src="img/addthis-12.jpg" alt=""></figure>
 </p>
-<p>Как только вы вы закончите настройку внешнего вида кновок, нажмите<strong> Save&amp;Continue</strong> и вы перейде к следующему этапу.</p>
+<p>Как только вы закончите настройку внешнего вида кнопок, нажмите<strong> Save&amp;Continue</strong> и вы перейдете к следующему этапу.</p>
 <p>
   <figure class="img-polaroid"><img src="img/addthis-13.jpg" alt=""></figure>
 </p>
