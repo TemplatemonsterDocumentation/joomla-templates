@@ -1,7 +1,7 @@
 <h3>Virtumart Addons </h3>
 <h6><strong>Content</strong>:</h6>
 <a href="#virtuemart-custom-block">  <p align="justify">1. Virtuemart Custom Block.</p></a>
-<a href="#virtuemarti-products">  <p align="justify">2. VirtueMart Products.</p></a>
+<a href="#virtuemart-products">  <p align="justify">2. VirtueMart Products.</p></a>
 <a href="#virtuemart-custom-brand"> <p align="justify">3. Virtuemart Custom Brand.</p></a><a href="#step5"></a>
 <a name="virtuemart-custom-block">  </a>
 <h4><strong>Virtuemart Custom Block</strong></h4>
