@@ -1,0 +1,86 @@
+{
+  "id": "builder",
+  "translations": {
+    "en": "SP Page Builder",
+    "ru": "SP Page Builder",
+    "es": "SP Page Builder",
+    "de": "SP Page Builder",
+    "fr": "SP Page Builder",
+    "it": "SP Page Builder",
+    "pl": "SP Page Builder",
+    "pt": "SP Page Builder",
+    "tr": "SP Page Builder"
+  },
+  "articles": [
+    {
+      "id": "access",
+      "translations": {
+        "en": "How to Access",
+        "ru": "How to Access",
+        "es": "How to Access",
+        "de": "How to Access",
+        "fr": "How to Access",
+        "it": "How to Access",
+        "pl": "How to Access",
+        "pt": "How to Access",
+        "tr": "How to Access"
+      }
+    },
+    {
+      "id": "add-row",
+      "translations": {
+        "en": "Add New Row",
+        "ru": "Add New Row",
+        "es": "Add New Row",
+        "de": "Add New Row",
+        "fr": "Add New Row",
+        "it": "Add New Row",
+        "pl": "Add New Row",
+        "pt": "Add New Row",
+        "tr": "Add New Row"
+      }
+    },
+    {
+      "id": "add-column",
+      "translations": {
+        "en": "Add New Column",
+        "ru": "Add New Column",
+        "es": "Add New Column",
+        "de": "Add New Column",
+        "fr": "Add New Column",
+        "it": "Add New Column",
+        "pl": "Add New Column",
+        "pt": "Add New Column",
+        "tr": "Add New Column"
+      }
+    },
+    {
+      "id": "add-addon",
+      "translations": {
+        "en": "Add New Addon",
+        "ru": "Add New Addon",
+        "es": "Add New Addon",
+        "de": "Add New Addon",
+        "fr": "Add New Addon",
+        "it": "Add New Addon",
+        "pl": "Add New Addon",
+        "pt": "Add New Addon",
+        "tr": "Add New Addon"
+      }
+    },
+     {
+      "id": "virtumart-addons",
+      "translations": {
+        "en": "Virtumart Addons",
+        "ru": "Virtumart Addons",
+        "es": "Virtumart Addons",
+        "de": "Virtumart Addons",
+        "fr": "Virtumart Addons",
+        "it": "Virtumart Addons",
+        "pl": "Virtumart Addons",
+        "pt": "Virtumart Addons",
+        "tr": "Virtumart Addons"
+      }
+    }
+  ]
+}
