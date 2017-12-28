@@ -1,5 +1,5 @@
 <h3>Complete installation</h3>
-
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
 <p align="justify">If you don’t have a Joomla website and want to install Joomla from scratch, this guide is for you. </p>
 
 <p align="justify">This method lets you install <strong>Joomla CMS engine</strong>, <strong>Joomla template</strong>,<strong> sample data</strong> and all the necessary <strong>extensions</strong>.</p>
