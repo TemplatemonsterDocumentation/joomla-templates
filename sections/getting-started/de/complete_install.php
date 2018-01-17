@@ -1,3 +1,7 @@
+<!-- DE -->
+
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+
 <h3>Vollständige Installation</h3>
 
 <p>Wenn Sie kein Joomla Website haben, und eine Seite von neu erstellen wollen, ist diese Anleitung genau für Sie. </p>

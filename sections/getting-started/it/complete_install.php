@@ -1,3 +1,7 @@
+<!-- IT -->
+
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</p>
+
 <h3>Installazione completa</h3>
 
 <p>Questo metodo è adatto a voi, per avere un sito web Joomla e quando si desidera installarlo da zero. </p>

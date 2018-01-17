@@ -1,3 +1,7 @@
+<!-- ES -->
+
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</p>
+
 <h3>Instalación Completa</h3>
 
 <p>Si usted no tiene un sitio web de Joomla y desea instalarlo desde cero, esta guía es para usted. </p>
