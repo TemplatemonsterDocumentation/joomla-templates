@@ -38,7 +38,7 @@
     
   <p align="justify">В большинстве наших шаблонов содержимое модуля <strong>TM Parallax</strong> представлено в виде подключения определенного модуля или позиции, например, &quot;{loadmodule articles_single, Home parallax article}&quot;. Для предотвращения возникновения ошибки 404 на сайте, убедитесь, что название подключаемого модуля совпадает с тем, которое указано при подключении. В данном случае модуль &quot;<strong>Home parallax article</strong>&quot; должен быть в состоянии published и не содержать более одного пробела в названии.
         Вы можете получить детальную информацию про loadmodule/loadposition на <a href="https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F" target="_blank">этом сайте</a>. </p>
-          <div align="justify">Подробную информации о функциях loadmodule/loadposition, вы можете узнать на <a href="https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F" target="_blank">oфициальном веб-сайте</a>.
+          <div align="justify">Подробдую информации о функциях loadmodule/loadposition, вы можете узнать на <a href="https://docs.joomla.org/How_do_you_put_a_module_inside_an_article%3F" target="_blank">oфициальном веб-сайте</a>.
  
           </div>
 </div>

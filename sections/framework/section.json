@@ -16,7 +16,7 @@
       "id": "how-to-access",
       "translations": {
         "en": "How to Access",
-        "ru": "Как получить доступ к настройкам T3 Framework",
+        "ru": "How to Access",
         "es": "How to Access",
         "de": "How to Access",
         "fr": "How to Access",
@@ -30,7 +30,7 @@
       "id": "general",
       "translations": {
         "en": "General Settings",
-        "ru": "Общие настройки",
+        "ru": "General Settings",
         "es": "General Settings",
         "de": "General Settings",
         "fr": "General Settings",
@@ -44,7 +44,7 @@
       "id": "theme",
       "translations": {
         "en": "Theme Settings",
-        "ru": "Настройки темы",
+        "ru": "Theme Settings",
         "es": "Theme Settings-",
         "de": "Theme Settings",
         "fr": "Theme Settings",
@@ -58,7 +58,7 @@
       "id": "layout",
       "translations": {
         "en": "Layout",
-        "ru": "Вкладка Layout",
+        "ru": "Layout",
         "es": "Layout",
         "de": "Layout",
         "fr": "Layout",
@@ -72,7 +72,7 @@
       "id": "navigation",
       "translations": {
         "en": "Navigation Settings",
-        "ru": "Настройка навигации",
+        "ru": "Navigation Settings",
         "es": "Navigation Settings",
         "de": "Navigation Settings",
         "fr": "Navigation Settings",
@@ -86,7 +86,7 @@
       "id": "add-ons",
       "translations": {
         "en": "Add-ons Tab",
-        "ru": "Вкладка Add-ons",
+        "ru": "Add-ons Tab",
         "es": "Add-ons Tab",
         "de": "Add-ons Tab",
         "fr": "Add-ons Tab",
@@ -100,7 +100,7 @@
       "id": "custom-code",
       "translations": {
         "en": "Custom Code Tab",
-        "ru": "Вкладка Custom Code",
+        "ru": "Custom Code Tab",
         "es": "Custom Code Tab",
         "de": "Custom Code Tab",
         "fr": "Custom Code Tab",
@@ -114,7 +114,7 @@
       "id": "layout-set",
       "translations": {
         "en": "Layout Settings",
-        "ru": "Настройка макета",
+        "ru": "Layout Settings",
         "es": "Layout Settings",
         "de": "Layout Settings",
         "fr": "Layout Settings",
@@ -128,7 +128,7 @@
       "id": "typography",
       "translations": {
         "en": "Typography Settings",
-        "ru": "Настройка шрифтов",
+        "ru": "Typography Settings",
         "es": "Typography Settings",
         "de": "Typography Settings",
         "fr": "Typography Settings",
@@ -142,7 +142,7 @@
       "id": "features",
       "translations": {
         "en": "Features Tab",
-        "ru": "Вкладка Features",
+        "ru": "Features Tab",
         "es": "Features Tab",
         "de": "Features Tab",
         "fr": "Features Tab",
@@ -156,7 +156,7 @@
       "id": "assignment",
       "translations": {
         "en": "Assignment Tab",
-        "ru": "Вкладка Assignment ",
+        "ru": "Assignment Tab",
         "es": "Assignment Tab",
         "de": "Assignment Tab",
         "fr": "Assignment Tab",

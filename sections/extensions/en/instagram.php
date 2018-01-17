@@ -43,7 +43,7 @@
       <li><strong> Display tags </strong> — whether to show the attachment name;</li>
       <li><strong> Display item description </strong> — whether to show the attachment description.</li>
     </ol>
-    
+   
     <p>You may also set up the following options for the module at the <strong>Module</strong> tab:</p>
     <figure class="img-polaroid">
     <p><img src="img/modu.jpg" alt="">

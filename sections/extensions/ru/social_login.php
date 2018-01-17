@@ -60,7 +60,7 @@
       <img src="img/sociallogin-3.jpg" alt="">
     </figure>
   </p>
-  <p>И замените <strong>Disable</strong> на <strong>Enable</strong> в соответствующем поле.
+  <p>И замените <strong>Disable</strong> на <strong>Enable</strong> в оответствующем поле.
   </p>
   <p>
     <figure class="img-polaroid">

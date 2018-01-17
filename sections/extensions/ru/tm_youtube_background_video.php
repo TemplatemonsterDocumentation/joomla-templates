@@ -29,7 +29,7 @@
   <figure class="img-polaroid">
     <p> <img src="img/background-video-2.jpg" alt=""></p></figure>
 <li>
-  <div align="justify">Нажмите кнопку <strong>Article</strong>. Откроется окно [см. изображение ниже], в котором вы можете выбрать статью для модуля [статью, которая будет подключена к данному модулю]. </div>
+  <div align="justify">Нажмите кнопку <strong>Article</strong>. Откроется окно [см. изображение ниже], в котором вы можете выбрать статью для модуля [статью, которая будет потключена к данному можулю]. </div>
 </li>
 <figure class="img-polaroid">
 <p align="justify"> <img src="img/tm-parallax-3.jpg" alt=""></p></figure>

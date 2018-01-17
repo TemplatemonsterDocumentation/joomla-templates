@@ -3,7 +3,7 @@
 <p align="justify"> Способ отображения контента в Joomla немного отличается от традиционного способа, используемого в сфере веб-дизайна. На веб-сайте Joomla, меню используется для создания страниц и указания правил отображения контента.</p>
 
 <h6>Добавление нового пункта меню к существующему</h6>
-<p align="justify">Выполнив, указанные ниже инструкции, вы добавите <strong>новый пункт меню</strong> <strong>Menu Item</strong> к существующему<strong> главному меню</strong> сайта. </p>
+<p align="justify">Выполнив, указанные ниже инструкции, вы добавите <strong>новый пункт меню</strong> <strong>Menu Item</strong> к существующему<strong> главному меню</strong> сайта  Jumerix. The new link will be displayed on the main menu. </p>
 <ol class="marked-list">
 <li>ПЕРЕЙДИТЕ к меню  <strong>Menus</strong>, а затем к <strong>Main Menu</strong>.</li>
 

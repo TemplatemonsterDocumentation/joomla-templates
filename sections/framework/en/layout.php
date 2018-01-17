@@ -1,5 +1,6 @@
 <h3>Layout</h3>
 <p>Go to the <strong>Layout </strong>tab.</p>
+<p> Change the module position by clicking on the configuration icon on the top right.</p>
 <figure class="img-polaroid">
   <p><img src="img/t3-4.jpg" alt="" /> </p>
 </figure>

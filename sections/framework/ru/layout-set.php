@@ -1,6 +1,6 @@
-<h3>Настройка макета</h3>
-<p>Перейдите во вкладку <strong> Layout Settings</strong>.</p>
-<p> Здесь вы можете изменить ширину позиции (Normal или &quot;на всю ширину экрана&quot;). </p>
+<h3>Layout Settings</h3>
+<p>Go to the<strong> Layout Settings </strong>tab.</p>
+<p> Change the positions' width (Normal or fullwidth). </p>
 <figure class="img-polaroid">
   <p><img src="img/t3-16.jpg" alt="" /> </p>
 </figure>

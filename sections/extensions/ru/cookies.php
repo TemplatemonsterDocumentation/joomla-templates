@@ -46,7 +46,7 @@
     </tr>    
       <td class="col-1"><strong>Plugin Type</strong></td>
       <td>-</td>
-      <td>Укажите к какому типу принадлежит плагин.</td>
+      <td>Укажите к какому типу принадледит плагин.</td>
     </tr>    <td class="col-1"><strong>Plugin File</strong></td>
         <td>-</td>
         <td>Укажите имя файла плагина.</td>
