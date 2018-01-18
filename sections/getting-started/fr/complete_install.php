@@ -1,3 +1,7 @@
+<!-- FR -->
+
+<p class="alert alert-info custom">Si vous ne voulez pas passer votre temps à installer le template, n'hésitez pas à <span class="label label-warning opener" onclick="showChat()">commander</span> le service d'installation via notre chat en direct.</p>
+
 <h3>Installation complète</h3>
 
 <p>Je n'ai pas de site Joomla et je veux l'installer de zéro. </p>
