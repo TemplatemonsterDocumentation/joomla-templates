@@ -1,162 +1,116 @@
-<h2 class="item1">Introduction
-</h2>
-<h5 align="justify">Congratulations on your purchase of a Joomla template! This documentation consists of several parts and describes the installation, creating and setting up a Joomla website process. </h5>
-<h5 align="justify">We did our best to make this manual information to be presented in a simple, straightforward manner. For ease of reference, the text the manual provides has been restructured in different chapters. You can see them in the left-side menu. You are able to navigate to any part of the documentation using the active content headers' links.</h5>
-<h5 align="justify">We recommend that you start reading the documentation at the first section.</h5>
-<h3>What is Joomla CMS?</h3>
+<h2 class="item2">Preparation</h2>
 
-<p align="justify">JJoomla CMS is an open-source solution for creating websites. Wide functionalities of the system allow you to build both websites and powerful online applications. Joomla CMS would not need any additional skills and training to be operated. All the necessary theory and basic required skills description can be found in this documentation.</p>
-<p align="justify"> With these advantages, ease of use and its scalability, Joomla CMS became the most popular website software available. <a href="http://www.joomla.org/about-joomla.html" target="_blank">Learn More!</a> </p>
-<h3>What is Joomla Template?</h3>
-<p align="justify">Joomla Template is a theme for your website based on the Joomla CMS platform. In other words, you can easily change your Joomla website appearance by installing a new template. The whole installation process is carried out by a few easy to deal with steps. While simple, the Joomla template comes with all the necessary source files which you are free to edit. </p>
-<div class="alert alert-info">
-  <div align="justify">
-    <p>There are often many different settings that are available with a new Template, and as this is an open-source software, it isn't always the same for each developer. Make sure to read through this documentation available for the Template that you are installing so that you know what features are available for you.</p>
-  </div>
-</div>
+<h6>  Before  setting up your Joomla website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
 
-<h3>Template Structure</h3>
 
-<h6>The theme package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
+<h4>Software required</h4>
 
-<ul class="files_structure">
-  <li class="folder">
-        <dl class="inline-term">
-            <dt>
-                <i class="fa fa-folder"></i>
-                <b>Documentation</b></dt>
-            <dd> contains documentation files;</dd>
-        </dl>
-        <ul>
-            <li class="file">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-file"></i>
-                        documentation.html
-                    </dt>
-                    <dd> this is the main documentation file you are reading at the moment;</dd>
-                </dl>
-            </li>
-        </ul>
+<p align="justify">To feel comfortable working with the Joomla template, we recommend downloading all the applications required. You can see the list of required software at the template Live Demo page. Requirements can vary significantly depending upon the  template, the common ones will be defined  only:</p>
+
+<ol class="index-list">
+<li>
+  <div align="justify"> First of all, you need the proper software to extract the password-protected sources_#########.zip archive. For this purpose, you can use WinZip 9+ [for Windows system] or Stuffit Expander 10+ program [for Mac system].    </div>
+</li>
+    <li>
+      <div align="justify"> You may also need the Adobe Photoshop. It is used to edit the .psd source files and is necessary, in case you want to change the template graphics and images.    </div>
     </li>
-    <li class="folder">
-        <dl class="inline-term">
-            <dt>
-                <i class="fa fa-folder"></i>
-                <b>Joomla</b></dt>
-            <dd> contains an archive with Joomla theme, quick install package and a file with unzip script;</dd>
-        </dl>
-        <ul>
-            <li class="file">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-file"></i>
-                        theme###.zip
-                    </dt>
-                    <dd>
-                      <div align="justify"> a theme archive. Stored all the theme files. Should be installed <a href="#template-installation">with the help of Joomla extension manager</a>;</div>
-                    </dd>
-                </dl>
-            </li>
-            <li class="file">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-file"></i>
-                        fullpackage.zip
-                    </dt>
-                    <dd>
-                      <div align="justify"> contains
-                        <a href="#complete_install">
-                           Complete Joomla installation package</a>
-                        with engine files, themes and sample content [database dump file and sample images];</div>
-                    </dd>
-                </dl>
-            </li>
-            <li class="file">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-file"></i>
-                        unzip.php
-                    </dt>
-                    <dd> the file which is used for unpacking the fullpackage.zip after uploading it to a hosting server;
-                    </dd>
-                </dl>
-            </li>
-        </ul>
+    <li>
+      <div align="justify"> To edit template source code files you need some code editor such as Adobe Dreamweaver, Notepad++ or Sublime Text, etc. </div>
     </li>
-    <li class="folder">
-        <dl class="inline-term">
-            <dt>
-                <i class="fa fa-folder"></i>
-                <b>Screenshots</b>
-            <dd> contains theme screenshots;</dd>
-        </dl>
+    <li>
+      <div align="justify">To upload files to the hosting server, you may need any FTP Manager like Total Commander, FileZilla or CuteFTP, etc.    </div>
     </li>
-    <li class="folder">
-        <dl class="inline-term">
-            <dt>
-                <i class="fa fa-folder"></i>
-                <b>Sources</b>
-            <dd> contains theme sample content files;</dd>
-        </dl>
-        <ul>
-            <li class="folder">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i>
-                        psd
-                    </dt>
-                    <dd> template source files for Adobe Photoshop [.psd];</dd>
-                </dl>
-            </li>
-            <li class="folder">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i>
-                        to_the_root_folder
-                    </dt>
-                    <dd>
-                      <div align="justify"> a folder with  sample data required to make the website  look identical to the  template Live Demo. The entire contents of the folder  should be uploaded to the Joomla root folder;</div>
-                    </dd>
-                </dl>
-            </li>
-            <li class="file">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-file"></i>
-                        dump.sql
-                    </dt>
-                    <dd> database dump file. Contains theme sample data;
-                    </dd>
-                </dl>
-            </li>
-            <li class="file">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-file"></i>
-                        pkg_bundle.zip
-                    </dt>
-                    <dd> contains additional theme extensions;</dd>
-                </dl>
-            </li>
-        </ul>
-    </li>
-    <li class="file">
-        <dl class="inline-term">
-            <dt>
-                <i class="fa fa-file"></i>
-                fonts_info.txt
-            </dt>
-            <dd> contains links for downloading the theme fonts;</dd>
-        </dl>
-    </li>
-    <li class="file">
-        <dl class="inline-term">
-            <dt>
-                <i class="fa fa-file"></i>
-                info.txt
-            </dt>
-            <dd> a guide for unzipping sample content files.</dd>
-        </dl>
-    </li>
+</ol>
+
+
+<h4>Hosting</h4>
+
+<h5 style="margin-top:0;">Need a solid hosting provider? We recommend SiteGround!</h5>
+	
+	<p style="text-align:center;">
+		<a class="leadlink" target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+		</a>
+	</p>
+<h6 style="text-align:center;"><strong>High performance platform suitable for projects of all sizes</strong></h6>
+
+<p> As Joomla CMS is a PHP/MySQL based application, you need to prepare a hosting environment to run Joomla first.</p>
+
+<p align="justify"> If you have a live hosting server, please make sure that it matches <a
+        href="http://www.joomla.org/technical-requirements.html" target="_blank">Joomla technical requirements</a> and is ready to be used for a Joomla website.</p>
+
+<p align="justify"> You can run Joomla locally  using the local server. To create a local hosting server, please use localhost applications, such as <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b>, etc. Any of those can be easily installed as any other software and be used to run Joomla.</p>
+
+<p> Please check the tutorials below on how to configure local servers:</p>
+<ul class="marked-list">
+    <li><a
+            href="/help/how-to-install-appserv-web-development-environment.html"
+            target="_blank"> How to install AppServ web development environment </a></li>
+    <li><a
+            href="/help/how-to-install-wamp-web-development-environment.html"
+            target="_blank"> How to install WAMP web development environment</a></li>
+    <li><a
+            href="/help/how-to-install-xamp-web-development-environment.html"
+            target="_blank"> How to install XAMP web development environment</a></li>
 </ul>
+<p>More details can be found on the <a target="_blank" rel="noreferrer noopener" class="external text" href="https://downloads.joomla.org/technical-requirements">Joomla! Downloads Portal</a>.</p>
+<h3>Requirements for Supported Software</h3>
+<p>&nbsp;</p>
+<table width="980" class="wikitable">
+  <tbody>
+    <tr>
+      <th><strong>Software</strong></th>
+      <th><strong>Recommended</strong></th>
+      <th><strong>Minimum</strong></th>
+      <th><strong>More information</strong></th>
+    </tr>
+  
+  <td>PHP (Magic Quotes GPC off)</td>
+      <td>5.6 + or 7 +<sup id="cite_ref-PHP_5.3.1_1-0" class="reference"><a href="https://docs.joomla.org/Technical_requirements#cite_note-PHP_5.3.1-1">[1]</a></sup></td>
+      <td>5.3.10 +</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://php.net">www.php.net</a></td>
+    </tr>
+    <tr>
+      <td colspan="4" style="background-color:#e1e1e1;">Supported Databases:</td>
+    </tr>
+    <tr>
+      <td>MySQL<sup id="cite_ref-MySQL6.0_2-0" class="reference"><a href="https://docs.joomla.org/Technical_requirements#cite_note-MySQL6.0-2">[2]</a></sup> (InnoDB support required)</td>
+      <td>5.5.3 +</td>
+      <td>5.1 +</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.mysql.com">www.mysql.com</a></td>
+    </tr>
+    <tr>
+      <td>SQL Server</td>
+      <td>10.50.1600.1 +</td>
+      <td>10.50.1600.1 +</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.microsoft.com/en-us/server-cloud/products/sql-server/">www.microsoft.com/sql</a></td>
+    </tr>
+    <tr>
+      <td>PostgreSQL</td>
+      <td>9.1 +</td>
+      <td>8.3.18 +</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.postgresql.org/">www.postgresql.org</a></td>
+    </tr>
+    <tr>
+      <td colspan="4" style="background-color:#e1e1e1;">Supported Web Servers:</td>
+    </tr>
+    <tr>
+      <td>Apache(with mod_mysql, mod_xml, and mod_zlib)<sup id="cite_ref-mod_rewrite_3-0" class="reference"><a href="https://docs.joomla.org/Technical_requirements#cite_note-mod_rewrite-3">[3]</a></sup><sup id="cite_ref-PHPFileHandler_4-0" class="reference"><a href="https://docs.joomla.org/Technical_requirements#cite_note-PHPFileHandler-4">[4]</a></sup></td>
+      <td>2.4 +</td>
+      <td>2.x +</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/">www.apache.org</a></td>
+    </tr>
+    <tr>
+      <td>Nginx</td>
+      <td>1.8 +</td>
+      <td>1.0 +</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://wiki.nginx.org/">wiki.nginx.org</a></td>
+    </tr>
+    <tr>
+      <td>Microsoft IIS</td>
+      <td>7</td>
+      <td>7</td>
+      <td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.iis.net/">www.iis.net</a></td>
+    </tr>
+  </tbody>
+</table>
+
