@@ -25,6 +25,14 @@
 
 <h4>Hosting</h4>
 
+<h5 style="margin-top:0;">Need a solid hosting provider? We recommend SiteGround!</h5>
+	
+	<p style="text-align:center;">
+		<a class="leadlink" target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+		</a>
+	</p>
+<h6 style="text-align:center;"><strong>High performance platform suitable for projects of all sizes</strong></h6>
+
 <p> As Joomla CMS is a PHP/MySQL based application, you need to prepare a hosting environment to run Joomla first.</p>
 
 <p align="justify"> If you have a live hosting server, please make sure that it matches <a
