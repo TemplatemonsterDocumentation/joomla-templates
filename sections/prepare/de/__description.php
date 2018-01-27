@@ -1,4 +1,10 @@
 <h2 class="item2">Vorbereitung für den Installationsprozess</h2>
+<h4>Brauchen Sie einen vertrauenswürdigen Hosting-Anbieter? Wir empfehlen Ihnen SiteGround!</h4>
+<p style="text-align:center;">
+ <a target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+ </a>
+</p>
+<h5 style="text-align:center;"><strong>Es ist eine Hochleistungs-Plattform für Projekte aller Größen</strong></h5>
 
 <h6> Bevor Sie Ihre Joomla Website einrichten, sorgen Sie dafür, dass Sie alles Notwendige vorbereitet haben. Führen Sie die folgenden Vorbereitungsschritte aus </h6>
 
