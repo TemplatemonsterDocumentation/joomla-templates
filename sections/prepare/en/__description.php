@@ -1,4 +1,10 @@
 <h2 class="item2">Prepare</h2>
+<h4>Need a solid hosting provider? We recommend SiteGround!</h4>
+<p style="text-align:center;">
+    <a target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+    </a>
+</p>
+<h5 style="text-align:center;"><strong>High performance platform suitable for projects of all sizes</strong></h5>
 
 <h6>Before you proceed to setting up your Joomla Web site please make sure you are fully
     prepared. Please complete the following preparation steps:</h6>
