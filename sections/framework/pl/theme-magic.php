@@ -12,7 +12,7 @@
 <ol class="marked-list">
   <li>Customize theme by changing parameter values.    </li>
 </ol>
-<p><strong>Typo</strong></p>
+<p><strong>Typo</strong><span> (not available in all themes)</span></p>
 <ol class="marked-list">
   <li><strong>Base font size</strong>: set the main text font size in pixels only. </li>
   <li><strong>Base line height</strong>: set the base line height.</li>
