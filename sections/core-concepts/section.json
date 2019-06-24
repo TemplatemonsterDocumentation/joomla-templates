@@ -43,15 +43,15 @@
     {
       "id": "global",
       "translations": {
-        "en": "Global configuration",
+        "en": "Global Configuration",
         "ru": "Общие параметры конфигурации",
-        "es": "Global configuration",
-        "de": "Global configuration",
-        "fr": "Global configuration",
-        "it": "Global configuration",
-        "pl": "Global configuration",
-        "pt": "Global configuration",
-        "tr": "Global configuration"
+        "es": "Global Configuration",
+        "de": "Global Configuration",
+        "fr": "Global Configuration",
+        "it": "Global Configuration",
+        "pl": "Global Configuration",
+        "pt": "Global Configuration",
+        "tr": "Global Configuration"
       }
     },  
     {

@@ -1,0 +1,142 @@
+{
+  "id": "helix-framework",
+  "translations": {
+    "en": "Helix Ultimate Framework",
+    "ru": "Helix Ultimate Framework",
+    "es": "Helix Ultimate Framework",
+    "de": "Helix Ultimate Framework",
+    "fr": "Helix Ultimate Framework",
+    "it": "Helix Ultimate Framework",
+    "pl": "Helix Ultimate Framework",
+    "pt": "Helix Ultimate Framework",
+    "tr": "Helix Ultimate Framework"
+  },
+  "articles": [
+    {
+      "id": "helix-how-to-access",
+      "translations": {
+        "en": "How to Access",
+        "ru": "How to Access",
+        "es": "How to Access",
+        "de": "How to Access",
+        "fr": "How to Access",
+        "it": "How to Access",
+        "pl": "How to Access",
+        "pt": "How to Access",
+        "tr": "How to Access"
+      }
+    },
+    {
+      "id": "helix-basic-tab",
+      "translations": {
+        "en": "Basic Tab",
+        "ru": "Basic Tab",
+        "es": "Basic Tab",
+        "de": "Basic Tab",
+        "fr": "Basic Tab",
+        "it": "Basic Tab",
+        "pl": "Basic Tab",
+        "pt": "Basic Tab",
+        "tr": "Basic Tab"
+      }
+    },
+    {
+      "id": "helix-presets",
+      "translations": {
+        "en": "Presets Tab",
+        "ru": "Presets Tab",
+        "es": "Presets Tab",
+        "de": "Presets Tab",
+        "fr": "Presets Tab",
+        "it": "Presets Tab",
+        "pl": "Presets Tab",
+        "pt": "Presets Tab",
+        "tr": "Presets Tab"
+      }
+    },
+    {
+      "id": "helix-layout",
+      "translations": {
+        "en": "Layout Builder Tab",
+        "ru": "Layout Builder Tab",
+        "es": "Layout Builder Tab",
+        "de": "Layout Builder Tab",
+        "fr": "Layout Builder Tab",
+        "it": "Layout Builder Tab",
+        "pl": "Layout Builder Tab",
+        "pt": "Layout Builder Tab",
+        "tr": "Layout Builder Tab"
+      }
+    },
+    {
+      "id": "helix-typography",
+      "translations": {
+        "en": "Typography Tab",
+        "ru": "Typography Tab",
+        "es": "Typography Tab",
+        "de": "Typography Tab",
+        "fr": "Typography Tab",
+        "it": "Typography Tab",
+        "pl": "Typography Tab",
+        "pt": "Typography Tab",
+        "tr": "Typography Tab"
+      }
+    },
+    {
+      "id": "helix-custom-tab",
+      "translations": {
+        "en": "Custom Code Tab",
+        "ru": "Custom Code Tab",
+        "es": "Custom Code Tab",
+        "de": "Custom Code Tab",
+        "fr": "Custom Code Tab",
+        "it": "Custom Code Tab",
+        "pl": "Custom Code Tab",
+        "pt": "Custom Code Tab",
+        "tr": "Custom Code Tab"
+      }
+    },
+    {
+      "id": "helix-megamenu",
+      "translations": {
+        "en": "Mega Menu Builder",
+        "ru": "Mega Menu Builder",
+        "es": "Mega Menu Builder",
+        "de": "Mega Menu Builder",
+        "fr": "Mega Menu Builder",
+        "it": "Mega Menu Builder",
+        "pl": "Mega Menu Builder",
+        "pt": "Mega Menu Builder",
+        "tr": "Mega Menu Builder"
+      }
+    },
+    {
+      "id": "helix-blog",
+      "translations": {
+        "en": "Blog Tab",
+        "ru": "Blog Tab",
+        "es": "Blog Tab",
+        "de": "Blog Tab",
+        "fr": "Blog Tab",
+        "it": "Blog Tab",
+        "pl": "Blog Tab",
+        "pt": "Blog Tab",
+        "tr": "Blog Tab"
+      }
+    },
+    {
+      "id": "helix-navigation",
+      "translations": {
+        "en": "Navigation Tab",
+        "ru": "Navigation Tab",
+        "es": "Navigation Tab",
+        "de": "Navigation Tab",
+        "fr": "Navigation Tab",
+        "it": "Navigation Tab",
+        "pl": "Navigation Tab",
+        "pt": "Navigation Tab",
+        "tr": "Navigation Tab"
+      }
+    }
+  ]
+}

@@ -152,6 +152,9 @@
 </ul>
 <p>Remember to <strong>save</strong> the settings.</p>
 <div class="alert alert-info">
-<p>You can find the official documentation <a href="https://www.joomshaper.com/documentation/sp-page-builder/sp-page-builder-3#addons">here</a>.</p></div>
+<p>You can find the official documentation <a href="https://www.joomshaper.com/documentation/sp-page-builder/sp-page-builder-3#addons">here</a>.</p>
+</div>
 <div class="alert alert-info">
-<p>To receive further updates and use SP Page builder functionality to its full potential you should purchase its license <a href="https://extensions.joomla.org/extension/sp-page-builder/">here</a>.</p></div>
+
+<p>To receive further updates and use SP Page builder functionality you should purchase the license <a href="https://extensions.joomla.org/extension/sp-page-builder/">here.</a></p>
+</div>
